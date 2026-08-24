@@ -46,5 +46,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# KiCad .history folder
+# KiCad items to ignore
 .history
+*.lck
