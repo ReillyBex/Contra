@@ -3134,6 +3134,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Keyswitch Matrix"
+		(exclude_from_sim no)
+		(at 146.05 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03b31195-c5c0-49d9-b1fb-d11e82bbca2b")
+	)
 	(text "1.something\n"
 		(exclude_from_sim no)
 		(at 267.97 194.31 0)
@@ -3167,6 +3177,16 @@
 		)
 		(uuid "661fbc7e-cc4a-4a4e-adb4-47e9ee7cbbe5")
 	)
+	(text "MCU Connections"
+		(exclude_from_sim no)
+		(at 117.602 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "718e87a0-bca0-443c-b8f9-68f803ddf7f3")
+	)
 	(text "Contra low-cost ortholinear mechanical keyboard\n"
 		(exclude_from_sim no)
 		(at 187.325 190.5 0)
@@ -3178,443 +3198,679 @@
 		)
 		(uuid "c7c25c81-e208-4e31-825b-148cbb8c6bcd")
 	)
-	(junction
-		(at 124.46 57.785)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06eec6e6-1a35-4106-91b0-bbb745e75d46")
+	(text "Accessory Jumper"
+		(exclude_from_sim no)
+		(at 44.196 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f839f437-9f36-4693-9a37-d637fa4ad4d2")
 	)
 	(junction
-		(at 156.845 116.84)
+		(at 267.97 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "088b46a6-0858-4a42-823b-b59e24937839")
+		(uuid "01d65cab-4ccc-47d1-8ac7-25fc19f520f6")
 	)
 	(junction
-		(at 210.82 116.84)
+		(at 195.58 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ea9b733-9fdc-411d-be9e-2b969684e827")
+		(uuid "01df8310-f9a3-456f-9737-5cab0ed673a2")
 	)
 	(junction
-		(at 124.46 116.84)
+		(at 43.18 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "11f12172-d4b7-4123-9fa3-588e525b0e21")
+		(uuid "03f6a62e-d31c-460e-87e5-c4d319484ade")
 	)
 	(junction
-		(at 135.255 116.84)
+		(at 195.58 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1640032b-cdde-4cd7-8e16-6646944af637")
+		(uuid "0402a6c2-a1f3-4992-ba40-4a4efb2946a5")
 	)
 	(junction
-		(at 146.05 116.84)
+		(at 77.47 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18944d8d-ed43-4e59-abc4-710eae0c7f1d")
+		(uuid "04542de1-2b3b-4889-8619-39e30a5cbb6b")
 	)
 	(junction
-		(at 156.845 97.155)
+		(at 138.43 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1f450ec5-ad3b-48e9-a7da-b4cd2f529da1")
+		(uuid "09345163-52a7-4418-b3e4-a3feabd319c5")
 	)
 	(junction
-		(at 210.82 77.47)
+		(at 58.42 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "251be13a-6505-4c83-bfd3-da93a150e16a")
+		(uuid "0968d62c-1145-4901-899d-7db9aad86187")
 	)
 	(junction
-		(at 167.64 116.84)
+		(at 153.67 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b8266d1-9488-4982-bc0e-429f88844431")
+		(uuid "0a3fb5c1-25c3-4e97-ba50-542d9edc498b")
 	)
 	(junction
-		(at 146.05 97.155)
+		(at 100.33 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34093ea2-91a4-46ba-b929-1ba9f12b2464")
+		(uuid "0e6af38a-53c3-405f-901b-8cfe8919dfff")
 	)
 	(junction
-		(at 146.05 57.785)
+		(at 138.43 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "393bbbb4-1a4a-47c7-9705-0c4666117396")
+		(uuid "0edbc6b8-9960-4d44-8810-4acad6baf54f")
 	)
 	(junction
-		(at 135.255 77.47)
+		(at 248.92 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a7381de-b6ef-4988-b01b-2163ca676bab")
+		(uuid "12dd1d16-7faa-4e81-ba51-ca1998931391")
 	)
 	(junction
-		(at 167.64 77.47)
+		(at 248.92 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d40d34e-61b9-4170-ba81-7db953cca968")
+		(uuid "1623e689-87f6-4fdf-af68-d39f9514d273")
 	)
 	(junction
-		(at 124.46 97.155)
+		(at 172.72 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3eb73829-c9dc-413b-a734-48d23018510b")
+		(uuid "1ead3b44-08df-41e4-91ea-7ab6fc2e4849")
 	)
 	(junction
-		(at 210.82 97.155)
+		(at 267.97 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43e86e2b-f4bf-4f60-a214-ec4b8ddfd50c")
+		(uuid "23b76740-813c-4d53-8a88-bdfd37a5bc62")
 	)
 	(junction
-		(at 113.665 57.785)
+		(at 176.53 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ce94fdd-8d1e-485a-9484-98b31e17f00e")
+		(uuid "2a263f3e-b2d3-45d1-bc5a-8f5bdeb7b2f9")
 	)
 	(junction
-		(at 200.025 97.155)
+		(at 233.68 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "527d02b2-c870-4b90-b387-6a01f1fc9266")
+		(uuid "2e5e27a5-71bc-4696-926b-0264b8d216ba")
 	)
 	(junction
-		(at 167.64 97.155)
+		(at 119.38 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53383890-825d-4b08-ad81-21969b46ce32")
+		(uuid "31dcfb45-e17c-458e-aa5b-b1f7be276847")
 	)
 	(junction
-		(at 210.82 57.785)
+		(at 157.48 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55401e2e-d38e-4395-9fad-0943d0f2af89")
+		(uuid "356bda94-1b97-4efa-8ef5-144d564919ae")
 	)
 	(junction
-		(at 167.64 57.785)
+		(at 119.38 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5cb7f62b-7256-42aa-826c-31466c8ebcc6")
+		(uuid "36e5d786-502b-4684-9efe-f204b7c89616")
 	)
 	(junction
-		(at 178.435 116.84)
+		(at 153.67 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6db534a3-c7af-4c82-9c6b-81e287f915e6")
+		(uuid "3cdc99d6-dcbf-4e6f-8ce4-9b8941f1f104")
 	)
 	(junction
-		(at 102.87 116.84)
+		(at 157.48 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6fc71dba-7b75-494e-88b2-5c926316a245")
+		(uuid "3d7e38c0-b8dd-4142-be59-9cfff1bf9182")
 	)
 	(junction
-		(at 102.87 97.155)
+		(at 153.67 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7552129a-fc5d-4ed7-b30d-194dbbfc5b9c")
+		(uuid "3ec88e47-d05f-4ddc-8f9d-20dd2a281517")
 	)
 	(junction
-		(at 146.05 77.47)
+		(at 115.57 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b31b543-1bcd-454e-917c-f27a853d04e1")
+		(uuid "412598ed-15a2-4329-a486-e969cba3618b")
 	)
 	(junction
-		(at 135.255 57.785)
+		(at 62.23 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ee32c65-f6c4-47fd-a2d1-fe9d3147d997")
+		(uuid "4397eb0c-3946-418f-a03a-ac2a007168a1")
 	)
 	(junction
-		(at 200.025 57.785)
+		(at 62.23 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82f74941-3615-4060-a75a-4f367c314ad9")
+		(uuid "449fcce8-fe2d-463d-aea4-292a75bc1160")
 	)
 	(junction
-		(at 113.665 97.155)
+		(at 119.38 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95a94f2b-e834-43e0-8b5a-d18438c69fab")
+		(uuid "4667111c-4338-4fa9-9485-1fcdae95ccad")
 	)
 	(junction
-		(at 200.025 77.47)
+		(at 81.28 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b56760b-4f9e-4670-b00e-817a3d56505e")
+		(uuid "4a60685e-47d6-4d98-b73d-638a38f14044")
 	)
 	(junction
-		(at 189.23 57.785)
+		(at 176.53 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9cbea16e-41c8-40aa-b661-e049f1583891")
+		(uuid "4d73806a-c965-4838-8688-92743861b87b")
 	)
 	(junction
-		(at 113.665 116.84)
+		(at 100.33 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d6b41fe-71de-4f90-a1b1-d48be2f7af2c")
+		(uuid "52e2ebd4-6a92-496f-a2cc-2d87cca7ec73")
 	)
 	(junction
-		(at 135.255 97.155)
+		(at 176.53 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5b73cd9-586b-4375-9724-28df1629bd6b")
+		(uuid "53e0317d-f261-44b8-b9d4-81aae968d549")
 	)
 	(junction
-		(at 189.23 97.155)
+		(at 233.68 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5a6cf3a-a470-4e77-b236-d197975a939a")
+		(uuid "5e47c808-a83c-4460-a1cf-7eb69b295500")
 	)
 	(junction
-		(at 156.845 57.785)
+		(at 100.33 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1dbc276-aa61-43f5-a9b5-134362041e15")
+		(uuid "6067126c-9f47-45be-b8a4-ae4b1ad3c4cf")
 	)
 	(junction
-		(at 156.845 77.47)
+		(at 191.77 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c5cb5ed9-bf40-49c3-bdb3-02cb49a67fbf")
+		(uuid "638cdeb0-1f53-4252-9314-8c86d9a464b6")
 	)
 	(junction
-		(at 200.025 116.84)
+		(at 248.92 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c89e7683-7860-4fe9-b97d-e28b2fff2493")
+		(uuid "6b2af7f0-ccee-407e-8087-4f278fe342f7")
 	)
 	(junction
-		(at 189.23 116.84)
+		(at 157.48 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d404dee5-0df3-4e2c-92b2-2a8bcf193e22")
+		(uuid "6b5846cd-8d8c-4128-8de1-1829460423a1")
 	)
 	(junction
-		(at 102.87 57.785)
+		(at 77.47 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d423fbca-511a-4e64-bcd3-ea26af04eea8")
+		(uuid "6c529a72-adbc-4ccd-b6cc-d85cde596707")
 	)
 	(junction
-		(at 178.435 97.155)
+		(at 172.72 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6be1993-de07-40b4-a7b7-cdfeadf12a74")
+		(uuid "6d520107-61fd-46da-81ae-15e3729f620f")
 	)
 	(junction
-		(at 189.23 77.47)
+		(at 214.63 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dac545a0-bf08-4392-8c68-1204b6ab67d4")
+		(uuid "79fc8315-77e2-4536-9134-8f5fd0b5c61c")
 	)
 	(junction
-		(at 178.435 57.785)
+		(at 233.68 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd791c93-1bd8-42b5-8aca-85085fef48db")
+		(uuid "7ad91c31-774a-453c-9f4a-823846ed8023")
 	)
 	(junction
-		(at 102.87 77.47)
+		(at 134.62 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6efee85-6f91-4e8d-8995-1c3e6fc654bd")
+		(uuid "8103b10b-bad5-4ab5-8012-c5f0ded0397a")
 	)
 	(junction
-		(at 124.46 77.47)
+		(at 214.63 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb9f8160-679c-45c4-a634-a5ee77dfa71f")
+		(uuid "83972312-a52f-4a08-8381-dd71c1041a4e")
 	)
 	(junction
-		(at 178.435 77.47)
+		(at 77.47 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f53c597b-eeb8-4a09-8d4f-b360638a04f9")
+		(uuid "870b6fd6-4baa-4620-9595-3d21c7197f6d")
 	)
 	(junction
-		(at 113.665 77.47)
+		(at 62.23 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fb4a8321-9c8a-40b4-9a21-a7a0250a2500")
+		(uuid "88b81c06-05fe-44bf-a26b-0bfd58b4bac0")
+	)
+	(junction
+		(at 195.58 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b4c2f78-a45b-4f46-ad5b-17f0bd0f34f6")
+	)
+	(junction
+		(at 210.82 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b68c67b-0017-4090-9a3d-80ed8e041544")
+	)
+	(junction
+		(at 43.18 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee9d9a4-9f3b-4806-a28d-e41815b7e317")
+	)
+	(junction
+		(at 115.57 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91f67236-5317-4f89-9032-e90ab0059f63")
+	)
+	(junction
+		(at 119.38 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96395b7e-4bae-40f2-b68a-5c42dd8d2628")
+	)
+	(junction
+		(at 96.52 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98b5c03a-82f4-4dc7-8f13-95c5222ad551")
+	)
+	(junction
+		(at 172.72 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99e067a9-7908-4def-9688-b14ae060683a")
+	)
+	(junction
+		(at 134.62 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b801a6b-2cfa-46d6-9065-bb81ec782394")
+	)
+	(junction
+		(at 267.97 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c465705-be6b-445e-bc9c-7f9f4178cb87")
+	)
+	(junction
+		(at 214.63 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a01287d0-9e1f-47f5-9be7-f902d49bcc51")
+	)
+	(junction
+		(at 58.42 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4105b47-161b-46a5-bb4e-e9b43601afdc")
+	)
+	(junction
+		(at 176.53 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a56c810d-85ff-4c03-ae46-be40684b6c66")
+	)
+	(junction
+		(at 43.18 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7d806bb-d15a-4932-ae30-2dfeba26a68a")
+	)
+	(junction
+		(at 43.18 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b60f91b5-a7c1-456a-b6a1-4aa88c7203f0")
+	)
+	(junction
+		(at 229.87 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba49680f-e246-4b91-99c0-617eca025703")
+	)
+	(junction
+		(at 81.28 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc45a758-0341-45fe-8fba-983d5c2ab7b0")
+	)
+	(junction
+		(at 157.48 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c13d290e-0c01-4349-8382-8086a92b91d3")
+	)
+	(junction
+		(at 229.87 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c15b983e-5776-41bd-8b2e-56c9f4eca7b3")
+	)
+	(junction
+		(at 62.23 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32aee39-4075-484c-a948-5250f1bc9813")
+	)
+	(junction
+		(at 210.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9726b6e-1deb-459e-9a32-aa28755e01ce")
+	)
+	(junction
+		(at 210.82 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c97bd202-8411-4039-ad3f-b277d1a70f40")
+	)
+	(junction
+		(at 100.33 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9991b89-b5b6-43f0-8f84-9137fb5229fc")
+	)
+	(junction
+		(at 96.52 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce0028ff-134d-4bd7-adff-971a8cc9f332")
+	)
+	(junction
+		(at 191.77 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2440e84-446b-42fd-9458-05a84b5b248a")
+	)
+	(junction
+		(at 81.28 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8f5fc92-2d24-43f2-8864-cefe2996bb72")
+	)
+	(junction
+		(at 214.63 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db0f29ef-429e-4299-bdc5-e5b0c0b83da6")
+	)
+	(junction
+		(at 58.42 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbb16c83-06c6-4e33-ad31-e5f88979bc59")
+	)
+	(junction
+		(at 115.57 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbe147d7-71c4-4fdc-827f-2d00e7c1daab")
+	)
+	(junction
+		(at 191.77 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8a80b7-94c3-437c-8051-e34a9b6fc29e")
+	)
+	(junction
+		(at 229.87 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddc8b226-a261-46d3-9e09-5aa9c6f07f9f")
+	)
+	(junction
+		(at 195.58 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7c73374-3ea9-4b83-aa86-7ad38174e840")
+	)
+	(junction
+		(at 138.43 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea6b1a42-7f7f-477d-9b3e-6c955398ec9d")
+	)
+	(junction
+		(at 134.62 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed734497-d53f-4778-a784-5b21e76713a5")
+	)
+	(junction
+		(at 138.43 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0fc9457-dd01-4731-8ffb-4a50f4102fd7")
+	)
+	(junction
+		(at 96.52 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1c90ac4-9ba4-4b54-af3e-bcf59b97ebdd")
+	)
+	(junction
+		(at 233.68 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f58b437c-cd26-4926-8d02-61bae4c10cb1")
+	)
+	(junction
+		(at 81.28 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc0d0431-28e5-4533-9eff-0851ca65f957")
 	)
 	(wire
 		(pts
-			(xy 113.665 77.47) (xy 124.46 77.47)
+			(xy 58.42 68.58) (xy 58.42 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0143beb0-375c-4525-90ef-675c5da4e71e")
+		(uuid "00da22b5-79c5-4de7-84c0-d7351df542e1")
 	)
 	(wire
 		(pts
-			(xy 107.95 34.29) (xy 107.95 102.87)
+			(xy 43.18 49.53) (xy 43.18 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "016fde63-e211-45d0-baf0-211e862a840a")
+		(uuid "0418b599-b754-494f-8ec6-5c736b26130d")
 	)
 	(wire
 		(pts
-			(xy 200.025 77.47) (xy 210.82 77.47)
+			(xy 119.38 77.47) (xy 138.43 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0234a679-013f-417c-a87c-451006ec780e")
+		(uuid "042dc5ae-4674-4cf1-b14f-0115af5627af")
 	)
 	(wire
 		(pts
-			(xy 146.05 57.785) (xy 156.845 57.785)
+			(xy 115.57 68.58) (xy 115.57 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03085483-b125-4fbb-9893-4e686fd9b3ea")
+		(uuid "04917f09-db4e-42d3-9177-faa9077fe180")
 	)
 	(wire
 		(pts
-			(xy 178.435 68.58) (xy 178.435 72.39)
+			(xy 176.53 96.52) (xy 195.58 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03e09a7d-cca5-4358-b282-df3fd54f475b")
+		(uuid "0f0350ae-19ce-48ef-8fb0-d92d70e8d5b9")
 	)
 	(wire
 		(pts
-			(xy 210.82 107.95) (xy 210.82 111.76)
+			(xy 195.58 96.52) (xy 214.63 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04b3bc73-052d-4319-b7df-d2c91dd419c2")
+		(uuid "0fb9db4b-d412-41f9-a31f-fbc893656b7f")
 	)
 	(wire
 		(pts
-			(xy 146.05 88.265) (xy 146.05 92.075)
+			(xy 191.77 38.1) (xy 191.77 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05160071-047b-4124-a31b-10417015297e")
+		(uuid "13db66de-9112-4c4b-a6b1-03c320962640")
 	)
 	(wire
 		(pts
-			(xy 200.025 68.58) (xy 200.025 72.39)
+			(xy 81.28 106.68) (xy 81.28 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05c59a13-ea18-4312-a5ca-57ba1c50d632")
+		(uuid "15dc13ec-7430-4bb2-aeb4-e165e50501e0")
 	)
 	(wire
 		(pts
-			(xy 200.025 97.155) (xy 210.82 97.155)
+			(xy 252.73 106.68) (xy 252.73 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17e0bcec-c16c-4a2c-824a-95a30356e1ab")
+		(uuid "18cf8c00-fbb9-4913-a402-b88408228277")
 	)
 	(wire
 		(pts
-			(xy 156.845 68.58) (xy 156.845 72.39)
+			(xy 214.63 77.47) (xy 233.68 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a65cfd8-987e-4421-950d-176444d7a79e")
+		(uuid "19bb49cc-7d54-426e-b149-d41e8ae21c37")
 	)
 	(wire
 		(pts
-			(xy 146.05 116.84) (xy 156.845 116.84)
+			(xy 138.43 106.68) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a6c8fe1-912b-468e-a07f-f4f4216c1add")
+		(uuid "1b94be4f-f05c-4d34-afdd-cbf96b7e3a1e")
 	)
 	(wire
 		(pts
-			(xy 124.46 88.265) (xy 124.46 92.075)
+			(xy 138.43 87.63) (xy 138.43 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1aba265d-0349-4894-bf1a-170812a10e25")
+		(uuid "1f3f5e78-b1ec-4c63-962c-e8633fffc1aa")
 	)
 	(wire
 		(pts
-			(xy 156.845 77.47) (xy 167.64 77.47)
+			(xy 138.43 58.42) (xy 157.48 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f45544f-a149-4daf-9d07-32cfd437447a")
+		(uuid "233b4b2b-67a6-486b-b8f8-9fe2587a7add")
 	)
 	(wire
 		(pts
-			(xy 161.925 34.29) (xy 161.925 121.92)
+			(xy 43.18 106.68) (xy 43.18 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2143639b-bc7c-4761-b41d-72e2a844fac6")
+		(uuid "236aa95b-42fb-4382-8adf-0817af2feb23")
 	)
 	(wire
 		(pts
-			(xy 124.46 57.785) (xy 135.255 57.785)
+			(xy 62.23 96.52) (xy 81.28 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27785b63-9e70-4941-b9de-48ed502da4ec")
+		(uuid "248650a2-190e-499e-8b8e-3ed012dc804a")
 	)
 	(wire
 		(pts
-			(xy 102.87 48.895) (xy 102.87 52.705)
+			(xy 36.83 77.47) (xy 43.18 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29ab5dd7-eacf-4f4a-b82b-8cb59bdbc43c")
+		(uuid "260547a0-3bcc-4830-9a39-7683659a1b77")
 	)
 	(wire
 		(pts
-			(xy 156.845 107.95) (xy 156.845 111.76)
+			(xy 172.72 38.1) (xy 172.72 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d985379-814b-4139-b8b8-1ec9d3aec6fc")
+		(uuid "26710c29-80f3-4c9b-815e-73c61b163a7e")
 	)
 	(wire
 		(pts
-			(xy 63.5 26.67) (xy 64.77 26.67)
+			(xy 138.43 77.47) (xy 157.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc467ee-48c7-4013-9268-215aca8df42f")
+	)
+	(wire
+		(pts
+			(xy 147.32 157.48) (xy 148.59 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3624,887 +3880,1207 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 116.84) (xy 135.255 116.84)
+			(xy 176.53 58.42) (xy 195.58 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f5fabd2-cdb4-47ac-b81c-d5cdc40dc76b")
+		(uuid "2ddf06b9-7c76-4e75-bb86-4f633de29b60")
 	)
 	(wire
 		(pts
-			(xy 102.87 107.95) (xy 102.87 111.76)
+			(xy 134.62 49.53) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31035069-b80d-4e9a-88b6-fba05a1b7b09")
+		(uuid "2e0b4fa9-b56b-408f-b485-5f1a4106386c")
 	)
 	(wire
 		(pts
-			(xy 124.46 107.95) (xy 124.46 111.76)
+			(xy 229.87 68.58) (xy 229.87 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32cf69d3-c94c-465f-bc18-9b243d2e0eae")
+		(uuid "2ecb04b0-f315-4a76-92f7-5d471ea30eb0")
 	)
 	(wire
 		(pts
-			(xy 156.845 97.155) (xy 167.64 97.155)
+			(xy 58.42 87.63) (xy 58.42 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "345f0ce7-ba0a-4f66-a4a1-69f30aa2dd7f")
+		(uuid "30b2a77f-c61b-47b0-abed-573444f895d0")
 	)
 	(wire
 		(pts
-			(xy 118.745 34.29) (xy 118.745 102.87)
+			(xy 176.53 106.68) (xy 176.53 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36a7924b-9856-46f8-b317-c8be787ed96f")
+		(uuid "3139b884-208d-4d76-a187-fe38f4d8d5c8")
 	)
 	(wire
 		(pts
-			(xy 156.845 48.895) (xy 156.845 52.705)
+			(xy 233.68 87.63) (xy 233.68 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38e3c0bd-48a7-45e2-8793-e0bb35235969")
+		(uuid "3200bb4b-a272-48b8-8da9-34dac6f12b64")
 	)
 	(wire
 		(pts
-			(xy 194.31 34.29) (xy 194.31 102.87)
+			(xy 58.42 49.53) (xy 58.42 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39ebf96a-216a-4799-a2d1-7596e0f15892")
+		(uuid "320fc363-5374-486e-a651-9581567c17a5")
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 135.255 77.47)
+			(xy 191.77 87.63) (xy 191.77 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bb90dc1-e45c-43c0-ba33-8004b930341f")
+		(uuid "32e1c0b9-84b8-462c-90b4-436616095663")
 	)
 	(wire
 		(pts
-			(xy 210.82 68.58) (xy 210.82 72.39)
+			(xy 134.62 38.1) (xy 134.62 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f57232b-1a43-45bd-8536-00b1225ddc71")
+		(uuid "346882ed-e8a9-4e6e-8f1b-3fe5cd9b52e1")
 	)
 	(wire
 		(pts
-			(xy 113.665 88.265) (xy 113.665 92.075)
+			(xy 134.62 68.58) (xy 134.62 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4135b916-7a47-43e0-aa34-59ad6386e863")
+		(uuid "39c64ff0-ef9b-4d1f-805f-21a63bacf057")
 	)
 	(wire
 		(pts
-			(xy 102.87 97.155) (xy 113.665 97.155)
+			(xy 36.83 58.42) (xy 43.18 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4349f785-fd20-45a0-bbee-25029d4f9d91")
+		(uuid "3a527487-c357-4d2c-877c-c2b59ed0fcbb")
 	)
 	(wire
 		(pts
-			(xy 189.23 116.84) (xy 200.025 116.84)
+			(xy 58.42 38.1) (xy 58.42 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4621617b-1fb4-4610-b4f2-b3473488eedc")
+		(uuid "3c2ea8de-aaec-4997-ba49-9d0e7cdbc8c1")
 	)
 	(wire
 		(pts
-			(xy 102.87 116.84) (xy 113.665 116.84)
+			(xy 233.68 77.47) (xy 252.73 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a61f12e-8ddd-4a18-a36c-ffd06b6703d7")
+		(uuid "3d114c24-a857-4768-bdab-944350b735c7")
 	)
 	(wire
 		(pts
-			(xy 189.23 68.58) (xy 189.23 72.39)
+			(xy 214.63 96.52) (xy 233.68 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a6a56ca-31dd-498f-9efb-4c3b3b0a7743")
+		(uuid "3de2e0b8-d3d4-4bf5-adf5-773bdcc6bfa1")
 	)
 	(wire
 		(pts
-			(xy 167.64 116.84) (xy 178.435 116.84)
+			(xy 252.73 87.63) (xy 252.73 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dd63ed8-c6ed-4e5a-9d41-ded5fa89799f")
+		(uuid "3e98b07b-17f4-4e72-a7f3-d952e28f9e57")
 	)
 	(wire
 		(pts
-			(xy 89.535 77.47) (xy 102.87 77.47)
+			(xy 81.28 96.52) (xy 100.33 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50d491f3-3506-4e5b-836d-87141087cfe3")
+		(uuid "3ec4d30a-eaeb-4d51-bc7a-678b29c59358")
 	)
 	(wire
 		(pts
-			(xy 135.255 48.895) (xy 135.255 52.705)
+			(xy 43.18 96.52) (xy 62.23 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50f789e4-27c6-475d-9cb1-1937d63da7b5")
+		(uuid "42a9b001-69ba-4eae-a09c-508612254fdb")
 	)
 	(wire
 		(pts
-			(xy 129.54 34.29) (xy 129.54 102.87)
+			(xy 248.92 38.1) (xy 248.92 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50fecbe0-db37-4f9d-8fef-5167814d24bd")
+		(uuid "4be6dbeb-8ff9-4296-9de5-08b664a47f16")
 	)
 	(wire
 		(pts
-			(xy 146.05 77.47) (xy 156.845 77.47)
+			(xy 96.52 38.1) (xy 96.52 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "584fc6d2-2d52-40ff-aee5-e94544590b17")
+		(uuid "4c00590d-5102-4d1f-8faa-bd2e9d183b7d")
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 124.46 72.39)
+			(xy 176.53 49.53) (xy 176.53 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d111b0a-5ff9-426c-aa84-78aab6fc4207")
+		(uuid "4c3c566c-9c6e-4f40-ab52-c9d341f9e281")
 	)
 	(wire
 		(pts
-			(xy 172.72 34.29) (xy 172.72 102.87)
+			(xy 157.48 77.47) (xy 176.53 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ff0bda5-f278-4516-a566-87e59595be82")
+		(uuid "4e4f80bb-1a9d-4aea-9e1b-3bdb74e99217")
 	)
 	(wire
 		(pts
-			(xy 205.105 34.29) (xy 205.105 102.87)
+			(xy 157.48 96.52) (xy 176.53 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63a21fc2-1ca3-4688-bcf7-31fc6b2867d4")
+		(uuid "50884c5d-fd75-4539-b9d1-6172c6362265")
 	)
 	(wire
 		(pts
-			(xy 200.025 48.895) (xy 200.025 52.705)
+			(xy 210.82 87.63) (xy 210.82 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6546c72e-5214-4635-8ed6-26f74c1cca67")
+		(uuid "5397fcd8-3a65-4756-a6df-333d90a4def6")
 	)
 	(wire
 		(pts
-			(xy 156.845 116.84) (xy 167.64 116.84)
+			(xy 138.43 115.57) (xy 157.48 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67e8ec7e-de0e-4a4a-ac8c-d1e8f34ff845")
+		(uuid "55c58cdb-fd72-4cc1-9908-b10f05388db0")
 	)
 	(wire
 		(pts
-			(xy 189.23 88.265) (xy 189.23 92.075)
+			(xy 100.33 58.42) (xy 119.38 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e724663-7f7c-49de-ab07-11dec638f4ad")
+		(uuid "57451d0c-66d3-4b22-953a-2d26ac04b538")
 	)
 	(wire
 		(pts
-			(xy 210.82 97.155) (xy 221.615 97.155)
+			(xy 96.52 87.63) (xy 96.52 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e8e17a0-0b55-48f0-9414-4b8c4f411de4")
+		(uuid "5839a134-4b59-4f4f-9e4e-3f5738f92aca")
 	)
 	(wire
 		(pts
-			(xy 189.23 57.785) (xy 200.025 57.785)
+			(xy 195.58 68.58) (xy 195.58 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "713d7225-3a1b-4a83-8586-007075d46522")
+		(uuid "59b6dd33-e8e8-4bd8-8a9f-7d0da1144765")
 	)
 	(wire
 		(pts
-			(xy 156.845 57.785) (xy 167.64 57.785)
+			(xy 100.33 87.63) (xy 100.33 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "732d64a6-b424-458e-87b7-5572486a7833")
+		(uuid "59cf54e9-24b3-4d3a-9937-eab119e51e20")
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 167.64 72.39)
+			(xy 134.62 87.63) (xy 134.62 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73969f7f-3aa1-4964-896a-e6b185badfb7")
+		(uuid "5d1c4e36-ba53-4300-9110-e2ab12314722")
 	)
 	(wire
 		(pts
-			(xy 178.435 77.47) (xy 189.23 77.47)
+			(xy 100.33 49.53) (xy 100.33 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74c70a63-dab9-492b-9e85-48d480f6b8cb")
+		(uuid "5decd66a-7402-4127-bae1-b95b820e4a6c")
 	)
 	(wire
 		(pts
-			(xy 140.335 34.29) (xy 140.335 102.87)
+			(xy 100.33 115.57) (xy 119.38 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77a2e8d9-7b0e-41d4-a230-863392028a90")
+		(uuid "5e10e935-c5af-4b3c-98d4-b1b507a216e2")
 	)
 	(wire
 		(pts
-			(xy 146.05 48.895) (xy 146.05 52.705)
+			(xy 267.97 68.58) (xy 267.97 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80008143-8243-42d9-85dd-084fcb4809b2")
+		(uuid "5eac29f0-b8e3-4789-a82d-d8baa0ae5f5c")
 	)
 	(wire
 		(pts
-			(xy 221.615 68.58) (xy 221.615 72.39)
+			(xy 233.68 106.68) (xy 233.68 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8562c2fb-9b0f-4de2-8984-1e146da05837")
+		(uuid "60ce5525-afec-45b8-b039-9d42ba6dab4b")
 	)
 	(wire
 		(pts
-			(xy 89.535 57.785) (xy 102.87 57.785)
+			(xy 214.63 68.58) (xy 214.63 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8658d511-4a8a-4ada-9c22-091a65e96694")
+		(uuid "642f5e8a-f886-43eb-9ca1-63cd05ed0d67")
 	)
 	(wire
 		(pts
-			(xy 113.665 48.895) (xy 113.665 52.705)
+			(xy 195.58 77.47) (xy 214.63 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8832d227-5fc6-4239-948f-adba45a4691d")
+		(uuid "65771ec3-f7e2-4c94-b61a-d9e6153e2d0a")
 	)
 	(wire
 		(pts
-			(xy 102.87 88.265) (xy 102.87 92.075)
+			(xy 138.43 49.53) (xy 138.43 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cf22fb0-ed06-4e21-b132-7556b01a5b88")
+		(uuid "68054690-57d8-4ffb-9880-9b1db405b940")
 	)
 	(wire
 		(pts
-			(xy 215.9 34.29) (xy 215.9 102.87)
+			(xy 229.87 87.63) (xy 229.87 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dbd5189-9cae-406d-aeed-bf5a7f654c4d")
+		(uuid "6a04fb7a-715d-4e8b-b10b-b97e9717af59")
 	)
 	(wire
 		(pts
-			(xy 135.255 97.155) (xy 146.05 97.155)
+			(xy 153.67 68.58) (xy 153.67 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eebfd9a-8ea7-433b-bf9c-07427541a03a")
+		(uuid "6b99dfe1-617a-4c49-82de-f0a3c87561b0")
 	)
 	(wire
 		(pts
-			(xy 189.23 77.47) (xy 200.025 77.47)
+			(xy 77.47 87.63) (xy 77.47 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fbb9141-23b9-4c22-8e3e-4f26a02dd3fd")
+		(uuid "6be7113b-c009-4038-9441-e5a18f662fe9")
 	)
 	(wire
 		(pts
-			(xy 189.23 107.95) (xy 189.23 111.76)
+			(xy 172.72 87.63) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92897965-6a4f-463f-b419-abb024f8c196")
+		(uuid "71543a1d-3df7-4be6-aea2-5f64b5dd3af0")
 	)
 	(wire
 		(pts
-			(xy 113.665 97.155) (xy 124.46 97.155)
+			(xy 176.53 77.47) (xy 195.58 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97b02960-9bb1-4da3-9fb0-62c39b4207f8")
+		(uuid "71952c36-86d4-4490-9ad4-4a34903afda0")
 	)
 	(wire
 		(pts
-			(xy 89.535 97.155) (xy 102.87 97.155)
+			(xy 252.73 49.53) (xy 252.73 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98db9eb4-cf63-4883-8123-f473350c458f")
+		(uuid "728bf82c-e13f-411d-aa2c-cd6bd2f8b6b1")
 	)
 	(wire
 		(pts
-			(xy 146.05 107.95) (xy 146.05 111.76)
+			(xy 267.97 49.53) (xy 267.97 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c3d941b-0c65-4a65-a1d9-ed8b6f303769")
+		(uuid "72e4382f-340a-4e28-bfa5-fc5c9d895895")
 	)
 	(wire
 		(pts
-			(xy 178.435 97.155) (xy 189.23 97.155)
+			(xy 81.28 68.58) (xy 81.28 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a74827dd-a7e2-4cc7-9986-251479545b87")
+		(uuid "72fc7578-8064-45d9-9837-1963e8262a9f")
 	)
 	(wire
 		(pts
-			(xy 113.665 116.84) (xy 124.46 116.84)
+			(xy 115.57 38.1) (xy 115.57 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7b56012-78ce-451a-9c0b-0edefb6f4ae4")
+		(uuid "735c112f-513b-42cf-a350-1326e023e15b")
 	)
 	(wire
 		(pts
-			(xy 178.435 116.84) (xy 189.23 116.84)
+			(xy 100.33 68.58) (xy 100.33 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7fc5917-d2f5-41e7-ac6e-ab89be8d33a7")
+		(uuid "74a49596-e442-4dc3-b876-7d3469c082aa")
 	)
 	(wire
 		(pts
-			(xy 210.82 116.84) (xy 221.615 116.84)
+			(xy 172.72 49.53) (xy 172.72 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8e31256-e6dc-4a8a-a04d-f73746d6fd38")
+		(uuid "75764b93-d30c-4058-b427-bff8a67f4166")
 	)
 	(wire
 		(pts
-			(xy 221.615 88.265) (xy 221.615 92.075)
+			(xy 62.23 87.63) (xy 62.23 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a92a1fb9-07fd-4166-b7db-eb26d3f59854")
+		(uuid "76532b6d-c6b3-4b20-989a-17ffeeeda691")
 	)
 	(wire
 		(pts
-			(xy 156.845 88.265) (xy 156.845 92.075)
+			(xy 176.53 115.57) (xy 195.58 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa4eac80-0454-4c6d-967a-b3709c7f8d8a")
+		(uuid "76baed9e-ad1f-44a0-9818-bf1146888deb")
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 146.05 72.39)
+			(xy 81.28 115.57) (xy 100.33 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aabb33ee-686c-4529-bb12-6f2ef7826561")
+		(uuid "7a08b09a-cb8a-4d4e-9ef2-707f97027683")
 	)
 	(wire
 		(pts
-			(xy 226.695 34.29) (xy 226.695 102.87)
+			(xy 153.67 38.1) (xy 153.67 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aba889a8-4acd-438d-87a4-e1064adff589")
+		(uuid "8085017f-9a90-460c-bb02-b4271d7e701e")
 	)
 	(wire
 		(pts
-			(xy 124.46 97.155) (xy 135.255 97.155)
+			(xy 157.48 49.53) (xy 157.48 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae94b68b-732f-4724-b77f-6036b0940363")
+		(uuid "83085a7e-7da8-4cc3-89e4-f10717f6c662")
 	)
 	(wire
 		(pts
-			(xy 178.435 107.95) (xy 178.435 111.76)
+			(xy 138.43 68.58) (xy 138.43 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af91b865-dba0-4eb7-9c1d-48d94bbc8de1")
+		(uuid "83c14bf1-199e-4c9c-9725-f0de6f5ca4fb")
 	)
 	(wire
 		(pts
-			(xy 200.025 116.84) (xy 210.82 116.84)
+			(xy 214.63 106.68) (xy 214.63 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b214b4b7-f1c0-4232-946e-e52af6a13083")
+		(uuid "865b84e5-9c0e-448b-b074-db6c77bd49a4")
 	)
 	(wire
 		(pts
-			(xy 167.64 88.265) (xy 167.64 92.075)
+			(xy 62.23 77.47) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5d550b0-cda4-4e1e-bf8b-f45816d03bd1")
+		(uuid "878ad48e-3071-4a83-b4f7-1ad4d6b70148")
 	)
 	(wire
 		(pts
-			(xy 221.615 48.895) (xy 221.615 52.705)
+			(xy 210.82 68.58) (xy 210.82 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6039153-10ad-47b9-abfe-f6e3eabaf438")
+		(uuid "87b829bf-2e73-4731-9eaf-7255537a1af1")
 	)
 	(wire
 		(pts
-			(xy 135.255 88.265) (xy 135.255 92.075)
+			(xy 100.33 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b695e747-3f27-4396-9d87-b6781f44c623")
+		(uuid "88b51cd7-3159-41e7-8218-6e78bb94d383")
 	)
 	(wire
 		(pts
-			(xy 167.64 48.895) (xy 167.64 52.705)
+			(xy 157.48 58.42) (xy 176.53 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbcfa6eb-5229-471c-a816-5ded3fdf5fd8")
+		(uuid "88c0932f-51c3-41b6-a459-b0c4fd7bb8e4")
 	)
 	(wire
 		(pts
-			(xy 135.255 107.95) (xy 135.255 111.76)
+			(xy 210.82 49.53) (xy 210.82 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc1c5396-f690-49a4-9150-788a36c23b06")
+		(uuid "89b931ff-4592-41c6-ad18-b401c17753a3")
 	)
 	(wire
 		(pts
-			(xy 183.515 34.29) (xy 183.515 102.87)
+			(xy 191.77 68.58) (xy 191.77 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bde72b4a-ef4e-41f7-8046-87538d7db6e2")
+		(uuid "8b842cb2-0dd6-4aa6-9a9d-dc4de844cb22")
 	)
 	(wire
 		(pts
-			(xy 221.615 107.95) (xy 221.615 111.76)
+			(xy 62.23 115.57) (xy 81.28 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c381b94d-042c-4588-84d5-6d02c6e2f4cb")
+		(uuid "8bcaa4b9-54d8-4e02-abb5-76bb9f0fc6dc")
 	)
 	(wire
 		(pts
-			(xy 189.23 97.155) (xy 200.025 97.155)
+			(xy 43.18 87.63) (xy 43.18 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3c750df-d887-4795-b2dd-53b4273c6a2c")
+		(uuid "8cad96f8-309e-4619-bcf8-11f85845984e")
 	)
 	(wire
 		(pts
-			(xy 89.535 116.84) (xy 102.87 116.84)
+			(xy 157.48 87.63) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c496b614-3932-4014-8e4e-c5589a62192a")
+		(uuid "8ddc29b6-2675-44e6-a99f-370555fe6a50")
 	)
 	(wire
 		(pts
-			(xy 135.255 57.785) (xy 146.05 57.785)
+			(xy 119.38 58.42) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7eddc63-c0b6-4b06-ad06-042d32cd6238")
+		(uuid "8eaeb7b0-86b8-4ef5-96b6-50f67a532374")
 	)
 	(wire
 		(pts
-			(xy 135.255 68.58) (xy 135.255 72.39)
+			(xy 157.48 68.58) (xy 157.48 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c90a54ef-e587-4ee2-933b-0bf7c2449e14")
+		(uuid "9299e10c-42bc-44b6-94b9-6e30647bc11c")
 	)
 	(wire
 		(pts
-			(xy 200.025 57.785) (xy 210.82 57.785)
+			(xy 43.18 77.47) (xy 62.23 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb61f0be-2260-4f37-88d3-dccbd5a53cf2")
+		(uuid "935fde49-09be-4f62-abe0-a437d71150d6")
 	)
 	(wire
 		(pts
-			(xy 156.845 107.95) (xy 153.035 107.95)
+			(xy 62.23 106.68) (xy 62.23 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cba105b6-ee17-46ad-b4b4-0a113201ad53")
+		(uuid "93d8f000-0be4-463e-9f15-df338f67f28a")
 	)
 	(wire
 		(pts
-			(xy 146.05 97.155) (xy 156.845 97.155)
+			(xy 252.73 68.58) (xy 252.73 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd7e36bf-fe92-4359-8828-e0453f9d94b5")
+		(uuid "942dd69f-980c-4cec-b06a-7ffeef97e18f")
 	)
 	(wire
 		(pts
-			(xy 102.87 57.785) (xy 113.665 57.785)
+			(xy 100.33 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d502d13f-5e41-4006-bb39-e607284b9a4e")
+		(uuid "9769b52e-0350-409b-af0a-a8b927958521")
 	)
 	(wire
 		(pts
-			(xy 113.665 57.785) (xy 124.46 57.785)
+			(xy 77.47 49.53) (xy 77.47 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d589f133-f6af-4f81-9ff3-f8bbfb68211a")
+		(uuid "97d2374f-6203-45ba-985e-06e8792113bb")
 	)
 	(wire
 		(pts
-			(xy 167.64 97.155) (xy 178.435 97.155)
+			(xy 195.58 87.63) (xy 195.58 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6d98725-5290-4e80-bc93-d7c3af50e2a0")
+		(uuid "9ccb668c-850f-4eda-9668-72a252b45005")
 	)
 	(wire
 		(pts
-			(xy 153.035 107.95) (xy 153.035 127)
+			(xy 62.23 68.58) (xy 62.23 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d71e0eb7-5e65-482a-96bb-4ec1d248c7ad")
+		(uuid "9e5f3196-7324-4ba9-9c51-1b6932f983b8")
 	)
 	(wire
 		(pts
-			(xy 189.23 48.895) (xy 189.23 52.705)
+			(xy 176.53 87.63) (xy 176.53 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db334700-29c0-41c3-b565-ff76c3ccb692")
+		(uuid "9e675e98-56da-455a-9041-97de7917da54")
 	)
 	(wire
 		(pts
-			(xy 124.46 48.895) (xy 124.46 52.705)
+			(xy 119.38 87.63) (xy 119.38 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbc7397c-0090-446d-8690-bdcce8a986d5")
+		(uuid "9f915a43-62db-4978-903c-942388ae0428")
 	)
 	(wire
 		(pts
-			(xy 178.435 57.785) (xy 189.23 57.785)
+			(xy 214.63 87.63) (xy 214.63 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc2501fe-c1c7-45da-a3ed-9f7160d4cfb9")
+		(uuid "9faea56a-88c8-4b81-a541-2050044a247c")
 	)
 	(wire
 		(pts
-			(xy 113.665 68.58) (xy 113.665 72.39)
+			(xy 100.33 106.68) (xy 100.33 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcef79bf-8677-46be-9cd2-2f9a17468014")
+		(uuid "a0257644-aa21-432b-b62f-98fd49e4f460")
 	)
 	(wire
 		(pts
-			(xy 200.025 88.265) (xy 200.025 92.075)
+			(xy 96.52 68.58) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de1a4295-15bb-4a6b-b276-e4f1089e3e9d")
+		(uuid "a707ed11-cd65-48eb-9f3c-8f26001ebf5f")
 	)
 	(wire
 		(pts
-			(xy 135.255 77.47) (xy 146.05 77.47)
+			(xy 233.68 58.42) (xy 252.73 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df7d4f44-9372-4dc0-9a27-b13d11478709")
+		(uuid "a720a1db-2879-4785-a67c-fb44dc62de84")
 	)
 	(wire
 		(pts
-			(xy 151.13 34.29) (xy 151.13 102.87)
+			(xy 229.87 38.1) (xy 229.87 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1160163-ec28-4009-9105-aef2e7328289")
+		(uuid "a7d431d9-7ba6-413c-9931-24bf8e3fe387")
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 113.665 77.47)
+			(xy 195.58 49.53) (xy 195.58 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4d55b26-8214-48b5-8ae7-ad0b77b741f1")
+		(uuid "a7e75b79-8465-40f0-a390-d80b293500fe")
 	)
 	(wire
 		(pts
-			(xy 135.255 116.84) (xy 146.05 116.84)
+			(xy 119.38 96.52) (xy 138.43 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7a4823e-5aaf-4bf4-9609-39608dce356c")
+		(uuid "ac8cc033-7bc6-4223-a30f-566c48693f35")
 	)
 	(wire
 		(pts
-			(xy 153.035 127) (xy 156.845 127)
+			(xy 267.97 87.63) (xy 267.97 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7fc8c13-894d-4250-89c6-bcdbe29a0a4c")
+		(uuid "ae562613-ff08-4855-9868-5b0981f6440f")
 	)
 	(wire
 		(pts
-			(xy 113.665 107.95) (xy 113.665 111.76)
+			(xy 96.52 49.53) (xy 96.52 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e98288ad-c185-414d-9712-cdfcac59b4f0")
+		(uuid "af7ca5c6-af2e-4199-b811-457e3ea8595d")
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 167.64 111.76)
+			(xy 214.63 58.42) (xy 233.68 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9d66474-6d17-481d-8d17-c1fcc6da1cb1")
+		(uuid "b4dd7662-4233-486e-a89c-26cd2e98b714")
 	)
 	(wire
 		(pts
-			(xy 167.64 57.785) (xy 178.435 57.785)
+			(xy 43.18 58.42) (xy 62.23 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f116d72c-981a-470f-8a4f-4fdc3bb83a71")
+		(uuid "b6268e5c-bf38-4f22-8bdd-00483e39ade0")
 	)
 	(wire
 		(pts
-			(xy 210.82 88.265) (xy 210.82 92.075)
+			(xy 195.58 106.68) (xy 195.58 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1747dca-909b-431e-b1e3-fe7f277cf060")
+		(uuid "b852f875-c461-4b39-ac1b-e50e6572546f")
 	)
 	(wire
 		(pts
-			(xy 210.82 57.785) (xy 221.615 57.785)
+			(xy 36.83 115.57) (xy 43.18 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1b04c1e-1fb2-422f-b660-94300fa954fd")
+		(uuid "bb521bb9-02f2-45d6-8920-e833282e6e80")
 	)
 	(wire
 		(pts
-			(xy 178.435 48.895) (xy 178.435 52.705)
+			(xy 43.18 68.58) (xy 43.18 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1ebe0b4-d2ec-4fb5-b97c-03fe14f09ba9")
+		(uuid "bc0ad646-8db8-44c3-b010-3c7f21bb1e25")
 	)
 	(wire
 		(pts
-			(xy 44.45 26.67) (xy 53.34 26.67)
+			(xy 115.57 49.53) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9dc8fb-80d6-40f7-8d6c-50931a72a511")
+	)
+	(wire
+		(pts
+			(xy 119.38 49.53) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6e5e92-8a97-41a2-a4b0-1773e5ac7f64")
+	)
+	(wire
+		(pts
+			(xy 195.58 115.57) (xy 214.63 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec43c47-c378-4fe5-97ea-29ac62ea77eb")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 153.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15fec58-0f99-4c41-ace2-c808eafd9ab8")
+	)
+	(wire
+		(pts
+			(xy 248.92 68.58) (xy 248.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18645e3-55dd-4965-b5cd-9e3c2cdfbba3")
+	)
+	(wire
+		(pts
+			(xy 62.23 49.53) (xy 62.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d5e6a2-84dc-4a56-bcb2-511138f5478a")
+	)
+	(wire
+		(pts
+			(xy 43.18 115.57) (xy 62.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c954bc24-5705-4554-b309-32ecabe0f29e")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 119.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7f0336-e6a4-4c9f-ab12-a7435cd0daf3")
+	)
+	(wire
+		(pts
+			(xy 267.97 38.1) (xy 267.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cade75c2-3b49-4425-9eac-69d346b891df")
+	)
+	(wire
+		(pts
+			(xy 233.68 68.58) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc82039b-6559-484a-814e-dc1100ce8c03")
+	)
+	(wire
+		(pts
+			(xy 62.23 58.42) (xy 81.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdff4149-418d-47f6-9767-604030877bdb")
+	)
+	(wire
+		(pts
+			(xy 233.68 49.53) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce186dbc-35dd-47f7-9f85-c4d22828a926")
+	)
+	(wire
+		(pts
+			(xy 214.63 115.57) (xy 233.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf777535-27b7-44c2-a85f-e64ce1c3aaa3")
+	)
+	(wire
+		(pts
+			(xy 81.28 49.53) (xy 81.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9c15ec-5112-4e2e-8893-9878c3f4dcc3")
+	)
+	(wire
+		(pts
+			(xy 172.72 68.58) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d040de83-822c-4a79-9592-4a901f64aa68")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24333f3-d7df-4a1b-960b-e5e0bb999b46")
+	)
+	(wire
+		(pts
+			(xy 248.92 87.63) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6623897-062c-42ef-bcf4-ed7ad9a31028")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 115.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99e956b-7796-4e74-bd5d-06d7204b6ab7")
+	)
+	(wire
+		(pts
+			(xy 248.92 49.53) (xy 248.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4cba25-0fdd-45ce-9430-735ac2dc389d")
+	)
+	(wire
+		(pts
+			(xy 36.83 96.52) (xy 43.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db72c83f-99fa-4312-b607-ba75838e5315")
+	)
+	(wire
+		(pts
+			(xy 214.63 49.53) (xy 214.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc14aa8b-d82b-48b6-93b0-df3ffee23865")
+	)
+	(wire
+		(pts
+			(xy 233.68 115.57) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cd8667-2a41-4a9b-99ce-9cbd75c35f83")
+	)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64973bc-6741-4707-bceb-0f31a9a3a2f6")
+	)
+	(wire
+		(pts
+			(xy 153.67 49.53) (xy 153.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e746e8af-b49c-4ac1-9711-5b64156cb838")
+	)
+	(wire
+		(pts
+			(xy 195.58 58.42) (xy 214.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8341371-9844-4bfd-b1c3-6f407d06c976")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 81.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c2eaf2-11ab-47f9-849c-1bbb05dea4de")
+	)
+	(wire
+		(pts
+			(xy 191.77 49.53) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9185dce-b0d5-4c0b-ae48-8f37c2a79868")
+	)
+	(wire
+		(pts
+			(xy 210.82 38.1) (xy 210.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96b6f78-46e8-4e4c-ad72-1172d7f93b48")
+	)
+	(wire
+		(pts
+			(xy 77.47 38.1) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ac38e9-06bd-4a5b-a49f-23892bc04cec")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 119.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee45056c-21f3-4601-8a02-47228105bd84")
+	)
+	(wire
+		(pts
+			(xy 81.28 77.47) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f135043b-0894-49ba-a523-e67d7fe6100f")
+	)
+	(wire
+		(pts
+			(xy 81.28 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b86064-c68a-476c-95e6-6937e9ea84fd")
+	)
+	(wire
+		(pts
+			(xy 128.27 157.48) (xy 137.16 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4514,67 +5090,67 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 178.435 77.47)
+			(xy 157.48 115.57) (xy 176.53 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7dbb852-2f4b-487d-bc2e-46372756ba48")
+		(uuid "f3b94e84-2711-407a-9aa2-d3841e028abf")
 	)
 	(wire
 		(pts
-			(xy 200.025 107.95) (xy 200.025 111.76)
+			(xy 233.68 96.52) (xy 252.73 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8edc27a-7aee-4ae9-afdf-a7c6792a6fa3")
+		(uuid "f58376cb-2859-480d-997a-5647a79bceb9")
 	)
 	(wire
 		(pts
-			(xy 102.87 68.58) (xy 102.87 72.39)
+			(xy 77.47 68.58) (xy 77.47 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f93da9d5-6484-45eb-bd91-4a4768a84d65")
+		(uuid "f9cc3dc2-f12b-42f6-bd62-a0eb914ac5c0")
 	)
 	(wire
 		(pts
-			(xy 210.82 48.895) (xy 210.82 52.705)
+			(xy 157.48 106.68) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa4f2f60-06c3-4230-ba5f-1f2593c29d47")
+		(uuid "fa027177-5155-4889-b2c4-8873cf812202")
 	)
 	(wire
 		(pts
-			(xy 210.82 77.47) (xy 221.615 77.47)
+			(xy 119.38 115.57) (xy 138.43 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa99c48e-bae7-46a4-9523-0c2300ff7bc1")
+		(uuid "fe3ad6d5-f200-4c5e-9d47-28abd04c8911")
 	)
 	(wire
 		(pts
-			(xy 178.435 88.265) (xy 178.435 92.075)
+			(xy 229.87 49.53) (xy 229.87 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc31b134-1168-4193-b099-af870cafe6f5")
+		(uuid "ff0a7bff-7136-4e8d-af49-8ced9467e5ae")
 	)
 	(global_label "COL9"
 		(shape input)
-		(at 205.105 34.29 180)
+		(at 229.87 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4583,7 +5159,7 @@
 		)
 		(uuid "049c1c0d-7cb0-454c-b66a-c0835e41b0e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.105 34.29 0)
+			(at 229.87 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +5172,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 89.535 116.84 180)
+		(at 36.83 115.57 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4605,7 +5181,7 @@
 		)
 		(uuid "07254611-e3bb-4aa3-a3ee-f3c8326318c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.535 116.84 0)
+			(at 36.83 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +5194,7 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 129.54 34.29 180)
+		(at 96.52 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4627,7 +5203,7 @@
 		)
 		(uuid "122921bf-c48d-4a9a-8552-77f5f0486148")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 34.29 0)
+			(at 96.52 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4640,7 +5216,7 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 89.535 97.155 180)
+		(at 36.83 96.52 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4649,7 +5225,7 @@
 		)
 		(uuid "1631f628-0781-4f3e-90ff-df6398cfbeb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.535 97.155 0)
+			(at 36.83 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4662,7 +5238,7 @@
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 89.535 77.47 180)
+		(at 36.83 77.47 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4671,7 +5247,7 @@
 		)
 		(uuid "215aaf50-0d05-49f4-a003-5e874e6f6e68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.535 77.47 0)
+			(at 36.83 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4684,7 +5260,7 @@
 	)
 	(global_label "PIN15"
 		(shape input)
-		(at 46.355 74.295 180)
+		(at 40.64 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4693,7 +5269,7 @@
 		)
 		(uuid "25075475-13e9-462e-b102-9169ae2bdf50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.355 74.295 0)
+			(at 40.64 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4706,7 +5282,7 @@
 	)
 	(global_label "PIN15"
 		(shape input)
-		(at 44.45 41.91 0)
+		(at 128.27 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4715,7 +5291,7 @@
 		)
 		(uuid "2faf3c73-2417-4d2f-a805-e6b1361d7400")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 41.91 0)
+			(at 128.27 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4728,7 +5304,7 @@
 	)
 	(global_label "COL1"
 		(shape input)
-		(at 44.45 34.29 0)
+		(at 128.27 165.1 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4737,7 +5313,7 @@
 		)
 		(uuid "35000e0b-c44e-4187-9197-1e8431ae4d6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 34.29 0)
+			(at 128.27 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,7 +5326,7 @@
 	)
 	(global_label "COL11"
 		(shape input)
-		(at 226.695 34.29 180)
+		(at 267.97 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4759,7 +5335,7 @@
 		)
 		(uuid "3c6e7b9d-9916-46a8-a974-a7a7b3840764")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.695 34.29 0)
+			(at 267.97 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +5348,7 @@
 	)
 	(global_label "COL11"
 		(shape input)
-		(at 21.59 21.59 180)
+		(at 105.41 152.4 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4781,7 +5357,7 @@
 		)
 		(uuid "408e4be9-e85a-495e-9306-98dfccb3ef05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 21.59 0)
+			(at 105.41 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4794,7 +5370,7 @@
 	)
 	(global_label "COL8"
 		(shape input)
-		(at 21.59 34.29 180)
+		(at 105.41 165.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4803,7 +5379,7 @@
 		)
 		(uuid "55c26719-de2c-4148-a188-9812a64d1297")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 34.29 0)
+			(at 105.41 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4816,7 +5392,7 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 21.59 44.45 180)
+		(at 105.41 175.26 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4825,7 +5401,7 @@
 		)
 		(uuid "5c8e65c6-5d7b-4967-ac1b-cd23a4d9134e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 44.45 0)
+			(at 105.41 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4838,7 +5414,7 @@
 	)
 	(global_label "COL1"
 		(shape input)
-		(at 118.745 34.29 180)
+		(at 77.47 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4847,7 +5423,7 @@
 		)
 		(uuid "75a7fac0-7d46-48ff-b4ac-aa0ae9da34d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.745 34.29 0)
+			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +5436,7 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 107.95 34.29 180)
+		(at 58.42 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4869,7 +5445,7 @@
 		)
 		(uuid "7e4d00e3-e81c-4df3-8e37-134efa0fa402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 34.29 0)
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4882,7 +5458,7 @@
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 44.45 44.45 0)
+		(at 128.27 175.26 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4891,7 +5467,7 @@
 		)
 		(uuid "7ee3992d-03a7-4e66-bfa0-d60fc2dbf794")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 44.45 0)
+			(at 128.27 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +5480,7 @@
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 21.59 46.99 180)
+		(at 105.41 177.8 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4913,7 +5489,7 @@
 		)
 		(uuid "805b9600-2f93-45c3-ae13-fe9f1b765f47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 46.99 0)
+			(at 105.41 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +5502,7 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 44.45 31.75 0)
+		(at 128.27 162.56 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4935,7 +5511,7 @@
 		)
 		(uuid "88ecc95e-cbdd-49e8-90f3-e023082a0bba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 31.75 0)
+			(at 128.27 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,7 +5524,7 @@
 	)
 	(global_label "COL8"
 		(shape input)
-		(at 194.31 34.29 180)
+		(at 210.82 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4957,7 +5533,7 @@
 		)
 		(uuid "8fe17135-cd6c-4bba-af7a-e066eeb0fef3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 34.29 0)
+			(at 210.82 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +5546,7 @@
 	)
 	(global_label "COL5"
 		(shape input)
-		(at 21.59 41.91 180)
+		(at 105.41 172.72 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4979,7 +5555,7 @@
 		)
 		(uuid "95d45ac6-9ed1-4070-a861-5a43f9f01ae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 41.91 0)
+			(at 105.41 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4992,7 +5568,7 @@
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 140.335 34.29 180)
+		(at 115.57 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5001,7 +5577,7 @@
 		)
 		(uuid "97b781de-e719-4fde-a172-7b37a1520961")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.335 34.29 0)
+			(at 115.57 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,7 +5590,7 @@
 	)
 	(global_label "COL5"
 		(shape input)
-		(at 161.925 34.29 180)
+		(at 153.67 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5023,7 +5599,7 @@
 		)
 		(uuid "97deecc7-243e-4168-b23e-ef8048b9b0bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.925 34.29 0)
+			(at 153.67 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5036,7 +5612,7 @@
 	)
 	(global_label "COL10"
 		(shape input)
-		(at 21.59 24.13 180)
+		(at 105.41 154.94 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5045,7 +5621,7 @@
 		)
 		(uuid "a00d4c91-5be5-443d-af6d-9b56c8bf317c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 24.13 0)
+			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5634,7 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 44.45 46.99 0)
+		(at 128.27 177.8 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5067,7 +5643,7 @@
 		)
 		(uuid "b2dcff51-442b-46d6-8777-b3048835e59f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 46.99 0)
+			(at 128.27 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5080,7 +5656,7 @@
 	)
 	(global_label "COL6"
 		(shape input)
-		(at 172.72 34.29 180)
+		(at 172.72 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5089,7 +5665,7 @@
 		)
 		(uuid "b39a7edf-3157-4acf-ae29-125f3a107a36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 34.29 0)
+			(at 172.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5678,7 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 151.13 34.29 180)
+		(at 134.62 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5111,7 +5687,7 @@
 		)
 		(uuid "bb40274f-fda0-43b5-bd38-ae5b9b613b4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 34.29 0)
+			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,7 +5700,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 89.535 57.785 180)
+		(at 36.83 58.42 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5133,7 +5709,7 @@
 		)
 		(uuid "bb8aab92-24bc-46fe-9e69-7515264fd2f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.535 57.785 0)
+			(at 36.83 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5146,7 +5722,7 @@
 	)
 	(global_label "COL7"
 		(shape input)
-		(at 21.59 36.83 180)
+		(at 105.41 167.64 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5155,7 +5731,7 @@
 		)
 		(uuid "be49b149-9b7b-41c8-99d3-6acebcd00b47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 36.83 0)
+			(at 105.41 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5168,7 +5744,7 @@
 	)
 	(global_label "COL7"
 		(shape input)
-		(at 183.515 34.29 180)
+		(at 191.77 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5177,7 +5753,7 @@
 		)
 		(uuid "be6d82b2-413e-48fe-9434-6a41d8e16725")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.515 34.29 0)
+			(at 191.77 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5190,7 +5766,7 @@
 	)
 	(global_label "COL10"
 		(shape input)
-		(at 215.9 34.29 180)
+		(at 248.92 38.1 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5199,7 +5775,7 @@
 		)
 		(uuid "c80cc491-6fcd-4266-a126-f087a311a819")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.9 34.29 0)
+			(at 248.92 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5212,7 +5788,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 44.45 49.53 0)
+		(at 128.27 180.34 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5221,7 +5797,7 @@
 		)
 		(uuid "c8f7b450-b6f4-46e0-a818-f566d29da4b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 49.53 0)
+			(at 128.27 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5234,7 +5810,7 @@
 	)
 	(global_label "PIN18"
 		(shape input)
-		(at 46.355 76.835 180)
+		(at 40.64 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5243,7 +5819,7 @@
 		)
 		(uuid "c9d083b6-321d-4747-9b51-68f60d956941")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.355 76.835 0)
+			(at 40.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5256,7 +5832,7 @@
 	)
 	(global_label "COL9"
 		(shape input)
-		(at 21.59 31.75 180)
+		(at 105.41 162.56 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5265,7 +5841,7 @@
 		)
 		(uuid "d0e0f6e8-eebb-4b86-abed-d02e48c21f2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 31.75 0)
+			(at 105.41 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5278,7 +5854,7 @@
 	)
 	(global_label "PIN18"
 		(shape input)
-		(at 44.45 39.37 0)
+		(at 128.27 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5287,7 +5863,7 @@
 		)
 		(uuid "d3997a11-a2a4-4006-892a-23364bf38f0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 39.37 0)
+			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +5876,7 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 21.59 49.53 180)
+		(at 105.41 180.34 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5309,7 +5885,7 @@
 		)
 		(uuid "e3e8b6b7-0b70-4462-b4c7-5003193e367a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 49.53 0)
+			(at 105.41 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5898,7 @@
 	)
 	(global_label "COL6"
 		(shape input)
-		(at 21.59 39.37 180)
+		(at 105.41 170.18 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5331,7 +5907,7 @@
 		)
 		(uuid "e8cfd292-f8eb-4aec-9555-bb1c1bc68e40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 39.37 0)
+			(at 105.41 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5344,7 +5920,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 44.45 36.83 0)
+		(at 128.27 167.64 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5353,7 +5929,7 @@
 		)
 		(uuid "f6aaf542-0d84-408d-bd83-36bc19029822")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 36.83 0)
+			(at 128.27 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5366,7 +5942,7 @@
 	)
 	(symbol
 		(lib_id "josh:ProMicro")
-		(at 33.02 45.72 0)
+		(at 116.84 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5376,7 +5952,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a286e85")
 		(property "Reference" "U1"
-			(at 33.02 19.05 0)
+			(at 116.84 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5386,7 +5962,7 @@
 			)
 		)
 		(property "Value" "ProMicro"
-			(at 33.02 52.07 0)
+			(at 116.84 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5396,7 +5972,7 @@
 			)
 		)
 		(property "Footprint" "locallib:pro_micro"
-			(at 33.02 45.72 0)
+			(at 116.84 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 45.72 0)
+			(at 116.84 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +5994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 45.72 0)
+			(at 116.84 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5511,7 +6087,7 @@
 	(symbol
 		(lib_name "KEYSW_2")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 103.505 44.45 0)
+		(at 50.8 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5521,7 +6097,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287071")
 		(property "Reference" "MX1"
-			(at 103.505 41.275 0)
+			(at 50.8 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5531,7 +6107,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 103.505 43.18 0)
+			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5542,7 +6118,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 101.6 27.432 0)
+			(at 48.895 32.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5553,7 +6129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.505 44.45 0)
+			(at 50.8 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +6140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 103.505 44.45 0)
+			(at 50.8 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,7 +6167,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 102.87 55.245 90)
+		(at 43.18 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5601,7 +6177,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2870f4")
 		(property "Reference" "D1"
-			(at 100.838 56.515 0)
+			(at 41.148 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5612,7 +6188,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 104.902 59.055 0)
+			(at 45.212 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5623,7 +6199,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 102.87 55.245 90)
+			(at 43.18 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5634,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 55.245 90)
+			(at 43.18 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5645,7 +6221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 55.245 0)
+			(at 43.18 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5672,7 +6248,7 @@
 	(symbol
 		(lib_name "KEYSW_1")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 114.3 44.45 0)
+		(at 69.85 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5682,7 +6258,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287492")
 		(property "Reference" "MX2"
-			(at 114.3 41.275 0)
+			(at 69.85 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5692,7 +6268,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 114.3 43.18 0)
+			(at 69.85 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5703,7 +6279,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 114.3 44.45 0)
+			(at 69.85 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5714,7 +6290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 44.45 0)
+			(at 69.85 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5725,7 +6301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 44.45 0)
+			(at 69.85 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +6328,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 113.665 55.245 90)
+		(at 62.23 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5762,7 +6338,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287498")
 		(property "Reference" "D2"
-			(at 111.633 56.515 0)
+			(at 60.198 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5773,7 +6349,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 115.697 59.055 0)
+			(at 64.262 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5784,7 +6360,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 113.665 55.245 90)
+			(at 62.23 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5795,7 +6371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 55.245 90)
+			(at 62.23 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +6382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.665 55.245 0)
+			(at 62.23 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5833,7 +6409,7 @@
 	(symbol
 		(lib_name "KEYSW_3")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 125.095 44.45 0)
+		(at 88.9 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5843,7 +6419,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2875bf")
 		(property "Reference" "MX3"
-			(at 125.095 41.275 0)
+			(at 88.9 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5853,7 +6429,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 125.095 43.18 0)
+			(at 88.9 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5864,7 +6440,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 125.095 44.45 0)
+			(at 88.9 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5875,7 +6451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 44.45 0)
+			(at 88.9 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +6462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.095 44.45 0)
+			(at 88.9 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5913,7 +6489,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 124.46 55.245 90)
+		(at 81.28 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5923,7 +6499,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2875c5")
 		(property "Reference" "D3"
-			(at 122.428 56.515 0)
+			(at 79.248 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5934,7 +6510,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 126.492 59.055 0)
+			(at 83.312 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5945,7 +6521,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 124.46 55.245 90)
+			(at 81.28 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,7 +6532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 55.245 90)
+			(at 81.28 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5967,7 +6543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 55.245 0)
+			(at 81.28 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5994,7 +6570,7 @@
 	(symbol
 		(lib_name "KEYSW_4")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 135.89 44.45 0)
+		(at 107.95 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6004,7 +6580,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2875cc")
 		(property "Reference" "MX4"
-			(at 135.89 41.275 0)
+			(at 107.95 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6014,7 +6590,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 135.89 43.18 0)
+			(at 107.95 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +6601,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 135.89 44.45 0)
+			(at 107.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +6612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 44.45 0)
+			(at 107.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6047,7 +6623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 44.45 0)
+			(at 107.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,7 +6650,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 135.255 55.245 90)
+		(at 100.33 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6084,7 +6660,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2875d2")
 		(property "Reference" "D4"
-			(at 133.223 56.515 0)
+			(at 98.298 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6095,7 +6671,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 137.287 59.055 0)
+			(at 102.362 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6106,7 +6682,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 135.255 55.245 90)
+			(at 100.33 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6117,7 +6693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.255 55.245 90)
+			(at 100.33 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6128,7 +6704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.255 55.245 0)
+			(at 100.33 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6155,7 +6731,7 @@
 	(symbol
 		(lib_name "KEYSW_6")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 146.685 44.45 0)
+		(at 127 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6165,7 +6741,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28771c")
 		(property "Reference" "MX5"
-			(at 146.685 41.275 0)
+			(at 127 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6175,7 +6751,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 146.685 43.18 0)
+			(at 127 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +6762,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 146.685 44.45 0)
+			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,7 +6773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 44.45 0)
+			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,7 +6784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.685 44.45 0)
+			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6235,7 +6811,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 55.245 90)
+		(at 119.38 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6245,7 +6821,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287722")
 		(property "Reference" "D5"
-			(at 144.018 56.515 0)
+			(at 117.348 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6256,7 +6832,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 148.082 59.055 0)
+			(at 121.412 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6267,7 +6843,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 146.05 55.245 90)
+			(at 119.38 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6278,7 +6854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 55.245 90)
+			(at 119.38 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6289,7 +6865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 55.245 0)
+			(at 119.38 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6316,7 +6892,7 @@
 	(symbol
 		(lib_name "KEYSW_7")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 157.48 44.45 0)
+		(at 146.05 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6326,7 +6902,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287729")
 		(property "Reference" "MX6"
-			(at 157.48 41.275 0)
+			(at 146.05 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6336,7 +6912,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 157.48 43.18 0)
+			(at 146.05 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6347,7 +6923,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 157.48 44.45 0)
+			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +6934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 44.45 0)
+			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +6945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 44.45 0)
+			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +6972,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 156.845 55.245 90)
+		(at 138.43 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6406,7 +6982,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28772f")
 		(property "Reference" "D6"
-			(at 154.813 56.515 0)
+			(at 136.398 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6417,7 +6993,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 158.877 59.055 0)
+			(at 140.462 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6428,7 +7004,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 156.845 55.245 90)
+			(at 138.43 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6439,7 +7015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 55.245 90)
+			(at 138.43 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6450,7 +7026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.845 55.245 0)
+			(at 138.43 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6477,7 +7053,7 @@
 	(symbol
 		(lib_name "KEYSW_8")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 168.275 44.45 0)
+		(at 165.1 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6487,7 +7063,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287736")
 		(property "Reference" "MX7"
-			(at 168.275 41.275 0)
+			(at 165.1 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6497,7 +7073,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 168.275 43.18 0)
+			(at 165.1 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6508,7 +7084,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 168.275 44.45 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6519,7 +7095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.275 44.45 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6530,7 +7106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.275 44.45 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +7133,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 167.64 55.245 90)
+		(at 157.48 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6567,7 +7143,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28773c")
 		(property "Reference" "D7"
-			(at 165.608 56.515 0)
+			(at 155.448 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6578,7 +7154,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 169.672 59.055 0)
+			(at 159.512 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6589,7 +7165,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 167.64 55.245 90)
+			(at 157.48 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6600,7 +7176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 55.245 90)
+			(at 157.48 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,7 +7187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 55.245 0)
+			(at 157.48 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6638,7 +7214,7 @@
 	(symbol
 		(lib_name "KEYSW_5")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 179.07 44.45 0)
+		(at 184.15 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6648,7 +7224,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287743")
 		(property "Reference" "MX8"
-			(at 179.07 41.275 0)
+			(at 184.15 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6658,7 +7234,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 179.07 43.18 0)
+			(at 184.15 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6669,7 +7245,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 179.07 44.45 0)
+			(at 184.15 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6680,7 +7256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 44.45 0)
+			(at 184.15 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +7267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 44.45 0)
+			(at 184.15 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6718,7 +7294,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 178.435 55.245 90)
+		(at 176.53 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6728,7 +7304,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287749")
 		(property "Reference" "D8"
-			(at 176.403 56.515 0)
+			(at 174.498 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6739,7 +7315,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 180.467 59.055 0)
+			(at 178.562 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6750,7 +7326,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 178.435 55.245 90)
+			(at 176.53 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6761,7 +7337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 55.245 90)
+			(at 176.53 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6772,7 +7348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 178.435 55.245 0)
+			(at 176.53 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6799,7 +7375,7 @@
 	(symbol
 		(lib_name "KEYSW_9")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 189.865 44.45 0)
+		(at 203.2 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6809,7 +7385,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287ba5")
 		(property "Reference" "MX9"
-			(at 189.865 41.275 0)
+			(at 203.2 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6819,7 +7395,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 189.865 43.18 0)
+			(at 203.2 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6830,7 +7406,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 189.865 44.45 0)
+			(at 203.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6841,7 +7417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 44.45 0)
+			(at 203.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,7 +7428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.865 44.45 0)
+			(at 203.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6879,7 +7455,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 189.23 55.245 90)
+		(at 195.58 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6889,7 +7465,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287bab")
 		(property "Reference" "D9"
-			(at 187.198 56.515 0)
+			(at 193.548 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6900,7 +7476,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 191.262 59.055 0)
+			(at 197.612 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6911,7 +7487,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 189.23 55.245 90)
+			(at 195.58 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6922,7 +7498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 55.245 90)
+			(at 195.58 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6933,7 +7509,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 55.245 0)
+			(at 195.58 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6960,7 +7536,7 @@
 	(symbol
 		(lib_name "KEYSW_10")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 200.66 44.45 0)
+		(at 222.25 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6970,7 +7546,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287bb2")
 		(property "Reference" "MX10"
-			(at 200.66 41.275 0)
+			(at 222.25 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6980,7 +7556,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 200.66 43.18 0)
+			(at 222.25 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6991,7 +7567,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 200.66 44.45 0)
+			(at 222.25 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7002,7 +7578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 44.45 0)
+			(at 222.25 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7013,7 +7589,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 44.45 0)
+			(at 222.25 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7040,7 +7616,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 200.025 55.245 90)
+		(at 214.63 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7050,7 +7626,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287bb8")
 		(property "Reference" "D10"
-			(at 197.993 56.515 0)
+			(at 212.598 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7061,7 +7637,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 202.057 59.055 0)
+			(at 216.662 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7072,7 +7648,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 200.025 55.245 90)
+			(at 214.63 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7083,7 +7659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 55.245 90)
+			(at 214.63 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7094,7 +7670,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.025 55.245 0)
+			(at 214.63 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7121,7 +7697,7 @@
 	(symbol
 		(lib_name "KEYSW_11")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 211.455 44.45 0)
+		(at 241.3 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7131,7 +7707,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287bbf")
 		(property "Reference" "MX11"
-			(at 211.455 41.275 0)
+			(at 241.3 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7141,7 +7717,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 211.455 43.18 0)
+			(at 241.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7152,7 +7728,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 211.455 44.45 0)
+			(at 241.3 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7163,7 +7739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.455 44.45 0)
+			(at 241.3 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7174,7 +7750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.455 44.45 0)
+			(at 241.3 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7201,7 +7777,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 210.82 55.245 90)
+		(at 233.68 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7211,7 +7787,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287bc5")
 		(property "Reference" "D11"
-			(at 208.788 56.515 0)
+			(at 231.648 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7222,7 +7798,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 212.852 59.055 0)
+			(at 235.712 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7233,7 +7809,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 210.82 55.245 90)
+			(at 233.68 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7244,7 +7820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 55.245 90)
+			(at 233.68 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 55.245 0)
+			(at 233.68 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7282,7 +7858,7 @@
 	(symbol
 		(lib_name "KEYSW_12")
 		(lib_id "keyboard_parts:KEYSW")
-		(at 222.25 44.45 0)
+		(at 260.35 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7292,7 +7868,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287bcc")
 		(property "Reference" "MX12"
-			(at 222.25 41.275 0)
+			(at 260.35 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7302,7 +7878,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 222.25 43.18 0)
+			(at 260.35 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7313,7 +7889,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 222.25 44.45 0)
+			(at 260.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,7 +7900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 44.45 0)
+			(at 260.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,7 +7911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 44.45 0)
+			(at 260.35 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7362,7 +7938,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 221.615 55.245 90)
+		(at 252.73 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7372,7 +7948,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a287bd2")
 		(property "Reference" "D12"
-			(at 219.583 56.515 0)
+			(at 250.698 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7383,7 +7959,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 223.647 59.055 0)
+			(at 254.762 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7394,7 +7970,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 221.615 55.245 90)
+			(at 252.73 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7405,7 +7981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 55.245 90)
+			(at 252.73 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7416,7 +7992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 221.615 55.245 0)
+			(at 252.73 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7442,7 +8018,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 103.505 64.135 0)
+		(at 50.8 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7452,7 +8028,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28886d")
 		(property "Reference" "MX13"
-			(at 103.505 60.96 0)
+			(at 50.8 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7462,7 +8038,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 103.505 62.865 0)
+			(at 50.8 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7473,7 +8049,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 103.505 64.135 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,7 +8060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.505 64.135 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7495,7 +8071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 103.505 64.135 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7522,7 +8098,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 102.87 74.93 90)
+		(at 43.18 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7532,7 +8108,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a288873")
 		(property "Reference" "D13"
-			(at 100.838 76.2 0)
+			(at 41.148 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7543,7 +8119,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 104.902 78.74 0)
+			(at 45.212 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7554,7 +8130,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 102.87 74.93 90)
+			(at 43.18 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7565,7 +8141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 74.93 90)
+			(at 43.18 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7576,7 +8152,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 74.93 0)
+			(at 43.18 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7602,7 +8178,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 114.3 64.135 0)
+		(at 69.85 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7612,7 +8188,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28887a")
 		(property "Reference" "MX14"
-			(at 114.3 60.96 0)
+			(at 69.85 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7622,7 +8198,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 114.3 62.865 0)
+			(at 69.85 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,7 +8209,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 114.3 64.135 0)
+			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7644,7 +8220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 64.135 0)
+			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7655,7 +8231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 64.135 0)
+			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7682,7 +8258,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 113.665 74.93 90)
+		(at 62.23 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7692,7 +8268,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a288880")
 		(property "Reference" "D14"
-			(at 111.633 76.2 0)
+			(at 60.198 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7703,7 +8279,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 115.697 78.74 0)
+			(at 64.262 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7714,7 +8290,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 113.665 74.93 90)
+			(at 62.23 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,7 +8301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 74.93 90)
+			(at 62.23 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +8312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.665 74.93 0)
+			(at 62.23 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7762,7 +8338,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 125.095 64.135 0)
+		(at 88.9 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7772,7 +8348,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a288887")
 		(property "Reference" "MX15"
-			(at 125.095 60.96 0)
+			(at 88.9 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7782,7 +8358,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 125.095 62.865 0)
+			(at 88.9 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,7 +8369,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 125.095 64.135 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7804,7 +8380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 64.135 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7815,7 +8391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.095 64.135 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +8418,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 124.46 74.93 90)
+		(at 81.28 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7852,7 +8428,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28888d")
 		(property "Reference" "D15"
-			(at 122.428 76.2 0)
+			(at 79.248 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7863,7 +8439,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 126.492 78.74 0)
+			(at 83.312 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7874,7 +8450,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 124.46 74.93 90)
+			(at 81.28 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +8461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 74.93 90)
+			(at 81.28 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +8472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 74.93 0)
+			(at 81.28 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7922,7 +8498,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 135.89 64.135 0)
+		(at 107.95 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7932,7 +8508,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a288894")
 		(property "Reference" "MX16"
-			(at 135.89 60.96 0)
+			(at 107.95 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7942,7 +8518,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 135.89 62.865 0)
+			(at 107.95 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7953,7 +8529,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 135.89 64.135 0)
+			(at 107.95 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,7 +8540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 64.135 0)
+			(at 107.95 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7975,7 +8551,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 64.135 0)
+			(at 107.95 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8002,7 +8578,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 135.255 74.93 90)
+		(at 100.33 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8012,7 +8588,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28889a")
 		(property "Reference" "D16"
-			(at 133.223 76.2 0)
+			(at 98.298 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8023,7 +8599,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 137.287 78.74 0)
+			(at 102.362 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8034,7 +8610,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 135.255 74.93 90)
+			(at 100.33 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +8621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.255 74.93 90)
+			(at 100.33 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.255 74.93 0)
+			(at 100.33 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8082,7 +8658,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 146.685 64.135 0)
+		(at 127 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8092,7 +8668,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888a1")
 		(property "Reference" "MX17"
-			(at 146.685 60.96 0)
+			(at 127 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8102,7 +8678,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 146.685 62.865 0)
+			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8113,7 +8689,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 146.685 64.135 0)
+			(at 127 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8124,7 +8700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 64.135 0)
+			(at 127 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8135,7 +8711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.685 64.135 0)
+			(at 127 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,7 +8738,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 74.93 90)
+		(at 119.38 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8172,7 +8748,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888a7")
 		(property "Reference" "D17"
-			(at 144.018 76.2 0)
+			(at 117.348 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8183,7 +8759,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 148.082 78.74 0)
+			(at 121.412 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8194,7 +8770,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 146.05 74.93 90)
+			(at 119.38 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8205,7 +8781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 74.93 90)
+			(at 119.38 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 74.93 0)
+			(at 119.38 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8242,7 +8818,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 157.48 64.135 0)
+		(at 146.05 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8252,7 +8828,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888ae")
 		(property "Reference" "MX18"
-			(at 157.48 60.96 0)
+			(at 146.05 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8262,7 +8838,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 157.48 62.865 0)
+			(at 146.05 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8273,7 +8849,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 157.48 64.135 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8284,7 +8860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 64.135 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,7 +8871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 64.135 0)
+			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8322,7 +8898,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 156.845 74.93 90)
+		(at 138.43 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8332,7 +8908,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888b4")
 		(property "Reference" "D18"
-			(at 154.813 76.2 0)
+			(at 136.398 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8343,7 +8919,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 158.877 78.74 0)
+			(at 140.462 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8354,7 +8930,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 156.845 74.93 90)
+			(at 138.43 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8365,7 +8941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 74.93 90)
+			(at 138.43 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8376,7 +8952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.845 74.93 0)
+			(at 138.43 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8402,7 +8978,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 168.275 64.135 0)
+		(at 165.1 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8412,7 +8988,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888bb")
 		(property "Reference" "MX19"
-			(at 168.275 60.96 0)
+			(at 165.1 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8422,7 +8998,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 168.275 62.865 0)
+			(at 165.1 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8433,7 +9009,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 168.275 64.135 0)
+			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8444,7 +9020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.275 64.135 0)
+			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8455,7 +9031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.275 64.135 0)
+			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8482,7 +9058,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 167.64 74.93 90)
+		(at 157.48 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8492,7 +9068,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888c1")
 		(property "Reference" "D19"
-			(at 165.608 76.2 0)
+			(at 155.448 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8503,7 +9079,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 169.672 78.74 0)
+			(at 159.512 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8514,7 +9090,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 167.64 74.93 90)
+			(at 157.48 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8525,7 +9101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 74.93 90)
+			(at 157.48 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8536,7 +9112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 74.93 0)
+			(at 157.48 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8562,7 +9138,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 179.07 64.135 0)
+		(at 184.15 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8572,7 +9148,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888c8")
 		(property "Reference" "MX20"
-			(at 179.07 60.96 0)
+			(at 184.15 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8582,7 +9158,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 179.07 62.865 0)
+			(at 184.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8593,7 +9169,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 179.07 64.135 0)
+			(at 184.15 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8604,7 +9180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 64.135 0)
+			(at 184.15 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8615,7 +9191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 64.135 0)
+			(at 184.15 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,7 +9218,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 178.435 74.93 90)
+		(at 176.53 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8652,7 +9228,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888ce")
 		(property "Reference" "D20"
-			(at 176.403 76.2 0)
+			(at 174.498 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8663,7 +9239,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 180.467 78.74 0)
+			(at 178.562 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8674,7 +9250,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 178.435 74.93 90)
+			(at 176.53 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,7 +9261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 74.93 90)
+			(at 176.53 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8696,7 +9272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 178.435 74.93 0)
+			(at 176.53 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8722,7 +9298,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 189.865 64.135 0)
+		(at 203.2 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8732,7 +9308,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888d5")
 		(property "Reference" "MX21"
-			(at 189.865 60.96 0)
+			(at 203.2 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8742,7 +9318,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 189.865 62.865 0)
+			(at 203.2 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8753,7 +9329,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 189.865 64.135 0)
+			(at 203.2 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,7 +9340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 64.135 0)
+			(at 203.2 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,7 +9351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.865 64.135 0)
+			(at 203.2 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,7 +9378,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 189.23 74.93 90)
+		(at 195.58 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8812,7 +9388,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888db")
 		(property "Reference" "D21"
-			(at 187.198 76.2 0)
+			(at 193.548 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8823,7 +9399,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 191.262 78.74 0)
+			(at 197.612 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8834,7 +9410,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 189.23 74.93 90)
+			(at 195.58 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8845,7 +9421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 74.93 90)
+			(at 195.58 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +9432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 74.93 0)
+			(at 195.58 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8882,7 +9458,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 200.66 64.135 0)
+		(at 222.25 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8892,7 +9468,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888e2")
 		(property "Reference" "MX22"
-			(at 200.66 60.96 0)
+			(at 222.25 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8902,7 +9478,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 200.66 62.865 0)
+			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +9489,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 200.66 64.135 0)
+			(at 222.25 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8924,7 +9500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 64.135 0)
+			(at 222.25 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8935,7 +9511,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 64.135 0)
+			(at 222.25 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,7 +9538,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 200.025 74.93 90)
+		(at 214.63 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8972,7 +9548,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888e8")
 		(property "Reference" "D22"
-			(at 197.993 76.2 0)
+			(at 212.598 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8983,7 +9559,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 202.057 78.74 0)
+			(at 216.662 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8994,7 +9570,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 200.025 74.93 90)
+			(at 214.63 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9005,7 +9581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 74.93 90)
+			(at 214.63 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,7 +9592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.025 74.93 0)
+			(at 214.63 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9042,7 +9618,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 211.455 64.135 0)
+		(at 241.3 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9052,7 +9628,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888ef")
 		(property "Reference" "MX23"
-			(at 211.455 60.96 0)
+			(at 241.3 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9062,7 +9638,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 211.455 62.865 0)
+			(at 241.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9073,7 +9649,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 211.455 64.135 0)
+			(at 241.3 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9084,7 +9660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.455 64.135 0)
+			(at 241.3 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9095,7 +9671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.455 64.135 0)
+			(at 241.3 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9122,7 +9698,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 210.82 74.93 90)
+		(at 233.68 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9132,7 +9708,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888f5")
 		(property "Reference" "D23"
-			(at 208.788 76.2 0)
+			(at 231.648 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9143,7 +9719,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 212.852 78.74 0)
+			(at 235.712 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9154,7 +9730,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 210.82 74.93 90)
+			(at 233.68 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +9741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 74.93 90)
+			(at 233.68 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +9752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 74.93 0)
+			(at 233.68 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9202,7 +9778,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 222.25 64.135 0)
+		(at 260.35 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9212,7 +9788,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2888fc")
 		(property "Reference" "MX24"
-			(at 222.25 60.96 0)
+			(at 260.604 68.707 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9222,7 +9798,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 222.25 62.865 0)
+			(at 260.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9233,7 +9809,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 222.25 64.135 0)
+			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9244,7 +9820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 64.135 0)
+			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9255,7 +9831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 64.135 0)
+			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9282,7 +9858,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 221.615 74.93 90)
+		(at 252.73 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9292,7 +9868,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a288902")
 		(property "Reference" "D24"
-			(at 219.583 76.2 0)
+			(at 250.698 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9303,7 +9879,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 223.647 78.74 0)
+			(at 254.762 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9314,7 +9890,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 221.615 74.93 90)
+			(at 252.73 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9325,7 +9901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 74.93 90)
+			(at 252.73 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9336,7 +9912,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 221.615 74.93 0)
+			(at 252.73 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9362,7 +9938,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 103.505 83.82 0)
+		(at 50.8 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9372,7 +9948,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6a1")
 		(property "Reference" "MX25"
-			(at 103.505 80.645 0)
+			(at 50.8 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9382,7 +9958,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 103.505 82.55 0)
+			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9393,7 +9969,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 103.505 83.82 0)
+			(at 50.8 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,7 +9980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.505 83.82 0)
+			(at 50.8 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9415,7 +9991,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 103.505 83.82 0)
+			(at 50.8 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9442,7 +10018,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 102.87 94.615 90)
+		(at 43.18 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9452,7 +10028,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6a7")
 		(property "Reference" "D25"
-			(at 100.838 95.885 0)
+			(at 41.148 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9463,7 +10039,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 104.902 98.425 0)
+			(at 45.212 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9474,7 +10050,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 102.87 94.615 90)
+			(at 43.18 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,7 +10061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 94.615 90)
+			(at 43.18 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,7 +10072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 94.615 0)
+			(at 43.18 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9522,7 +10098,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 114.3 83.82 0)
+		(at 69.85 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9532,7 +10108,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6ae")
 		(property "Reference" "MX26"
-			(at 114.3 80.645 0)
+			(at 69.85 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9542,7 +10118,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 114.3 82.55 0)
+			(at 69.85 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9553,7 +10129,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 114.3 83.82 0)
+			(at 69.85 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9564,7 +10140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 83.82 0)
+			(at 69.85 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,7 +10151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 83.82 0)
+			(at 69.85 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9602,7 +10178,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 113.665 94.615 90)
+		(at 62.23 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9612,7 +10188,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6b4")
 		(property "Reference" "D26"
-			(at 111.633 95.885 0)
+			(at 60.198 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9623,7 +10199,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 115.697 98.425 0)
+			(at 64.262 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9634,7 +10210,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 113.665 94.615 90)
+			(at 62.23 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9645,7 +10221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 94.615 90)
+			(at 62.23 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9656,7 +10232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.665 94.615 0)
+			(at 62.23 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9682,7 +10258,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 125.095 83.82 0)
+		(at 88.9 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9692,7 +10268,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6bb")
 		(property "Reference" "MX27"
-			(at 125.095 80.645 0)
+			(at 88.9 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9702,7 +10278,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 125.095 82.55 0)
+			(at 88.9 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +10289,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 125.095 83.82 0)
+			(at 88.9 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,7 +10300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 83.82 0)
+			(at 88.9 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,7 +10311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.095 83.82 0)
+			(at 88.9 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9762,7 +10338,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 124.46 94.615 90)
+		(at 81.28 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9772,7 +10348,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6c1")
 		(property "Reference" "D27"
-			(at 122.428 95.885 0)
+			(at 79.248 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9783,7 +10359,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 126.492 98.425 0)
+			(at 83.312 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9794,7 +10370,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 124.46 94.615 90)
+			(at 81.28 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9805,7 +10381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 94.615 90)
+			(at 81.28 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9816,7 +10392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 94.615 0)
+			(at 81.28 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9842,7 +10418,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 135.89 83.82 0)
+		(at 107.95 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9852,7 +10428,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6c8")
 		(property "Reference" "MX28"
-			(at 135.89 80.645 0)
+			(at 107.95 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9862,7 +10438,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 135.89 82.55 0)
+			(at 107.95 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9873,7 +10449,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 135.89 83.82 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9884,7 +10460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 83.82 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9895,7 +10471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 83.82 0)
+			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9922,7 +10498,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 135.255 94.615 90)
+		(at 100.33 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9932,7 +10508,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6ce")
 		(property "Reference" "D28"
-			(at 133.223 95.885 0)
+			(at 98.298 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9943,7 +10519,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 137.287 98.425 0)
+			(at 102.362 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9954,7 +10530,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 135.255 94.615 90)
+			(at 100.33 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9965,7 +10541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.255 94.615 90)
+			(at 100.33 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9976,7 +10552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.255 94.615 0)
+			(at 100.33 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10002,7 +10578,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 146.685 83.82 0)
+		(at 127 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10012,7 +10588,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6d5")
 		(property "Reference" "MX29"
-			(at 146.685 80.645 0)
+			(at 127 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10022,7 +10598,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 146.685 82.55 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10033,7 +10609,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 146.685 83.82 0)
+			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10044,7 +10620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 83.82 0)
+			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10055,7 +10631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.685 83.82 0)
+			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +10658,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 94.615 90)
+		(at 119.38 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10092,7 +10668,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6db")
 		(property "Reference" "D29"
-			(at 144.018 95.885 0)
+			(at 117.348 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10103,7 +10679,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 148.082 98.425 0)
+			(at 121.412 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10114,7 +10690,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 146.05 94.615 90)
+			(at 119.38 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,7 +10701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 94.615 90)
+			(at 119.38 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,7 +10712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 94.615 0)
+			(at 119.38 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10162,7 +10738,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 157.48 83.82 0)
+		(at 146.05 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10172,7 +10748,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6e2")
 		(property "Reference" "MX30"
-			(at 157.48 80.645 0)
+			(at 146.05 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10182,7 +10758,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 157.48 82.55 0)
+			(at 146.05 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10193,7 +10769,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 157.48 83.82 0)
+			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10204,7 +10780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 83.82 0)
+			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10215,7 +10791,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 83.82 0)
+			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10242,7 +10818,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 156.845 94.615 90)
+		(at 138.43 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10252,7 +10828,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6e8")
 		(property "Reference" "D30"
-			(at 154.813 95.885 0)
+			(at 136.398 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10263,7 +10839,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 158.877 98.425 0)
+			(at 140.462 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10274,7 +10850,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 156.845 94.615 90)
+			(at 138.43 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10285,7 +10861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 94.615 90)
+			(at 138.43 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10296,7 +10872,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.845 94.615 0)
+			(at 138.43 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10322,7 +10898,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 168.275 83.82 0)
+		(at 165.1 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10332,7 +10908,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6ef")
 		(property "Reference" "MX31"
-			(at 168.275 80.645 0)
+			(at 165.1 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10342,7 +10918,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 168.275 82.55 0)
+			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10353,7 +10929,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 168.275 83.82 0)
+			(at 165.1 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10364,7 +10940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.275 83.82 0)
+			(at 165.1 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10375,7 +10951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.275 83.82 0)
+			(at 165.1 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10402,7 +10978,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 167.64 94.615 90)
+		(at 157.48 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10412,7 +10988,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6f5")
 		(property "Reference" "D31"
-			(at 165.608 95.885 0)
+			(at 155.448 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10423,7 +10999,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 169.672 98.425 0)
+			(at 159.512 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10434,7 +11010,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 167.64 94.615 90)
+			(at 157.48 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10445,7 +11021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 94.615 90)
+			(at 157.48 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10456,7 +11032,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 94.615 0)
+			(at 157.48 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10482,7 +11058,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 179.07 83.82 0)
+		(at 184.15 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10492,7 +11068,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a6fc")
 		(property "Reference" "MX32"
-			(at 179.07 80.645 0)
+			(at 184.15 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10502,7 +11078,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 179.07 82.55 0)
+			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,7 +11089,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 179.07 83.82 0)
+			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10524,7 +11100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 83.82 0)
+			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10535,7 +11111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 83.82 0)
+			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10562,7 +11138,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 178.435 94.615 90)
+		(at 176.53 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10572,7 +11148,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a702")
 		(property "Reference" "D32"
-			(at 176.403 95.885 0)
+			(at 174.498 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10583,7 +11159,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 180.467 98.425 0)
+			(at 178.562 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10594,7 +11170,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 178.435 94.615 90)
+			(at 176.53 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10605,7 +11181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 94.615 90)
+			(at 176.53 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10616,7 +11192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 178.435 94.615 0)
+			(at 176.53 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10642,7 +11218,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 189.865 83.82 0)
+		(at 203.2 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10652,7 +11228,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a709")
 		(property "Reference" "MX33"
-			(at 189.865 80.645 0)
+			(at 203.2 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10662,7 +11238,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 189.865 82.55 0)
+			(at 203.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +11249,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 189.865 83.82 0)
+			(at 203.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10684,7 +11260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 83.82 0)
+			(at 203.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10695,7 +11271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.865 83.82 0)
+			(at 203.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10722,7 +11298,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 189.23 94.615 90)
+		(at 195.58 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10732,7 +11308,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a70f")
 		(property "Reference" "D33"
-			(at 187.198 95.885 0)
+			(at 193.548 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10743,7 +11319,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 191.262 98.425 0)
+			(at 197.612 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10754,7 +11330,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 189.23 94.615 90)
+			(at 195.58 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10765,7 +11341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 94.615 90)
+			(at 195.58 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10776,7 +11352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 94.615 0)
+			(at 195.58 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10802,7 +11378,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 200.66 83.82 0)
+		(at 222.25 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10812,7 +11388,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a716")
 		(property "Reference" "MX34"
-			(at 200.66 80.645 0)
+			(at 222.25 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10822,7 +11398,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 200.66 82.55 0)
+			(at 222.25 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10833,7 +11409,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 200.66 83.82 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10844,7 +11420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 83.82 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10855,7 +11431,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 83.82 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10882,7 +11458,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 200.025 94.615 90)
+		(at 214.63 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10892,7 +11468,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a71c")
 		(property "Reference" "D34"
-			(at 197.993 95.885 0)
+			(at 212.598 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10903,7 +11479,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 202.057 98.425 0)
+			(at 216.662 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10914,7 +11490,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 200.025 94.615 90)
+			(at 214.63 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10925,7 +11501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 94.615 90)
+			(at 214.63 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10936,7 +11512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.025 94.615 0)
+			(at 214.63 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10962,7 +11538,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 211.455 83.82 0)
+		(at 241.3 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10972,7 +11548,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a723")
 		(property "Reference" "MX35"
-			(at 211.455 80.645 0)
+			(at 241.3 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10982,7 +11558,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 211.455 82.55 0)
+			(at 241.3 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,7 +11569,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 211.455 83.82 0)
+			(at 241.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11004,7 +11580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.455 83.82 0)
+			(at 241.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11015,7 +11591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.455 83.82 0)
+			(at 241.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11042,7 +11618,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 210.82 94.615 90)
+		(at 233.68 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11052,7 +11628,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a729")
 		(property "Reference" "D35"
-			(at 208.788 95.885 0)
+			(at 231.648 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11063,7 +11639,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 212.852 98.425 0)
+			(at 235.712 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11074,7 +11650,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 210.82 94.615 90)
+			(at 233.68 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 94.615 90)
+			(at 233.68 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11096,7 +11672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 94.615 0)
+			(at 233.68 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11122,7 +11698,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 222.25 83.82 0)
+		(at 260.35 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11132,7 +11708,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a730")
 		(property "Reference" "MX36"
-			(at 222.25 80.645 0)
+			(at 260.604 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11142,7 +11718,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 222.25 82.55 0)
+			(at 260.35 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11153,7 +11729,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 222.25 83.82 0)
+			(at 260.35 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11164,7 +11740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 83.82 0)
+			(at 260.35 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11175,7 +11751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 83.82 0)
+			(at 260.35 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11202,7 +11778,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 221.615 94.615 90)
+		(at 252.73 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11212,7 +11788,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a736")
 		(property "Reference" "D36"
-			(at 219.583 95.885 0)
+			(at 250.698 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11223,7 +11799,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 223.647 98.425 0)
+			(at 254.762 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11234,7 +11810,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 221.615 94.615 90)
+			(at 252.73 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11245,7 +11821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 94.615 90)
+			(at 252.73 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11256,7 +11832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 221.615 94.615 0)
+			(at 252.73 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11282,7 +11858,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 103.505 103.505 0)
+		(at 50.8 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11292,7 +11868,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a73d")
 		(property "Reference" "MX37"
-			(at 103.505 100.33 0)
+			(at 50.8 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11302,7 +11878,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 103.505 102.235 0)
+			(at 50.8 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11313,7 +11889,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 103.505 103.505 0)
+			(at 50.8 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,7 +11900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.505 103.505 0)
+			(at 50.8 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11335,7 +11911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 103.505 103.505 0)
+			(at 50.8 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11362,7 +11938,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 102.87 114.3 90)
+		(at 43.18 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11372,7 +11948,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a743")
 		(property "Reference" "D37"
-			(at 100.838 115.57 0)
+			(at 41.148 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11383,7 +11959,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 104.902 118.11 0)
+			(at 45.212 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11394,7 +11970,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 102.87 114.3 90)
+			(at 43.18 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11405,7 +11981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 114.3 90)
+			(at 43.18 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11416,7 +11992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 114.3 0)
+			(at 43.18 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11442,7 +12018,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 114.3 103.505 0)
+		(at 69.85 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11452,7 +12028,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a74a")
 		(property "Reference" "MX38"
-			(at 114.3 100.33 0)
+			(at 69.85 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11462,7 +12038,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 114.3 102.235 0)
+			(at 69.85 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +12049,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 114.3 103.505 0)
+			(at 69.85 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11484,7 +12060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 103.505 0)
+			(at 69.85 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11495,7 +12071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 103.505 0)
+			(at 69.85 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11522,7 +12098,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 113.665 114.3 90)
+		(at 62.23 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11532,7 +12108,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a750")
 		(property "Reference" "D38"
-			(at 111.633 115.57 0)
+			(at 60.198 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11543,7 +12119,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 115.697 118.11 0)
+			(at 64.262 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11554,7 +12130,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 113.665 114.3 90)
+			(at 62.23 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11565,7 +12141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 114.3 90)
+			(at 62.23 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11576,7 +12152,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.665 114.3 0)
+			(at 62.23 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11602,7 +12178,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 125.095 103.505 0)
+		(at 88.9 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11612,7 +12188,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a757")
 		(property "Reference" "MX39"
-			(at 125.095 100.33 0)
+			(at 88.9 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11622,7 +12198,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 125.095 102.235 0)
+			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11633,7 +12209,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 125.095 103.505 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11644,7 +12220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 103.505 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11655,7 +12231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.095 103.505 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11682,7 +12258,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 124.46 114.3 90)
+		(at 81.28 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11692,7 +12268,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a75d")
 		(property "Reference" "D39"
-			(at 122.428 115.57 0)
+			(at 79.248 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11703,7 +12279,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 126.492 118.11 0)
+			(at 83.312 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11714,7 +12290,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 124.46 114.3 90)
+			(at 81.28 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11725,7 +12301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 114.3 90)
+			(at 81.28 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11736,7 +12312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 114.3 0)
+			(at 81.28 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11762,7 +12338,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 135.89 103.505 0)
+		(at 107.95 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11772,7 +12348,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a764")
 		(property "Reference" "MX40"
-			(at 135.89 100.33 0)
+			(at 107.95 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11782,7 +12358,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 135.89 102.235 0)
+			(at 107.95 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11793,7 +12369,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 135.89 103.505 0)
+			(at 107.95 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11804,7 +12380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 103.505 0)
+			(at 107.95 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11815,7 +12391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 103.505 0)
+			(at 107.95 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11842,7 +12418,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 135.255 114.3 90)
+		(at 100.33 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11852,7 +12428,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a76a")
 		(property "Reference" "D40"
-			(at 133.223 115.57 0)
+			(at 98.298 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11863,7 +12439,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 137.287 118.11 0)
+			(at 102.362 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11874,7 +12450,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 135.255 114.3 90)
+			(at 100.33 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,7 +12461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.255 114.3 90)
+			(at 100.33 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11896,7 +12472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.255 114.3 0)
+			(at 100.33 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11922,7 +12498,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 146.685 103.505 0)
+		(at 127 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11932,7 +12508,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a771")
 		(property "Reference" "MX41"
-			(at 146.685 100.33 0)
+			(at 127 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11942,7 +12518,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 146.685 102.235 0)
+			(at 127 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11953,7 +12529,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 146.685 103.505 0)
+			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11964,7 +12540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 103.505 0)
+			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +12551,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.685 103.505 0)
+			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12002,7 +12578,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 114.3 90)
+		(at 119.38 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12012,7 +12588,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a777")
 		(property "Reference" "D41"
-			(at 144.018 115.57 0)
+			(at 117.348 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12023,7 +12599,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 148.082 118.11 0)
+			(at 121.412 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12034,7 +12610,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 146.05 114.3 90)
+			(at 119.38 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12045,7 +12621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 114.3 90)
+			(at 119.38 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12056,7 +12632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 114.3 0)
+			(at 119.38 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12082,7 +12658,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 157.48 103.505 0)
+		(at 146.05 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12092,7 +12668,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a77e")
 		(property "Reference" "MX42"
-			(at 157.48 100.33 0)
+			(at 146.05 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12102,7 +12678,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 157.48 102.235 0)
+			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12113,7 +12689,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 157.48 103.505 0)
+			(at 146.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12124,7 +12700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 103.505 0)
+			(at 146.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12135,7 +12711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 103.505 0)
+			(at 146.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,7 +12738,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 156.845 114.3 90)
+		(at 138.43 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12172,7 +12748,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a784")
 		(property "Reference" "D42"
-			(at 154.813 115.57 0)
+			(at 136.398 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12183,7 +12759,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 158.877 118.11 0)
+			(at 140.462 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12194,7 +12770,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 156.845 114.3 90)
+			(at 138.43 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12205,7 +12781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 114.3 90)
+			(at 138.43 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12216,7 +12792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.845 114.3 0)
+			(at 138.43 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12242,7 +12818,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 168.275 103.505 0)
+		(at 165.1 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12252,7 +12828,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a78b")
 		(property "Reference" "MX43"
-			(at 168.275 100.33 0)
+			(at 165.1 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12262,7 +12838,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 168.275 102.235 0)
+			(at 165.1 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12273,7 +12849,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 168.275 103.505 0)
+			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12284,7 +12860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.275 103.505 0)
+			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12295,7 +12871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.275 103.505 0)
+			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12322,7 +12898,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 167.64 114.3 90)
+		(at 157.48 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12332,7 +12908,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a791")
 		(property "Reference" "D43"
-			(at 165.608 115.57 0)
+			(at 155.448 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12343,7 +12919,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 169.672 118.11 0)
+			(at 159.512 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12354,7 +12930,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 167.64 114.3 90)
+			(at 157.48 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12365,7 +12941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 114.3 90)
+			(at 157.48 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12376,7 +12952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 114.3 0)
+			(at 157.48 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12402,7 +12978,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 179.07 103.505 0)
+		(at 184.15 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12412,7 +12988,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a798")
 		(property "Reference" "MX44"
-			(at 179.07 100.33 0)
+			(at 184.15 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12422,7 +12998,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 179.07 102.235 0)
+			(at 184.15 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12433,7 +13009,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 179.07 103.505 0)
+			(at 184.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12444,7 +13020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 103.505 0)
+			(at 184.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12455,7 +13031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 103.505 0)
+			(at 184.15 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12482,7 +13058,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 178.435 114.3 90)
+		(at 176.53 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12492,7 +13068,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a79e")
 		(property "Reference" "D44"
-			(at 176.403 115.57 0)
+			(at 174.498 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12503,7 +13079,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 180.467 118.11 0)
+			(at 178.562 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12514,7 +13090,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 178.435 114.3 90)
+			(at 176.53 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12525,7 +13101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 114.3 90)
+			(at 176.53 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12536,7 +13112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 178.435 114.3 0)
+			(at 176.53 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12562,7 +13138,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 189.865 103.505 0)
+		(at 203.2 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12572,7 +13148,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a7a5")
 		(property "Reference" "MX45"
-			(at 189.865 100.33 0)
+			(at 203.2 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12582,7 +13158,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 189.865 102.235 0)
+			(at 203.2 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12593,7 +13169,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 189.865 103.505 0)
+			(at 203.2 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12604,7 +13180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 103.505 0)
+			(at 203.2 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12615,7 +13191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.865 103.505 0)
+			(at 203.2 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12642,7 +13218,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 189.23 114.3 90)
+		(at 195.58 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12652,7 +13228,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a7ab")
 		(property "Reference" "D45"
-			(at 187.198 115.57 0)
+			(at 193.548 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12663,7 +13239,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 191.262 118.11 0)
+			(at 197.612 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12674,7 +13250,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 189.23 114.3 90)
+			(at 195.58 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12685,7 +13261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 114.3 90)
+			(at 195.58 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12696,7 +13272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 114.3 0)
+			(at 195.58 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12722,7 +13298,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 200.66 103.505 0)
+		(at 222.25 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12732,7 +13308,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a7b2")
 		(property "Reference" "MX46"
-			(at 200.66 100.33 0)
+			(at 222.25 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12742,7 +13318,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 200.66 102.235 0)
+			(at 222.25 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12753,7 +13329,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 200.66 103.505 0)
+			(at 222.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12764,7 +13340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 103.505 0)
+			(at 222.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12775,7 +13351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 103.505 0)
+			(at 222.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12802,7 +13378,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 200.025 114.3 90)
+		(at 214.63 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12812,7 +13388,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a7b8")
 		(property "Reference" "D46"
-			(at 197.993 115.57 0)
+			(at 212.598 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12823,7 +13399,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 202.057 118.11 0)
+			(at 216.662 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12834,7 +13410,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 200.025 114.3 90)
+			(at 214.63 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12845,7 +13421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 114.3 90)
+			(at 214.63 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12856,7 +13432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.025 114.3 0)
+			(at 214.63 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12882,7 +13458,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 211.455 103.505 0)
+		(at 241.3 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12892,7 +13468,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a7bf")
 		(property "Reference" "MX47"
-			(at 211.455 100.33 0)
+			(at 241.3 103.505 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12902,7 +13478,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 211.455 102.235 0)
+			(at 241.3 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12913,7 +13489,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 211.455 103.505 0)
+			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12924,7 +13500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.455 103.505 0)
+			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12935,7 +13511,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.455 103.505 0)
+			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12962,7 +13538,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 210.82 114.3 90)
+		(at 233.68 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12972,7 +13548,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a7c5")
 		(property "Reference" "D47"
-			(at 208.788 115.57 0)
+			(at 231.648 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12983,7 +13559,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 212.852 118.11 0)
+			(at 235.712 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12994,7 +13570,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 210.82 114.3 90)
+			(at 233.68 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13005,7 +13581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 114.3 90)
+			(at 233.68 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13016,7 +13592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 114.3 0)
+			(at 233.68 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13042,7 +13618,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 222.25 103.505 0)
+		(at 260.35 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13052,7 +13628,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a7cc")
 		(property "Reference" "MX48"
-			(at 222.25 100.33 0)
+			(at 260.858 106.045 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13062,7 +13638,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 222.25 102.235 0)
+			(at 260.35 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13073,7 +13649,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 222.25 103.505 0)
+			(at 260.35 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13084,7 +13660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 103.505 0)
+			(at 260.35 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13095,7 +13671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 103.505 0)
+			(at 260.35 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13122,7 +13698,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 221.615 114.3 90)
+		(at 252.73 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13132,7 +13708,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a7d2")
 		(property "Reference" "D48"
-			(at 219.583 115.57 0)
+			(at 250.698 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13143,7 +13719,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 223.647 118.11 0)
+			(at 254.762 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13154,7 +13730,7 @@
 			)
 		)
 		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
-			(at 221.615 114.3 90)
+			(at 252.73 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13165,7 +13741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 114.3 90)
+			(at 252.73 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13176,7 +13752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 221.615 114.3 0)
+			(at 252.73 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13201,8 +13777,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-2U")
-		(at 157.48 122.555 0)
+		(lib_id "keyboard_parts:KEYSW")
+		(at 146.05 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13212,7 +13788,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2b7272")
 		(property "Reference" "MX49"
-			(at 157.48 119.38 0)
+			(at 146.05 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13222,7 +13798,7 @@
 			)
 		)
 		(property "Value" "MX-2U"
-			(at 157.48 121.285 0)
+			(at 146.05 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13232,7 +13808,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED"
-			(at 156.845 123.19 0)
+			(at 146.05 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13243,7 +13819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 123.19 0)
+			(at 146.05 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13254,7 +13830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 122.555 0)
+			(at 146.05 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13263,6 +13839,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "ab09106e-5237-4eb7-abe4-5b6f6a536852")
+		)
+		(pin "2"
+			(uuid "31c2f106-26d4-4b17-8507-5eb50489fefa")
 		)
 		(instances
 			(project "Contra"
@@ -13275,7 +13857,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 26.67 270)
+		(at 105.41 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13285,7 +13867,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2baa24")
 		(property "Reference" "#PWR01"
-			(at 15.24 26.67 0)
+			(at 99.06 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13296,7 +13878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 26.67 0)
+			(at 101.6 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13306,7 +13888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 26.67 0)
+			(at 105.41 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13317,7 +13899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 26.67 0)
+			(at 105.41 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13328,7 +13910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 26.67 0)
+			(at 105.41 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13351,7 +13933,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 29.21 270)
+		(at 105.41 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13361,7 +13943,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2baafc")
 		(property "Reference" "#PWR02"
-			(at 15.24 29.21 0)
+			(at 99.06 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13372,7 +13954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 29.21 0)
+			(at 101.6 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13382,7 +13964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 29.21 0)
+			(at 105.41 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13393,7 +13975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 29.21 0)
+			(at 105.41 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13404,7 +13986,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 29.21 0)
+			(at 105.41 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13427,7 +14009,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 24.13 90)
+		(at 128.27 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13437,7 +14019,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2babd4")
 		(property "Reference" "#PWR03"
-			(at 50.8 24.13 0)
+			(at 134.62 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13448,7 +14030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 24.13 0)
+			(at 132.08 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13458,7 +14040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 24.13 0)
+			(at 128.27 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13469,7 +14051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 24.13 0)
+			(at 128.27 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13480,7 +14062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 24.13 0)
+			(at 128.27 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13503,7 +14085,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 58.42 26.67 0)
+		(at 142.24 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13513,7 +14095,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2bad84")
 		(property "Reference" "SW1"
-			(at 62.23 23.876 0)
+			(at 146.05 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13523,7 +14105,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH"
-			(at 58.42 28.702 0)
+			(at 142.24 159.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13533,7 +14115,7 @@
 			)
 		)
 		(property "Footprint" "Molex-0548190589:PushButton_6x6mm_TH_Pretty"
-			(at 58.42 21.59 0)
+			(at 142.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13544,7 +14126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 21.59 0)
+			(at 142.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13555,7 +14137,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 26.67 0)
+			(at 142.24 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13582,7 +14164,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 26.67 90)
+		(at 148.59 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13592,7 +14174,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2bae73")
 		(property "Reference" "#PWR04"
-			(at 71.12 26.67 0)
+			(at 154.94 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13603,7 +14185,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 26.67 0)
+			(at 152.4 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13613,7 +14195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 26.67 0)
+			(at 148.59 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13624,7 +14206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 26.67 0)
+			(at 148.59 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13635,7 +14217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 26.67 0)
+			(at 148.59 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13658,7 +14240,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 44.45 29.21 270)
+		(at 128.27 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13668,7 +14250,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2bd3a9")
 		(property "Reference" "#PWR05"
-			(at 40.64 29.21 0)
+			(at 124.46 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13679,7 +14261,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.006 29.21 0)
+			(at 131.826 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13689,7 +14271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 29.21 0)
+			(at 128.27 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13700,7 +14282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 29.21 0)
+			(at 128.27 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13711,7 +14293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 29.21 0)
+			(at 128.27 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13734,7 +14316,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 46.355 79.375 90)
+		(at 40.64 157.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13744,7 +14326,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a323a72")
 		(property "Reference" "#PWR06"
-			(at 50.165 79.375 0)
+			(at 44.45 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13755,7 +14337,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 42.799 79.375 0)
+			(at 37.084 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13765,7 +14347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.355 79.375 0)
+			(at 40.64 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13776,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.355 79.375 0)
+			(at 40.64 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13787,7 +14369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.355 79.375 0)
+			(at 40.64 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13810,7 +14392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.355 71.755 270)
+		(at 40.64 149.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13820,7 +14402,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a323e4a")
 		(property "Reference" "#PWR07"
-			(at 40.005 71.755 0)
+			(at 34.29 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13831,7 +14413,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 42.545 71.755 0)
+			(at 36.83 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13841,7 +14423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.355 71.755 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13852,7 +14434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.355 71.755 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13863,7 +14445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.355 71.755 0)
+			(at 40.64 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13886,7 +14468,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 51.435 74.295 0)
+		(at 45.72 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13896,7 +14478,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bfde52b")
 		(property "Reference" "J1"
-			(at 53.467 74.4982 0)
+			(at 47.752 152.6032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13907,7 +14489,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 53.467 76.8096 0)
+			(at 47.752 154.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13918,7 +14500,7 @@
 			)
 		)
 		(property "Footprint" "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm"
-			(at 51.435 74.295 0)
+			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13929,7 +14511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 51.435 74.295 0)
+			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13940,7 +14522,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 51.435 74.295 0)
+			(at 45.72 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
