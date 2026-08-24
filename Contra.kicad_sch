@@ -3305,6 +3305,12 @@
 		(uuid "2e5e27a5-71bc-4696-926b-0264b8d216ba")
 	)
 	(junction
+		(at 138.43 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30c9a1fe-4fae-44e8-aba7-a962d4f3ef89")
+	)
+	(junction
 		(at 119.38 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3335,12 +3341,6 @@
 		(uuid "3d7e38c0-b8dd-4142-be59-9cfff1bf9182")
 	)
 	(junction
-		(at 153.67 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ec88e47-d05f-4ddc-8f9d-20dd2a281517")
-	)
-	(junction
 		(at 115.57 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3363,6 +3363,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4667111c-4338-4fa9-9485-1fcdae95ccad")
+	)
+	(junction
+		(at 153.67 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48cf40d4-3082-4852-b3d5-0ec634b5acf4")
 	)
 	(junction
 		(at 81.28 77.47)
@@ -3543,6 +3549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7d806bb-d15a-4932-ae30-2dfeba26a68a")
+	)
+	(junction
+		(at 153.67 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad508a82-cb6f-4baf-aafe-d1532a64731b")
 	)
 	(junction
 		(at 43.18 77.47)
@@ -3790,7 +3802,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 106.68) (xy 138.43 110.49)
+			(xy 138.43 107.95) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4790,7 +4802,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 153.67 106.68)
+			(xy 153.67 87.63) (xy 153.67 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5110,6 +5122,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 101.6) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81a8dd5-808e-41dc-a4a5-e8a1790afebe")
+	)
+	(wire
+		(pts
 			(xy 77.47 68.58) (xy 77.47 87.63)
 		)
 		(stroke
@@ -5127,6 +5149,16 @@
 			(type default)
 		)
 		(uuid "fa027177-5155-4889-b2c4-8873cf812202")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdc1cd1-e458-4a32-bc0d-29bd5783d76e")
 	)
 	(wire
 		(pts
@@ -12658,7 +12690,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 146.05 106.68 0)
+		(at 146.05 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12668,7 +12700,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a28a77e")
 		(property "Reference" "MX42"
-			(at 146.05 103.505 0)
+			(at 146.05 104.775 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12678,7 +12710,7 @@
 			)
 		)
 		(property "Value" "MX-1U"
-			(at 146.05 105.41 0)
+			(at 146.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12689,7 +12721,7 @@
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
-			(at 146.05 106.68 0)
+			(at 146.05 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12700,7 +12732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 106.68 0)
+			(at 146.05 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12711,7 +12743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 106.68 0)
+			(at 146.05 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13778,7 +13810,7 @@
 	)
 	(symbol
 		(lib_id "keyboard_parts:KEYSW")
-		(at 146.05 124.46 0)
+		(at 146.05 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13788,7 +13820,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a2b7272")
 		(property "Reference" "MX49"
-			(at 146.05 121.285 0)
+			(at 146.05 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13798,7 +13830,7 @@
 			)
 		)
 		(property "Value" "MX-2U"
-			(at 146.05 123.19 0)
+			(at 146.05 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13808,7 +13840,7 @@
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-2U-ReversedStabilizers"
-			(at 146.05 124.46 0)
+			(at 146.05 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13819,7 +13851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 124.46 0)
+			(at 146.05 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13830,7 +13862,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 124.46 0)
+			(at 146.05 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
