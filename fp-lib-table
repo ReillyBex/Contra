@@ -1,6 +1,5 @@
 (fp_lib_table
-  (lib (name keyboard_parts)(type KiCad)(uri "$(KIPRJMOD)/keyboard_parts.pretty")(options "")(descr ""))
-  (lib (name locallib)(type KiCad)(uri "$(KIPRJMOD)/locallib.pretty")(options "")(descr ""))
-  (lib (name Molex-0548190589)(type KiCad)(uri "$(KIPRJMOD)/Molex-0548190589.pretty")(options "")(descr ""))
-  (lib (name MX_Alps_Hybrid)(type KiCad)(uri "$(KIPRJMOD)/MX_Alps_Hybrid.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "locallib") (type "KiCad") (uri "$(KIPRJMOD)/locallib.pretty") (options "") (descr ""))
+	(lib (name "MX_Hotswap") (type "KiCad") (uri "/home/reillyb/KiCad/Components/MX_V2/MX_Hotswap.pretty") (options "") (descr ""))
 )

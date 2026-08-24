@@ -6117,7 +6117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 48.895 32.512 0)
 			(hide yes)
 			(show_name no)
@@ -6198,7 +6198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 43.18 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6278,7 +6278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 69.85 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6359,7 +6359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6439,7 +6439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 88.9 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6520,7 +6520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 81.28 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6600,7 +6600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 107.95 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6681,7 +6681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 100.33 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6761,7 +6761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6842,7 +6842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 119.38 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6922,7 +6922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7003,7 +7003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 138.43 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -7083,7 +7083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7164,7 +7164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 157.48 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -7244,7 +7244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 184.15 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7325,7 +7325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 176.53 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -7405,7 +7405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 203.2 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7486,7 +7486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 195.58 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -7566,7 +7566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 222.25 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7647,7 +7647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 214.63 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -7727,7 +7727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 241.3 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7808,7 +7808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 233.68 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -7888,7 +7888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 260.35 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7969,7 +7969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 252.73 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -8048,7 +8048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8129,7 +8129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 43.18 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8208,7 +8208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8289,7 +8289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8368,7 +8368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8449,7 +8449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 81.28 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8528,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 107.95 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8609,7 +8609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 100.33 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8688,7 +8688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 127 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8769,7 +8769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 119.38 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8848,7 +8848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 146.05 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8929,7 +8929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 138.43 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9008,7 +9008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9089,7 +9089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 157.48 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9168,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 184.15 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9249,7 +9249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 176.53 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9328,7 +9328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 203.2 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9409,7 +9409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 195.58 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9488,7 +9488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 222.25 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9569,7 +9569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 214.63 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9648,7 +9648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 241.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9729,7 +9729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 233.68 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9808,7 +9808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9889,7 +9889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 252.73 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -9968,7 +9968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 50.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10049,7 +10049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 43.18 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10128,7 +10128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 69.85 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10209,7 +10209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10288,7 +10288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 88.9 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10369,7 +10369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 81.28 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10448,7 +10448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10529,7 +10529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 100.33 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10608,7 +10608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10689,7 +10689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 119.38 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10768,7 +10768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10849,7 +10849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 138.43 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -10928,7 +10928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 165.1 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11009,7 +11009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 157.48 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -11088,7 +11088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11169,7 +11169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 176.53 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -11248,7 +11248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 203.2 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11329,7 +11329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 195.58 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -11408,7 +11408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11489,7 +11489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 214.63 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -11568,7 +11568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 241.3 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11649,7 +11649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 233.68 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -11728,7 +11728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 260.35 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11809,7 +11809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 252.73 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -11888,7 +11888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 50.8 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11969,7 +11969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 43.18 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -12048,7 +12048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 69.85 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12129,7 +12129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -12208,7 +12208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12289,7 +12289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 81.28 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -12368,7 +12368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 107.95 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12449,7 +12449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 100.33 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -12528,7 +12528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12609,7 +12609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 119.38 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -12688,7 +12688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 146.05 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12769,7 +12769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 138.43 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -12848,7 +12848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12929,7 +12929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 157.48 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -13008,7 +13008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 184.15 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13089,7 +13089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 176.53 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -13168,7 +13168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 203.2 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13249,7 +13249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 195.58 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -13328,7 +13328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 222.25 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13409,7 +13409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 214.63 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -13488,7 +13488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13569,7 +13569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 233.68 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -13648,7 +13648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 260.35 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13729,7 +13729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "locallib:D_DO-35_SOD27_P7.62mm_Horizontal-DoubleSided"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 252.73 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -13807,7 +13807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-2U-ReversedStabilizers"
 			(at 146.05 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -14114,7 +14114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Molex-0548190589:PushButton_6x6mm_TH_Pretty"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 			(at 142.24 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14499,7 +14499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)
