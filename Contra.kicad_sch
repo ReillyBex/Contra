@@ -411,6 +411,1662 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KEYSW_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_1_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_1_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_10"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_10_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_10_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_11"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_11_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_11_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_12"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_12_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_12_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_2"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_2_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_2_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_3"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_3_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_3_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_4"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_4_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_4_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_5"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_5_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_5_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_6"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_6_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_6_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_7"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_7_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_7_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_8"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_8_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_8_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KEYSW_9"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_9_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_9_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -1079,6 +2735,143 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keyboard_parts:KEYSW"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K?"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KEYSW"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KEYSW_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KEYSW_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
 							)
 						)
 					)
@@ -3716,7 +5509,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_2")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 103.505 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -3738,6 +5532,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 103.505 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3747,7 +5542,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 102.87 45.085 0)
+			(at 101.6 27.432 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,7 +5553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 45.085 0)
+			(at 103.505 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,6 +5565,7 @@
 		)
 		(property "Description" ""
 			(at 103.505 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3777,6 +5573,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "0800cf81-b382-42cf-8de2-626361bcb65f")
+		)
+		(pin "1"
+			(uuid "917b87d6-346c-479f-bd74-f428c0e1978f")
 		)
 		(instances
 			(project "Contra"
@@ -3868,7 +5670,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_1")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 114.3 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -3890,6 +5693,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 114.3 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3899,7 +5703,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 113.665 45.085 0)
+			(at 114.3 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +5714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 45.085 0)
+			(at 114.3 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3922,6 +5726,7 @@
 		)
 		(property "Description" ""
 			(at 114.3 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3929,6 +5734,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "cc76e477-1e41-44d9-bf11-0ab02234bb16")
+		)
+		(pin "2"
+			(uuid "1319ae84-4cb2-4d44-bac5-199a8168b11f")
 		)
 		(instances
 			(project "Contra"
@@ -4020,7 +5831,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_3")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 125.095 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -4042,6 +5854,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 125.095 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4051,7 +5864,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 124.46 45.085 0)
+			(at 125.095 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4062,7 +5875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 45.085 0)
+			(at 125.095 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,6 +5887,7 @@
 		)
 		(property "Description" ""
 			(at 125.095 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4081,6 +5895,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "ad79607b-209f-431d-ad71-a33ab24cccd3")
+		)
+		(pin "2"
+			(uuid "29da4a0f-18e8-4229-81d1-5aca09f41bd6")
 		)
 		(instances
 			(project "Contra"
@@ -4172,7 +5992,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_4")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 135.89 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -4194,6 +6015,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 135.89 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4203,7 +6025,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 135.255 45.085 0)
+			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +6036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.255 45.085 0)
+			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4226,6 +6048,7 @@
 		)
 		(property "Description" ""
 			(at 135.89 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4233,6 +6056,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "8321719a-ea72-4021-8392-a48e86a2be77")
+		)
+		(pin "2"
+			(uuid "9c8ad671-3a3d-4352-afa0-d25bc9d776ce")
 		)
 		(instances
 			(project "Contra"
@@ -4324,7 +6153,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_6")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 146.685 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -4346,6 +6176,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 146.685 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4355,7 +6186,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 146.05 45.085 0)
+			(at 146.685 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +6197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 45.085 0)
+			(at 146.685 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,6 +6209,7 @@
 		)
 		(property "Description" ""
 			(at 146.685 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4385,6 +6217,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "f409b5ef-4cbf-43a0-a53d-ff2391224ad5")
+		)
+		(pin "1"
+			(uuid "fd3a9d13-1aca-42fa-a4d1-23aaf2c63735")
 		)
 		(instances
 			(project "Contra"
@@ -4476,7 +6314,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_7")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 157.48 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -4498,6 +6337,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 157.48 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4507,7 +6347,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 156.845 45.085 0)
+			(at 157.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,7 +6358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 45.085 0)
+			(at 157.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,6 +6370,7 @@
 		)
 		(property "Description" ""
 			(at 157.48 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4537,6 +6378,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "a9fcfe3b-5769-4237-8b65-49d9077f4e75")
+		)
+		(pin "2"
+			(uuid "1cdd5b60-2a6e-418e-9d25-9a01e0685003")
 		)
 		(instances
 			(project "Contra"
@@ -4628,7 +6475,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_8")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 168.275 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -4650,6 +6498,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 168.275 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4659,7 +6508,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 167.64 45.085 0)
+			(at 168.275 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +6519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 45.085 0)
+			(at 168.275 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,6 +6531,7 @@
 		)
 		(property "Description" ""
 			(at 168.275 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4689,6 +6539,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "2fa6947c-c51e-4e39-9134-4f41159b6b5d")
+		)
+		(pin "2"
+			(uuid "9a9ea117-49e1-41de-92d5-32f2042392ec")
 		)
 		(instances
 			(project "Contra"
@@ -4780,7 +6636,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_5")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 179.07 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -4802,6 +6659,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 179.07 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4811,7 +6669,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 178.435 45.085 0)
+			(at 179.07 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4822,7 +6680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 45.085 0)
+			(at 179.07 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4834,6 +6692,7 @@
 		)
 		(property "Description" ""
 			(at 179.07 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4841,6 +6700,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "895b9c48-4fb8-4f8e-841f-034f69340af7")
+		)
+		(pin "1"
+			(uuid "879b8af9-ade0-405b-a5eb-11445b2c94fb")
 		)
 		(instances
 			(project "Contra"
@@ -4932,7 +6797,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_9")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 189.865 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -4954,6 +6820,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 189.865 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4963,7 +6830,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 189.23 45.085 0)
+			(at 189.865 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,7 +6841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 45.085 0)
+			(at 189.865 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4986,6 +6853,7 @@
 		)
 		(property "Description" ""
 			(at 189.865 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4993,6 +6861,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "0b6a2900-99bf-4ca3-b6bd-48e1df48083b")
+		)
+		(pin "2"
+			(uuid "06eb8cca-71fd-4a4b-9e27-4a6d95c44d41")
 		)
 		(instances
 			(project "Contra"
@@ -5084,7 +6958,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_10")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 200.66 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -5106,6 +6981,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 200.66 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5115,7 +6991,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 200.025 45.085 0)
+			(at 200.66 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +7002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 45.085 0)
+			(at 200.66 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,6 +7014,7 @@
 		)
 		(property "Description" ""
 			(at 200.66 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5145,6 +7022,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "680c9a7e-8c2a-407c-874f-c5934c3a2ba9")
+		)
+		(pin "2"
+			(uuid "52d50e02-ecdf-4084-99d3-9ec7747f2dd7")
 		)
 		(instances
 			(project "Contra"
@@ -5236,7 +7119,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_11")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 211.455 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -5258,6 +7142,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 211.455 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5267,7 +7152,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 210.82 45.085 0)
+			(at 211.455 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5278,7 +7163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 45.085 0)
+			(at 211.455 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,6 +7175,7 @@
 		)
 		(property "Description" ""
 			(at 211.455 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5297,6 +7183,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "dc859c0d-f992-4014-b039-4ec4e4f32ffd")
+		)
+		(pin "1"
+			(uuid "f5463551-557e-4798-bb3a-5d815fb52326")
 		)
 		(instances
 			(project "Contra"
@@ -5388,7 +7280,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_name "KEYSW_12")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 222.25 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -5410,6 +7303,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 222.25 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5419,7 +7313,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 221.615 45.085 0)
+			(at 222.25 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +7324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 45.085 0)
+			(at 222.25 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,6 +7336,7 @@
 		)
 		(property "Description" ""
 			(at 222.25 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5449,6 +7344,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "a3d14134-478d-436b-b075-3a71e786afd5")
+		)
+		(pin "1"
+			(uuid "1ef79260-5c36-4967-a8e6-bfe7862e7452")
 		)
 		(instances
 			(project "Contra"
@@ -5540,7 +7441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 103.505 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -5562,6 +7463,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 103.505 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5571,7 +7473,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 102.87 64.77 0)
+			(at 103.505 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5582,7 +7484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 64.77 0)
+			(at 103.505 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5594,6 +7496,7 @@
 		)
 		(property "Description" ""
 			(at 103.505 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5601,6 +7504,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "20b7f4bc-bf43-4941-be3b-e0b60be6b2a2")
+		)
+		(pin "2"
+			(uuid "9c1e027c-0279-4281-9c82-26eea33c6f5d")
 		)
 		(instances
 			(project "Contra"
@@ -5692,7 +7601,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 114.3 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -5714,6 +7623,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 114.3 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5723,7 +7633,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 113.665 64.77 0)
+			(at 114.3 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,7 +7644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 64.77 0)
+			(at 114.3 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,6 +7656,7 @@
 		)
 		(property "Description" ""
 			(at 114.3 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5753,6 +7664,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "cd325fb1-7867-4a61-ba78-d8772a22a1ab")
+		)
+		(pin "2"
+			(uuid "048556a0-9190-4a96-a64a-a47378a05d0b")
 		)
 		(instances
 			(project "Contra"
@@ -5844,7 +7761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 125.095 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -5866,6 +7783,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 125.095 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5875,7 +7793,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 124.46 64.77 0)
+			(at 125.095 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +7804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 64.77 0)
+			(at 125.095 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5898,6 +7816,7 @@
 		)
 		(property "Description" ""
 			(at 125.095 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5905,6 +7824,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "519a132b-df69-4df3-8a37-b39a5def68d6")
+		)
+		(pin "1"
+			(uuid "fb3fd767-a08d-47c1-b9ea-f9be33cae2fc")
 		)
 		(instances
 			(project "Contra"
@@ -5996,7 +7921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 135.89 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -6018,6 +7943,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 135.89 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6027,7 +7953,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 135.255 64.77 0)
+			(at 135.89 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +7964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.255 64.77 0)
+			(at 135.89 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,6 +7976,7 @@
 		)
 		(property "Description" ""
 			(at 135.89 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6057,6 +7984,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "60e27316-a1ed-4405-9f7f-6ab47bd98788")
+		)
+		(pin "2"
+			(uuid "be4f4fa7-f81a-42c7-9121-997c877b238c")
 		)
 		(instances
 			(project "Contra"
@@ -6148,7 +8081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 146.685 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -6170,6 +8103,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 146.685 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6179,7 +8113,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 146.05 64.77 0)
+			(at 146.685 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6190,7 +8124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 64.77 0)
+			(at 146.685 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6202,6 +8136,7 @@
 		)
 		(property "Description" ""
 			(at 146.685 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6209,6 +8144,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "86c134ff-eb9d-4627-828e-2dbf566cb47c")
+		)
+		(pin "1"
+			(uuid "d436cd03-c0e9-441f-aa73-ea18300fb62c")
 		)
 		(instances
 			(project "Contra"
@@ -6300,7 +8241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 157.48 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -6322,6 +8263,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 157.48 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6331,7 +8273,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 156.845 64.77 0)
+			(at 157.48 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6342,7 +8284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 64.77 0)
+			(at 157.48 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,6 +8296,7 @@
 		)
 		(property "Description" ""
 			(at 157.48 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6361,6 +8304,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "0cb13cda-9d48-4324-a487-5a0548c32022")
+		)
+		(pin "1"
+			(uuid "da7ace10-4966-4e99-8e6b-e390db8aebca")
 		)
 		(instances
 			(project "Contra"
@@ -6452,7 +8401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 168.275 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -6474,6 +8423,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 168.275 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6483,7 +8433,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 167.64 64.77 0)
+			(at 168.275 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +8444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 64.77 0)
+			(at 168.275 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,6 +8456,7 @@
 		)
 		(property "Description" ""
 			(at 168.275 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6513,6 +8464,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "72bad823-f01d-416c-bb99-5f044fddf8cc")
+		)
+		(pin "2"
+			(uuid "5d35b4ff-e08e-43e5-8ff2-9f899d315336")
 		)
 		(instances
 			(project "Contra"
@@ -6604,7 +8561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 179.07 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -6626,6 +8583,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 179.07 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6635,7 +8593,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 178.435 64.77 0)
+			(at 179.07 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6646,7 +8604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 64.77 0)
+			(at 179.07 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6658,6 +8616,7 @@
 		)
 		(property "Description" ""
 			(at 179.07 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6665,6 +8624,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "30cfd62a-582c-4037-8883-8e55ac0d9e68")
+		)
+		(pin "1"
+			(uuid "ae09ab64-8810-4aac-a460-8da17076a20b")
 		)
 		(instances
 			(project "Contra"
@@ -6756,7 +8721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 189.865 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -6778,6 +8743,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 189.865 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6787,7 +8753,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 189.23 64.77 0)
+			(at 189.865 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,7 +8764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 64.77 0)
+			(at 189.865 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,6 +8776,7 @@
 		)
 		(property "Description" ""
 			(at 189.865 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6817,6 +8784,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "1faac937-6113-463d-aafa-a66fddddcd5f")
+		)
+		(pin "2"
+			(uuid "ebdd0a79-0ed6-4f0c-a7e0-c1bfff3095d8")
 		)
 		(instances
 			(project "Contra"
@@ -6908,7 +8881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 200.66 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -6930,6 +8903,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 200.66 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6939,7 +8913,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 200.025 64.77 0)
+			(at 200.66 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6950,7 +8924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 64.77 0)
+			(at 200.66 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,6 +8936,7 @@
 		)
 		(property "Description" ""
 			(at 200.66 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6969,6 +8944,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "9faa7f9e-2bff-4192-9f18-71060f69fa20")
+		)
+		(pin "1"
+			(uuid "b80742c4-eef2-4536-adf4-340cd1ea9aa5")
 		)
 		(instances
 			(project "Contra"
@@ -7060,7 +9041,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 211.455 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -7082,6 +9063,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 211.455 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7091,7 +9073,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 210.82 64.77 0)
+			(at 211.455 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7102,7 +9084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 64.77 0)
+			(at 211.455 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7114,6 +9096,7 @@
 		)
 		(property "Description" ""
 			(at 211.455 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7121,6 +9104,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "373285c8-1924-44f1-b52f-7f67f894ceb6")
+		)
+		(pin "2"
+			(uuid "02a66af4-514a-4df8-a13d-10962247d58e")
 		)
 		(instances
 			(project "Contra"
@@ -7212,7 +9201,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 222.25 64.135 0)
 		(unit 1)
 		(body_style 1)
@@ -7234,6 +9223,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 222.25 62.865 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7243,7 +9233,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 221.615 64.77 0)
+			(at 222.25 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,7 +9244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 64.77 0)
+			(at 222.25 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7266,6 +9256,7 @@
 		)
 		(property "Description" ""
 			(at 222.25 64.135 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7273,6 +9264,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "40e26fa0-344a-4807-b45c-b40776d204db")
+		)
+		(pin "1"
+			(uuid "64187eb6-6fcc-4190-9e77-c74346e22109")
 		)
 		(instances
 			(project "Contra"
@@ -7364,7 +9361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 103.505 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -7386,6 +9383,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 103.505 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7395,7 +9393,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 102.87 84.455 0)
+			(at 103.505 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7406,7 +9404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 84.455 0)
+			(at 103.505 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7418,6 +9416,7 @@
 		)
 		(property "Description" ""
 			(at 103.505 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7425,6 +9424,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "d2b06dca-6668-475d-814d-571938241552")
+		)
+		(pin "2"
+			(uuid "0a13ee76-eb03-4600-bb53-f52f31269c49")
 		)
 		(instances
 			(project "Contra"
@@ -7516,7 +9521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 114.3 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -7538,6 +9543,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 114.3 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7547,7 +9553,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 113.665 84.455 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7558,7 +9564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 84.455 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7570,6 +9576,7 @@
 		)
 		(property "Description" ""
 			(at 114.3 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7577,6 +9584,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "dab83f50-522c-409b-af30-12a47486e06c")
+		)
+		(pin "1"
+			(uuid "734b8bb4-14d7-4e8d-ba00-34f7f54ccdfc")
 		)
 		(instances
 			(project "Contra"
@@ -7668,7 +9681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 125.095 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -7690,6 +9703,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 125.095 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7699,7 +9713,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 124.46 84.455 0)
+			(at 125.095 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,7 +9724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 84.455 0)
+			(at 125.095 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7722,6 +9736,7 @@
 		)
 		(property "Description" ""
 			(at 125.095 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7729,6 +9744,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "3e9eab88-79e3-4b5b-a52d-8a4a95fc0783")
+		)
+		(pin "2"
+			(uuid "cbf39735-a284-498c-98fd-f1eb006e0e9b")
 		)
 		(instances
 			(project "Contra"
@@ -7820,7 +9841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 135.89 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -7842,6 +9863,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 135.89 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7851,7 +9873,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 135.255 84.455 0)
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7862,7 +9884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.255 84.455 0)
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7874,6 +9896,7 @@
 		)
 		(property "Description" ""
 			(at 135.89 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7881,6 +9904,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "ca69a160-9181-455b-8fa0-dea1b8939470")
+		)
+		(pin "2"
+			(uuid "d5391da4-efe8-4d9f-af71-5c152fa889d9")
 		)
 		(instances
 			(project "Contra"
@@ -7972,7 +10001,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 146.685 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -7994,6 +10023,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 146.685 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8003,7 +10033,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 146.05 84.455 0)
+			(at 146.685 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8014,7 +10044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 84.455 0)
+			(at 146.685 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8026,6 +10056,7 @@
 		)
 		(property "Description" ""
 			(at 146.685 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8033,6 +10064,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "4241e730-9759-405f-81b5-478a8fcec410")
+		)
+		(pin "2"
+			(uuid "31e339e3-71f3-46c1-b961-50fb728ce9ef")
 		)
 		(instances
 			(project "Contra"
@@ -8124,7 +10161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 157.48 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -8146,6 +10183,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 157.48 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8155,7 +10193,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 156.845 84.455 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8166,7 +10204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 84.455 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8178,6 +10216,7 @@
 		)
 		(property "Description" ""
 			(at 157.48 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8185,6 +10224,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "dd77c92f-36c3-4101-80b4-6e02a451bcb2")
+		)
+		(pin "1"
+			(uuid "724ad3c5-70c1-46f9-bec7-a5ed6a0304b3")
 		)
 		(instances
 			(project "Contra"
@@ -8276,7 +10321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 168.275 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -8298,6 +10343,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 168.275 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8307,7 +10353,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 167.64 84.455 0)
+			(at 168.275 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8318,7 +10364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 84.455 0)
+			(at 168.275 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8330,6 +10376,7 @@
 		)
 		(property "Description" ""
 			(at 168.275 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8337,6 +10384,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "b8593fee-5459-4541-a18d-1067e0bb5b9f")
+		)
+		(pin "1"
+			(uuid "92714aea-ddb3-4d35-b1fc-f82d28d2ddf4")
 		)
 		(instances
 			(project "Contra"
@@ -8428,7 +10481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 179.07 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -8450,6 +10503,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 179.07 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8459,7 +10513,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 178.435 84.455 0)
+			(at 179.07 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8470,7 +10524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 84.455 0)
+			(at 179.07 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8482,6 +10536,7 @@
 		)
 		(property "Description" ""
 			(at 179.07 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8489,6 +10544,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "ff7faa4e-4a3f-4e46-88fe-289eb41e2d66")
+		)
+		(pin "1"
+			(uuid "cb8f86e3-da6f-4cd8-9771-9e4e9ae565f8")
 		)
 		(instances
 			(project "Contra"
@@ -8580,7 +10641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 189.865 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -8602,6 +10663,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 189.865 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8611,7 +10673,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 189.23 84.455 0)
+			(at 189.865 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8622,7 +10684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 84.455 0)
+			(at 189.865 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8634,6 +10696,7 @@
 		)
 		(property "Description" ""
 			(at 189.865 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8641,6 +10704,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "d85fc3bb-42d0-4e0c-a910-f9e7c54837dd")
+		)
+		(pin "2"
+			(uuid "56d25e8b-077a-426a-ad23-afbee928801f")
 		)
 		(instances
 			(project "Contra"
@@ -8732,7 +10801,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 200.66 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -8754,6 +10823,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 200.66 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8763,7 +10833,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 200.025 84.455 0)
+			(at 200.66 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +10844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 84.455 0)
+			(at 200.66 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8786,6 +10856,7 @@
 		)
 		(property "Description" ""
 			(at 200.66 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8793,6 +10864,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "046a6129-e2ee-4429-8180-09a60e0b4bb5")
+		)
+		(pin "1"
+			(uuid "c7d440a8-78e0-4be6-b02c-d4f730250126")
 		)
 		(instances
 			(project "Contra"
@@ -8884,7 +10961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 211.455 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -8906,6 +10983,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 211.455 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8915,7 +10993,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 210.82 84.455 0)
+			(at 211.455 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8926,7 +11004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 84.455 0)
+			(at 211.455 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8938,6 +11016,7 @@
 		)
 		(property "Description" ""
 			(at 211.455 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8945,6 +11024,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "59ac91dd-c232-4f42-a24c-fc9dccfc9da5")
+		)
+		(pin "2"
+			(uuid "1457956b-7953-4ff9-942b-e9140248654f")
 		)
 		(instances
 			(project "Contra"
@@ -9036,7 +11121,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 222.25 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -9058,6 +11143,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 222.25 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9067,7 +11153,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 221.615 84.455 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9078,7 +11164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 84.455 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,6 +11176,7 @@
 		)
 		(property "Description" ""
 			(at 222.25 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9097,6 +11184,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "55e82962-e897-41ea-8780-1dedabdcf13f")
+		)
+		(pin "1"
+			(uuid "f571d211-8653-45a1-917a-3c3a0a81d8df")
 		)
 		(instances
 			(project "Contra"
@@ -9188,7 +11281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 103.505 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -9210,6 +11303,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 103.505 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9219,7 +11313,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 102.87 104.14 0)
+			(at 103.505 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,7 +11324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 104.14 0)
+			(at 103.505 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9242,6 +11336,7 @@
 		)
 		(property "Description" ""
 			(at 103.505 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9249,6 +11344,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "cd47b21e-0e05-4832-a8ac-a66b41a18e15")
+		)
+		(pin "2"
+			(uuid "6ea872e9-374e-46cd-a682-6dc33f492d99")
 		)
 		(instances
 			(project "Contra"
@@ -9340,7 +11441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 114.3 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -9362,6 +11463,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 114.3 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9371,7 +11473,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 113.665 104.14 0)
+			(at 114.3 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9382,7 +11484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 104.14 0)
+			(at 114.3 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9394,6 +11496,7 @@
 		)
 		(property "Description" ""
 			(at 114.3 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9401,6 +11504,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "86e832f7-9ac1-4807-a469-54b5c22f10a2")
+		)
+		(pin "2"
+			(uuid "6519320f-4486-4aa0-ac7a-e1c38c084ac2")
 		)
 		(instances
 			(project "Contra"
@@ -9492,7 +11601,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 125.095 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -9514,6 +11623,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 125.095 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9523,7 +11633,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 124.46 104.14 0)
+			(at 125.095 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9534,7 +11644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 104.14 0)
+			(at 125.095 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,6 +11656,7 @@
 		)
 		(property "Description" ""
 			(at 125.095 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9553,6 +11664,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "ce5b9c36-8f42-4e6d-8b2d-644182ffb6bb")
+		)
+		(pin "1"
+			(uuid "2cacb2a2-c12a-4419-b25d-9796dd8d72a3")
 		)
 		(instances
 			(project "Contra"
@@ -9644,7 +11761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 135.89 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -9666,6 +11783,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 135.89 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9675,7 +11793,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 135.255 104.14 0)
+			(at 135.89 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9686,7 +11804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.255 104.14 0)
+			(at 135.89 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,6 +11816,7 @@
 		)
 		(property "Description" ""
 			(at 135.89 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9705,6 +11824,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "3f615c15-f2ff-4c87-a5f5-94aecd03a3b3")
+		)
+		(pin "2"
+			(uuid "9968a9fa-c94d-48cb-915e-d2d624782cf6")
 		)
 		(instances
 			(project "Contra"
@@ -9796,7 +11921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 146.685 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -9818,6 +11943,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 146.685 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9827,7 +11953,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 146.05 104.14 0)
+			(at 146.685 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9838,7 +11964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 104.14 0)
+			(at 146.685 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,6 +11976,7 @@
 		)
 		(property "Description" ""
 			(at 146.685 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9857,6 +11984,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "e18f37f1-56bf-4370-9f43-19437dc74fa6")
+		)
+		(pin "2"
+			(uuid "49ed4f53-708b-4c4a-b7a8-11b6d18fdbd9")
 		)
 		(instances
 			(project "Contra"
@@ -9948,7 +12081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 157.48 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -9970,6 +12103,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 157.48 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9979,7 +12113,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 156.845 104.14 0)
+			(at 157.48 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9990,7 +12124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 104.14 0)
+			(at 157.48 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,6 +12136,7 @@
 		)
 		(property "Description" ""
 			(at 157.48 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10009,6 +12144,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "74be646d-0fe6-42ba-8611-6b1256990ce9")
+		)
+		(pin "1"
+			(uuid "ce0991c3-d61c-4740-b19b-ce3dda9bba8a")
 		)
 		(instances
 			(project "Contra"
@@ -10100,7 +12241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 168.275 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -10122,6 +12263,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 168.275 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10131,7 +12273,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 167.64 104.14 0)
+			(at 168.275 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10142,7 +12284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 104.14 0)
+			(at 168.275 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,6 +12296,7 @@
 		)
 		(property "Description" ""
 			(at 168.275 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10161,6 +12304,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "13b1b2c6-290d-4ac3-9b08-8b8422d7237d")
+		)
+		(pin "1"
+			(uuid "c6ee8dfc-cbfa-4629-93a2-6a476cb0d4cc")
 		)
 		(instances
 			(project "Contra"
@@ -10252,7 +12401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 179.07 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -10274,6 +12423,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 179.07 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10283,7 +12433,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 178.435 104.14 0)
+			(at 179.07 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10294,7 +12444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 104.14 0)
+			(at 179.07 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10306,6 +12456,7 @@
 		)
 		(property "Description" ""
 			(at 179.07 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10313,6 +12464,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "f4337d0e-3860-48a3-aa43-8fd7be8e7ac5")
+		)
+		(pin "2"
+			(uuid "81aea734-e48c-4da2-87e9-c0556ab805c6")
 		)
 		(instances
 			(project "Contra"
@@ -10404,7 +12561,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 189.865 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -10426,6 +12583,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 189.865 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10435,7 +12593,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 189.23 104.14 0)
+			(at 189.865 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10446,7 +12604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 104.14 0)
+			(at 189.865 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10458,6 +12616,7 @@
 		)
 		(property "Description" ""
 			(at 189.865 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10465,6 +12624,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "3129aa5d-9024-49e0-9abc-10209c5b349a")
+		)
+		(pin "1"
+			(uuid "42da3935-1b37-4645-bb77-09ac7ce7335e")
 		)
 		(instances
 			(project "Contra"
@@ -10556,7 +12721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 200.66 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -10578,6 +12743,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 200.66 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10587,7 +12753,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 200.025 104.14 0)
+			(at 200.66 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10598,7 +12764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 104.14 0)
+			(at 200.66 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10610,6 +12776,7 @@
 		)
 		(property "Description" ""
 			(at 200.66 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10617,6 +12784,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "ebc74689-2981-4448-8b2f-50babb5273ed")
+		)
+		(pin "1"
+			(uuid "cb7dc543-1836-4a42-a837-73832b9b8e63")
 		)
 		(instances
 			(project "Contra"
@@ -10708,7 +12881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 211.455 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -10730,6 +12903,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 211.455 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10739,7 +12913,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 210.82 104.14 0)
+			(at 211.455 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10750,7 +12924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 104.14 0)
+			(at 211.455 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,6 +12936,7 @@
 		)
 		(property "Description" ""
 			(at 211.455 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10769,6 +12944,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "52cce3b7-a901-40ac-ad51-9a6c9c1ac1c2")
+		)
+		(pin "1"
+			(uuid "dae38f9c-b628-4a78-b215-58e1c4ca4368")
 		)
 		(instances
 			(project "Contra"
@@ -10860,7 +13041,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MX_Alps_Hybrids:MX-1U")
+		(lib_id "keyboard_parts:KEYSW")
 		(at 222.25 103.505 0)
 		(unit 1)
 		(body_style 1)
@@ -10882,6 +13063,7 @@
 		)
 		(property "Value" "MX-1U"
 			(at 222.25 102.235 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10891,7 +13073,7 @@
 			)
 		)
 		(property "Footprint" "MX_Alps_Hybrid:MX-1U-NoLED"
-			(at 221.615 104.14 0)
+			(at 222.25 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +13084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 104.14 0)
+			(at 222.25 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10914,6 +13096,7 @@
 		)
 		(property "Description" ""
 			(at 222.25 103.505 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10921,6 +13104,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "4fc8fb65-3d7f-44e7-874e-a9f4668e43eb")
+		)
+		(pin "1"
+			(uuid "c3d4a7ae-8420-4ea7-9fa7-167d6767abdd")
 		)
 		(instances
 			(project "Contra"
@@ -11066,6 +13255,7 @@
 		)
 		(property "Description" ""
 			(at 157.48 122.555 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
