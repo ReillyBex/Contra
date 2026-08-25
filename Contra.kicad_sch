@@ -3890,10 +3890,10 @@
 		(uuid "7ad91c31-774a-453c-9f4a-823846ed8023")
 	)
 	(junction
-		(at 157.48 160.02)
+		(at 157.48 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e106655-e602-4d6a-a8f3-f4d08ad5c838")
+		(uuid "80d4a564-65aa-4d07-97b5-2ee9e05243cd")
 	)
 	(junction
 		(at 134.62 68.58)
@@ -4311,16 +4311,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 152.4) (xy 157.48 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21a47e51-41c6-4560-8c9e-eb5d3ddc8076")
-	)
-	(wire
-		(pts
 			(xy 138.43 58.42) (xy 157.48 58.42)
 		)
 		(stroke
@@ -4501,6 +4491,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 165.1) (xy 157.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38956fce-6fe4-49f3-8a62-35b20a476735")
+	)
+	(wire
+		(pts
 			(xy 134.62 68.58) (xy 134.62 87.63)
 		)
 		(stroke
@@ -4518,16 +4518,6 @@
 			(type default)
 		)
 		(uuid "3a527487-c357-4d2c-877c-c2b59ed0fcbb")
-	)
-	(wire
-		(pts
-			(xy 154.94 152.4) (xy 157.48 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3897de-c544-40e2-94f2-4523df123904")
 	)
 	(wire
 		(pts
@@ -4618,6 +4608,16 @@
 			(type default)
 		)
 		(uuid "49df2292-e41c-4227-bdf0-5f99e8f66d07")
+	)
+	(wire
+		(pts
+			(xy 157.48 165.1) (xy 157.48 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b37654e-ff57-4975-897e-cca3095a79dc")
 	)
 	(wire
 		(pts
@@ -5011,16 +5011,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 157.48) (xy 158.75 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87aee970-1b3d-4769-82d0-c075ab37626c")
-	)
-	(wire
-		(pts
 			(xy 210.82 68.58) (xy 210.82 87.63)
 		)
 		(stroke
@@ -5158,6 +5148,16 @@
 			(type default)
 		)
 		(uuid "942dd69f-980c-4cec-b06a-7ffeef97e18f")
+	)
+	(wire
+		(pts
+			(xy 144.78 160.02) (xy 144.78 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cd68d7-6974-4e6b-9c57-d4e8fd7533db")
 	)
 	(wire
 		(pts
@@ -5558,6 +5558,16 @@
 			(type default)
 		)
 		(uuid "d24333f3-d7df-4a1b-960b-e5e0bb999b46")
+	)
+	(wire
+		(pts
+			(xy 154.94 157.48) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9043d3b-0a5f-42d9-bacc-bac18b5eb99d")
 	)
 	(wire
 		(pts
@@ -14810,7 +14820,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 149.86 154.94 0)
+		(at 149.86 157.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14821,16 +14831,6 @@
 		(fields_autoplaced yes)
 		(uuid "36cf5568-557d-479a-ba32-f115b4b0e043")
 		(property "Reference" "SW2"
-			(at 149.86 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
 			(at 149.86 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14840,8 +14840,18 @@
 				)
 			)
 		)
+		(property "Value" "SW_SPDT"
+			(at 149.86 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
-			(at 149.86 154.94 0)
+			(at 149.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14852,7 +14862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 162.56 0)
+			(at 149.86 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14863,7 +14873,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 149.86 154.94 0)
+			(at 149.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14971,7 +14981,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 160.02 0)
+		(at 157.48 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14982,7 +14992,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b05bb86-9c61-4d0d-af07-1ff72f2ab0de")
 		(property "Reference" "#PWR01"
-			(at 157.48 166.37 0)
+			(at 157.48 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14993,7 +15003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 165.1 0)
+			(at 157.48 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15003,7 +15013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 160.02 0)
+			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15014,7 +15024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 160.02 0)
+			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15025,7 +15035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 160.02 0)
+			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
