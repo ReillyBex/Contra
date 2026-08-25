@@ -1,0 +1,1347 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7e905116-7db9-4635-a0b0-858433628da4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SK6812 Reverse mount:4960"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "4960"
+				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "4960_ADA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "4960"
+				(at -2.286 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "4960"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "4960_ADA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4960_0_1"
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4960_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 35.56 21.59) (xy 38.1 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2351d904-6e70-4641-ac26-eafeed31d72d")
+	)
+	(wire
+		(pts
+			(xy 58.42 26.67) (xy 60.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3da327-1855-43c4-aa9c-4d921c5e41f2")
+	)
+	(wire
+		(pts
+			(xy 38.1 26.67) (xy 40.64 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30765e13-64aa-4921-8a6e-488a8346d3e1")
+	)
+	(wire
+		(pts
+			(xy 38.1 21.59) (xy 38.1 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6bc5fd-7e0d-413f-9375-155d2d858ae4")
+	)
+	(wire
+		(pts
+			(xy 55.88 21.59) (xy 58.42 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cd7899-40bd-4fa2-9976-e29fe123eb8a")
+	)
+	(wire
+		(pts
+			(xy 58.42 21.59) (xy 58.42 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0766e5a-50b3-4f05-aadd-7f6e8c74553c")
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 170.18 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea48e53-6384-4a18-ad76-61dfd161aedd")
+		(property "Reference" "LED8"
+			(at 170.18 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 170.18 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 170.18 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 172.466 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a084d1f1-38eb-467b-b94d-69965911beda")
+		)
+		(pin "4"
+			(uuid "6224e8a7-0509-40ac-bea9-579412607653")
+		)
+		(pin "3"
+			(uuid "8602237c-164a-4686-a7dc-b763b410f175")
+		)
+		(pin "2"
+			(uuid "d8435a7d-e052-4dbc-91b7-0adaa7f20a69")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 149.86 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37c00aa5-e6f5-435c-8a32-1e87395b7200")
+		(property "Reference" "LED7"
+			(at 149.86 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 149.86 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 149.86 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 152.146 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97024f93-bb74-4a08-a141-4510bcc5c963")
+		)
+		(pin "4"
+			(uuid "6dc52407-b145-4752-91c4-cc87fe6c9553")
+		)
+		(pin "3"
+			(uuid "b304134a-2422-4552-b296-0e29e34bdcee")
+		)
+		(pin "2"
+			(uuid "46666354-73a0-44f3-80e0-6720aa32844a")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 129.54 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fd8f70d-f80a-4afa-bad3-5e2206c77e5a")
+		(property "Reference" "LED6"
+			(at 129.54 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 129.54 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 129.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 131.826 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15e4bb8e-8e45-41d0-86f6-1c3d8551a069")
+		)
+		(pin "4"
+			(uuid "805821f7-02e2-4bb2-b346-99c17b840abf")
+		)
+		(pin "3"
+			(uuid "eb5e7826-c3c3-47a9-b633-18d20fd95313")
+		)
+		(pin "2"
+			(uuid "d881d293-c79f-40af-9141-24b963736f5b")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 251.46 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f7572b-6db8-4191-bea9-f128fb06c47e")
+		(property "Reference" "LED12"
+			(at 251.46 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 251.46 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 251.46 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 253.746 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ad8f530-1c65-4abf-9196-140db9695bc0")
+		)
+		(pin "4"
+			(uuid "833eae23-3f99-4979-99cb-c025f836ed05")
+		)
+		(pin "3"
+			(uuid "5335d106-accd-4e56-b756-78efdcb06539")
+		)
+		(pin "2"
+			(uuid "3b5d7e8b-82d7-4e60-930f-29e649040bfe")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 210.82 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6469d593-4304-4324-b1e5-756e06a9d8d8")
+		(property "Reference" "LED10"
+			(at 210.82 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 210.82 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 210.82 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 213.106 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a06ae07-1330-441d-9000-90e1b5237638")
+		)
+		(pin "4"
+			(uuid "02f12830-50ef-4503-8caf-15d3d65cd7fc")
+		)
+		(pin "3"
+			(uuid "63dd4ea7-62f2-4f9b-b7d3-d08fe59b1edf")
+		)
+		(pin "2"
+			(uuid "6adbb619-44ab-4faa-8a03-8a51f5ba84f6")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 109.22 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659ef0a8-f90e-43b0-ab63-3db7bd4cc7aa")
+		(property "Reference" "LED5"
+			(at 109.22 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 109.22 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 109.22 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 111.506 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39ca1c79-8bc4-46b1-9ea1-3722e406f288")
+		)
+		(pin "4"
+			(uuid "082c4eee-aa99-4230-a1c7-25ef6e4a6818")
+		)
+		(pin "3"
+			(uuid "4d5dad13-f74d-4b11-a1b0-7e42f9cb3bea")
+		)
+		(pin "2"
+			(uuid "a94de730-71e1-4348-9e70-8b8b923a0e67")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 68.58 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec2aacb-eaf5-430b-ba61-47a7dc0afdd9")
+		(property "Reference" "LED3"
+			(at 68.58 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 68.58 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 68.58 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 70.866 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b035f002-2682-40a8-84fc-5700a522a26f")
+		)
+		(pin "4"
+			(uuid "f6a7937e-1cb9-480a-98fc-222f7c82e81b")
+		)
+		(pin "3"
+			(uuid "a70455b8-e814-44e2-9b2b-f1345c9f0401")
+		)
+		(pin "2"
+			(uuid "88286350-5986-4509-93f7-e2dc3da9f095")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 190.5 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e867628-b1b8-4477-9e72-20782d373a91")
+		(property "Reference" "LED9"
+			(at 190.5 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 190.5 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 190.5 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 192.786 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eacb5b61-55a9-45fd-9db1-4ea59930be2d")
+		)
+		(pin "4"
+			(uuid "7bd61551-c5c8-4486-929f-bf187084e3e0")
+		)
+		(pin "3"
+			(uuid "8a009822-bf24-42e2-a2fc-e260fc68cdda")
+		)
+		(pin "2"
+			(uuid "450c53d6-dbd5-4783-b26e-d58dcc5a2ffa")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 27.94 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8345e48f-bc00-44e4-83d9-50d93e22ba99")
+		(property "Reference" "LED1"
+			(at 27.94 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 27.94 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 27.94 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 30.226 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43df2e44-6664-4e4b-92a8-c8a3239bb3bd")
+		)
+		(pin "4"
+			(uuid "730f97ce-02e0-42fb-934b-22ca0eb5992c")
+		)
+		(pin "3"
+			(uuid "e139617e-19de-471e-80c5-307b5fdd0e1e")
+		)
+		(pin "2"
+			(uuid "1cf1c98b-23b7-4c60-8103-5c3606f74244")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 48.26 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97264932-6a7c-45d1-ada6-ea7bea3f15d2")
+		(property "Reference" "LED2"
+			(at 48.26 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 48.26 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 48.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 50.546 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6dcb26b-14a7-474f-b7d0-14d7f244cf5a")
+		)
+		(pin "4"
+			(uuid "fd1a83ec-441e-4cd2-861b-e5b5a89e0840")
+		)
+		(pin "3"
+			(uuid "3a47401f-7165-4f2c-bcc5-7e9245714c23")
+		)
+		(pin "2"
+			(uuid "aa2c9655-6f02-42ca-b456-3db45c8efa4b")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 231.14 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe8a90e-72c6-443f-acf9-01c95f6c6c55")
+		(property "Reference" "LED11"
+			(at 231.14 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 231.14 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 231.14 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 233.426 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8575652-5461-4029-9551-52eadb325283")
+		)
+		(pin "4"
+			(uuid "203a786e-590f-43c7-86e2-129b4c0498a1")
+		)
+		(pin "3"
+			(uuid "65b8c0b2-a7ca-4465-ad88-a843e99319b2")
+		)
+		(pin "2"
+			(uuid "8de4d6c3-d606-4896-86d1-8e515b01708a")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 88.9 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc309997-7662-41ea-a23c-ad1682f008f5")
+		(property "Reference" "LED4"
+			(at 88.9 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 88.9 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4960_ADA"
+			(at 88.9 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 91.186 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14819121-6d73-4519-a644-f3db35ec33c2")
+		)
+		(pin "4"
+			(uuid "ccbad8da-f991-4f25-b9a0-a147567f6e07")
+		)
+		(pin "3"
+			(uuid "32d98c6b-26e8-4296-97cf-39dd9c210b93")
+		)
+		(pin "2"
+			(uuid "040a6874-fcaf-499d-9f64-376212d6b67c")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
