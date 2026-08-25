@@ -987,13 +987,21 @@
         "uuid": "490ed6d6-ce6d-4821-aa52-98b9130151cb"
       }
     ],
-    "used_designators": "#PWR1,#PWR3,SW2,J2",
+    "used_designators": "LED1-12,MX1-47,D1-47,#PWR1,#PWR3,SW2,J2",
     "variants": []
   },
   "sheets": [
     [
       "490ed6d6-ce6d-4821-aa52-98b9130151cb",
       "Contra"
+    ],
+    [
+      "f038a9c9-b573-4e20-8f1c-866ecc727dc6",
+      "SwitchMatrix"
+    ],
+    [
+      "a1594013-5f39-4e11-a3d4-58e2ccc1ee5f",
+      "Neopixels"
     ]
   ],
   "text_variables": {},
