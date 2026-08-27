@@ -16964,7 +16964,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "01f541e7-955c-469e-931b-f69f2a8601bc")
-		(at 225.7425 123.825 180)
+		(at 225.7425 123.825)
 		(property "Reference" "LED45"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -17016,7 +17016,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17030,7 +17030,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17068,24 +17068,14 @@
 			(uuid "e18ea63a-42cf-4aed-b99e-e7dcee7fd17d")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f8150101-b14c-4989-a350-c833a67ad915")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "4714ab64-04d5-4805-8866-380c39655fdf")
+			(uuid "63319c14-a9f4-4e69-b159-e13e2fa9c87c")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -17098,34 +17088,34 @@
 			(uuid "677d5cf0-ff3a-4bd0-a424-0dcadc702643")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "63319c14-a9f4-4e69-b159-e13e2fa9c87c")
+			(uuid "4714ab64-04d5-4805-8866-380c39655fdf")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f8150101-b14c-4989-a350-c833a67ad915")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "637eaed5-4284-4b93-bd9a-a62b9909bcc7")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "3ec2a329-8084-4797-a56e-f45c3327fe31")
+			(uuid "790ee737-a345-4ba9-8767-87030cba27dd")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -17138,17 +17128,27 @@
 			(uuid "36e23801-3a7f-4733-a20d-b3f85b8cfe6e")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "3ec2a329-8084-4797-a56e-f45c3327fe31")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "790ee737-a345-4ba9-8767-87030cba27dd")
+			(uuid "637eaed5-4284-4b93-bd9a-a62b9909bcc7")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -17157,7 +17157,7 @@
 			(uuid "11fd5c17-d381-40b8-9287-33d92a5d970a")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED45-DOUT)")
@@ -17166,7 +17166,7 @@
 			(uuid "d16c1857-4b94-4ee4-9bd8-b3554057193a")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -17175,7 +17175,7 @@
 			(uuid "2e4aad50-ca7e-4c54-9235-a218655a8563")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED44-DOUT)")
@@ -17199,7 +17199,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "0648889d-8bd4-4a5e-94fe-337a608bc9c2")
-		(at 187.6425 104.775 180)
+		(at 187.6425 104.775)
 		(property "Reference" "LED32"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -17251,7 +17251,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17265,7 +17265,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17303,24 +17303,14 @@
 			(uuid "dc71f45f-e12f-43dd-b1bd-a6f720caa769")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bf190b60-e29a-4865-bb12-68ed45eae332")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "7ddbf149-042c-4155-8f14-3844078252ff")
+			(uuid "49c2f87b-af6d-4a73-b9cd-b112a3fb8c2f")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -17333,34 +17323,34 @@
 			(uuid "e1bb418f-3cfa-425d-a9bf-b9aab10c803d")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "49c2f87b-af6d-4a73-b9cd-b112a3fb8c2f")
+			(uuid "7ddbf149-042c-4155-8f14-3844078252ff")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bf190b60-e29a-4865-bb12-68ed45eae332")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3b35b28f-5b74-49eb-8806-c1ff4ac56c51")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6434ef9d-80a6-49bb-8249-5fa4784165cb")
+			(uuid "6e6868b9-59b4-4203-9649-2aa2cb72faad")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -17373,17 +17363,27 @@
 			(uuid "cb5f62ec-5dec-48fd-bb39-957656bace5f")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6434ef9d-80a6-49bb-8249-5fa4784165cb")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "6e6868b9-59b4-4203-9649-2aa2cb72faad")
+			(uuid "3b35b28f-5b74-49eb-8806-c1ff4ac56c51")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -17392,7 +17392,7 @@
 			(uuid "8c6fd468-eb06-46f4-84d5-1f5212654522")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED32-DOUT)")
@@ -17401,7 +17401,7 @@
 			(uuid "9e9086c9-71b3-46de-9844-affd6101a8cd")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -17410,7 +17410,7 @@
 			(uuid "3fab11d2-7c78-48fb-82f1-d516329b5910")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED31-DOUT)")
@@ -17434,7 +17434,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "09a03433-742c-4993-9528-d860c291f395")
-		(at 206.75 66.675 180)
+		(at 206.75 66.675)
 		(property "Reference" "LED9"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -17486,7 +17486,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17500,7 +17500,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17538,24 +17538,14 @@
 			(uuid "28a521a0-f937-47fb-869b-02205368f8fa")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "65099e04-457c-4f25-96c2-9e1c07adc566")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0a33f351-1798-490a-b0a0-dfa554aeb071")
+			(uuid "8c5e4735-47dd-4f15-90f7-8fb32ad8b2d5")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -17568,34 +17558,34 @@
 			(uuid "54a39272-15d4-4a96-8411-7b3c558a3ca9")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "8c5e4735-47dd-4f15-90f7-8fb32ad8b2d5")
+			(uuid "0a33f351-1798-490a-b0a0-dfa554aeb071")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "65099e04-457c-4f25-96c2-9e1c07adc566")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "288f7990-e44b-4513-9a51-cb200132af60")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "083f2a3a-16c6-456e-bbc2-7744fee20dfe")
+			(uuid "4c596803-2364-4682-b0c6-1cde93244606")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -17608,17 +17598,27 @@
 			(uuid "df79d1bb-08be-4f32-a287-3eb84d17776c")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "083f2a3a-16c6-456e-bbc2-7744fee20dfe")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "4c596803-2364-4682-b0c6-1cde93244606")
+			(uuid "288f7990-e44b-4513-9a51-cb200132af60")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -17627,7 +17627,7 @@
 			(uuid "e9420015-1fab-42dd-8042-17882f7c5b95")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED10-DIN)")
@@ -17636,7 +17636,7 @@
 			(uuid "a58ce7a4-7984-4654-9d59-98ca4951a41e")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -17645,7 +17645,7 @@
 			(uuid "452fb4ac-9621-4430-a537-fc566cb44e01")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED8-DOUT)")
@@ -17669,7 +17669,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "0a823790-8d8f-4c01-ad46-4d8699f21bd9")
-		(at 54.2925 66.675 180)
+		(at 54.2925 66.675)
 		(property "Reference" "LED1"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -17721,7 +17721,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17735,7 +17735,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17773,24 +17773,14 @@
 			(uuid "d2358e5b-db38-44e4-a5a7-f9665a8b8341")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "23d9d3df-913b-48c8-ae38-1c8c3cace70a")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "611024ac-3c60-44f3-9a99-683a8504594a")
+			(uuid "1438b9cb-e83c-4619-b677-155a4c0cdb9b")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -17803,34 +17793,34 @@
 			(uuid "261dbfe2-e36b-4dcb-9f9e-d1ae36091678")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1438b9cb-e83c-4619-b677-155a4c0cdb9b")
+			(uuid "611024ac-3c60-44f3-9a99-683a8504594a")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "23d9d3df-913b-48c8-ae38-1c8c3cace70a")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "829b4b40-fd9e-4ba1-93f6-265bca7465be")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8c352b0a-4824-4504-aaae-901896e8bd3e")
+			(uuid "f2ff9a64-1816-4380-8208-fae1b3884dd1")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -17843,17 +17833,27 @@
 			(uuid "457b1a7e-395b-461d-8088-ae9faabd8aac")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8c352b0a-4824-4504-aaae-901896e8bd3e")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f2ff9a64-1816-4380-8208-fae1b3884dd1")
+			(uuid "829b4b40-fd9e-4ba1-93f6-265bca7465be")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -17862,7 +17862,7 @@
 			(uuid "f83961b5-8379-447f-b390-c1b4685a80a6")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED1-DOUT)")
@@ -17871,7 +17871,7 @@
 			(uuid "1d3f603d-cfc4-4bf6-93ff-632e1d7ce607")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -17880,7 +17880,7 @@
 			(uuid "574efb16-a1d1-4d65-b474-0d57cd56d1cf")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "NeopixelDin")
@@ -17904,7 +17904,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "0e60e775-c01a-4089-85b6-f2d1061a38a8")
-		(at 187.6425 85.725 180)
+		(at 187.6425 85.725)
 		(property "Reference" "LED20"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -17956,7 +17956,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -17970,7 +17970,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18008,24 +18008,14 @@
 			(uuid "cd484add-53bd-4027-8456-d7c0543a6575")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c972c79b-54ab-4b0b-9095-3be4aafc53ca")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "284433e6-b02a-40f5-88e3-85816f48bed7")
+			(uuid "09189a0f-52b1-4c3e-9f05-87457f788b8b")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -18038,34 +18028,34 @@
 			(uuid "8c825008-f1b3-478f-93e2-2ee774c6db90")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "09189a0f-52b1-4c3e-9f05-87457f788b8b")
+			(uuid "284433e6-b02a-40f5-88e3-85816f48bed7")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c972c79b-54ab-4b0b-9095-3be4aafc53ca")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "dea809c9-9ad9-478c-91ea-75d6998e6c8f")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "69248d71-15f8-4936-9459-3789a04392c9")
+			(uuid "19852916-0738-438c-887d-acfcab5dffb3")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -18078,17 +18068,27 @@
 			(uuid "be2d61a1-1b68-40b8-8d8a-99f7941faab1")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "69248d71-15f8-4936-9459-3789a04392c9")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "19852916-0738-438c-887d-acfcab5dffb3")
+			(uuid "dea809c9-9ad9-478c-91ea-75d6998e6c8f")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -18097,7 +18097,7 @@
 			(uuid "6b65eeaa-7b1a-4af5-bd08-8f63684f3d7e")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED20-DOUT)")
@@ -18106,7 +18106,7 @@
 			(uuid "048e03f1-914d-442c-91b0-4211e64a33a8")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -18115,7 +18115,7 @@
 			(uuid "c0512aad-1e5c-40a9-9a96-288e81b3c801")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED19-DOUT)")
@@ -18662,7 +18662,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "13286a12-352a-494e-8f89-b9b0aa44bbdf")
-		(at 73.3425 123.825 180)
+		(at 73.3425 123.825)
 		(property "Reference" "LED38"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -18714,7 +18714,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18728,7 +18728,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18766,24 +18766,14 @@
 			(uuid "c34bc6c9-0253-41d3-a26c-f3ed1f78315b")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f0cfa882-b223-49d3-a14e-ee403de039d0")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "c2d3e8d9-6e04-4f13-9fee-70ca4c2db14d")
+			(uuid "0949aa9e-8666-4c6c-88ba-675c68a973ea")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -18796,34 +18786,34 @@
 			(uuid "31f6559d-db27-4a48-9350-bffaa55c81fe")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0949aa9e-8666-4c6c-88ba-675c68a973ea")
+			(uuid "c2d3e8d9-6e04-4f13-9fee-70ca4c2db14d")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f0cfa882-b223-49d3-a14e-ee403de039d0")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e11cb5c3-58f2-46c7-a9bd-e47e73446567")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "32126fb7-65f2-4b2e-b1c0-a66212924253")
+			(uuid "17edf380-6c11-411c-8de6-3830726306d4")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -18836,17 +18826,27 @@
 			(uuid "448d7b53-f779-4d13-9566-43f26f3ff956")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "32126fb7-65f2-4b2e-b1c0-a66212924253")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "17edf380-6c11-411c-8de6-3830726306d4")
+			(uuid "e11cb5c3-58f2-46c7-a9bd-e47e73446567")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -18855,7 +18855,7 @@
 			(uuid "e8a3d19c-135e-418a-b829-3ebe828dd2bc")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED38-DOUT)")
@@ -18864,7 +18864,7 @@
 			(uuid "794c25aa-9294-42ad-97d7-e7b02414d1a3")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -18873,7 +18873,7 @@
 			(uuid "bca98d45-def3-48db-954a-6e4eaf0363a0")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED37-DOUT)")
@@ -20381,7 +20381,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "1f416a6d-eb7d-4930-aa8b-3b9d3c83805d")
-		(at 263.8425 66.675 180)
+		(at 263.8425 66.675)
 		(property "Reference" "LED12"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -20433,7 +20433,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20447,7 +20447,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20485,24 +20485,14 @@
 			(uuid "13341a99-4273-4696-a40f-f641f99478bc")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4f8bf8ab-6612-4948-890c-968b4ad799c4")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "4fefac04-7136-4690-885f-081dfaee1388")
+			(uuid "1d1fbe00-55b2-4b23-ae1e-071ec0cf6bc7")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -20515,34 +20505,34 @@
 			(uuid "ca6a3cb2-0042-4c52-8ad6-5ead80779a5e")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1d1fbe00-55b2-4b23-ae1e-071ec0cf6bc7")
+			(uuid "4fefac04-7136-4690-885f-081dfaee1388")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4f8bf8ab-6612-4948-890c-968b4ad799c4")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f1651838-1e32-42da-a893-0b8203f8c25b")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f79d42ec-f087-41eb-a229-118b17b63ce5")
+			(uuid "c2c26797-81e6-4a46-b975-216f26117db7")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -20555,17 +20545,27 @@
 			(uuid "41c26747-0f78-4244-a746-3b4112555d1e")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f79d42ec-f087-41eb-a229-118b17b63ce5")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c2c26797-81e6-4a46-b975-216f26117db7")
+			(uuid "f1651838-1e32-42da-a893-0b8203f8c25b")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -20574,7 +20574,7 @@
 			(uuid "2787e150-15a6-472a-a5a1-5a5af867a18a")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED12-DOUT)")
@@ -20583,7 +20583,7 @@
 			(uuid "8422c8e2-59ba-4ab1-8726-eec255825fff")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -20592,7 +20592,7 @@
 			(uuid "54767421-6f70-4d1d-b16c-3a3a811c959e")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED11-DOUT)")
@@ -21139,7 +21139,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "2daa5a75-1d61-49b7-a609-1f58527f67ae")
-		(at 111.4425 85.725 180)
+		(at 111.4425 85.725)
 		(property "Reference" "LED16"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -21191,7 +21191,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21205,7 +21205,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21243,24 +21243,14 @@
 			(uuid "075de385-9afe-4f22-88a7-c13192896ac2")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d5dbe0fe-7e38-4b79-9931-fd20189cc4e4")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "24f13556-9946-4d12-85b3-cdb45bd06413")
+			(uuid "d0bee4fa-ecb5-403d-b614-4256829c2a2c")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -21273,34 +21263,34 @@
 			(uuid "a1d1765b-521a-4668-8b63-b5de7845c28c")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d0bee4fa-ecb5-403d-b614-4256829c2a2c")
+			(uuid "24f13556-9946-4d12-85b3-cdb45bd06413")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d5dbe0fe-7e38-4b79-9931-fd20189cc4e4")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "94c7e73d-02a6-4e20-87e4-d21d98db908f")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8147b3f7-6def-45ff-878d-efffb52e13df")
+			(uuid "f2c4eabe-fdf7-4902-8e18-962093608d9c")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -21313,17 +21303,27 @@
 			(uuid "e71223ff-debc-4dc1-86a2-a8e19c98ee90")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8147b3f7-6def-45ff-878d-efffb52e13df")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f2c4eabe-fdf7-4902-8e18-962093608d9c")
+			(uuid "94c7e73d-02a6-4e20-87e4-d21d98db908f")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -21332,7 +21332,7 @@
 			(uuid "3277420b-d1f7-4efa-911a-103033b20dff")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED16-DOUT)")
@@ -21341,7 +21341,7 @@
 			(uuid "0ea96fd4-9f1e-48e0-b2b0-f16fa7334d72")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -21350,7 +21350,7 @@
 			(uuid "7f2c7b88-8339-4c31-954c-8380b6ad57a4")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED15-DOUT)")
@@ -21374,7 +21374,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "31d3e058-addf-47a8-8606-7ea0737d7db4")
-		(at 244.7925 104.775 180)
+		(at 244.7925 104.775)
 		(property "Reference" "LED35"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -21426,7 +21426,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21440,7 +21440,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21478,24 +21478,14 @@
 			(uuid "1af60320-a1bc-4dde-bccc-452383d61140")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "5c3ac761-7764-400e-b82f-850749ceb418")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "cbe69a67-6ecb-4ded-afec-765a8586f27d")
+			(uuid "386b3ab5-bf2d-4765-aeba-fbd29659a9a9")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -21508,34 +21498,34 @@
 			(uuid "16c404e8-d9c0-4987-8b52-a44daedbd399")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "386b3ab5-bf2d-4765-aeba-fbd29659a9a9")
+			(uuid "cbe69a67-6ecb-4ded-afec-765a8586f27d")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5c3ac761-7764-400e-b82f-850749ceb418")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7489580e-914a-4bf0-b71f-95501e31cf85")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "18f3ba4d-b42a-49d0-b8e6-6626beb894dc")
+			(uuid "f6d5f6ea-caff-4734-b7ef-24f29ecb8874")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -21548,17 +21538,27 @@
 			(uuid "d4f23ce1-b7c4-427b-acad-80bcd3692c8c")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "18f3ba4d-b42a-49d0-b8e6-6626beb894dc")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f6d5f6ea-caff-4734-b7ef-24f29ecb8874")
+			(uuid "7489580e-914a-4bf0-b71f-95501e31cf85")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -21567,7 +21567,7 @@
 			(uuid "7b28ae78-ed7b-44c2-b20c-8da4c94034c0")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED35-DOUT)")
@@ -21576,7 +21576,7 @@
 			(uuid "4f736a45-3414-48c3-b235-8df44586d566")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -21585,7 +21585,7 @@
 			(uuid "62cb5d0c-c316-4dc3-a30f-a8652a1a52cb")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED34-DOUT)")
@@ -21609,7 +21609,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "32e1465b-92a0-462d-adf2-556bb475d1a3")
-		(at 187.6425 66.675 180)
+		(at 187.6425 66.675)
 		(property "Reference" "LED8"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -21661,7 +21661,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21675,7 +21675,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -21713,24 +21713,14 @@
 			(uuid "f4adcafd-c250-4c5b-bb0d-925aab16569a")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4308b225-948b-4035-b5bc-0d2673c29264")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0eda7866-2502-418d-9519-5d0b3fb1f967")
+			(uuid "60f3eb15-a2ba-4650-8ac1-ccd9f068733e")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -21743,34 +21733,34 @@
 			(uuid "da871d08-626d-47d5-8593-9ccce97e059b")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "60f3eb15-a2ba-4650-8ac1-ccd9f068733e")
+			(uuid "0eda7866-2502-418d-9519-5d0b3fb1f967")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4308b225-948b-4035-b5bc-0d2673c29264")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b18dbaae-abcb-40f5-abc5-196673377850")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8aa1048b-1b2a-4231-b4e1-8f37d005e67f")
+			(uuid "d723717f-f1fc-42ce-8037-14ab00fbda94")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -21783,17 +21773,27 @@
 			(uuid "4f497739-2f0c-47a3-bb10-49363777920d")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8aa1048b-1b2a-4231-b4e1-8f37d005e67f")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d723717f-f1fc-42ce-8037-14ab00fbda94")
+			(uuid "b18dbaae-abcb-40f5-abc5-196673377850")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -21802,7 +21802,7 @@
 			(uuid "0c5627f0-f7e0-45d9-88ca-a82492cc2b3d")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED8-DOUT)")
@@ -21811,7 +21811,7 @@
 			(uuid "0c4d2095-02c3-4c8d-b41f-72f01673f9d7")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -21820,7 +21820,7 @@
 			(uuid "d8790d53-5b1e-4556-9f77-5f63188308df")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED7-DOUT)")
@@ -22890,7 +22890,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "3fa88a3a-d804-4926-a7d2-aa69ff6b0d3f")
-		(at 54.2925 85.725 180)
+		(at 54.2925 85.725)
 		(property "Reference" "LED13"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -22942,7 +22942,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -22956,7 +22956,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -22994,24 +22994,14 @@
 			(uuid "f4384d61-7cfa-4a3a-a206-d5109481ee16")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9d057aa6-229e-465e-8dad-5db026185f5b")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0e23a4cf-60c0-4397-8bb9-5df562799639")
+			(uuid "012cf0b9-4000-4f1c-9226-4a9aec7621eb")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -23024,34 +23014,34 @@
 			(uuid "f85403f6-103c-43bf-bb34-6e313f288d14")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "012cf0b9-4000-4f1c-9226-4a9aec7621eb")
+			(uuid "0e23a4cf-60c0-4397-8bb9-5df562799639")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9d057aa6-229e-465e-8dad-5db026185f5b")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "2a351293-0fa3-4af9-bc58-f67b64e22d5c")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6e093ad0-b33f-437d-87b4-5ace179c8f70")
+			(uuid "17e15c63-3073-40fb-b3c7-69bb78ea14c7")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -23064,17 +23054,27 @@
 			(uuid "696f56bc-48a5-432e-9820-1851ebb10925")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6e093ad0-b33f-437d-87b4-5ace179c8f70")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "17e15c63-3073-40fb-b3c7-69bb78ea14c7")
+			(uuid "2a351293-0fa3-4af9-bc58-f67b64e22d5c")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -23083,7 +23083,7 @@
 			(uuid "28518d95-b11e-480f-9eed-72a2dbfb47b9")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED13-DOUT)")
@@ -23092,7 +23092,7 @@
 			(uuid "46b8d72c-fbe6-48da-b354-54160e0a7631")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -23101,7 +23101,7 @@
 			(uuid "41bbccaf-5129-4283-8fcc-5d95ac9864bb")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED12-DOUT)")
@@ -23648,7 +23648,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "44b7ce65-531e-406a-8437-e1bedbbcdf18")
-		(at 92.3925 104.775 180)
+		(at 92.3925 104.775)
 		(property "Reference" "LED27"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -23700,7 +23700,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23714,7 +23714,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -23752,24 +23752,14 @@
 			(uuid "cc83cdf1-c6ad-48d9-969c-8e87c8cbf498")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4380899f-bb76-4385-b9d1-b61b6f8167ec")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "7028be44-277b-4292-9642-2f581ce27906")
+			(uuid "f25ec9e4-2c6b-4ba3-bf3a-eb87619309b7")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -23782,34 +23772,34 @@
 			(uuid "74c07211-179e-464a-8391-9b995faeb662")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f25ec9e4-2c6b-4ba3-bf3a-eb87619309b7")
+			(uuid "7028be44-277b-4292-9642-2f581ce27906")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4380899f-bb76-4385-b9d1-b61b6f8167ec")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "1b503add-4ddd-4eb7-a768-34e1109a456a")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "4eb231c7-00bc-4708-a40f-fa6f507b342a")
+			(uuid "6652f69f-5ea6-46d0-8956-13e60225ea6a")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -23822,17 +23812,27 @@
 			(uuid "5aa6316f-287e-46d9-8f40-5ee356283ded")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4eb231c7-00bc-4708-a40f-fa6f507b342a")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "6652f69f-5ea6-46d0-8956-13e60225ea6a")
+			(uuid "1b503add-4ddd-4eb7-a768-34e1109a456a")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -23841,7 +23841,7 @@
 			(uuid "5fec0800-4dba-4ea8-926c-f805e0af7b07")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED27-DOUT)")
@@ -23850,7 +23850,7 @@
 			(uuid "a6b4be5c-4bed-4082-854b-723a549a83a6")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -23859,7 +23859,7 @@
 			(uuid "645690c1-b3a9-4057-98ca-179752e57842")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED26-DOUT)")
@@ -24929,7 +24929,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "4b6649e5-b7fa-4759-a101-7348c5620657")
-		(at 244.7925 123.825 180)
+		(at 244.7925 123.825)
 		(property "Reference" "LED46"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -24981,7 +24981,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -24995,7 +24995,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -25033,24 +25033,14 @@
 			(uuid "b395abf2-0e40-4c20-bb84-710ce26fea7f")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "512b12bc-29d6-4d0e-b48f-7eb8874d482b")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a434b330-f8bf-40ad-9883-c75e90aff5cb")
+			(uuid "50cd98f2-6714-4d30-8b06-79aec0f3ca45")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -25063,34 +25053,34 @@
 			(uuid "3c53393f-4d10-4f83-8a8b-2719be20087a")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "50cd98f2-6714-4d30-8b06-79aec0f3ca45")
+			(uuid "a434b330-f8bf-40ad-9883-c75e90aff5cb")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "512b12bc-29d6-4d0e-b48f-7eb8874d482b")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "43791b37-cf9a-499f-bc75-681750446e90")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "cf50177b-02ed-4d43-b517-d995b441ee87")
+			(uuid "29bbc623-bbeb-430d-a58d-e070553eaa92")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -25103,17 +25093,27 @@
 			(uuid "2e641496-8356-4c72-8f7c-2ad17c56cbf4")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "cf50177b-02ed-4d43-b517-d995b441ee87")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "29bbc623-bbeb-430d-a58d-e070553eaa92")
+			(uuid "43791b37-cf9a-499f-bc75-681750446e90")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -25122,7 +25122,7 @@
 			(uuid "3d72eb1b-f05b-4dac-ad8a-fe6f24f89455")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED46-DOUT)")
@@ -25131,7 +25131,7 @@
 			(uuid "b12ad001-0d07-40d1-b503-08f6e255f56f")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -25140,7 +25140,7 @@
 			(uuid "ae0929e7-c6e3-4a61-8cb8-6f9928fe362a")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED45-DOUT)")
@@ -25164,7 +25164,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "4c0c8c67-0a2a-49f2-87db-c89442bf3383")
-		(at 244.7925 66.675 180)
+		(at 244.7925 66.675)
 		(property "Reference" "LED11"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -25216,7 +25216,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -25230,7 +25230,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -25268,24 +25268,14 @@
 			(uuid "26932d96-ccf0-4779-8bbc-3b14f968e925")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ce42703b-26d5-414d-bb10-46558fbd9d38")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "caaf7af4-2949-4858-a440-698274b6273c")
+			(uuid "94d7b05e-4f2f-4fff-8677-0337eda0a4e2")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -25298,34 +25288,34 @@
 			(uuid "276e4943-acbf-4cfe-9f71-41b04c72b5b9")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "94d7b05e-4f2f-4fff-8677-0337eda0a4e2")
+			(uuid "caaf7af4-2949-4858-a440-698274b6273c")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ce42703b-26d5-414d-bb10-46558fbd9d38")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c92df027-b3bf-4da4-9428-565fe6083280")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "287658c8-debf-4be4-93e3-6c998b870df6")
+			(uuid "d966c6d6-5da8-4ad0-92bf-3ba15d4b6a55")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -25338,17 +25328,27 @@
 			(uuid "f8ef9812-fe3d-4414-931d-3498dadb39e8")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "287658c8-debf-4be4-93e3-6c998b870df6")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d966c6d6-5da8-4ad0-92bf-3ba15d4b6a55")
+			(uuid "c92df027-b3bf-4da4-9428-565fe6083280")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -25357,7 +25357,7 @@
 			(uuid "507fdfd3-68a2-442a-8591-3a14e3f7b81c")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED11-DOUT)")
@@ -25366,7 +25366,7 @@
 			(uuid "06a5cc15-74ec-4ab6-8661-e3e1e56b0f17")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -25375,7 +25375,7 @@
 			(uuid "b74c5d69-4adb-431a-84fa-501c58d8adf7")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED10-DOUT)")
@@ -26445,7 +26445,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "4f26244c-34e2-4d8d-b295-048b6179afe5")
-		(at 92.3925 66.675 180)
+		(at 92.3925 66.675)
 		(property "Reference" "LED3"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -26497,7 +26497,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26511,7 +26511,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26549,24 +26549,14 @@
 			(uuid "bd445054-9613-4cc5-bee0-fc2e6f748e11")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "653ec160-4a9b-4171-a9f7-0b88a26bc15f")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "e2f03fd5-7f72-4891-9304-61cb3a138273")
+			(uuid "0d067f59-9317-43be-80a4-e9c5e19193ae")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -26579,34 +26569,34 @@
 			(uuid "6956ebde-dec4-463b-be37-1b2b20e8d759")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0d067f59-9317-43be-80a4-e9c5e19193ae")
+			(uuid "e2f03fd5-7f72-4891-9304-61cb3a138273")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "653ec160-4a9b-4171-a9f7-0b88a26bc15f")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7d3daa3a-2f68-47a1-b903-e6cddbf15c18")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e1b7f254-010b-4dd0-9bac-1d473082294a")
+			(uuid "36c5006e-6a29-4b88-accb-06d2dd5f4967")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -26619,17 +26609,27 @@
 			(uuid "e254340e-5a96-49a2-9c25-116fe2ad0472")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e1b7f254-010b-4dd0-9bac-1d473082294a")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "36c5006e-6a29-4b88-accb-06d2dd5f4967")
+			(uuid "7d3daa3a-2f68-47a1-b903-e6cddbf15c18")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -26638,7 +26638,7 @@
 			(uuid "a1e29131-7501-4eac-b279-a390e7973a6d")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED3-DOUT)")
@@ -26647,7 +26647,7 @@
 			(uuid "a11113ec-39b9-46aa-8621-7699c57321b9")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -26656,7 +26656,7 @@
 			(uuid "2d956a8e-2492-4143-88c1-0f2b0d9fe26d")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED2-DOUT)")
@@ -27203,7 +27203,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "526a8c67-9209-42e6-bff5-2fd516678375")
-		(at 225.8 85.725 180)
+		(at 225.8 85.725)
 		(property "Reference" "LED22"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -27255,7 +27255,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27269,7 +27269,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27307,24 +27307,14 @@
 			(uuid "cf79ebb7-6368-4c02-9a5d-ca913016d627")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ac174744-9f26-4b48-ae4e-8a0a5911ec0f")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "befe6e15-816a-48bc-a087-e41b7fc5268b")
+			(uuid "34b31a3f-8931-4642-a809-adac1f785fd9")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -27337,34 +27327,34 @@
 			(uuid "4f198933-0525-4fcd-bea4-434d38f89896")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "34b31a3f-8931-4642-a809-adac1f785fd9")
+			(uuid "befe6e15-816a-48bc-a087-e41b7fc5268b")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ac174744-9f26-4b48-ae4e-8a0a5911ec0f")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b29204f3-b0b5-4cee-8827-0b3c0d1bbda2")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f42d3e95-74c3-4866-af63-ea0da6fa0035")
+			(uuid "b17865e0-3e7d-41f9-9da4-0a85619e8384")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -27377,17 +27367,27 @@
 			(uuid "5c7a72df-0ecb-48e9-82be-c5f3d04e1552")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f42d3e95-74c3-4866-af63-ea0da6fa0035")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b17865e0-3e7d-41f9-9da4-0a85619e8384")
+			(uuid "b29204f3-b0b5-4cee-8827-0b3c0d1bbda2")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -27396,7 +27396,7 @@
 			(uuid "811f057b-f572-4a0d-9b70-85d73b2516bd")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED22-DOUT)")
@@ -27405,7 +27405,7 @@
 			(uuid "858e04b9-b3dd-40f2-bb41-4e90b9716c41")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -27414,7 +27414,7 @@
 			(uuid "26172629-c980-4ef2-90ca-f82861fe6783")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED21-DOUT)")
@@ -27961,7 +27961,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "59e430e0-c86d-45ab-97a9-60c477b6ea52")
-		(at 263.8425 85.725 180)
+		(at 263.8425 85.725)
 		(property "Reference" "LED24"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -28013,7 +28013,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -28027,7 +28027,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -28065,24 +28065,14 @@
 			(uuid "4be65233-8da6-45e2-9f0d-25ec9f68d8fe")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0a5ea05f-aa32-472f-a38b-b2a0b2d3dc7d")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "89929812-61a1-455b-b49e-0ab6bcd6d11c")
+			(uuid "0bf5523c-ad93-48b2-a9ea-ab6c423aeb3f")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -28095,34 +28085,34 @@
 			(uuid "ea29332f-dd3f-45e9-83f8-251a2a787589")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0bf5523c-ad93-48b2-a9ea-ab6c423aeb3f")
+			(uuid "89929812-61a1-455b-b49e-0ab6bcd6d11c")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a5ea05f-aa32-472f-a38b-b2a0b2d3dc7d")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "377d1b51-ad81-413c-abcb-c4456efb1d68")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "a9788881-07ec-432d-9275-e8d7f9b3da83")
+			(uuid "a571ab5c-a38d-42ba-ac34-e6d8f1d2cad7")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -28135,17 +28125,27 @@
 			(uuid "4d9e5ace-9984-4901-a340-b62f310f067b")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a9788881-07ec-432d-9275-e8d7f9b3da83")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a571ab5c-a38d-42ba-ac34-e6d8f1d2cad7")
+			(uuid "377d1b51-ad81-413c-abcb-c4456efb1d68")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -28154,7 +28154,7 @@
 			(uuid "9f957d94-1916-465d-a19e-0e0851c9cd41")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED24-DOUT)")
@@ -28163,7 +28163,7 @@
 			(uuid "8cd86f67-ce31-4d68-9859-241ebce59ea5")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -28172,7 +28172,7 @@
 			(uuid "f44f368b-6cce-469e-b55f-de5533db8b78")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED23-DOUT)")
@@ -29765,7 +29765,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "5d001fe2-4fbc-4249-9074-6535ceb0ce34")
-		(at 187.6425 123.825 180)
+		(at 187.6425 123.825)
 		(property "Reference" "LED43"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -29817,7 +29817,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -29831,7 +29831,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -29869,24 +29869,14 @@
 			(uuid "79d5d7a8-9db3-4145-a912-0a64a57d3e83")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b105425a-f4cd-43e0-868a-3d54ea0a5a06")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "ba9fbf0e-9c77-4d98-b705-d510510ebb21")
+			(uuid "9d0d385e-b7ce-4a3f-b680-bb13f4afeaed")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -29899,34 +29889,34 @@
 			(uuid "6c9a1b55-249a-4687-8a21-0aa16e623043")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9d0d385e-b7ce-4a3f-b680-bb13f4afeaed")
+			(uuid "ba9fbf0e-9c77-4d98-b705-d510510ebb21")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b105425a-f4cd-43e0-868a-3d54ea0a5a06")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d9ad31f9-71ad-429e-a519-becaaf86d163")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "688cfa1d-5053-403e-98c2-4601771c2684")
+			(uuid "775080a4-c547-41b7-aa5b-f8b0c5163340")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -29939,17 +29929,27 @@
 			(uuid "d98d471c-a453-4c27-bf93-d5f881d7ead0")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "688cfa1d-5053-403e-98c2-4601771c2684")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "775080a4-c547-41b7-aa5b-f8b0c5163340")
+			(uuid "d9ad31f9-71ad-429e-a519-becaaf86d163")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -29958,7 +29958,7 @@
 			(uuid "6f6bf4d0-1f8f-425d-a440-546ee12d8516")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED43-DOUT)")
@@ -29967,7 +29967,7 @@
 			(uuid "af888e10-e8ba-42b6-85c2-72136eb7a1d6")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -29976,7 +29976,7 @@
 			(uuid "703d19b1-cb1f-47c7-934f-15a341a612e7")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED42-DOUT)")
@@ -31569,7 +31569,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "6052d4cf-195b-4179-bace-3364b47570b8")
-		(at 111.4425 123.825 180)
+		(at 111.4425 123.825)
 		(property "Reference" "LED40"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -31621,7 +31621,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -31635,7 +31635,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -31673,24 +31673,14 @@
 			(uuid "45ca619e-9db3-42eb-8d0a-7860ee41510b")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e3f18e8f-af6f-4e5c-99dc-a9f083ec6db6")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "e272ec9b-7419-4b75-b488-c78b11dedd0a")
+			(uuid "69c96272-a798-4911-adf4-5d0bf60c579d")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -31703,34 +31693,34 @@
 			(uuid "713a3292-4546-44cd-9af8-6557989ca828")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "69c96272-a798-4911-adf4-5d0bf60c579d")
+			(uuid "e272ec9b-7419-4b75-b488-c78b11dedd0a")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e3f18e8f-af6f-4e5c-99dc-a9f083ec6db6")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "bd56f22d-f492-49f8-9b57-587d724be498")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "2afc4d82-733e-4bb4-8bbb-feec2255fefe")
+			(uuid "b6887bdf-5bde-45ed-a92f-1454154ac3af")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -31743,17 +31733,27 @@
 			(uuid "01da1773-7a56-43db-bf01-d6867bce11a3")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2afc4d82-733e-4bb4-8bbb-feec2255fefe")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b6887bdf-5bde-45ed-a92f-1454154ac3af")
+			(uuid "bd56f22d-f492-49f8-9b57-587d724be498")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -31762,7 +31762,7 @@
 			(uuid "70a02fb1-754d-4a2b-8024-8d63536a9644")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED40-DOUT)")
@@ -31771,7 +31771,7 @@
 			(uuid "75de8ebd-2aa7-455a-8e06-8931562b220a")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -31780,7 +31780,7 @@
 			(uuid "2875d362-8c8f-4004-be86-a401b082b838")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED39-DOUT)")
@@ -32327,7 +32327,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "61d3b665-ba79-4db6-9d6c-9c7653812b57")
-		(at 168.65 66.675 180)
+		(at 168.65 66.675)
 		(property "Reference" "LED7"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -32379,7 +32379,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -32393,7 +32393,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -32431,24 +32431,14 @@
 			(uuid "bb4b3670-2549-4394-914f-b0ff90b6705d")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "957cc81c-8f4b-4aec-9db5-e47d385f2916")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "9952a080-e679-4ade-a46c-400bae7acaaf")
+			(uuid "6392d35f-1ddb-4834-9e8a-c2ba6fb8e34b")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -32461,34 +32451,34 @@
 			(uuid "e18d4a8d-eb50-457b-8eab-36c6b069174a")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6392d35f-1ddb-4834-9e8a-c2ba6fb8e34b")
+			(uuid "9952a080-e679-4ade-a46c-400bae7acaaf")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "957cc81c-8f4b-4aec-9db5-e47d385f2916")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3a1f913d-04aa-4354-8452-c60daf6315e6")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8b9e6f77-8b84-4d75-bff3-6fdcaedc5848")
+			(uuid "0206919b-8582-48a6-879b-e502b60056b9")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -32501,17 +32491,27 @@
 			(uuid "73b49931-6fcd-43cf-be6a-a73ce6e0114e")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8b9e6f77-8b84-4d75-bff3-6fdcaedc5848")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "0206919b-8582-48a6-879b-e502b60056b9")
+			(uuid "3a1f913d-04aa-4354-8452-c60daf6315e6")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -32520,7 +32520,7 @@
 			(uuid "1f2684f5-1350-4368-abab-7295e581f8fa")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED7-DOUT)")
@@ -32529,7 +32529,7 @@
 			(uuid "374954d5-1a85-46a4-968f-d691a5a47f4f")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -32538,7 +32538,7 @@
 			(uuid "26d1bff8-1e01-438e-8572-96d30ddf18e2")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED6-DOUT)")
@@ -32562,7 +32562,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "621a59bf-69c1-4837-a41a-04cd730417c0")
-		(at 73.3425 85.725 180)
+		(at 73.3425 85.725)
 		(property "Reference" "LED14"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -32614,7 +32614,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -32628,7 +32628,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -32666,24 +32666,14 @@
 			(uuid "b32af547-0435-4efc-8993-e994f949751c")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2ae42b7b-ccde-473c-aab8-f1bc4199abcf")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "d880422b-176a-4d65-9e9a-f80ff885352a")
+			(uuid "eb65d686-2d29-4020-8d6e-a6a8682e4482")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -32696,34 +32686,34 @@
 			(uuid "ad3adc8f-71d5-4068-8155-17fb02883989")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "eb65d686-2d29-4020-8d6e-a6a8682e4482")
+			(uuid "d880422b-176a-4d65-9e9a-f80ff885352a")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2ae42b7b-ccde-473c-aab8-f1bc4199abcf")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "0f71b017-19e8-478c-a7cf-4a2b08e3a4a8")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "af2be6ab-8a1f-4680-ae1c-e0ff7a5e8757")
+			(uuid "401394f6-9801-4d70-8a4c-1a1fa6e89a46")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -32736,17 +32726,27 @@
 			(uuid "2a298dab-0289-426e-9ca0-ac4237c8c633")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "af2be6ab-8a1f-4680-ae1c-e0ff7a5e8757")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "401394f6-9801-4d70-8a4c-1a1fa6e89a46")
+			(uuid "0f71b017-19e8-478c-a7cf-4a2b08e3a4a8")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -32755,7 +32755,7 @@
 			(uuid "007ca5b2-2052-4ec9-b7a4-fde1a1834c38")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED14-DOUT)")
@@ -32764,7 +32764,7 @@
 			(uuid "78c69a88-0030-4dc5-b4c0-7a5e4a14f5d8")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -32773,7 +32773,7 @@
 			(uuid "762cfd13-747b-41a8-bd35-0004d1f9544d")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED13-DOUT)")
@@ -32797,7 +32797,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "63c17caf-5f00-4eef-8cb7-1ece6a3e4339")
-		(at 168.5925 85.725 180)
+		(at 168.5925 85.725)
 		(property "Reference" "LED19"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -32849,7 +32849,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -32863,7 +32863,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -32901,24 +32901,14 @@
 			(uuid "5c2e27a9-2f6b-4235-b731-61f58b83e9e5")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "a1c5c873-1d68-4e82-825e-5c96846b5118")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "79127d5f-afb5-43b6-b660-853e5f0fbe2e")
+			(uuid "f4031735-f04f-47b7-8d65-9069122c3853")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -32931,34 +32921,34 @@
 			(uuid "725a2a8d-4ce5-48ed-9232-6a6845133d20")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f4031735-f04f-47b7-8d65-9069122c3853")
+			(uuid "79127d5f-afb5-43b6-b660-853e5f0fbe2e")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a1c5c873-1d68-4e82-825e-5c96846b5118")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "ee25f31a-0904-44e5-abe7-395b4ff885b5")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e064cd15-0ee5-46a1-ac27-d6003e34be78")
+			(uuid "e1d0f528-c42b-4f64-9f72-224b66e8d68a")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -32971,17 +32961,27 @@
 			(uuid "a80ce03d-234b-43e6-80c2-c2528d67cfb0")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e064cd15-0ee5-46a1-ac27-d6003e34be78")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e1d0f528-c42b-4f64-9f72-224b66e8d68a")
+			(uuid "ee25f31a-0904-44e5-abe7-395b4ff885b5")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -32990,7 +32990,7 @@
 			(uuid "4d588810-438f-4d44-8704-9e3b103ab876")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED19-DOUT)")
@@ -32999,7 +32999,7 @@
 			(uuid "55da4c8d-5755-46c2-888d-545713854b9b")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -33008,7 +33008,7 @@
 			(uuid "e4e4fb54-0960-4b8d-874e-40029babd403")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED18-DOUT)")
@@ -33555,7 +33555,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "6870798f-8499-4b07-9968-be68641ca17d")
-		(at 111.4425 104.775 180)
+		(at 111.4425 104.775)
 		(property "Reference" "LED28"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -33607,7 +33607,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -33621,7 +33621,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -33659,24 +33659,14 @@
 			(uuid "a240ca35-f474-4683-a283-23fa80993e7f")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4529bdd2-8150-4b70-916d-eabaa707d32c")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "5ae97573-a48b-408c-9d1f-91a5981e4fb7")
+			(uuid "91b9414a-56a1-4317-ab27-745401c2ae28")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -33689,34 +33679,34 @@
 			(uuid "13f61347-d2ab-4af8-9beb-a64361fd27a1")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "91b9414a-56a1-4317-ab27-745401c2ae28")
+			(uuid "5ae97573-a48b-408c-9d1f-91a5981e4fb7")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4529bdd2-8150-4b70-916d-eabaa707d32c")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "0271c417-b335-4368-a165-44cccc5a00fb")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "48265fae-6948-4d1d-af51-4f20ec88a7b1")
+			(uuid "499c555c-3f75-4ec0-afd3-601135ace63d")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -33729,17 +33719,27 @@
 			(uuid "d640f1a4-63fd-46d7-a17a-bc0944cd4697")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "48265fae-6948-4d1d-af51-4f20ec88a7b1")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "499c555c-3f75-4ec0-afd3-601135ace63d")
+			(uuid "0271c417-b335-4368-a165-44cccc5a00fb")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -33748,7 +33748,7 @@
 			(uuid "c025a721-cd6d-4330-ac6b-dae552019592")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED28-DOUT)")
@@ -33757,7 +33757,7 @@
 			(uuid "2af4d8da-2ea8-481e-8519-05f8daf6dffb")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -33766,7 +33766,7 @@
 			(uuid "49381e44-78bf-46ee-945a-5b105c3c4461")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED27-DOUT)")
@@ -34836,7 +34836,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "84634887-13fe-4a76-844b-13b28dacb520")
-		(at 263.8425 104.775 180)
+		(at 263.8425 104.775)
 		(property "Reference" "LED36"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -34888,7 +34888,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -34902,7 +34902,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -34940,24 +34940,14 @@
 			(uuid "77aa9ed7-83a9-4480-8bc0-222a17a4f77f")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9b0d3b0f-9cdd-4dfc-9310-44965b7d5643")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0d95d7b0-5092-4d97-8d45-6507ee1ea0d0")
+			(uuid "2fd3988d-4191-4932-8ee3-729eb6a90eb6")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -34970,34 +34960,34 @@
 			(uuid "c1db88fc-0979-4c1c-a89b-2376b4380548")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2fd3988d-4191-4932-8ee3-729eb6a90eb6")
+			(uuid "0d95d7b0-5092-4d97-8d45-6507ee1ea0d0")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9b0d3b0f-9cdd-4dfc-9310-44965b7d5643")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "59fcc7f0-5fc1-4d6c-b5e3-2cfea393ec16")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "a8ef3a7d-ccd1-4b0d-8aa1-10d42669b19c")
+			(uuid "369992d6-a5e5-41ae-a178-9f1d5db75c0a")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -35010,17 +35000,27 @@
 			(uuid "7609042b-0ceb-454a-9a89-d92792578ecd")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "a8ef3a7d-ccd1-4b0d-8aa1-10d42669b19c")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "369992d6-a5e5-41ae-a178-9f1d5db75c0a")
+			(uuid "59fcc7f0-5fc1-4d6c-b5e3-2cfea393ec16")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -35029,7 +35029,7 @@
 			(uuid "5d9118da-4d99-4f60-9136-671d8dadba0d")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED36-DOUT)")
@@ -35038,7 +35038,7 @@
 			(uuid "f0b4c729-7376-4620-aeb5-d75125d5bd41")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -35047,7 +35047,7 @@
 			(uuid "78260f4e-7c42-4248-a117-4f859bfd7611")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED35-DOUT)")
@@ -35071,7 +35071,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "8598b73e-7c9c-4f1a-bea9-6e53d8a1ce49")
-		(at 130.4925 66.675 180)
+		(at 130.4925 66.675)
 		(property "Reference" "LED5"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -35123,7 +35123,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -35137,7 +35137,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -35175,24 +35175,14 @@
 			(uuid "085b3a13-8e97-4514-b951-042cf66c2e93")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1b44fe55-7cd8-4fa8-8abd-557c57fa4cca")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "bfee5fa1-5a37-4fe6-9133-88dc9d7de155")
+			(uuid "8d166841-dec3-47d5-a525-43d3ecde69a9")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -35205,34 +35195,34 @@
 			(uuid "91bf1447-a66a-4eaa-8679-05644876d37c")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "8d166841-dec3-47d5-a525-43d3ecde69a9")
+			(uuid "bfee5fa1-5a37-4fe6-9133-88dc9d7de155")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1b44fe55-7cd8-4fa8-8abd-557c57fa4cca")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "27192bd7-1c88-4a19-84c1-2c80e520e521")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "92b127d1-d8de-421b-8da5-13ca73d6a3ec")
+			(uuid "5698f372-46db-4271-b674-f94754dbf972")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -35245,17 +35235,27 @@
 			(uuid "2fbf2658-a619-4ea4-9aaf-1fb4adbff7da")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "92b127d1-d8de-421b-8da5-13ca73d6a3ec")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "5698f372-46db-4271-b674-f94754dbf972")
+			(uuid "27192bd7-1c88-4a19-84c1-2c80e520e521")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -35264,7 +35264,7 @@
 			(uuid "344791cb-3733-437d-9aec-07e1aa557a41")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED5-DOUT)")
@@ -35273,7 +35273,7 @@
 			(uuid "d814b8f5-4e43-4173-8370-94ccfa17faac")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -35282,7 +35282,7 @@
 			(uuid "819c1159-2c25-4113-b2d3-efa9aca1ad72")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED4-DOUT)")
@@ -36875,7 +36875,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "95214fc8-efef-4701-b4bc-32614a27028a")
-		(at 263.8425 123.825 180)
+		(at 263.8425 123.825)
 		(property "Reference" "LED47"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -36927,7 +36927,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -36941,7 +36941,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -36979,24 +36979,14 @@
 			(uuid "315701a0-817c-4cef-bc0c-32931ec7fd82")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "832b34f9-0e28-48aa-bb86-22bf668e9972")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "f7c4c93d-bac1-479a-85d7-eb34020c603e")
+			(uuid "67506469-a47f-4bb8-a4cb-161bd27e7433")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -37009,34 +36999,34 @@
 			(uuid "cebefedc-399b-42a8-a94c-a7140ce9e57a")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "67506469-a47f-4bb8-a4cb-161bd27e7433")
+			(uuid "f7c4c93d-bac1-479a-85d7-eb34020c603e")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "832b34f9-0e28-48aa-bb86-22bf668e9972")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "93da77dd-577c-455f-90a2-39fd4a84f095")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6cfbf108-083a-4b2f-861d-f5e9d3c26524")
+			(uuid "e789a93b-e6d2-4d17-b287-b1ae36d5ab94")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -37049,17 +37039,27 @@
 			(uuid "b72d39a2-bf48-41bc-a5d7-c77c3907b588")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6cfbf108-083a-4b2f-861d-f5e9d3c26524")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e789a93b-e6d2-4d17-b287-b1ae36d5ab94")
+			(uuid "93da77dd-577c-455f-90a2-39fd4a84f095")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -37068,7 +37068,7 @@
 			(uuid "a216009c-134b-44d7-989f-f4c1d4f7c181")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "unconnected-(LED47-DOUT-Pad2)")
@@ -37077,7 +37077,7 @@
 			(uuid "3dec29db-9d7b-407d-9541-486a74ec214a")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -37086,7 +37086,7 @@
 			(uuid "52dfd44a-ac63-4a9f-96c6-60b558e33206")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED46-DOUT)")
@@ -37110,7 +37110,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "98683210-69fe-490c-9e76-819ea92818ab")
-		(at 149.5425 85.725 180)
+		(at 149.5425 85.725)
 		(property "Reference" "LED18"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -37162,7 +37162,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -37176,7 +37176,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -37214,24 +37214,14 @@
 			(uuid "ce05a164-4566-48c9-870f-e74d29ff1c4e")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7744e373-84c2-4cc5-8709-7c9c85955068")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "d25941cd-066e-41ed-8835-0a52cd2b557d")
+			(uuid "7e3e7c47-bb99-4904-8109-8dfe9fdb2c12")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -37244,34 +37234,34 @@
 			(uuid "51c4543c-72b6-4f83-a83d-c0ec4f4532df")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7e3e7c47-bb99-4904-8109-8dfe9fdb2c12")
+			(uuid "d25941cd-066e-41ed-8835-0a52cd2b557d")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7744e373-84c2-4cc5-8709-7c9c85955068")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "65d51087-1f0f-4406-a690-440ef7dd8bd6")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "aa50789a-1b59-4be0-8f67-3a2ada17928e")
+			(uuid "3ade94cd-af44-448b-9833-7e72cad9fb1e")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -37284,17 +37274,27 @@
 			(uuid "b320384c-7da7-49c0-877c-6bb0974df7a0")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "aa50789a-1b59-4be0-8f67-3a2ada17928e")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3ade94cd-af44-448b-9833-7e72cad9fb1e")
+			(uuid "65d51087-1f0f-4406-a690-440ef7dd8bd6")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -37303,7 +37303,7 @@
 			(uuid "7a98355c-a021-47e6-9398-1d7b3b1a2bc1")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED18-DOUT)")
@@ -37312,7 +37312,7 @@
 			(uuid "0bc1bae1-b335-40b9-aa16-f14358a69215")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -37321,7 +37321,7 @@
 			(uuid "bd967c7b-1a26-41ff-9e5f-c628cb27860d")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED17-DOUT)")
@@ -37868,7 +37868,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "9b12daad-1adf-41ab-bd21-600cdbe57fa9")
-		(at 73.3425 104.775 180)
+		(at 73.3425 104.775)
 		(property "Reference" "LED26"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -37920,7 +37920,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -37934,7 +37934,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -37972,24 +37972,14 @@
 			(uuid "ce468d7e-5c3d-43d7-8b03-f79329965d4b")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "76875e5e-ee3e-4490-8400-f527b09189d3")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "bec01f6c-c8f9-401d-932d-b99e2f6c683d")
+			(uuid "187d7b15-271a-41f5-86a4-2ea44718ef45")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -38002,34 +37992,34 @@
 			(uuid "35e467a0-f9a4-4d64-80e8-7a528204c115")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "187d7b15-271a-41f5-86a4-2ea44718ef45")
+			(uuid "bec01f6c-c8f9-401d-932d-b99e2f6c683d")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "76875e5e-ee3e-4490-8400-f527b09189d3")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "60ba72d9-88e0-44a4-9924-b0b1e3a08d4b")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "1d747a79-a9b7-491c-aa1d-461ac03a25ea")
+			(uuid "3b499606-6b37-49cd-a475-08410341e0a6")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -38042,17 +38032,27 @@
 			(uuid "71776980-6059-47d6-839d-1f238328cfd8")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1d747a79-a9b7-491c-aa1d-461ac03a25ea")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3b499606-6b37-49cd-a475-08410341e0a6")
+			(uuid "60ba72d9-88e0-44a4-9924-b0b1e3a08d4b")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -38061,7 +38061,7 @@
 			(uuid "a4d67f4f-fb04-4f3d-8cd6-58ebef6b5bd5")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED26-DOUT)")
@@ -38070,7 +38070,7 @@
 			(uuid "5933d545-8c20-4fec-97d1-f960394d9abf")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -38079,7 +38079,7 @@
 			(uuid "b12c4c35-2418-45b3-967e-6b62f04b3ebc")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED25-DOUT)")
@@ -38103,7 +38103,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "a03eaebe-0a71-478e-afbb-d37e6fa33f9e")
-		(at 111.5 66.675 180)
+		(at 111.5 66.675)
 		(property "Reference" "LED4"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -38155,7 +38155,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -38169,7 +38169,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -38207,24 +38207,14 @@
 			(uuid "41352591-3c6d-4b3d-b2e2-0e90ebc88dbc")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "dca7f507-1682-40a2-bf1e-ca8643d50d1d")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "f9c69d71-9e72-4f81-bdb2-75526ef95c59")
+			(uuid "c9b024e3-5379-4def-9768-5be8d3a5b9d1")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -38237,34 +38227,34 @@
 			(uuid "56a2f732-5348-414f-be0c-2bfd80b09bd2")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c9b024e3-5379-4def-9768-5be8d3a5b9d1")
+			(uuid "f9c69d71-9e72-4f81-bdb2-75526ef95c59")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dca7f507-1682-40a2-bf1e-ca8643d50d1d")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7a51b1b4-20c7-41c2-8532-bf16d2f3cb56")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "9892e59c-fbec-4175-81bd-1a0881a0c671")
+			(uuid "27f07698-0737-4ff9-b538-2d40481295c4")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -38277,17 +38267,27 @@
 			(uuid "53b804d1-065b-4d6a-80ff-f03faa890df5")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "9892e59c-fbec-4175-81bd-1a0881a0c671")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "27f07698-0737-4ff9-b538-2d40481295c4")
+			(uuid "7a51b1b4-20c7-41c2-8532-bf16d2f3cb56")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -38296,7 +38296,7 @@
 			(uuid "750cdbb9-99c0-4041-99ec-3824470fb812")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED4-DOUT)")
@@ -38305,7 +38305,7 @@
 			(uuid "d89596e6-e346-42a4-ac0b-17cae6954820")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -38314,7 +38314,7 @@
 			(uuid "17088d66-7246-4c5b-b712-255b967ac4d2")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED3-DOUT)")
@@ -40953,7 +40953,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "a86fc6a3-c11c-4c69-96a9-3cc11c009eb8")
-		(at 159.0675 123.825 180)
+		(at 159.0675 123.825)
 		(property "Reference" "LED42"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -41005,7 +41005,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -41019,7 +41019,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -41057,24 +41057,14 @@
 			(uuid "619999ec-9af4-4a94-b006-b3f0a58ffa3c")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4e96dc7f-f02d-48b2-8b7f-fadb592151d7")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "634669f8-f5ad-4c48-b910-ddcf658702ec")
+			(uuid "c51a6827-15cf-4410-a2cd-9313d6f5850d")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -41087,34 +41077,34 @@
 			(uuid "ad31b053-6d8d-4661-ada6-742fcbd21056")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c51a6827-15cf-4410-a2cd-9313d6f5850d")
+			(uuid "634669f8-f5ad-4c48-b910-ddcf658702ec")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4e96dc7f-f02d-48b2-8b7f-fadb592151d7")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "98fdff51-de26-4f07-b619-4c6362fdc565")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8d8a5572-9c86-4eaf-9b0e-e152d3524bd8")
+			(uuid "8bd48ba7-5dc4-49b1-9dde-a6a34a4c655f")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -41127,17 +41117,27 @@
 			(uuid "a663bc02-2ca9-4281-bf90-6043d9211872")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8d8a5572-9c86-4eaf-9b0e-e152d3524bd8")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "8bd48ba7-5dc4-49b1-9dde-a6a34a4c655f")
+			(uuid "98fdff51-de26-4f07-b619-4c6362fdc565")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -41146,7 +41146,7 @@
 			(uuid "3c13d54a-ef73-4d2a-806f-a06b64a2f7d7")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED42-DOUT)")
@@ -41155,7 +41155,7 @@
 			(uuid "8cfdb4cc-0532-466f-b480-bf555de0c0f0")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -41164,7 +41164,7 @@
 			(uuid "3e47fd94-a602-4d8b-b0ee-26f27fa66544")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED41-DOUT)")
@@ -41188,7 +41188,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "b241fe65-51eb-4ef0-b677-ffdeba5587de")
-		(at 206.6925 104.775 180)
+		(at 206.6925 104.775)
 		(property "Reference" "LED33"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -41240,7 +41240,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -41254,7 +41254,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -41292,24 +41292,14 @@
 			(uuid "a3a497fb-c5c2-4d0d-915b-f89f34c5d911")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3682f561-28da-45a3-ba20-5ddefe006257")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "60bb04bc-7e47-4ea6-a722-6e2cc63d3a9b")
+			(uuid "615c7eb9-bdf0-46b7-b43e-dca13af80270")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -41322,34 +41312,34 @@
 			(uuid "745dcbb8-d3e1-4b6f-9812-3ab99b8161c4")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "615c7eb9-bdf0-46b7-b43e-dca13af80270")
+			(uuid "60bb04bc-7e47-4ea6-a722-6e2cc63d3a9b")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3682f561-28da-45a3-ba20-5ddefe006257")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "fcef89c6-8f5a-40d1-9694-3c3376cf5cd3")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "2ea07371-e782-422d-be68-a1a911711c2a")
+			(uuid "6b31dbb8-9e53-4298-9275-9d1108af2b81")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -41362,17 +41352,27 @@
 			(uuid "330c67b5-0eb7-4655-acfa-80abaa1e3399")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "2ea07371-e782-422d-be68-a1a911711c2a")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "6b31dbb8-9e53-4298-9275-9d1108af2b81")
+			(uuid "fcef89c6-8f5a-40d1-9694-3c3376cf5cd3")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -41381,7 +41381,7 @@
 			(uuid "10019f45-2570-4e3f-94d1-5f2e5ad82424")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED33-DOUT)")
@@ -41390,7 +41390,7 @@
 			(uuid "09fdb0a6-1cd8-4960-b547-e18c60ab49e5")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -41399,7 +41399,7 @@
 			(uuid "ebdca632-1f15-49e0-9a64-7dcb109343aa")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED32-DOUT)")
@@ -43515,7 +43515,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c1b50cfc-49d3-4e62-bb14-d9e03ffcd663")
-		(at 130.4925 85.725 180)
+		(at 130.4925 85.725)
 		(property "Reference" "LED17"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -43567,7 +43567,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -43581,7 +43581,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -43619,24 +43619,14 @@
 			(uuid "2ce021c1-f6b2-4685-8308-af0240229af4")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c71341b7-2441-4950-9000-f8a39b455fcf")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "045d8e18-0d87-47b3-94ff-f82a34a77f61")
+			(uuid "19c5609d-4bf5-49a0-bdc0-2a0eb5386a27")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -43649,34 +43639,34 @@
 			(uuid "d4c769ae-ae0d-410f-8745-90c1b72b1f52")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "19c5609d-4bf5-49a0-bdc0-2a0eb5386a27")
+			(uuid "045d8e18-0d87-47b3-94ff-f82a34a77f61")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c71341b7-2441-4950-9000-f8a39b455fcf")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "dbc441ab-3a12-47a2-a561-08a24dbb2d13")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d36f80c2-b61e-4bea-975f-b31230cc7b6f")
+			(uuid "35cf85da-6b16-42d8-986a-614170e1b33e")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -43689,17 +43679,27 @@
 			(uuid "0b9557b9-3ae5-46fc-8164-f4b4e69a7f69")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d36f80c2-b61e-4bea-975f-b31230cc7b6f")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "35cf85da-6b16-42d8-986a-614170e1b33e")
+			(uuid "dbc441ab-3a12-47a2-a561-08a24dbb2d13")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -43708,7 +43708,7 @@
 			(uuid "defcbfd2-c9d3-4290-aa49-55fe8aaac2c7")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED17-DOUT)")
@@ -43717,7 +43717,7 @@
 			(uuid "9ed72568-acf2-43fb-968c-fc08927e0832")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -43726,7 +43726,7 @@
 			(uuid "dfe7bc44-7b24-49dd-ad54-7ba6e961cb21")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED16-DOUT)")
@@ -44273,7 +44273,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c4d66b7e-d76b-490f-ba8b-55492202fd1c")
-		(at 54.2925 104.775 180)
+		(at 54.2925 104.775)
 		(property "Reference" "LED25"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -44325,7 +44325,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44339,7 +44339,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44377,24 +44377,14 @@
 			(uuid "c4ec89dd-1e8f-42e4-b9c1-b551150afbe9")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e7b32226-f351-4bed-8d79-21ec8bd4b345")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "bdfd8b88-75e0-41f9-8fe3-a4ae85595eea")
+			(uuid "d206dd2b-aa44-4e13-ba42-940da97cc35a")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -44407,34 +44397,34 @@
 			(uuid "1e59089b-b39b-47d5-b90d-d19067466f4c")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d206dd2b-aa44-4e13-ba42-940da97cc35a")
+			(uuid "bdfd8b88-75e0-41f9-8fe3-a4ae85595eea")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e7b32226-f351-4bed-8d79-21ec8bd4b345")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "16fc8afd-b3cb-44a8-8caa-bd976ac3baf6")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "892b0584-2f6e-4326-ac33-8cb97d9d600a")
+			(uuid "48c82715-0293-4dc2-bfde-c8b5ab4e8d30")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -44447,17 +44437,27 @@
 			(uuid "dd5a3cf2-dae3-4ba5-b65d-c216ffdc302a")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "892b0584-2f6e-4326-ac33-8cb97d9d600a")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "48c82715-0293-4dc2-bfde-c8b5ab4e8d30")
+			(uuid "16fc8afd-b3cb-44a8-8caa-bd976ac3baf6")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -44466,7 +44466,7 @@
 			(uuid "2a1a9845-bdda-4c0c-a3b5-ec0d5d125c4a")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED25-DOUT)")
@@ -44475,7 +44475,7 @@
 			(uuid "a738254e-32b2-4669-bc78-d9bfea7b4d19")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -44484,7 +44484,7 @@
 			(uuid "bcf3100a-4b7c-4f1b-abcb-ee0e129ba29b")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED24-DOUT)")
@@ -45031,7 +45031,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c7403092-99eb-4d79-8a7e-5f91752820eb")
-		(at 225.7425 66.675 180)
+		(at 225.7425 66.675)
 		(property "Reference" "LED10"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -45083,7 +45083,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -45097,7 +45097,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -45135,24 +45135,14 @@
 			(uuid "195ab62b-07c2-4f8d-b92a-3b43a279899d")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0a320757-e2c1-4920-96cb-9d8beb06251b")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "8647097f-03e6-41fe-a5c8-700d0299088d")
+			(uuid "0bb0d15a-3f2b-4191-983f-dc0171ce1a56")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -45165,34 +45155,34 @@
 			(uuid "f351a003-a579-4169-92a3-4b71c4331103")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0bb0d15a-3f2b-4191-983f-dc0171ce1a56")
+			(uuid "8647097f-03e6-41fe-a5c8-700d0299088d")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0a320757-e2c1-4920-96cb-9d8beb06251b")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "539b7d1b-69c8-488f-a0cd-76a288931d0a")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b2911e50-3786-465a-9c19-4d325b17eea7")
+			(uuid "1f3a6efe-87b8-467e-b3fb-95561b5614d5")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -45205,17 +45195,27 @@
 			(uuid "fb7504e6-73b3-4867-a80f-53714a078d27")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b2911e50-3786-465a-9c19-4d325b17eea7")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "1f3a6efe-87b8-467e-b3fb-95561b5614d5")
+			(uuid "539b7d1b-69c8-488f-a0cd-76a288931d0a")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -45224,7 +45224,7 @@
 			(uuid "7d2d4b98-7976-49e0-be60-d2cc79ba828e")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED10-DOUT)")
@@ -45233,7 +45233,7 @@
 			(uuid "5ef6a75a-cc9d-40a2-b4ce-74abc9a46b8d")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -45242,7 +45242,7 @@
 			(uuid "53a275d9-e45e-4b86-af72-d500a2ac56e4")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED10-DIN)")
@@ -45266,7 +45266,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c80bbd2f-afbb-4b9c-9ae5-7dd9b80e7845")
-		(at 244.85 85.725 180)
+		(at 244.85 85.725)
 		(property "Reference" "LED23"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -45318,7 +45318,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -45332,7 +45332,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -45370,24 +45370,14 @@
 			(uuid "c71dff2c-0b23-4ed5-bfe1-93907f66c5a6")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "69c06736-f696-4caa-aef5-90c1262f7b5d")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "7fed6abd-8050-40de-baac-959d3ae594bf")
+			(uuid "fd88d9aa-2df6-4e0a-83f4-345394e22920")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -45400,34 +45390,34 @@
 			(uuid "f8cf4e3f-1be0-4b6e-af68-3072762296a3")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "fd88d9aa-2df6-4e0a-83f4-345394e22920")
+			(uuid "7fed6abd-8050-40de-baac-959d3ae594bf")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "69c06736-f696-4caa-aef5-90c1262f7b5d")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9495da2f-05a3-479c-ac26-91805b28d3fa")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "01aaeb20-e599-48a3-b73e-cabb2a2e4fc5")
+			(uuid "d3ffc49f-4a18-44e4-932b-2e7af2149330")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -45440,17 +45430,27 @@
 			(uuid "17c4295f-894d-49ed-a738-134212effb7d")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "01aaeb20-e599-48a3-b73e-cabb2a2e4fc5")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d3ffc49f-4a18-44e4-932b-2e7af2149330")
+			(uuid "9495da2f-05a3-479c-ac26-91805b28d3fa")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -45459,7 +45459,7 @@
 			(uuid "ee87e88f-6468-45fd-885e-5d75c83510bd")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED23-DOUT)")
@@ -45468,7 +45468,7 @@
 			(uuid "17bc1547-d9dd-46f7-bb85-45c10cae6ba5")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -45477,7 +45477,7 @@
 			(uuid "de27129b-9412-4c02-ad4f-8cf716b303b8")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED22-DOUT)")
@@ -45501,7 +45501,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c8593539-9222-4a95-b8d9-ac857c496b23")
-		(at 149.5425 104.775 180)
+		(at 149.5425 104.775)
 		(property "Reference" "LED30"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -45553,7 +45553,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -45567,7 +45567,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -45605,24 +45605,14 @@
 			(uuid "21cfc234-8367-410a-90ef-3e7d7d49c40c")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "62deea87-6b82-4b02-9646-3f40588661e6")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "32d90201-f7b0-415e-8bb0-e9c6be83429e")
+			(uuid "aee486b1-d726-4685-b6d6-1838a703991c")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -45635,34 +45625,34 @@
 			(uuid "a1876e91-c61c-458a-849d-57ddafcca992")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "aee486b1-d726-4685-b6d6-1838a703991c")
+			(uuid "32d90201-f7b0-415e-8bb0-e9c6be83429e")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "62deea87-6b82-4b02-9646-3f40588661e6")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d17b7b78-2c93-4944-943c-65373bb25a05")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "10de53ff-62ee-4736-a33c-ca315a7523b6")
+			(uuid "71e733ca-7bab-4f22-a1a1-cd69e63a05d0")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -45675,17 +45665,27 @@
 			(uuid "d74aa329-d5ac-4fa3-a0d7-bab37001eb4b")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "10de53ff-62ee-4736-a33c-ca315a7523b6")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "71e733ca-7bab-4f22-a1a1-cd69e63a05d0")
+			(uuid "d17b7b78-2c93-4944-943c-65373bb25a05")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -45694,7 +45694,7 @@
 			(uuid "3f037d29-6a13-4aa7-94f7-8eb97fc500e6")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED30-DOUT)")
@@ -45703,7 +45703,7 @@
 			(uuid "3328bff4-6df9-45d1-9670-5d454fd90f6b")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -45712,7 +45712,7 @@
 			(uuid "321a0737-707b-44f8-801f-0adb3c623969")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED29-DOUT)")
@@ -46717,7 +46717,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "cdc59170-08a8-4989-9ed9-c92694cc6b26")
-		(at 206.6925 123.825 180)
+		(at 206.6925 123.825)
 		(property "Reference" "LED44"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -46769,7 +46769,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -46783,7 +46783,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -46821,24 +46821,14 @@
 			(uuid "a2d80f7a-dc59-4fb3-b03e-42a14b936d13")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "26eb0a60-8564-4cd2-865d-7027fecbf4a5")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6a78390f-da9f-4a31-9713-aed85d3dc29e")
+			(uuid "a5ef7959-0743-4171-927c-4224dd32df27")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -46851,34 +46841,34 @@
 			(uuid "dd998b50-c692-4d1e-afef-23fda6f34fb0")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "a5ef7959-0743-4171-927c-4224dd32df27")
+			(uuid "6a78390f-da9f-4a31-9713-aed85d3dc29e")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "26eb0a60-8564-4cd2-865d-7027fecbf4a5")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "866cd43b-3c08-4ec3-8669-d83eac0b3086")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "76bc066c-5885-42c0-b9fe-7694068c8ba2")
+			(uuid "d9483a14-b5f7-446d-a5bd-19cc4a7d08cb")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -46891,17 +46881,27 @@
 			(uuid "86be76ca-28f0-48d6-b7dd-1d48f8bfbf43")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "76bc066c-5885-42c0-b9fe-7694068c8ba2")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d9483a14-b5f7-446d-a5bd-19cc4a7d08cb")
+			(uuid "866cd43b-3c08-4ec3-8669-d83eac0b3086")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -46910,7 +46910,7 @@
 			(uuid "f22cc0b7-9767-4c4a-aea0-878cb0da8e36")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED44-DOUT)")
@@ -46919,7 +46919,7 @@
 			(uuid "ef95da09-35e2-4067-ba3d-a004939f7d46")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -46928,7 +46928,7 @@
 			(uuid "470df841-f591-46ee-a8f3-d7624680768f")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED43-DOUT)")
@@ -46952,7 +46952,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "d1204658-7301-439e-8218-20c8550869e0")
-		(at 130.4925 123.825 180)
+		(at 130.4925 123.825)
 		(property "Reference" "LED41"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -47004,7 +47004,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -47018,7 +47018,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -47056,24 +47056,14 @@
 			(uuid "020b1ad5-429d-4b72-af08-5e16361d36cc")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bfeffbb3-5e26-4f33-a8f5-b6f9e5ecf044")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "47320cc3-4e42-4709-b3b4-3858ad495dd0")
+			(uuid "50de58ab-ad71-4ea9-8431-d37c5f09ecbd")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -47086,34 +47076,34 @@
 			(uuid "9629588a-58ff-405d-b92b-50c81cda8be4")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "50de58ab-ad71-4ea9-8431-d37c5f09ecbd")
+			(uuid "47320cc3-4e42-4709-b3b4-3858ad495dd0")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bfeffbb3-5e26-4f33-a8f5-b6f9e5ecf044")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "669fcb8e-9c5c-4362-9550-91512eff6289")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6ddf4b47-22fc-4750-a166-ebddf7ce7cba")
+			(uuid "cb054449-7745-4cba-a2e7-fef819c30369")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -47126,17 +47116,27 @@
 			(uuid "5d854502-c8b5-4a45-921e-97d100f80f01")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6ddf4b47-22fc-4750-a166-ebddf7ce7cba")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "cb054449-7745-4cba-a2e7-fef819c30369")
+			(uuid "669fcb8e-9c5c-4362-9550-91512eff6289")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -47145,7 +47145,7 @@
 			(uuid "0de00f9d-d057-4f51-a36f-e9a327118f5c")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED41-DOUT)")
@@ -47154,7 +47154,7 @@
 			(uuid "cddf1c55-17a0-4a21-9c1b-4bbac74c6033")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -47163,7 +47163,7 @@
 			(uuid "d3d811b3-58a0-4c2e-9dc8-8c9ceebbf83a")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED40-DOUT)")
@@ -47710,7 +47710,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "d25d3405-86d5-41d8-ae9f-7b88e3b3f68a")
-		(at 225.7425 104.775 180)
+		(at 225.7425 104.775)
 		(property "Reference" "LED34"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -47762,7 +47762,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -47776,7 +47776,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -47814,24 +47814,14 @@
 			(uuid "96f4f899-13d5-44ad-8020-2a6406eb35f7")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "32c684c0-e6fa-4a09-b363-cb87bf4874c4")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "ea3cf1b5-58a0-45e8-874e-0d54caa4caf7")
+			(uuid "ef9f8717-00d2-4c42-a800-b97f80c5f8b2")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -47844,34 +47834,34 @@
 			(uuid "c336d21b-6dbb-48ca-abe8-bb0b67908589")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ef9f8717-00d2-4c42-a800-b97f80c5f8b2")
+			(uuid "ea3cf1b5-58a0-45e8-874e-0d54caa4caf7")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "32c684c0-e6fa-4a09-b363-cb87bf4874c4")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "419ef63b-e966-4ea5-a788-7741e08fd352")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "70c55d2f-b60c-4846-a4db-f8e3ae43b62d")
+			(uuid "513b6cd0-5fa1-4780-9650-2a437eecce35")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -47884,17 +47874,27 @@
 			(uuid "11702598-9c99-4638-b021-14b06c8517c3")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "70c55d2f-b60c-4846-a4db-f8e3ae43b62d")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "513b6cd0-5fa1-4780-9650-2a437eecce35")
+			(uuid "419ef63b-e966-4ea5-a788-7741e08fd352")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -47903,7 +47903,7 @@
 			(uuid "36d30f1c-6d25-4712-bac8-6e247027f9fe")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED34-DOUT)")
@@ -47912,7 +47912,7 @@
 			(uuid "00184a72-9236-4d41-bf13-e50467912948")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -47921,7 +47921,7 @@
 			(uuid "0674e24a-97e3-4126-bee7-98fef22f37d0")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED33-DOUT)")
@@ -48468,7 +48468,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "d9643e5f-71c2-4821-a544-70cee3a247fd")
-		(at 168.5925 104.775 180)
+		(at 168.5925 104.775)
 		(property "Reference" "LED31"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -48520,7 +48520,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -48534,7 +48534,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -48572,24 +48572,14 @@
 			(uuid "f501f553-f003-4a3b-8529-f4a305a13817")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c8f2ee70-6202-4569-97ec-cc162e36de30")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "5f6d551a-8de1-4cf4-b8c1-01a794099f78")
+			(uuid "b7b32e53-d2a0-40a4-a59c-0400b005271c")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -48602,34 +48592,34 @@
 			(uuid "9e574705-f7d0-45c5-ab1d-e4f7d9e4b264")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b7b32e53-d2a0-40a4-a59c-0400b005271c")
+			(uuid "5f6d551a-8de1-4cf4-b8c1-01a794099f78")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c8f2ee70-6202-4569-97ec-cc162e36de30")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "81f379ea-26fd-4c96-9df7-fe7847bcf30e")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6ea36b0c-086b-417b-a8c1-791091388edc")
+			(uuid "46be39ec-102c-40fc-a2e9-b9e34d0add40")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -48642,17 +48632,27 @@
 			(uuid "3faf8751-2b9a-4702-921b-18f8c4cff359")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6ea36b0c-086b-417b-a8c1-791091388edc")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "46be39ec-102c-40fc-a2e9-b9e34d0add40")
+			(uuid "81f379ea-26fd-4c96-9df7-fe7847bcf30e")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -48661,7 +48661,7 @@
 			(uuid "f4d7b81e-6f34-482c-9847-1e19fab334ae")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED31-DOUT)")
@@ -48670,7 +48670,7 @@
 			(uuid "b77b037e-bcef-4ac1-839d-465a787aa78b")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -48679,7 +48679,7 @@
 			(uuid "2255e3cc-c27c-4574-8a80-5e3e8823efc6")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED30-DOUT)")
@@ -49226,7 +49226,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "da9e4cab-9936-4fab-bf1f-828f941f594b")
-		(at 54.235 123.5725 180)
+		(at 54.235 123.5725)
 		(property "Reference" "LED37"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -49278,7 +49278,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -49292,7 +49292,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -49330,24 +49330,14 @@
 			(uuid "39d21295-ebe3-4f59-99d2-3dfd43fc5448")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2a600233-4514-47e8-b470-8f4dd4bb2f0b")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "ace70b5a-ef18-4b72-8d53-8f0f03137c3b")
+			(uuid "d360401a-98d2-4054-8684-7ce1a4a3b43d")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -49360,34 +49350,34 @@
 			(uuid "0fbdf7c9-fb78-4a1c-a7f5-a322314cfd95")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d360401a-98d2-4054-8684-7ce1a4a3b43d")
+			(uuid "ace70b5a-ef18-4b72-8d53-8f0f03137c3b")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2a600233-4514-47e8-b470-8f4dd4bb2f0b")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e2b2e66c-ff4e-4936-93d0-2490d2135a8e")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f08798a3-81c2-4f68-9df3-691a91fc17c9")
+			(uuid "2df9eb3e-bc34-4b30-99df-c5ee36a77934")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -49400,17 +49390,27 @@
 			(uuid "7484950d-8310-45f5-8108-4e69881e51dd")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "f08798a3-81c2-4f68-9df3-691a91fc17c9")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "2df9eb3e-bc34-4b30-99df-c5ee36a77934")
+			(uuid "e2b2e66c-ff4e-4936-93d0-2490d2135a8e")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -49419,7 +49419,7 @@
 			(uuid "1d5867ce-be95-4d62-b4a7-4c20b37c4be5")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED37-DOUT)")
@@ -49428,7 +49428,7 @@
 			(uuid "a270feb8-3bfe-4fef-8aa4-b47859a62426")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -49437,7 +49437,7 @@
 			(uuid "cc5a523e-3eae-4851-877d-e0192b2cf20f")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED36-DOUT)")
@@ -50507,7 +50507,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ddcb47fa-4df2-43a9-bad6-632e490b5b13")
-		(at 130.4925 104.775 180)
+		(at 130.4925 104.775)
 		(property "Reference" "LED29"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -50559,7 +50559,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -50573,7 +50573,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -50611,24 +50611,14 @@
 			(uuid "5feb7ada-870a-40f6-862e-bcf322c8ed42")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "83a2e535-6913-4e30-97f5-ba8fbf36e367")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "607b6843-654a-4642-9c4b-949c4dd589a5")
+			(uuid "0502715b-6923-43f5-a08c-a1efb111631d")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -50641,34 +50631,34 @@
 			(uuid "0f08d220-9a15-4d54-a0eb-d01bd15f1f68")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "0502715b-6923-43f5-a08c-a1efb111631d")
+			(uuid "607b6843-654a-4642-9c4b-949c4dd589a5")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "83a2e535-6913-4e30-97f5-ba8fbf36e367")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "181d272e-3973-4576-87b9-27e66c61a137")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "70595b5a-58cd-45cb-8dbd-8b65f4fffcc8")
+			(uuid "a841004f-aa0f-44fc-8eb6-df347dc9eb3b")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -50681,17 +50671,27 @@
 			(uuid "f258e9ed-a758-467c-a9cc-2addbd21177a")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "70595b5a-58cd-45cb-8dbd-8b65f4fffcc8")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a841004f-aa0f-44fc-8eb6-df347dc9eb3b")
+			(uuid "181d272e-3973-4576-87b9-27e66c61a137")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -50700,7 +50700,7 @@
 			(uuid "1782bc74-3b77-491c-a3bf-ac60ebc3fa9c")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED29-DOUT)")
@@ -50709,7 +50709,7 @@
 			(uuid "215e8f2d-0f34-4285-bf4a-97c831b98b65")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -50718,7 +50718,7 @@
 			(uuid "c1a4f9ab-5de0-4d04-9d05-74e45640995e")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED28-DOUT)")
@@ -50742,7 +50742,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ea16d2fc-0e17-4272-a39b-0b6dfe8cb04b")
-		(at 206.6925 85.725 180)
+		(at 206.6925 85.725)
 		(property "Reference" "LED21"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -50794,7 +50794,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -50808,7 +50808,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -50846,24 +50846,14 @@
 			(uuid "6d17ae7a-3b07-43b2-a324-f3c715400763")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "48f8078c-4db1-4d0b-acde-9fbb1482c5cb")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "e5806e36-14dd-44da-a3dc-a22523840b21")
+			(uuid "777366f7-a100-48b4-93cc-57f5644ad257")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -50876,34 +50866,34 @@
 			(uuid "fb6c68e2-f610-4af2-9ab4-0b408b62a98c")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "777366f7-a100-48b4-93cc-57f5644ad257")
+			(uuid "e5806e36-14dd-44da-a3dc-a22523840b21")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "48f8078c-4db1-4d0b-acde-9fbb1482c5cb")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7ce41d2a-85c1-4b69-8e77-92cf80cb2d6e")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b9f75763-4552-4f6b-bec6-16a729e0f4e6")
+			(uuid "e25aaff8-af34-4c3b-9de0-4dc4cd7a397b")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -50916,17 +50906,27 @@
 			(uuid "9698fba1-66eb-4af4-ad1d-05fefb6537b0")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b9f75763-4552-4f6b-bec6-16a729e0f4e6")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e25aaff8-af34-4c3b-9de0-4dc4cd7a397b")
+			(uuid "7ce41d2a-85c1-4b69-8e77-92cf80cb2d6e")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -50935,7 +50935,7 @@
 			(uuid "f4cf9ff8-3df7-4d1c-b54e-fa5df70b7ea2")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED21-DOUT)")
@@ -50944,7 +50944,7 @@
 			(uuid "fddd4c34-c008-4b19-b2f0-bd96545baafa")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -50953,7 +50953,7 @@
 			(uuid "27b23e3c-a76e-48f5-8f26-7e72dfcd8db6")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED20-DOUT)")
@@ -50977,7 +50977,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ea9a0a81-e050-43f9-a9b3-6ba53ef1fa8c")
-		(at 92.3925 123.825 180)
+		(at 92.3925 123.825)
 		(property "Reference" "LED39"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -51029,7 +51029,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -51043,7 +51043,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -51081,24 +51081,14 @@
 			(uuid "9edce1ed-4c2d-4728-9168-e38cf239968f")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ee832634-dea7-4d7d-828c-a5bed5f97746")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "2ec6a5bd-45b9-4757-9a98-12ddabe33d9a")
+			(uuid "351cc931-563e-41d2-8044-c9144d9f495a")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -51111,34 +51101,34 @@
 			(uuid "8cef1ead-2844-40d6-a580-74112a8fa068")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "351cc931-563e-41d2-8044-c9144d9f495a")
+			(uuid "2ec6a5bd-45b9-4757-9a98-12ddabe33d9a")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ee832634-dea7-4d7d-828c-a5bed5f97746")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a68bfde5-36a7-4928-81c4-6286d0ea91cd")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "c7d08da7-5f07-40cf-966a-8f4764601067")
+			(uuid "221e1b97-31ea-4b13-a3f5-844aa04ddfdc")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -51151,17 +51141,27 @@
 			(uuid "23cbc3bc-a1b2-4519-aba0-150d9c8053d1")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c7d08da7-5f07-40cf-966a-8f4764601067")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "221e1b97-31ea-4b13-a3f5-844aa04ddfdc")
+			(uuid "a68bfde5-36a7-4928-81c4-6286d0ea91cd")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -51170,7 +51170,7 @@
 			(uuid "5be78f98-2cc2-48a0-b13b-c791a1136868")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED39-DOUT)")
@@ -51179,7 +51179,7 @@
 			(uuid "f96b730c-855c-4ecc-a734-5d4b81f8d80c")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -51188,7 +51188,7 @@
 			(uuid "d38b53f4-334e-4844-b9f9-2b0280b87cbb")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED38-DOUT)")
@@ -51735,7 +51735,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ec2dc3b9-2b19-46d7-bf15-5747ab182164")
-		(at 149.5425 66.675 180)
+		(at 149.5425 66.675)
 		(property "Reference" "LED6"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -51787,7 +51787,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -51801,7 +51801,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -51839,24 +51839,14 @@
 			(uuid "73c81f4f-52b2-4c39-bc2a-4c84c7cbd527")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7a4082aa-fbae-4fea-82bc-9bfb5ebeee83")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "887a9c79-4450-4fdf-88cd-acc33d75774c")
+			(uuid "f988afb3-bfd2-4259-b848-c6a05e905f27")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -51869,34 +51859,34 @@
 			(uuid "f9b993e9-8dea-4ece-a2aa-b1771397b7f5")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f988afb3-bfd2-4259-b848-c6a05e905f27")
+			(uuid "887a9c79-4450-4fdf-88cd-acc33d75774c")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7a4082aa-fbae-4fea-82bc-9bfb5ebeee83")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "8ef08cea-1743-493f-8337-005532ea0bf7")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6e68cd24-1a99-47f7-858e-5f9837e057e8")
+			(uuid "8b696731-d74f-4769-9aa4-5d1bde7b8aef")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -51909,17 +51899,27 @@
 			(uuid "8e633642-e039-498f-82d0-4e43846ee1e1")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6e68cd24-1a99-47f7-858e-5f9837e057e8")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "8b696731-d74f-4769-9aa4-5d1bde7b8aef")
+			(uuid "8ef08cea-1743-493f-8337-005532ea0bf7")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -51928,7 +51928,7 @@
 			(uuid "d8e1ca68-1d04-4f58-bf72-3c74fc31e019")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED6-DOUT)")
@@ -51937,7 +51937,7 @@
 			(uuid "a51579a8-f359-4b4d-9471-f5e40f23b123")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -51946,7 +51946,7 @@
 			(uuid "03fd3e96-c4a0-479b-aa43-613408410359")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED5-DOUT)")
@@ -51970,7 +51970,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ee07c9a3-748b-485f-bcb9-930a7e2f8c61")
-		(at 73.3425 66.675 180)
+		(at 73.3425 66.675)
 		(property "Reference" "LED2"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -52022,7 +52022,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -52036,7 +52036,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -52074,24 +52074,14 @@
 			(uuid "d9184920-488e-4fc7-826d-3cebd7d351dc")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "806de276-089c-4a2d-b681-e69a6f9a13d8")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a76c2eda-f668-4824-ba74-5c4c941838db")
+			(uuid "83064823-3d37-49d0-b0f3-bfb958ebd3a8")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -52104,34 +52094,34 @@
 			(uuid "c044bed2-5471-452d-9dcd-1d4d4c357dc9")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "83064823-3d37-49d0-b0f3-bfb958ebd3a8")
+			(uuid "a76c2eda-f668-4824-ba74-5c4c941838db")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "806de276-089c-4a2d-b681-e69a6f9a13d8")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "073b55c3-a391-4b9f-9c82-f2eb9f8f2aed")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6c7d7d42-ca27-4e15-9150-0a4dbaf117db")
+			(uuid "30096f16-3982-4e23-8f97-eac06512417b")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -52144,17 +52134,27 @@
 			(uuid "40216c73-a940-484a-ab25-020371fa5fa4")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "6c7d7d42-ca27-4e15-9150-0a4dbaf117db")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "30096f16-3982-4e23-8f97-eac06512417b")
+			(uuid "073b55c3-a391-4b9f-9c82-f2eb9f8f2aed")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -52163,7 +52163,7 @@
 			(uuid "816e6a51-c28c-4148-87b6-8daffc79b081")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED2-DOUT)")
@@ -52172,7 +52172,7 @@
 			(uuid "cf2782c7-a3b7-411f-8060-3df7c4929874")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -52181,7 +52181,7 @@
 			(uuid "7cc53692-8401-4bee-9fa1-fa7452d0ea7d")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED1-DOUT)")
@@ -52516,7 +52516,7 @@
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "f806ec7d-1542-46b8-8409-af143cf8c505")
-		(at 92.3925 85.725 180)
+		(at 92.3925 85.725)
 		(property "Reference" "LED15"
 			(at 0 1.95 0)
 			(layer "B.SilkS")
@@ -52568,7 +52568,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -52582,7 +52582,7 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -52620,24 +52620,14 @@
 			(uuid "2f8409f9-815c-46e4-bae2-5beaaef5c778")
 		)
 		(fp_line
-			(start 1.8 1.55)
-			(end -1.8 1.55)
+			(start -1.8 -1.55)
+			(end 1.8 -1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "50ce5716-eb00-4c10-b2ea-ab8a066b10ca")
-		)
-		(fp_line
-			(start 1.8 -1.55)
-			(end 1.8 1.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "74f36676-ea3a-4928-8190-c0170d66d858")
+			(uuid "eaa237d0-e10e-4de4-bd40-bad365eda995")
 		)
 		(fp_line
 			(start -1.8 1.55)
@@ -52650,34 +52640,34 @@
 			(uuid "8b65189f-a8c9-499f-b009-80b4edf00378")
 		)
 		(fp_line
-			(start -1.8 -1.55)
-			(end 1.8 -1.55)
+			(start 1.8 -1.55)
+			(end 1.8 1.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "eaa237d0-e10e-4de4-bd40-bad365eda995")
+			(uuid "74f36676-ea3a-4928-8190-c0170d66d858")
 		)
 		(fp_line
-			(start 1.6 1.4)
+			(start 1.8 1.55)
+			(end -1.8 1.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "50ce5716-eb00-4c10-b2ea-ab8a066b10ca")
+		)
+		(fp_line
+			(start -1.6 -1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3671f89d-54b7-45fa-a373-741f6f5e834d")
-		)
-		(fp_line
-			(start -1.6 1.4)
-			(end 1.6 1.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "08f77f4f-5c6d-486b-a1c6-2b4e6461eee3")
+			(uuid "2a38dfd1-8402-49c8-baae-5c3f67286b7a")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -52690,17 +52680,27 @@
 			(uuid "9ef41cf8-6286-4a58-9dae-435fe0cdd1d2")
 		)
 		(fp_line
-			(start -1.6 -1.4)
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "08f77f4f-5c6d-486b-a1c6-2b4e6461eee3")
+		)
+		(fp_line
+			(start 1.6 1.4)
 			(end 1.6 -1.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "2a38dfd1-8402-49c8-baae-5c3f67286b7a")
+			(uuid "3671f89d-54b7-45fa-a373-741f6f5e834d")
 		)
 		(pad "1" smd rect
-			(at 2.8 0.7 180)
+			(at 2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+5V")
@@ -52709,7 +52709,7 @@
 			(uuid "3df80981-38b7-4379-8d11-dcffa75c7732")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.7 180)
+			(at 2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED15-DOUT)")
@@ -52718,7 +52718,7 @@
 			(uuid "6e3ab9a6-20a2-4709-9733-c5237b49a4ea")
 		)
 		(pad "3" smd rect
-			(at -2.8 -0.7 180)
+			(at -2.8 -0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -52727,7 +52727,7 @@
 			(uuid "589f6ee0-19c7-4029-ba84-927fa24b64a6")
 		)
 		(pad "4" smd rect
-			(at -2.8 0.7 180)
+			(at -2.8 0.7)
 			(size 1.7 0.825)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(LED14-DOUT)")
