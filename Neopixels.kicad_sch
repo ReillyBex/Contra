@@ -227,10 +227,1246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 165.1 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "007e8e45-85ec-4280-a25a-60e5344bf5f8")
+	)
+	(junction
+		(at 226.06 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01fa543b-dec6-43c0-a1a0-4f2f5e4ca255")
+	)
+	(junction
+		(at 205.74 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02b38d2d-77bf-4886-aef4-02ab593f8849")
+	)
+	(junction
+		(at 231.14 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05361a7d-f64f-4d03-b549-abd91a079bf7")
+	)
+	(junction
+		(at 170.18 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "097d0cdc-8e00-43ca-9479-177b6b4ee44c")
+	)
+	(junction
+		(at 185.42 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ab66efd-fe34-4cb4-a0d4-e6ac20a56248")
+	)
+	(junction
+		(at 165.1 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b94c202-8c68-4cf7-951c-cf5e714213f7")
+	)
+	(junction
+		(at 63.5 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d2f371d-e178-4d3b-a968-3abe4ac9a830")
+	)
+	(junction
+		(at 109.22 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "110fe2ac-b9ff-49fb-a595-a195efb6df1c")
+	)
+	(junction
+		(at 149.86 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15cce138-77e8-44d6-8dff-4032d9efd258")
+	)
+	(junction
+		(at 266.7 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1680e3f2-06fb-4027-9d3a-0d5322b2146b")
+	)
+	(junction
+		(at 149.86 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19ce41ef-f90c-4e15-837a-ad0f6cf1dd0e")
+	)
+	(junction
+		(at 246.38 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a85cb94-d1c1-432e-bd5e-f2c9f8fa6684")
+	)
+	(junction
+		(at 48.26 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d16e605-35d9-4ac8-bf26-eaacf0a12058")
+	)
+	(junction
+		(at 83.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d39fe72-e6b5-4bc3-96f0-68f6524a0ab1")
+	)
+	(junction
+		(at 246.38 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20161c11-8b38-4229-aa27-eb5d1a53f289")
+	)
+	(junction
+		(at 165.1 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2650af36-e6d1-4729-a95e-cf193092e4ec")
+	)
+	(junction
+		(at 149.86 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a569b9d-b439-473a-8c88-68abfd3a5013")
+	)
+	(junction
+		(at 210.82 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c428904-a59b-4066-a43d-5174f2e2a69e")
+	)
+	(junction
+		(at 226.06 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33f07971-98de-4525-8dbf-5d7f60b1595f")
+	)
+	(junction
+		(at 63.5 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35c039ed-0cca-4801-aa54-3eede67aaeba")
+	)
+	(junction
+		(at 68.58 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3686da65-e44d-4df8-9341-75f22879717e")
+	)
+	(junction
+		(at 165.1 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "398cbf49-ca1e-46a3-a148-ee9f14776b4f")
+	)
+	(junction
+		(at 246.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dbd9161-7562-4776-9acf-878ddaafbef4")
+	)
+	(junction
+		(at 68.58 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "412fa309-66c3-43a7-8089-450cbbc3b64d")
+	)
+	(junction
+		(at 170.18 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ba426d-c5eb-4dc2-bf01-132c89ab8f02")
+	)
+	(junction
+		(at 48.26 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dc63d55-179a-49ce-bc3c-e5fc9c875aaa")
+	)
+	(junction
+		(at 104.14 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50b1527d-d9f1-4dae-9ffa-06923b0e08d5")
+	)
+	(junction
+		(at 88.9 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51d18883-8e6c-452f-9b4f-6cacd93eb00d")
+	)
+	(junction
+		(at 149.86 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53d16e7f-c2da-4d5d-bb29-6ee6b9462003")
+	)
+	(junction
+		(at 205.74 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55cc11b2-275a-4445-9e6e-d4c1b292b640")
+	)
+	(junction
+		(at 210.82 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55e63a36-0bc6-41ad-ba27-e7ae326e66b8")
+	)
+	(junction
+		(at 190.5 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b5b5107-889d-433c-bf61-8d1ba829a831")
+	)
+	(junction
+		(at 226.06 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f510e2c-c78e-4af7-8174-2ace74e5a7a8")
+	)
+	(junction
+		(at 129.54 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aef084c-3b9d-445c-98e9-72607a422efb")
+	)
+	(junction
+		(at 88.9 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ef62a6b-9adb-40e2-92f6-f0d230c95b7b")
+	)
+	(junction
+		(at 190.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b59d27-a843-4991-979a-8f305e6e537e")
+	)
+	(junction
+		(at 109.22 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74ed289a-3eef-4949-9369-f95952dcc537")
+	)
+	(junction
+		(at 129.54 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "766215f4-896c-4adf-a7b3-d3a0c0fffb64")
+	)
+	(junction
+		(at 83.82 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77f84ac8-de41-4b4a-8c7b-a9240f37a941")
+	)
+	(junction
+		(at 266.7 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd8c034-ac76-4df0-9c84-6a2c1a6bf2e3")
+	)
+	(junction
+		(at 63.5 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e289b0b-aad5-4001-aa9c-9e394b064b82")
+	)
+	(junction
+		(at 205.74 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80372f58-adda-434c-924d-0c8ceb50c275")
+	)
+	(junction
+		(at 210.82 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "803d65f4-93b3-4f45-910a-f850d5f9a426")
+	)
+	(junction
+		(at 83.82 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "806b2164-227b-46f8-8b2e-985e5215f260")
+	)
+	(junction
+		(at 124.46 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85d2339b-f98c-4bbc-910a-caa3ba8c1c1f")
+	)
+	(junction
+		(at 185.42 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90123e85-c196-4f1b-bb56-4ea7b7c18229")
+	)
+	(junction
+		(at 104.14 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90fff1ba-bc07-4a37-9818-a2d49c694d62")
+	)
+	(junction
+		(at 246.38 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91047600-2c0d-4d40-ad56-0f25cc5b0e2f")
+	)
+	(junction
+		(at 190.5 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "928bc646-127c-4102-ae32-397276d24eb0")
+	)
+	(junction
+		(at 231.14 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9337ab2d-a14f-4673-9ead-7505d983375b")
+	)
+	(junction
+		(at 124.46 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97680a9d-09f6-4519-a264-d5af1e33329a")
+	)
+	(junction
+		(at 210.82 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9be92611-ed41-4314-ae6d-7662179035ea")
+	)
+	(junction
+		(at 83.82 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d9af6b9-b69e-46c1-a8d7-51db9ed670b4")
+	)
+	(junction
+		(at 185.42 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dae0d41-ee2d-4b78-83a1-2cb68a7572be")
+	)
+	(junction
+		(at 144.78 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e116622-fedd-4077-b096-9619a432c9ed")
+	)
+	(junction
+		(at 104.14 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f768d73-2769-4625-a071-554b1da87b64")
+	)
+	(junction
+		(at 109.22 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a245ded8-0a7a-4b29-b7ce-43bc748fcec8")
+	)
+	(junction
+		(at 144.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a35a1a97-cf89-447f-8a25-a61b51359c9a")
+	)
+	(junction
+		(at 231.14 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3b1236f-b76c-46b8-9819-5194f25acb64")
+	)
+	(junction
+		(at 63.5 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a425f0e3-cf0e-445e-aebd-5be0fd0fdb8d")
+	)
+	(junction
+		(at 251.46 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae556d41-d834-4263-a4d8-ef6f54ed107f")
+	)
+	(junction
+		(at 129.54 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4e5476d-49b9-4c97-a628-bbcf6d1f82dc")
+	)
+	(junction
+		(at 170.18 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98a138d-dec3-45ee-9674-66a6ba7f7241")
+	)
+	(junction
+		(at 68.58 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f0b7f0-253e-4a6c-93c4-44f83954e4e9")
+	)
+	(junction
+		(at 68.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2ddfc62-c259-425c-b414-0ef96b3670ce")
+	)
+	(junction
+		(at 88.9 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5e47292-e5f6-4ef8-91ca-d899f4ad0be4")
+	)
+	(junction
+		(at 185.42 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c909c368-c8ca-45b4-8cbd-0cb9401af40d")
+	)
+	(junction
+		(at 251.46 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb049bbc-04ab-450f-bb0d-cfb4542b2c0c")
+	)
+	(junction
+		(at 144.78 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc0ce454-8672-4646-9018-54fa19d7c45e")
+	)
+	(junction
+		(at 124.46 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccdbdf35-6540-4d56-9774-feda068dff81")
+	)
+	(junction
+		(at 266.7 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d64b34-c367-4d9f-b3ef-157c9705aa42")
+	)
+	(junction
+		(at 144.78 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d50ac513-89e0-4b4c-9196-7ef0c179a9b3")
+	)
+	(junction
+		(at 48.26 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7b4fdeb-a5ff-48ad-9da6-967dcff19c9e")
+	)
+	(junction
+		(at 231.14 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9d3f41-a9f4-42da-9172-630a2622232a")
+	)
+	(junction
+		(at 124.46 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc6e39df-8b26-4c22-9cd3-ea4eba5a6e6c")
+	)
+	(junction
+		(at 48.26 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd42064e-35ff-47ba-b769-adafb4882d21")
+	)
+	(junction
+		(at 190.5 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddf978fa-e96a-42b9-974d-3af4becbfe1f")
+	)
+	(junction
+		(at 170.18 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2d00c3c-2c07-4061-8c9c-4792e384b9e5")
+	)
+	(junction
+		(at 104.14 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7a40e4b-15f5-4e38-b9b9-f2df688aa44a")
+	)
+	(junction
+		(at 226.06 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9e2e13e-b85b-4c63-bb42-42492c881166")
+	)
+	(junction
+		(at 88.9 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea67a597-d227-4372-8fca-2adac7daad82")
+	)
+	(junction
+		(at 251.46 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec7e284d-4288-4aed-9aab-07c9b498a725")
+	)
+	(junction
+		(at 109.22 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2ddb10f-5bcd-4922-a84c-2c3b7df9ecc8")
+	)
+	(junction
+		(at 266.7 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2e633b0-4407-461f-9f79-d84db8740766")
+	)
+	(junction
+		(at 205.74 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3cff456-4121-44f2-9ad9-3f45eb684831")
+	)
+	(junction
+		(at 251.46 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f32814-a49c-4532-8fd9-4f800ea40909")
+	)
+	(junction
+		(at 129.54 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe4de925-0b6c-4ebb-b374-dc82d44e5d30")
+	)
+	(no_connect
+		(at 269.24 101.6)
+		(uuid "e23e45b1-6bab-4eeb-a77c-84379665e0d8")
 	)
 	(wire
 		(pts
-			(xy 35.56 21.59) (xy 38.1 21.59)
+			(xy 43.18 101.6) (xy 45.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016e6943-bef3-432e-9fcc-9215fe897815")
+	)
+	(wire
+		(pts
+			(xy 144.78 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a6aef3-d1bb-4797-910e-72e1f122cedd")
+	)
+	(wire
+		(pts
+			(xy 228.6 106.68) (xy 231.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b9f02e-a4f2-4e2f-bad2-3f4e888e4bc8")
+	)
+	(wire
+		(pts
+			(xy 185.42 85.09) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0310dc41-3aad-4b18-a965-8574c33aec2a")
+	)
+	(wire
+		(pts
+			(xy 63.5 101.6) (xy 66.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0469e2ba-1341-4b73-8ce1-b00b257a353a")
+	)
+	(wire
+		(pts
+			(xy 104.14 33.02) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049153a1-b0ea-4b07-949c-4cec65a5de4a")
+	)
+	(wire
+		(pts
+			(xy 124.46 53.34) (xy 127 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a2f7b8-c622-45f6-94e9-990a2b4d0dca")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073b78d5-02a0-47f0-916f-96a4f86c61a9")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b91439-191e-4409-aeb9-0fadb90d5b02")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 109.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0844e14f-e223-4e43-922a-18b51e2402a6")
+	)
+	(wire
+		(pts
+			(xy 63.5 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cc4974-aa54-46d0-9fbd-affed35470ad")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09233cbb-e21f-4ac7-b010-8a2058ef3b07")
+	)
+	(wire
+		(pts
+			(xy 248.92 85.09) (xy 251.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093a8dd3-7213-46a9-a578-7aaa7d6e7bdb")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aff8099-de64-416b-aa29-14d4e9737b86")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68) (xy 246.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b720aac-d7c8-42f6-ba7b-cbdfde958c6c")
+	)
+	(wire
+		(pts
+			(xy 248.92 106.68) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be0e8f8-e748-439e-b0d4-c4335eb7d4e5")
+	)
+	(wire
+		(pts
+			(xy 266.7 33.02) (xy 266.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc27b8d-dd7f-44e4-8b8c-262658691887")
+	)
+	(wire
+		(pts
+			(xy 185.42 60.96) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd4b87c-d093-4946-b195-44ae23ecc490")
+	)
+	(wire
+		(pts
+			(xy 208.28 58.42) (xy 210.82 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d70bf7c-26f4-427e-8eb7-2d7d875e2673")
+	)
+	(wire
+		(pts
+			(xy 165.1 58.42) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da3de02-ee40-4840-b336-763657744274")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 129.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fae6b11-998e-404b-8698-cc329ee35880")
+	)
+	(wire
+		(pts
+			(xy 266.7 85.09) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10354fc1-7b82-4220-91c6-15be7e6d43e9")
+	)
+	(wire
+		(pts
+			(xy 231.14 50.8) (xy 231.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103bd889-4952-48bc-bfc8-466c932d29a8")
+	)
+	(wire
+		(pts
+			(xy 167.64 53.34) (xy 167.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1119aec2-ee98-43cc-a2cf-5cf9b36ca774")
+	)
+	(wire
+		(pts
+			(xy 86.36 27.94) (xy 86.36 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114a20f5-f5ca-45c6-aae6-afec93b795cd")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1151b4e1-51f9-4643-9970-e418b349a274")
+	)
+	(wire
+		(pts
+			(xy 45.72 58.42) (xy 48.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124cae25-dc2f-4a2e-927b-342d654badcb")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a7d0f9-2c06-48eb-85c5-441448ebed0e")
+	)
+	(wire
+		(pts
+			(xy 167.64 33.02) (xy 170.18 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15358073-4d14-4c10-866f-a7bfc1f9f154")
+	)
+	(wire
+		(pts
+			(xy 228.6 85.09) (xy 231.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ecf288-d734-48ca-b8ae-be6206976b9e")
+	)
+	(wire
+		(pts
+			(xy 106.68 58.42) (xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16aa8318-3ad5-45d4-bbf3-8981fd5bfd75")
+	)
+	(wire
+		(pts
+			(xy 266.7 27.94) (xy 269.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16afe418-1691-458c-bfdb-54a1d9e718e6")
+	)
+	(wire
+		(pts
+			(xy 226.06 101.6) (xy 228.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17200668-925d-4818-b7f9-82bfbf63d5d5")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1933a3b1-f4b2-48d3-875d-73d11395fb47")
+	)
+	(wire
+		(pts
+			(xy 104.14 35.56) (xy 124.46 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199c07cb-585b-4652-88dc-d6aa54b0a7f4")
+	)
+	(wire
+		(pts
+			(xy 43.18 106.68) (xy 43.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b42162d-c638-41d8-9052-67b80b658086")
+	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b67e7bf-9abe-4553-ad2c-f93aab08154b")
+	)
+	(wire
+		(pts
+			(xy 231.14 99.06) (xy 251.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1baf894b-eccf-4409-9665-81115953687c")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d37701f-6b5b-4754-9dc5-1119d8df7754")
+	)
+	(wire
+		(pts
+			(xy 147.32 80.01) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d88a216-85cf-42f1-92a6-dfef92ae54dd")
+	)
+	(wire
+		(pts
+			(xy 86.36 80.01) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f254f8a-5879-4535-ab19-a2f0bd0d65de")
+	)
+	(wire
+		(pts
+			(xy 231.14 25.4) (xy 251.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f406076-72ae-4e07-b469-2d3171f194b6")
+	)
+	(wire
+		(pts
+			(xy 22.86 58.42) (xy 27.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203252bc-479d-4fac-90eb-2e379ba671cd")
+	)
+	(wire
+		(pts
+			(xy 228.6 53.34) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a15975-8ad2-4283-a9c5-07913dd41959")
+	)
+	(wire
+		(pts
+			(xy 63.5 87.63) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20eb26c6-c49e-4d5b-98a8-81045f92e948")
+	)
+	(wire
+		(pts
+			(xy 43.18 27.94) (xy 45.72 27.94)
 		)
 		(stroke
 			(width 0)
@@ -240,7 +1476,87 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 26.67) (xy 60.96 26.67)
+			(xy 167.64 58.42) (xy 170.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ae59c2-e98e-46a9-a9a9-8c3afa046a53")
+	)
+	(wire
+		(pts
+			(xy 228.6 58.42) (xy 231.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280fd5a8-af93-4d0d-9679-5574ee5e28fd")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28162555-eff1-4267-a4f2-c3c91504391a")
+	)
+	(wire
+		(pts
+			(xy 185.42 58.42) (xy 185.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28278831-18a8-4f46-a39e-b2fe4ae6eb96")
+	)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a69c3d-177f-401e-b363-4d991fef16bb")
+	)
+	(wire
+		(pts
+			(xy 205.74 85.09) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c0567d-172b-49e4-8365-2847a69d91c6")
+	)
+	(wire
+		(pts
+			(xy 251.46 25.4) (xy 273.05 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab5c55f-a234-4d62-a30b-1a25eebb1f40")
+	)
+	(wire
+		(pts
+			(xy 27.94 27.94) (xy 27.94 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b09452f-6fac-4821-996a-d4a70ba52628")
+	)
+	(wire
+		(pts
+			(xy 66.04 33.02) (xy 68.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -250,7 +1566,97 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 26.67) (xy 40.64 26.67)
+			(xy 88.9 50.8) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b52cc79-e21b-47c2-b515-f797dd43c308")
+	)
+	(wire
+		(pts
+			(xy 266.7 109.22) (xy 278.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5524ac-160d-45a5-b566-30dc78283005")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9d1191-f786-4709-894f-7b139cf78805")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 48.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c39457d-8a3e-4af9-a1de-f1a3b7972cf8")
+	)
+	(wire
+		(pts
+			(xy 231.14 99.06) (xy 231.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5fc183-74d8-499a-bae2-adca3d9b6c4d")
+	)
+	(wire
+		(pts
+			(xy 127 33.02) (xy 129.54 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c91f5be-10be-4158-a4d6-87c0461fd642")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 43.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0db6e6-7f2d-43a6-8b69-b0d8bdb67342")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 109.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f827508-b600-4d71-8e6c-2131265bc920")
+	)
+	(wire
+		(pts
+			(xy 187.96 33.02) (xy 190.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fad66fd-ad51-4814-8c79-3283230777f4")
+	)
+	(wire
+		(pts
+			(xy 45.72 33.02) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -260,7 +1666,997 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 21.59) (xy 38.1 26.67)
+			(xy 124.46 27.94) (xy 127 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e92e3c-791e-497a-b10f-7ec4a6680c97")
+	)
+	(wire
+		(pts
+			(xy 124.46 35.56) (xy 144.78 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f9b4f6-3bed-4db0-ae57-e28d86fc0d81")
+	)
+	(wire
+		(pts
+			(xy 144.78 80.01) (xy 147.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31beb24d-3bc8-4dcb-96b3-411a36cdcf07")
+	)
+	(wire
+		(pts
+			(xy 170.18 99.06) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336cb573-333e-4fd4-bcfc-6b7c41c29b77")
+	)
+	(wire
+		(pts
+			(xy 210.82 25.4) (xy 210.82 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3375cd3f-ec1d-4446-822c-c4f00623952a")
+	)
+	(wire
+		(pts
+			(xy 86.36 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33caa391-7377-417a-be33-90c0e691ba4c")
+	)
+	(wire
+		(pts
+			(xy 149.86 25.4) (xy 170.18 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349a162b-a2c5-4380-a4e2-0c52968e01c0")
+	)
+	(wire
+		(pts
+			(xy 266.7 106.68) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d4c819-2aff-4439-b602-49d72c660ea1")
+	)
+	(wire
+		(pts
+			(xy 144.78 58.42) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ebdb19-8718-40c5-9280-9c34f12defb1")
+	)
+	(wire
+		(pts
+			(xy 226.06 85.09) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364376f2-53d4-43f0-b60c-554b93a6e7ad")
+	)
+	(wire
+		(pts
+			(xy 149.86 25.4) (xy 149.86 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39101d02-4c7f-4765-bedd-813fe5abecec")
+	)
+	(wire
+		(pts
+			(xy 269.24 41.91) (xy 22.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398a283a-e1bc-4f24-90d6-cdf7eda974a1")
+	)
+	(wire
+		(pts
+			(xy 27.94 53.34) (xy 27.94 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b78107-72e1-4259-83e1-463ebb8d924f")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d86f9e-785c-406d-b8f4-40ee812e979d")
+	)
+	(wire
+		(pts
+			(xy 208.28 33.02) (xy 210.82 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ea1495-ee45-433b-8d8f-a7cee038946c")
+	)
+	(wire
+		(pts
+			(xy 246.38 80.01) (xy 248.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b602e86-ac52-448b-bb4d-90373001d753")
+	)
+	(wire
+		(pts
+			(xy 66.04 106.68) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd45d58-b35a-4002-8dbb-3827050a4f31")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec98c1c-1497-4799-998c-67ea8e43fcc9")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 170.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f66a845-8ab2-4ed3-8c63-5e97f40980b6")
+	)
+	(wire
+		(pts
+			(xy 45.72 85.09) (xy 48.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6a2a53-eb7b-4530-a8b8-7fe583ea3a23")
+	)
+	(wire
+		(pts
+			(xy 129.54 50.8) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4242ce07-9477-423d-ab6c-7a6a9d65f4d1")
+	)
+	(wire
+		(pts
+			(xy 228.6 27.94) (xy 228.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428a7efd-ab2a-4b36-96e6-269ff112bff2")
+	)
+	(wire
+		(pts
+			(xy 22.86 92.71) (xy 22.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4334f4cb-04d4-4ac6-8ce3-b949e1525e36")
+	)
+	(wire
+		(pts
+			(xy 68.58 25.4) (xy 88.9 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43650aaf-d1f4-4bb5-8978-88ddde3dd0c2")
+	)
+	(wire
+		(pts
+			(xy 88.9 99.06) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b20020-7ae7-400d-95ad-5782c390bef2")
+	)
+	(wire
+		(pts
+			(xy 187.96 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fb69f2-9ba7-4788-a063-afc8319edcbb")
+	)
+	(wire
+		(pts
+			(xy 106.68 85.09) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4508ad10-91fb-4a47-9982-3c9ba5d4444e")
+	)
+	(wire
+		(pts
+			(xy 63.5 80.01) (xy 66.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4609b002-1238-4ba2-bcad-74e3a47b4bbf")
+	)
+	(wire
+		(pts
+			(xy 226.06 53.34) (xy 228.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dfe193-839f-4066-a4ac-d3358feeb159")
+	)
+	(wire
+		(pts
+			(xy 208.28 80.01) (xy 208.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47022792-0abe-4aa0-bb7f-5da2652429e5")
+	)
+	(wire
+		(pts
+			(xy 165.1 53.34) (xy 167.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480436df-9443-4750-9d54-8b3ff7e9a577")
+	)
+	(wire
+		(pts
+			(xy 246.38 60.96) (xy 266.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cf5aca-05b1-4fcf-8abf-eb66532b940d")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a61c7ef-986a-4972-9ca1-6685e96033e7")
+	)
+	(wire
+		(pts
+			(xy 205.74 35.56) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adba859-c9b0-49d3-b086-4493fe1cfbba")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 149.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae3deac-7cf1-4fff-8dfc-46b77fd88fed")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af584a0-aa7d-446b-802f-cc1737f46518")
+	)
+	(wire
+		(pts
+			(xy 226.06 106.68) (xy 226.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1fc579-4985-41ea-aa1a-859dfdc09b25")
+	)
+	(wire
+		(pts
+			(xy 86.36 33.02) (xy 88.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b45951b-cb80-443c-9cba-93073cc8c106")
+	)
+	(wire
+		(pts
+			(xy 269.24 68.58) (xy 22.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b879f70-0df0-4c62-adb4-63cd0f97ce6d")
+	)
+	(wire
+		(pts
+			(xy 127 85.09) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2a1868-fc46-466a-8432-68f1d4a3253f")
+	)
+	(wire
+		(pts
+			(xy 226.06 58.42) (xy 226.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d859ada-03ab-4f0a-960b-18424e86c0a6")
+	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebbd24b-ce8c-4df4-bf53-f454dde8a0ba")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5c5998-35f1-44ba-9ad7-531679931e92")
+	)
+	(wire
+		(pts
+			(xy 269.24 92.71) (xy 22.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f87dc5e-197a-4936-9538-c89681e4f33e")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 66.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50169c2c-84e4-4a78-85d9-06236dba26b7")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529a4d93-ae06-4970-b619-a28fba5b8ecd")
+	)
+	(wire
+		(pts
+			(xy 43.18 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a4673e-64a2-4eec-96a0-40db3665fcc0")
+	)
+	(wire
+		(pts
+			(xy 63.5 109.22) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53561da6-804f-4258-b01d-bb1bf475e280")
+	)
+	(wire
+		(pts
+			(xy 147.32 58.42) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544c38a1-458e-4f53-80eb-492dd5750119")
+	)
+	(wire
+		(pts
+			(xy 109.22 77.47) (xy 129.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5490c896-57e3-454f-aeb8-45d13869bda1")
+	)
+	(wire
+		(pts
+			(xy 205.74 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b8e0d0-33a5-4c4d-8252-08c5a8ffe787")
+	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571941b3-f76d-4964-b650-05f5ecdf565c")
+	)
+	(wire
+		(pts
+			(xy 88.9 25.4) (xy 88.9 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57334eda-7c46-4891-8f18-e35317f5f612")
+	)
+	(wire
+		(pts
+			(xy 226.06 109.22) (xy 246.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d2fc53-c8e9-4c35-9b49-3c50cd9151a9")
+	)
+	(wire
+		(pts
+			(xy 129.54 50.8) (xy 149.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c40c4d-9a33-4f1c-91e8-90aeb9e6ece6")
+	)
+	(wire
+		(pts
+			(xy 22.86 85.09) (xy 27.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ff0843-2a15-4e7d-a6cd-37f32e1726b2")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0159a1-5353-4655-a00a-326280fd0a17")
+	)
+	(wire
+		(pts
+			(xy 149.86 50.8) (xy 149.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc5e9aa-05f8-4216-8456-4b0302d36323")
+	)
+	(wire
+		(pts
+			(xy 185.42 27.94) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d545975-7295-4651-9b66-5e22d39c2a50")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d84d161-532e-4016-9c9a-02d0df2670e8")
+	)
+	(wire
+		(pts
+			(xy 129.54 25.4) (xy 149.86 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd6d777-6f32-4aea-addb-3f539ccd96f2")
+	)
+	(wire
+		(pts
+			(xy 43.18 87.63) (xy 63.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de9a8d2-8450-438c-9231-e99a15b260e6")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608efd82-92b8-409f-b896-b57f35f74240")
+	)
+	(wire
+		(pts
+			(xy 231.14 25.4) (xy 231.14 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d8bcc7-96f4-4211-8616-a34f7973858b")
+	)
+	(wire
+		(pts
+			(xy 165.1 87.63) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6368a022-3fb2-41ca-9644-def1d241f300")
+	)
+	(wire
+		(pts
+			(xy 208.28 106.68) (xy 210.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a19730-9876-439c-aff2-5ddce2d4b5e2")
+	)
+	(wire
+		(pts
+			(xy 269.24 80.01) (xy 269.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d7a322-8e14-43ca-9965-bb80757c7809")
+	)
+	(wire
+		(pts
+			(xy 86.36 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65253e63-6e17-40a4-a6fd-d5fd73f14d21")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656f0407-3da0-4523-9f31-1181d9384ba3")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 170.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671801e6-7deb-4eb3-9aba-c7cea4a8b4ac")
+	)
+	(wire
+		(pts
+			(xy 190.5 25.4) (xy 210.82 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a6ce51-8ef4-4056-beb4-8ffe2b2aef9c")
+	)
+	(wire
+		(pts
+			(xy 27.94 101.6) (xy 27.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691dcf5c-7a87-4b19-a167-3dec30fa1888")
+	)
+	(wire
+		(pts
+			(xy 66.04 53.34) (xy 66.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695c3491-2656-4b3e-a880-bb0f10d9ad3d")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695d5625-5844-4e35-86c9-3363a550bf03")
+	)
+	(wire
+		(pts
+			(xy 165.1 35.56) (xy 185.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69cf43ab-eaaf-4a27-96be-7744de332f22")
+	)
+	(wire
+		(pts
+			(xy 246.38 58.42) (xy 246.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a72d654-0658-437e-92da-65c497e67f3e")
+	)
+	(wire
+		(pts
+			(xy 88.9 99.06) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6676d0-a124-40ea-817f-143670aa71cf")
+	)
+	(wire
+		(pts
+			(xy 170.18 50.8) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e00a7d1-aaa6-4cde-b1e1-9cd86ad9768a")
+	)
+	(wire
+		(pts
+			(xy 187.96 80.01) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea32221-f04f-47d2-93bb-e4d1c225edf9")
+	)
+	(wire
+		(pts
+			(xy 106.68 33.02) (xy 109.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8b2066-948b-45a1-b24f-688248e6adbd")
+	)
+	(wire
+		(pts
+			(xy 248.92 58.42) (xy 251.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714535eb-ed31-44c5-8819-753e9acb35c3")
+	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715bbfa6-9d3e-4c1a-986e-d869b6877d4f")
+	)
+	(wire
+		(pts
+			(xy 104.14 60.96) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a87ae5-c976-4d05-a802-c7d09c13ab88")
+	)
+	(wire
+		(pts
+			(xy 104.14 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72dae999-d6f0-4654-a102-a64a26c25957")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735c30fa-44af-4c26-b682-3f9369babfab")
+	)
+	(wire
+		(pts
+			(xy 88.9 25.4) (xy 109.22 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743d4946-fe44-4077-bfdb-aca5046c8ab4")
+	)
+	(wire
+		(pts
+			(xy 106.68 53.34) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74620ced-a6b0-4373-9317-96906f1b784c")
+	)
+	(wire
+		(pts
+			(xy 266.7 60.96) (xy 278.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bd020c-31b6-4c73-b0d3-0c99f85709e0")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761be28b-6f2f-46ba-9ba9-106abf100ba3")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765986c5-3ff1-4969-ad38-97f68d250cf7")
+	)
+	(wire
+		(pts
+			(xy 248.92 27.94) (xy 248.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b8ffc5-07a4-4d37-a312-226fd47293f1")
+	)
+	(wire
+		(pts
+			(xy 88.9 77.47) (xy 109.22 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7716639e-2ec8-4f3c-b5bd-37a587138b31")
+	)
+	(wire
+		(pts
+			(xy 190.5 25.4) (xy 190.5 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774831db-6b9d-482f-a261-0b687ec39ec7")
+	)
+	(wire
+		(pts
+			(xy 66.04 101.6) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777fbe43-63ed-40ec-a213-6877330cc1ac")
+	)
+	(wire
+		(pts
+			(xy 226.06 80.01) (xy 228.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aeac501-37db-4ea8-86f2-d8989c6e8efe")
+	)
+	(wire
+		(pts
+			(xy 246.38 101.6) (xy 248.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd62ac6-85f4-4543-a85a-882648cb8fe7")
+	)
+	(wire
+		(pts
+			(xy 266.7 101.6) (xy 269.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca7c734-7668-49b8-a26b-0876ce56d87d")
+	)
+	(wire
+		(pts
+			(xy 27.94 77.47) (xy 48.26 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd4f195-c6bf-4015-a691-d5ca700b55a0")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 167.64 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d93e37e-1e61-4776-a32c-533983bb3e4e")
+	)
+	(wire
+		(pts
+			(xy 45.72 27.94) (xy 45.72 33.02)
 		)
 		(stroke
 			(width 0)
@@ -270,7 +2666,47 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 21.59) (xy 58.42 21.59)
+			(xy 109.22 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e7cf543-6971-4617-b258-61c95bfd306a")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 210.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803264e6-6b4d-4d98-aa03-06151259b893")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81733d06-f54c-48f7-a15c-ce39886b7f58")
+	)
+	(wire
+		(pts
+			(xy 251.46 27.94) (xy 251.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83749817-c03c-4b04-ae69-6125cdb679e4")
+	)
+	(wire
+		(pts
+			(xy 63.5 27.94) (xy 66.04 27.94)
 		)
 		(stroke
 			(width 0)
@@ -280,7 +2716,1437 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 21.59) (xy 58.42 26.67)
+			(xy 109.22 99.06) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85006e6a-dc7c-4c0b-9a59-050063536ec7")
+	)
+	(wire
+		(pts
+			(xy 129.54 25.4) (xy 129.54 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8529bc52-5e00-4cb3-897e-7d204c5d22f5")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 226.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8552d9ac-327f-4ec5-8afc-d037190aa1e2")
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 104.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ef54d3-174c-47ed-a84b-bad60e9267e3")
+	)
+	(wire
+		(pts
+			(xy 246.38 35.56) (xy 266.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f10a8f-47a2-467a-b489-f4d770230209")
+	)
+	(wire
+		(pts
+			(xy 83.82 87.63) (xy 104.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e55594-b1ad-42ea-9025-c86d685dbe18")
+	)
+	(wire
+		(pts
+			(xy 228.6 33.02) (xy 231.14 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878454a9-a714-4dfd-a449-f1021d978ddf")
+	)
+	(wire
+		(pts
+			(xy 83.82 80.01) (xy 86.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8796c294-6a99-4258-8ce0-2ea5d30d90e6")
+	)
+	(wire
+		(pts
+			(xy 86.36 53.34) (xy 86.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87dabc77-3aa9-4350-aea2-360148cf50e9")
+	)
+	(wire
+		(pts
+			(xy 210.82 50.8) (xy 210.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f3c172-85b8-4749-bf8e-bc43e53c8bf9")
+	)
+	(wire
+		(pts
+			(xy 167.64 27.94) (xy 167.64 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897bc473-e1b4-4a0e-a522-9ae093b0ccab")
+	)
+	(wire
+		(pts
+			(xy 210.82 99.06) (xy 231.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a06b2ab-fd89-4a44-b04d-da944905a169")
+	)
+	(wire
+		(pts
+			(xy 248.92 101.6) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0b5380-2bfd-4a56-9167-2dae190c52f2")
+	)
+	(wire
+		(pts
+			(xy 170.18 50.8) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b666bc2-3c41-4f55-9087-b8e50186848a")
+	)
+	(wire
+		(pts
+			(xy 170.18 77.47) (xy 190.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b84c727-3386-4443-bc1c-8877af911664")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c422299-e6d5-4b5d-8219-0aebdbc9ed4f")
+	)
+	(wire
+		(pts
+			(xy 269.24 27.94) (xy 269.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc34e00-693a-4da9-9ca5-f32b5cccc172")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9893c9-99d6-4cdc-a2e8-94e707ab0096")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebeb409-40c0-41fb-a06f-00a13b5ea5d0")
+	)
+	(wire
+		(pts
+			(xy 83.82 27.94) (xy 86.36 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f917c1a-13c4-49f6-b4e1-0b7edc5c48c4")
+	)
+	(wire
+		(pts
+			(xy 48.26 25.4) (xy 48.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9019051a-b35d-422f-9f28-3712e6dc7898")
+	)
+	(wire
+		(pts
+			(xy 205.74 58.42) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b70a6e-bceb-44ad-ae0a-6a243930f111")
+	)
+	(wire
+		(pts
+			(xy 246.38 33.02) (xy 246.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c64281-f7bc-4e17-b517-affb5d9df6c2")
+	)
+	(wire
+		(pts
+			(xy 68.58 25.4) (xy 68.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f3fef6-8381-4005-ba76-936785c795b6")
+	)
+	(wire
+		(pts
+			(xy 144.78 53.34) (xy 147.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c29791-51e9-4dcf-9ac3-716f3484c5d1")
+	)
+	(wire
+		(pts
+			(xy 27.94 99.06) (xy 48.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f8cd8c-69c9-4a50-8c38-4f317f155577")
+	)
+	(wire
+		(pts
+			(xy 109.22 77.47) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945612d7-2c2c-4b8b-ba53-508061da41c1")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950d656f-0003-4bda-ad82-61c103ee8792")
+	)
+	(wire
+		(pts
+			(xy 43.18 33.02) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9843b2cd-a399-4319-9756-08ec14d5e37c")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d75562-cb08-498f-922e-e1cac13c4f71")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c11a26-2d1e-481b-b9f9-bc8cc8d2ead5")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b055248-7037-457f-91db-8a72efdeda3f")
+	)
+	(wire
+		(pts
+			(xy 124.46 33.02) (xy 124.46 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcdeeb0-96dd-402c-a1dd-3b8277b7d0c7")
+	)
+	(wire
+		(pts
+			(xy 226.06 87.63) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c85e908-f1a2-46ed-af28-18daab7bf2a4")
+	)
+	(wire
+		(pts
+			(xy 86.36 101.6) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c939b4f-069c-4188-9440-4d61b42e0f30")
+	)
+	(wire
+		(pts
+			(xy 170.18 25.4) (xy 170.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfadadc-0ea5-4c32-88fb-fafdefe5d3a4")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6a9f34-50a3-4de3-b436-3e17f877df69")
+	)
+	(wire
+		(pts
+			(xy 129.54 99.06) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed9737e-56d3-42b7-8a30-8fc3b893d953")
+	)
+	(wire
+		(pts
+			(xy 226.06 35.56) (xy 246.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efe875f-da16-474a-a4e0-dfce8c8cc7c9")
+	)
+	(wire
+		(pts
+			(xy 185.42 33.02) (xy 185.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0aa7f10-c8bb-4932-bbc2-492313576c3c")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fdbdd0-3818-4800-abc5-488c54b4562d")
+	)
+	(wire
+		(pts
+			(xy 149.86 77.47) (xy 170.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2221fcd-38bd-4a1b-b197-7c2b4c23675c")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40194ca-c832-4aac-8d17-ebde25221d03")
+	)
+	(wire
+		(pts
+			(xy 231.14 77.47) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4027272-ae0d-42b9-affd-34b601e36bcf")
+	)
+	(wire
+		(pts
+			(xy 208.28 27.94) (xy 208.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48e30e0-c98b-4d01-bf62-33133dac8e4f")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6236f9b-ead4-4ec1-b509-88276b617d92")
+	)
+	(wire
+		(pts
+			(xy 83.82 33.02) (xy 83.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72ac33c-10dc-405e-97a7-3c515170bdd4")
+	)
+	(wire
+		(pts
+			(xy 210.82 99.06) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7321ffb-98a3-42c6-8322-24bbf6332083")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ab5b3f-5f19-45aa-8b3a-fef1167dbe0b")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 129.54 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2c137d-1b04-45d0-827e-f5c29169cd2e")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac5deea-9127-4383-9f74-acec2d5ceddf")
+	)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbdd4fb-b75f-462f-b1d6-45a9645aae48")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd49b06-f204-40d4-9568-389e240bd21c")
+	)
+	(wire
+		(pts
+			(xy 185.42 35.56) (xy 205.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abec5d76-0058-4dee-87bf-efff384d57e5")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac818a64-963f-4e41-84b7-bc284867d25a")
+	)
+	(wire
+		(pts
+			(xy 170.18 77.47) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc6ac2c-1d3d-4441-9edd-aa44c3933cc3")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf5de29-98d5-4cfd-b86b-96bfccb1d6b2")
+	)
+	(wire
+		(pts
+			(xy 266.7 35.56) (xy 278.13 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9d73b1-4a13-4fe4-bcd7-f68c26a48204")
+	)
+	(wire
+		(pts
+			(xy 266.7 87.63) (xy 278.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5ca244-67b7-4c09-b7c8-e0e333facce4")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b036dd74-5a4b-4d91-80f9-41ecd419074b")
+	)
+	(wire
+		(pts
+			(xy 66.04 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06f783b-4cae-4855-831f-dcef658b0db5")
+	)
+	(wire
+		(pts
+			(xy 185.42 101.6) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14158c7-7326-41fe-a461-55523b1d356a")
+	)
+	(wire
+		(pts
+			(xy 109.22 50.8) (xy 109.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20d8690-5451-44a1-8f73-43c4023835ae")
+	)
+	(wire
+		(pts
+			(xy 187.96 53.34) (xy 187.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2cdd416-ebb9-4e3e-a058-748c569abafd")
+	)
+	(wire
+		(pts
+			(xy 170.18 99.06) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40331a8-cf68-4cca-a437-8eb8a1b24fb2")
+	)
+	(wire
+		(pts
+			(xy 124.46 60.96) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c2abd7-7acd-47e1-a409-c6e560eebc92")
+	)
+	(wire
+		(pts
+			(xy 144.78 35.56) (xy 165.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ce0dce-44a1-44f4-ad84-e956f13f822b")
+	)
+	(wire
+		(pts
+			(xy 48.26 25.4) (xy 68.58 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9123c24-07ef-4e0c-8cf3-71f308f838c2")
+	)
+	(wire
+		(pts
+			(xy 190.5 77.47) (xy 190.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9631403-d95a-4cbf-84bc-d99f5e5f71b1")
+	)
+	(wire
+		(pts
+			(xy 43.18 35.56) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f18e92-ed20-420c-b3a1-9590e70f5265")
+	)
+	(wire
+		(pts
+			(xy 43.18 80.01) (xy 45.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9fc2339-7b61-4b30-be7a-ddccb4987de9")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 83.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3fd87e-b15a-4b2b-82cb-d71002283aac")
+	)
+	(wire
+		(pts
+			(xy 246.38 85.09) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb03d670-b13e-459f-81dd-083bf8bcd5d9")
+	)
+	(wire
+		(pts
+			(xy 43.18 53.34) (xy 45.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb69fc2c-441a-4fad-8f11-89ff5b3d02c7")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 190.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb6c817-6a3c-4024-9643-563a686267f2")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc36d01b-11ff-46f9-9b7c-94f31e733149")
+	)
+	(wire
+		(pts
+			(xy 127 27.94) (xy 127 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0c6423-e212-4200-a5a9-cdf0a2e095d3")
+	)
+	(wire
+		(pts
+			(xy 205.74 53.34) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beca275b-a76e-4f38-ae7d-b5161fc731a8")
+	)
+	(wire
+		(pts
+			(xy 246.38 109.22) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef8cd64-2ec4-4a46-8f78-0fcb2c14ede3")
+	)
+	(wire
+		(pts
+			(xy 231.14 77.47) (xy 251.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d794c6-98b0-4ac0-962c-5df0f23f4ed3")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e0080d-b991-4018-b1e5-148ec4911615")
+	)
+	(wire
+		(pts
+			(xy 226.06 27.94) (xy 228.6 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24ef579-0a2d-48bf-a815-9c5d3daf21ef")
+	)
+	(wire
+		(pts
+			(xy 248.92 53.34) (xy 248.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30974f6-79e9-4b98-91db-9b8e5a8c3afb")
+	)
+	(wire
+		(pts
+			(xy 251.46 101.6) (xy 251.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a9134d-720a-4926-89bd-de65a44faa01")
+	)
+	(wire
+		(pts
+			(xy 231.14 50.8) (xy 251.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40b09bd-c27b-40a6-a9ed-2a9f556960b4")
+	)
+	(wire
+		(pts
+			(xy 266.7 53.34) (xy 269.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43a8ad6-ea02-4877-aa24-bed34449af65")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6337bfc-a419-43cc-86a0-59541004f3ab")
+	)
+	(wire
+		(pts
+			(xy 251.46 50.8) (xy 273.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c652b1ae-88fe-45de-848a-d46ebef350cd")
+	)
+	(wire
+		(pts
+			(xy 205.74 80.01) (xy 208.28 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f4235f-eb4c-4329-983b-5c31e8770f05")
+	)
+	(wire
+		(pts
+			(xy 205.74 33.02) (xy 205.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70e8c86-5161-4457-85f5-535d62621b2a")
+	)
+	(wire
+		(pts
+			(xy 45.72 101.6) (xy 45.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a10cdc-7605-4793-86d2-2b7a5c37724e")
+	)
+	(wire
+		(pts
+			(xy 210.82 77.47) (xy 210.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84658d1-e0fc-4fcb-91f0-e66e1770ed5c")
+	)
+	(wire
+		(pts
+			(xy 22.86 68.58) (xy 22.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a58afc-d6d4-4e24-b62a-a63ec6a68579")
+	)
+	(wire
+		(pts
+			(xy 246.38 53.34) (xy 248.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b547eb-1ef0-4340-a381-df8556836d50")
+	)
+	(wire
+		(pts
+			(xy 251.46 99.06) (xy 273.05 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca41f98d-e06d-4acc-a9c7-14e6cf460d5e")
+	)
+	(wire
+		(pts
+			(xy 266.7 58.42) (xy 266.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb96ac8f-2e95-4878-b828-000baef8bfcc")
+	)
+	(wire
+		(pts
+			(xy 83.82 35.56) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbfe915-eb77-48ad-b976-fe6eb9cb748b")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 45.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce292cb7-e339-4a8e-8625-b2d1d641c72c")
+	)
+	(wire
+		(pts
+			(xy 127 53.34) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffba18c-53d2-4072-9cf3-c185899ec725")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.22) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d076715b-e13a-4878-940d-4c2fc147fcbd")
+	)
+	(wire
+		(pts
+			(xy 63.5 33.02) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f70d16-d6b1-402e-bbb7-0bd745aeafcb")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.34) (xy 45.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1da7798-5208-4fe1-b795-bc289eb05f64")
+	)
+	(wire
+		(pts
+			(xy 269.24 53.34) (xy 269.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2500f74-4051-4b90-af02-150474527c0f")
+	)
+	(wire
+		(pts
+			(xy 251.46 77.47) (xy 273.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d313deef-b8ac-44cd-8ecd-805d409ce390")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34e6ceb-7bf7-4e43-94d7-5766425651dd")
+	)
+	(wire
+		(pts
+			(xy 88.9 77.47) (xy 88.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f10985-8a61-43b4-901c-5d066247e74c")
+	)
+	(wire
+		(pts
+			(xy 147.32 27.94) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f77dfb-bb8f-475c-9887-4e858a21fdd9")
+	)
+	(wire
+		(pts
+			(xy 190.5 77.47) (xy 210.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53bbeda-4798-4376-bd64-216aa5d9f582")
+	)
+	(wire
+		(pts
+			(xy 187.96 85.09) (xy 190.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d577e551-b4b6-4546-b70c-9af004c1696e")
+	)
+	(wire
+		(pts
+			(xy 124.46 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d683dc75-ee8e-4205-a0e7-6c7a36cdcf59")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 185.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b4cb7d-b234-4166-a942-7d079006c8b9")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d825337b-e3da-4a9c-9d7c-5c554520c423")
+	)
+	(wire
+		(pts
+			(xy 210.82 25.4) (xy 231.14 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d903e864-0062-41f9-a949-0ac49fb3c288")
+	)
+	(wire
+		(pts
+			(xy 66.04 85.09) (xy 68.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc39bd90-4f09-4612-be6c-48ffbaa7c2b9")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8d3796-05e4-4629-87a6-d2358ea0cb86")
+	)
+	(wire
+		(pts
+			(xy 210.82 77.47) (xy 231.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc98633a-0cbb-4b2a-a151-a744196d27c4")
+	)
+	(wire
+		(pts
+			(xy 144.78 27.94) (xy 147.32 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca4e28d-43d5-4825-95ba-0d80902ad71f")
+	)
+	(wire
+		(pts
+			(xy 165.1 33.02) (xy 165.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd24a12c-08d8-4fa1-85fd-1c3e98e55f2e")
+	)
+	(wire
+		(pts
+			(xy 124.46 85.09) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0e51c7-5c75-4b86-a876-90ee0cdb345a")
+	)
+	(wire
+		(pts
+			(xy 22.86 41.91) (xy 22.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03d094e-b4f2-4f96-9d6b-827eac7637d8")
+	)
+	(wire
+		(pts
+			(xy 63.5 85.09) (xy 63.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e040b0ed-23cc-41b6-a28b-67c4f191b972")
+	)
+	(wire
+		(pts
+			(xy 48.26 77.47) (xy 68.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13de45b-8c55-4f0d-b7ed-e068cf3a3ec1")
+	)
+	(wire
+		(pts
+			(xy 45.72 106.68) (xy 48.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ab0919-2e75-4fa5-ada3-54243f8a92fb")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e429d489-a78d-4402-b9f7-dadd0d1b5149")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4935ace-faa7-4369-a293-6d3222378d63")
+	)
+	(wire
+		(pts
+			(xy 185.42 80.01) (xy 187.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c32a37-1b11-4ef0-aac5-50dda80942b7")
+	)
+	(wire
+		(pts
+			(xy 22.86 106.68) (xy 27.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68916dd-3be0-4d7c-8cb6-d63e124541a2")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f9d32c-be6a-479d-8fae-2a2bde366dc5")
+	)
+	(wire
+		(pts
+			(xy 149.86 50.8) (xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70ede15-14a2-444b-b261-1ad14460c248")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 104.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b1fe92-3b84-4686-a05a-73cc8087ecd3")
+	)
+	(wire
+		(pts
+			(xy 144.78 33.02) (xy 144.78 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82f4bb9-2dfc-4fe3-bb8a-ef84f5243670")
+	)
+	(wire
+		(pts
+			(xy 248.92 80.01) (xy 248.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e868d361-1eec-481b-bd7e-47e8e64291d3")
+	)
+	(wire
+		(pts
+			(xy 205.74 87.63) (xy 226.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea062ee3-7f57-476b-82ff-0479ac15ea4f")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9c8804-e4b3-4b5f-ab2c-79547f1305fa")
+	)
+	(wire
+		(pts
+			(xy 149.86 77.47) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf3093e-1df0-4406-9bb5-99a65e15f7b6")
+	)
+	(wire
+		(pts
+			(xy 187.96 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecef9ddc-2469-4357-8523-3feeb30668f5")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 88.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbe1be5-2fe6-41cb-9617-9e3fc56a4db1")
+	)
+	(wire
+		(pts
+			(xy 208.28 85.09) (xy 210.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5f4147-6675-4134-81b1-b15f65c09a8e")
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42) (xy 104.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9e1c16-a329-4d57-a403-2a87d042f8cb")
+	)
+	(wire
+		(pts
+			(xy 185.42 53.34) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee0e31e-0df2-47a2-9c93-16f80bf20822")
+	)
+	(wire
+		(pts
+			(xy 43.18 85.09) (xy 43.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbb6911-9960-4438-91a9-9e821950c09c")
+	)
+	(wire
+		(pts
+			(xy 104.14 27.94) (xy 106.68 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd0eb91-5be3-47c4-955f-91de360bc0ff")
+	)
+	(wire
+		(pts
+			(xy 226.06 60.96) (xy 246.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00588dd-874c-4a5a-ae1f-0671f8dfd0cc")
+	)
+	(wire
+		(pts
+			(xy 66.04 27.94) (xy 66.04 33.02)
 		)
 		(stroke
 			(width 0)
@@ -288,9 +4154,293 @@
 		)
 		(uuid "f0766e5a-50b3-4f05-aadd-7f6e8c74553c")
 	)
+	(wire
+		(pts
+			(xy 27.94 25.4) (xy 48.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f100316e-8054-4986-85db-55883ec69c29")
+	)
+	(wire
+		(pts
+			(xy 27.94 50.8) (xy 48.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11db45d-d101-4908-88a1-08560e164df0")
+	)
+	(wire
+		(pts
+			(xy 251.46 80.01) (xy 251.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f129f1e4-dee6-465a-aeb5-debb244a9217")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15df07c-26a9-46a3-859e-aaa949c455c7")
+	)
+	(wire
+		(pts
+			(xy 109.22 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1734d0b-cd0b-46da-85f9-4d1fb7db0176")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 226.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18be1bc-6822-43e4-b528-ed3a125a7d5e")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24858de-59ab-4926-b87b-e0fb2bf3974f")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 208.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27a742a-db1c-40f4-bb81-a565a2a2473b")
+	)
+	(wire
+		(pts
+			(xy 27.94 80.01) (xy 27.94 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b44c4f-aa0c-4a64-97c2-5aa802caba3a")
+	)
+	(wire
+		(pts
+			(xy 205.74 27.94) (xy 208.28 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e68832-c779-4f4d-bc6c-40721b34bd9e")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46754b4-dcf4-4d85-8e48-4980469796e4")
+	)
+	(wire
+		(pts
+			(xy 129.54 99.06) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f501e921-283b-48cf-be18-120511ade776")
+	)
+	(wire
+		(pts
+			(xy 170.18 25.4) (xy 190.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f748c02c-d38d-48f2-98dd-068332cf8044")
+	)
+	(wire
+		(pts
+			(xy 248.92 33.02) (xy 251.46 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77db164-fae3-4c08-af20-fb46a2f97e1f")
+	)
+	(wire
+		(pts
+			(xy 83.82 109.22) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a5d66b-fa85-4585-bf68-0cc2c669f025")
+	)
+	(wire
+		(pts
+			(xy 185.42 87.63) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa05eebb-6c1f-4609-a6f8-ffa8e243d16f")
+	)
+	(wire
+		(pts
+			(xy 266.7 80.01) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa898390-2b0f-4cda-8241-6a9be5660fcc")
+	)
+	(wire
+		(pts
+			(xy 106.68 27.94) (xy 106.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabf807e-a534-46df-a3e2-425530f15be0")
+	)
+	(wire
+		(pts
+			(xy 246.38 27.94) (xy 248.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb67204e-1e75-405b-bb51-27212123f7a7")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 149.86 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcab9bb3-cfc8-46e7-b5e7-04ec7e903fcd")
+	)
+	(wire
+		(pts
+			(xy 251.46 53.34) (xy 251.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc9605d-036b-48d4-af00-f69bb93b561a")
+	)
+	(wire
+		(pts
+			(xy 48.26 77.47) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde23189-b7fb-4789-973e-ced441a07182")
+	)
+	(wire
+		(pts
+			(xy 228.6 80.01) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9cbddb-9fd8-47a2-9fa0-7e7297f3047d")
+	)
+	(wire
+		(pts
+			(xy 83.82 53.34) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaede54-c4de-4c10-a8a2-4ff23bb13d5c")
+	)
+	(wire
+		(pts
+			(xy 83.82 58.42) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff04ae07-7917-46be-87e4-e667953f3898")
+	)
+	(wire
+		(pts
+			(xy 210.82 50.8) (xy 231.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff552cd4-1844-494b-b94f-9507d6982f46")
+	)
+	(global_label "NeopixelDin"
+		(shape input)
+		(at 27.94 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a333f5c4-2a46-4078-9586-2d1c4a4cb280")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.4814 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 170.18 24.13 180)
+		(at 76.2 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -299,9 +4449,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ea48e53-6384-4a18-ad76-61dfd161aedd")
-		(property "Reference" "LED8"
-			(at 170.18 15.24 0)
+		(uuid "02fcbbaa-5917-486d-aa91-431510b990df")
+		(property "Reference" "LED27"
+			(at 76.2 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -311,7 +4461,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 170.18 17.78 0)
+			(at 76.2 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -320,8 +4470,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 170.18 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -333,7 +4483,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 172.466 24.13 0)
+			(at 78.486 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -345,7 +4495,735 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 24.13 0)
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 76.2 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9761659-b6c1-4830-977b-7916ae5d21e1")
+		)
+		(pin "4"
+			(uuid "bdb822c0-eedc-4bf5-b761-419bc98ea212")
+		)
+		(pin "3"
+			(uuid "ed8d071c-18c3-4385-acfe-39c0596a7734")
+		)
+		(pin "2"
+			(uuid "bd6e01a5-7f05-413b-8e58-f9b8b3d5507d")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 259.08 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1261b8a7-c487-4827-965a-8fb231cdc44e")
+		(property "Reference" "LED48"
+			(at 259.08 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 259.08 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 261.366 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41395d86-22ba-4838-a4c3-a2356e25813b")
+		)
+		(pin "4"
+			(uuid "d5ddbd2f-1b58-43ec-9d1c-5505f7c2e4da")
+		)
+		(pin "3"
+			(uuid "b1840c11-a86d-44a1-b250-d4b4bfd7b2db")
+		)
+		(pin "2"
+			(uuid "a31e3c85-dc64-467d-bbf5-4d1eb3065d7e")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 278.13 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16a32331-9741-4526-a881-ca58c02181f5")
+		(property "Reference" "#PWR013"
+			(at 278.13 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 278.13 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 278.13 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dc289db-bf15-4f8d-9219-6a534471b28a")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 55.88 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bc24973-ef3f-4ad2-a39f-5eeaf3f536da")
+		(property "Reference" "LED14"
+			(at 55.88 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 55.88 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 55.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 58.166 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 55.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 55.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d793eb31-ca86-42a9-9b33-0cebdf221c59")
+		)
+		(pin "4"
+			(uuid "d2fdd0a2-8d1a-4691-8bc9-8d16faaffb9f")
+		)
+		(pin "3"
+			(uuid "33ecbcbd-b0e1-451c-adf5-60b18b57bf20")
+		)
+		(pin "2"
+			(uuid "8721b2a0-db2e-4991-8090-e1a014f06b5f")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea8a174-1964-466c-a346-db17d0ccc404")
+		(property "Reference" "#PWR012"
+			(at 273.05 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db1297e0-c452-4853-aa72-0258f1634180")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 177.8 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eefdfd2-c639-4130-9066-d3602cbc7e52")
+		(property "Reference" "LED20"
+			(at 177.8 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 177.8 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 177.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 180.086 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 177.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 177.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "110ab661-e928-4c0a-a39d-3757013966f0")
+		)
+		(pin "4"
+			(uuid "dec880a4-846d-406e-a171-e72cb12f0a2d")
+		)
+		(pin "3"
+			(uuid "1f21e742-301c-490a-a992-b899bfde411f")
+		)
+		(pin "2"
+			(uuid "9fe9b989-77a6-4406-bab8-06141a3864d2")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 116.84 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "208a3af7-f741-4f20-b483-25173634190b")
+		(property "Reference" "LED41"
+			(at 116.84 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 116.84 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 119.126 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4b5deb8-c789-4270-ad6e-74ebd8793903")
+		)
+		(pin "4"
+			(uuid "2d119915-32d9-458a-8a35-7968e6c43fdc")
+		)
+		(pin "3"
+			(uuid "7fbf4da9-aebd-48dc-8ef9-41bbed749d89")
+		)
+		(pin "2"
+			(uuid "2c973692-0f9f-487a-8c98-89be0eb261ae")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 177.8 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea48e53-6384-4a18-ad76-61dfd161aedd")
+		(property "Reference" "LED8"
+			(at 177.8 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 177.8 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 177.8 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 180.086 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 177.8 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 177.8 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -378,7 +5256,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 149.86 24.13 180)
+		(at 157.48 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -389,7 +5267,7 @@
 		(fields_autoplaced yes)
 		(uuid "37c00aa5-e6f5-435c-8a32-1e87395b7200")
 		(property "Reference" "LED7"
-			(at 149.86 15.24 0)
+			(at 157.48 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -399,7 +5277,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 149.86 17.78 0)
+			(at 157.48 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -408,8 +5286,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 149.86 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 157.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -421,7 +5299,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 152.146 24.13 0)
+			(at 159.766 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -433,7 +5311,29 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 24.13 0)
+			(at 157.48 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 157.48 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 157.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -466,7 +5366,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 129.54 24.13 180)
+		(at 177.8 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -475,9 +5375,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3fd8f70d-f80a-4afa-bad3-5e2206c77e5a")
-		(property "Reference" "LED6"
-			(at 129.54 15.24 0)
+		(uuid "3968b58d-eb99-424d-a012-3b31bbccce79")
+		(property "Reference" "LED44"
+			(at 177.8 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -487,7 +5387,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 129.54 17.78 0)
+			(at 177.8 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -496,8 +5396,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 129.54 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 177.8 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -509,7 +5409,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 131.826 24.13 0)
+			(at 180.086 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -521,7 +5421,359 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 24.13 0)
+			(at 177.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 177.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 177.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68cf9bd4-a235-4021-96ea-2a882a519ba6")
+		)
+		(pin "4"
+			(uuid "e33e0c23-b3bd-408e-9103-58be1eb91148")
+		)
+		(pin "3"
+			(uuid "b4e45b3c-e7b0-4f9d-802a-b4444f3c30c6")
+		)
+		(pin "2"
+			(uuid "86047ac7-f34a-4fc4-8487-327add89196d")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 137.16 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3974f4fe-4aef-4f83-8248-4cddbd8c5a21")
+		(property "Reference" "LED30"
+			(at 137.16 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 137.16 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 137.16 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 139.446 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 137.16 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 137.16 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a293f40f-c854-4fb6-8412-b2c97af08a8b")
+		)
+		(pin "4"
+			(uuid "707c80fd-d94b-4168-b574-dcb81e79fd7a")
+		)
+		(pin "3"
+			(uuid "31850ab0-2aba-43ed-8b92-354d90ea237a")
+		)
+		(pin "2"
+			(uuid "1cce78d5-4fac-45b2-a626-b79252108786")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 96.52 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eacbd49-14d4-43be-8ed1-23a5ccfbdf2a")
+		(property "Reference" "LED28"
+			(at 96.52 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 96.52 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 98.806 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e655a5e-b4ca-40b1-bd78-9925a45128b3")
+		)
+		(pin "4"
+			(uuid "6f76d409-1d75-499a-bb9b-d05c0d2ae0c7")
+		)
+		(pin "3"
+			(uuid "0af45c80-e617-46db-a116-19e624abe6a3")
+		)
+		(pin "2"
+			(uuid "f02df7a6-9235-4444-b781-daeceae36b0b")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 137.16 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fd8f70d-f80a-4afa-bad3-5e2206c77e5a")
+		(property "Reference" "LED6"
+			(at 137.16 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 137.16 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 137.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 139.446 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 137.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 137.16 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -554,7 +5806,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 251.46 24.13 180)
+		(at 259.08 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -565,7 +5817,7 @@
 		(fields_autoplaced yes)
 		(uuid "42f7572b-6db8-4191-bea9-f128fb06c47e")
 		(property "Reference" "LED12"
-			(at 251.46 15.24 0)
+			(at 259.08 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -575,7 +5827,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 251.46 17.78 0)
+			(at 259.08 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -584,8 +5836,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 251.46 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 259.08 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -597,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 253.746 24.13 0)
+			(at 261.366 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -609,7 +5861,29 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 24.13 0)
+			(at 259.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 259.08 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 259.08 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -641,8 +5915,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SK6812 Reverse mount:4960")
-		(at 210.82 24.13 180)
+		(lib_id "power:GND")
+		(at 273.05 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -651,9 +5925,87 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6469d593-4304-4324-b1e5-756e06a9d8d8")
-		(property "Reference" "LED10"
-			(at 210.82 15.24 0)
+		(uuid "4bf6a085-b07e-4040-8571-b1059c9909c8")
+		(property "Reference" "#PWR014"
+			(at 273.05 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45032466-73a8-4a1d-896c-a62caeba7417")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 35.56 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "543fc668-0d0d-4608-9d68-1412d17b74a1")
+		(property "Reference" "LED25"
+			(at 35.56 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -663,7 +6015,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 210.82 17.78 0)
+			(at 35.56 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -672,8 +6024,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 210.82 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -685,7 +6037,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 213.106 24.13 0)
+			(at 37.846 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -697,7 +6049,359 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 24.13 0)
+			(at 35.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 35.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 35.56 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e64bf5c-123f-4255-9d63-ba5eb7c87d80")
+		)
+		(pin "4"
+			(uuid "8f4f9a99-d2b1-4599-94fd-49ad225335b2")
+		)
+		(pin "3"
+			(uuid "62b1a49c-c19f-4066-9679-b91eb4b743bb")
+		)
+		(pin "2"
+			(uuid "ebba814e-a706-4f45-bb04-8ebe1e160d41")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 137.16 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59f785fa-d0fd-4d35-821e-5cc944aa7e04")
+		(property "Reference" "LED42"
+			(at 137.16 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 137.16 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 139.446 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06b7954f-efbc-405a-b22f-2f0835e4234b")
+		)
+		(pin "4"
+			(uuid "76a6f619-cdd0-448a-aaf3-1f71de32adc6")
+		)
+		(pin "3"
+			(uuid "939ed27b-b4a6-42b3-aa06-d74dbd3ea660")
+		)
+		(pin "2"
+			(uuid "c191984d-07a7-404f-b8f4-45b3e34f6506")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 198.12 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6123841b-6424-4038-8187-d1e3ef7cc456")
+		(property "Reference" "LED21"
+			(at 198.12 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 198.12 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 198.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 200.406 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 198.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 198.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ad9b539-5f81-45a6-96f6-8c29300cbfcc")
+		)
+		(pin "4"
+			(uuid "ec021452-ecdc-42a9-8d6a-65246b974a50")
+		)
+		(pin "3"
+			(uuid "235e8f30-b565-4efd-873e-2594d9c8d0a3")
+		)
+		(pin "2"
+			(uuid "f648b34e-6cec-40df-bc43-688b65301529")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 218.44 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6469d593-4304-4324-b1e5-756e06a9d8d8")
+		(property "Reference" "LED10"
+			(at 218.44 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 218.44 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 218.44 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 220.726 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 218.44 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 218.44 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -730,7 +6434,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 109.22 24.13 180)
+		(at 116.84 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -741,7 +6445,7 @@
 		(fields_autoplaced yes)
 		(uuid "659ef0a8-f90e-43b0-ab63-3db7bd4cc7aa")
 		(property "Reference" "LED5"
-			(at 109.22 15.24 0)
+			(at 116.84 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -751,7 +6455,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 109.22 17.78 0)
+			(at 116.84 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -760,8 +6464,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 109.22 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -773,7 +6477,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 111.506 24.13 0)
+			(at 119.126 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -785,7 +6489,29 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 24.13 0)
+			(at 116.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 116.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -818,7 +6544,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 68.58 24.13 180)
+		(at 157.48 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -827,9 +6553,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ec2aacb-eaf5-430b-ba61-47a7dc0afdd9")
-		(property "Reference" "LED3"
-			(at 68.58 15.24 0)
+		(uuid "680a08b9-2a48-4298-9676-b54c1153d8ba")
+		(property "Reference" "LED19"
+			(at 157.48 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -839,7 +6565,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 68.58 17.78 0)
+			(at 157.48 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -848,8 +6574,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 68.58 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 157.48 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -861,7 +6587,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 70.866 24.13 0)
+			(at 159.766 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -873,7 +6599,249 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 24.13 0)
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0db02e6f-96dc-43f8-b920-ab72e93be062")
+		)
+		(pin "4"
+			(uuid "f6bbca79-c3c4-4ba7-94ba-bbd866c64d28")
+		)
+		(pin "3"
+			(uuid "04292566-4684-423b-b0d5-3816c231738c")
+		)
+		(pin "2"
+			(uuid "c27e341b-ccc9-4a9f-b36a-dd70d62bc1c8")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 177.8 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69ec972b-d1a9-4e2d-bb8c-f16aafb62e73")
+		(property "Reference" "LED32"
+			(at 177.8 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 177.8 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 180.086 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 177.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d6ffaee-1480-4783-acf3-3e941757fb2f")
+		)
+		(pin "4"
+			(uuid "099a8ac0-36bb-42a0-81ab-a1734d2957db")
+		)
+		(pin "3"
+			(uuid "b9c83e5c-935d-436d-b66b-b5522e38cb53")
+		)
+		(pin "2"
+			(uuid "6fae3fb0-6090-4d00-a8d5-79906b7728b3")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 76.2 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec2aacb-eaf5-430b-ba61-47a7dc0afdd9")
+		(property "Reference" "LED3"
+			(at 76.2 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 76.2 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 76.2 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 78.486 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 76.2 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -906,7 +6874,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 190.5 24.13 180)
+		(at 35.56 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -915,9 +6883,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e867628-b1b8-4477-9e72-20782d373a91")
-		(property "Reference" "LED9"
-			(at 190.5 15.24 0)
+		(uuid "702b8e0a-326d-47ca-acf6-03d07f4a1566")
+		(property "Reference" "LED37"
+			(at 35.56 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -927,7 +6895,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 190.5 17.78 0)
+			(at 35.56 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -936,8 +6904,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 190.5 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 35.56 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -949,7 +6917,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 192.786 24.13 0)
+			(at 37.846 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -961,7 +6929,359 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 24.13 0)
+			(at 35.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 35.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 35.56 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f243dc3a-372f-485e-bcb6-deaa3d1f39e6")
+		)
+		(pin "4"
+			(uuid "ab682257-36cf-482c-a925-c941c79aef6f")
+		)
+		(pin "3"
+			(uuid "21fc5bb5-945f-4ca6-8b02-8095bf43a441")
+		)
+		(pin "2"
+			(uuid "46c42dc4-dc00-4584-b804-89e1f504588b")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 55.88 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f6eb81-bb74-4abc-bdb9-272f3c7f61bb")
+		(property "Reference" "LED38"
+			(at 55.88 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 55.88 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 55.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 58.166 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 55.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 55.88 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eeda9888-9f0b-493d-be0a-63a2b33db19e")
+		)
+		(pin "4"
+			(uuid "96612e77-6620-4525-bea2-0c7a19458bfc")
+		)
+		(pin "3"
+			(uuid "5a62f84c-f62c-4c57-8083-1201a6feb0df")
+		)
+		(pin "2"
+			(uuid "ec623524-3b45-4b9c-a9d8-dbf4ea83e70f")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 116.84 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79c00028-ca61-49fe-bbad-853a88a79064")
+		(property "Reference" "LED29"
+			(at 116.84 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 116.84 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 119.126 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23b8a769-ad02-4f97-8e3c-4d07004ae141")
+		)
+		(pin "4"
+			(uuid "dc504c00-63ee-42ce-aee0-a8b145da7bc0")
+		)
+		(pin "3"
+			(uuid "d8a983bd-5317-4fd7-8197-965c64a4dc80")
+		)
+		(pin "2"
+			(uuid "db6978b0-d2c4-4c11-ad0a-f438331289ad")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 198.12 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e867628-b1b8-4477-9e72-20782d373a91")
+		(property "Reference" "LED9"
+			(at 198.12 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 198.12 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 200.406 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 198.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 198.12 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -994,7 +7314,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 27.94 24.13 180)
+		(at 198.12 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1003,9 +7323,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8345e48f-bc00-44e4-83d9-50d93e22ba99")
-		(property "Reference" "LED1"
-			(at 27.94 15.24 0)
+		(uuid "80c40b35-07c2-49b3-83d4-077d035e22aa")
+		(property "Reference" "LED45"
+			(at 198.12 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1015,7 +7335,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 27.94 17.78 0)
+			(at 198.12 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1024,8 +7344,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 27.94 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 198.12 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1037,7 +7357,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 30.226 24.13 0)
+			(at 200.406 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1049,7 +7369,139 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 24.13 0)
+			(at 198.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 198.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 198.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb717a3a-bf17-415f-9030-4d000b38a764")
+		)
+		(pin "4"
+			(uuid "4796b6fa-db34-4a8e-92e4-05e7cf126509")
+		)
+		(pin "3"
+			(uuid "cae8aeb5-9da3-481e-81d6-aaa9c622dfa6")
+		)
+		(pin "2"
+			(uuid "b6ebab0b-caf0-4c41-8734-e97089cdcc12")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 35.56 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8345e48f-bc00-44e4-83d9-50d93e22ba99")
+		(property "Reference" "LED1"
+			(at 35.56 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 35.56 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 35.56 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 37.846 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 35.56 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 35.56 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1082,7 +7534,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 48.26 24.13 180)
+		(at 96.52 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1091,9 +7543,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97264932-6a7c-45d1-ada6-ea7bea3f15d2")
-		(property "Reference" "LED2"
-			(at 48.26 15.24 0)
+		(uuid "90adc8ff-82b8-4ef8-a0ea-8989cd22b01b")
+		(property "Reference" "LED16"
+			(at 96.52 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1103,7 +7555,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 48.26 17.78 0)
+			(at 96.52 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1112,8 +7564,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 48.26 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 96.52 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1125,7 +7577,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 50.546 24.13 0)
+			(at 98.806 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1137,7 +7589,217 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 24.13 0)
+			(at 96.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 96.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 96.52 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5ad5264-ae7f-4cc7-b5b8-4e8b1ec44c25")
+		)
+		(pin "4"
+			(uuid "97eec4d7-314b-4e15-b74a-41fcfdcd4b3c")
+		)
+		(pin "3"
+			(uuid "a6e1c823-a699-4026-a066-a5033828801f")
+		)
+		(pin "2"
+			(uuid "12786041-10a1-40f0-b506-89425a0b6f9e")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 278.13 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92e62245-e462-4fb5-9f60-63240862c666")
+		(property "Reference" "#PWR015"
+			(at 278.13 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 278.13 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 278.13 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "030ac237-8d32-4662-a8e3-07a372df533b")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 55.88 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97264932-6a7c-45d1-ada6-ea7bea3f15d2")
+		(property "Reference" "LED2"
+			(at 55.88 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 55.88 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 58.166 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 55.88 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1170,7 +7832,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 231.14 24.13 180)
+		(at 76.2 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1179,9 +7841,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbe8a90e-72c6-443f-acf9-01c95f6c6c55")
-		(property "Reference" "LED11"
-			(at 231.14 15.24 0)
+		(uuid "99581765-4bbc-4825-a4dd-ccd519a6704f")
+		(property "Reference" "LED15"
+			(at 76.2 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1191,7 +7853,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 231.14 17.78 0)
+			(at 76.2 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1200,8 +7862,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 231.14 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 76.2 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1213,7 +7875,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 233.426 24.13 0)
+			(at 78.486 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1225,7 +7887,1505 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 24.13 0)
+			(at 76.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 76.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 76.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f501d20-92f3-4b05-b79a-8655166269f0")
+		)
+		(pin "4"
+			(uuid "4f5e9c90-c4c6-428a-b5e3-7d527f7a9c37")
+		)
+		(pin "3"
+			(uuid "a4f7447f-336d-4d73-a164-2ecd09fe6f95")
+		)
+		(pin "2"
+			(uuid "e7116c73-cde5-4479-811b-6394c3c68691")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bcd7c41-58bb-4502-8b23-11a96caafded")
+		(property "Reference" "#PWR010"
+			(at 273.05 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "864670e8-2a9f-4d82-983b-9556ee662e15")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 55.88 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1a77395-f241-4313-bebb-f9d52110f213")
+		(property "Reference" "LED26"
+			(at 55.88 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 55.88 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 55.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 58.166 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 55.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 55.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d4e0107-b285-46a9-b74d-b7bbd424d2cc")
+		)
+		(pin "4"
+			(uuid "d4490112-be2d-4bbe-9632-d11ef02c5fde")
+		)
+		(pin "3"
+			(uuid "ae3d6fa8-a605-49d3-abaa-309f70480ba3")
+		)
+		(pin "2"
+			(uuid "5e7fd215-eb3c-492c-b9f7-9aceb8522af1")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 35.56 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e3969d-d423-403b-8501-193ae428f383")
+		(property "Reference" "LED13"
+			(at 35.56 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 35.56 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 37.846 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d8371aa-200e-4c69-aa57-9f01aa07ca2d")
+		)
+		(pin "4"
+			(uuid "e43fe45f-d5d7-469e-9dc1-7da7e47781f5")
+		)
+		(pin "3"
+			(uuid "9b150432-5b5c-4ff4-92ad-d2dffc71169f")
+		)
+		(pin "2"
+			(uuid "0d13cfc1-d94b-4838-a4ff-6052b0f3ec7f")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 218.44 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afed70b8-7bbf-4308-8bab-bf90092abc57")
+		(property "Reference" "LED46"
+			(at 218.44 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 218.44 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 218.44 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 220.726 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 218.44 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 218.44 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee4e52ca-7c48-4a27-8be5-184c414b7c31")
+		)
+		(pin "4"
+			(uuid "9e4b642d-f6da-4805-8469-72a8ad65e70f")
+		)
+		(pin "3"
+			(uuid "d557cd5c-7744-47b2-8719-68d5726e1241")
+		)
+		(pin "2"
+			(uuid "fcac965b-ed15-4107-b81f-e0232a54c00c")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 259.08 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b796ad87-25dd-4f55-a780-c7d574bd3e46")
+		(property "Reference" "LED36"
+			(at 259.08 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 259.08 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 259.08 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 261.366 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 259.08 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 259.08 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "788906cd-2b46-4a17-90e7-9d1894b6ab4d")
+		)
+		(pin "4"
+			(uuid "b7083980-f6e9-4b18-aaa1-f00f3535ab2d")
+		)
+		(pin "3"
+			(uuid "b6c7e69c-7e49-4641-bbfd-0d4bb30962fb")
+		)
+		(pin "2"
+			(uuid "b91c2af2-c0d2-4a50-b97e-6059cc9d2edd")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 137.16 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b797c525-f774-41c0-901b-b60b280fb6e3")
+		(property "Reference" "LED18"
+			(at 137.16 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 137.16 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 137.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 139.446 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 137.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 137.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82f0f58f-8011-42ac-b140-c2a5e1a4db9a")
+		)
+		(pin "4"
+			(uuid "fddc3550-b9de-4de3-b6bb-a987ef89975c")
+		)
+		(pin "3"
+			(uuid "75116e54-1ca7-41ed-8cf1-82c123b0223c")
+		)
+		(pin "2"
+			(uuid "298b5a50-f9b2-459f-8950-b4ad97340708")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 218.44 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc16a490-3df2-4ca8-91b0-a93a7320bd6e")
+		(property "Reference" "LED34"
+			(at 218.44 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 218.44 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 218.44 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 220.726 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 218.44 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 218.44 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4521e38-defd-4627-965f-9c2e528c69bd")
+		)
+		(pin "4"
+			(uuid "cd42e20a-5c1c-4691-af89-3d8542d737a5")
+		)
+		(pin "3"
+			(uuid "b20b19c8-610b-4164-9670-9c9bf6787502")
+		)
+		(pin "2"
+			(uuid "7d6878ad-d474-4171-a88b-ae59759b76d7")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 218.44 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a08282-810e-429c-81d9-63e264ae13f1")
+		(property "Reference" "LED22"
+			(at 218.44 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 218.44 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 218.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 220.726 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 218.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 218.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df424497-8964-47f4-a4a0-2b20ab88dd91")
+		)
+		(pin "4"
+			(uuid "b773413e-9baf-4ce2-b45f-f19487a21d0c")
+		)
+		(pin "3"
+			(uuid "27ff677a-7eb1-4044-a8e9-8e8fb1d1ccb1")
+		)
+		(pin "2"
+			(uuid "10a8eb13-7a13-4290-811e-c6c10bf6e465")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 238.76 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd6d7e3a-6310-4c9d-b0d4-1a22d8feb151")
+		(property "Reference" "LED47"
+			(at 238.76 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 238.76 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 241.046 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f3e0d1c-07ac-421b-b585-557428dfd649")
+		)
+		(pin "4"
+			(uuid "563b7613-c487-4566-b0c9-8b4b7916c898")
+		)
+		(pin "3"
+			(uuid "4a698b7a-ecc0-4326-87eb-65bd2056a0da")
+		)
+		(pin "2"
+			(uuid "a7f9f0dd-131d-4144-91da-18bb5d6b392e")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 96.52 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce6e42cd-18fe-40f8-80a4-0b211773d867")
+		(property "Reference" "LED40"
+			(at 96.52 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 96.52 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 98.806 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e90add3-9d7f-46a2-8b79-b034a913f73a")
+		)
+		(pin "4"
+			(uuid "996df098-d45a-43fd-89a0-3936f251b16d")
+		)
+		(pin "3"
+			(uuid "6750a1bd-dd81-4800-ad83-55fc567cd93a")
+		)
+		(pin "2"
+			(uuid "6cc7e0de-502e-4adf-a59b-e93e54734d5b")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 259.08 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d82e13-bc03-448f-b7aa-020c47b16a4d")
+		(property "Reference" "LED24"
+			(at 259.08 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 259.08 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 259.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 261.366 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 259.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 259.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab1d4e31-7c9f-47d3-8e27-231f14f41b60")
+		)
+		(pin "4"
+			(uuid "22c415cd-76df-4eb7-84d2-02e56fa00ed5")
+		)
+		(pin "3"
+			(uuid "61eee4c6-3949-40ce-8dd8-a82f7601dec6")
+		)
+		(pin "2"
+			(uuid "4ad74e0c-51c4-4b4f-823d-f83856ea4329")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 278.13 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4669110-9d91-47e5-8ce9-f021e4ade547")
+		(property "Reference" "#PWR011"
+			(at 278.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 278.13 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 278.13 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9d04043-3c14-4cef-b4cf-c7e6df096381")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 116.84 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4f97066-d9ee-4edc-8024-8f8d60e1b2f4")
+		(property "Reference" "LED17"
+			(at 116.84 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 116.84 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 119.126 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 116.84 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23af44fd-8266-4fb3-a661-c47eadccd52e")
+		)
+		(pin "4"
+			(uuid "a093cb51-f20d-4878-853f-378b544302d4")
+		)
+		(pin "3"
+			(uuid "f86c80a4-519f-4a3c-abfc-25b5cce39b94")
+		)
+		(pin "2"
+			(uuid "87af0348-6403-4b57-9f97-d3c967dfab6a")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 238.76 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe8a90e-72c6-443f-acf9-01c95f6c6c55")
+		(property "Reference" "LED11"
+			(at 238.76 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 238.76 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 238.76 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 241.046 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 238.76 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 238.76 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1258,7 +9418,7 @@
 	)
 	(symbol
 		(lib_id "SK6812 Reverse mount:4960")
-		(at 88.9 24.13 180)
+		(at 76.2 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1267,9 +9427,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc309997-7662-41ea-a23c-ad1682f008f5")
-		(property "Reference" "LED4"
-			(at 88.9 15.24 0)
+		(uuid "df8ebbe1-00c7-4939-a588-cf9307eb7765")
+		(property "Reference" "LED39"
+			(at 76.2 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1279,7 +9439,7 @@
 			)
 		)
 		(property "Value" "4960"
-			(at 88.9 17.78 0)
+			(at 76.2 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1288,8 +9448,8 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
-			(at 88.9 24.13 0)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 76.2 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1301,7 +9461,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 91.186 24.13 0)
+			(at 78.486 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1313,7 +9473,735 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 24.13 0)
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9dcaf90a-7d36-4047-8165-fd807bdbe02b")
+		)
+		(pin "4"
+			(uuid "5e37cd76-8a85-4b4b-83fd-789165f49c6e")
+		)
+		(pin "3"
+			(uuid "f00916d3-8077-412c-8830-aaa28ff157a0")
+		)
+		(pin "2"
+			(uuid "8e9d0334-da51-412b-84cb-b0abc042ca9b")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ef8ec3-e4c4-470d-af84-864739e7eb38")
+		(property "Reference" "#PWR08"
+			(at 273.05 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c3a3838-5d37-4bf9-95b3-e3a28225d79d")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 157.48 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6273a4f-2259-444c-b426-321e9f7b176b")
+		(property "Reference" "LED43"
+			(at 157.48 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 157.48 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 157.48 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 159.766 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 157.48 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 157.48 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd9d9c8e-55f3-4d12-90ee-03632863cc29")
+		)
+		(pin "4"
+			(uuid "d04ab301-a10f-4199-b0bc-4ea4d87fec9a")
+		)
+		(pin "3"
+			(uuid "78a8bcbd-ecdf-41c5-847e-eb05949d461c")
+		)
+		(pin "2"
+			(uuid "6bbcec72-c331-4721-a2ae-a3788bf2da80")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 198.12 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eebce6fb-ed7b-4871-a763-eff4b860b4bf")
+		(property "Reference" "LED33"
+			(at 198.12 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 198.12 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 200.406 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "192d382c-c208-41cb-a5c0-af06d843a077")
+		)
+		(pin "4"
+			(uuid "fd97529f-4bd1-4020-b645-6aa45b3c832f")
+		)
+		(pin "3"
+			(uuid "1cde387b-043a-4dc4-90c8-0939748dda4e")
+		)
+		(pin "2"
+			(uuid "aa20e535-d158-44e6-998b-d7b83a5efac9")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 157.48 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f813893e-4319-46e1-9465-471046e9ec4b")
+		(property "Reference" "LED31"
+			(at 157.48 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 157.48 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 157.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 159.766 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 157.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 157.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a8a8e0f-5027-4089-84cc-93101145ffde")
+		)
+		(pin "4"
+			(uuid "d7caa7d2-e44c-4c4b-a1aa-4ab427cd120b")
+		)
+		(pin "3"
+			(uuid "dc5235f5-4ba3-4756-870f-9ab053a6b589")
+		)
+		(pin "2"
+			(uuid "c1486c17-5042-48b4-89d0-4243926bf055")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 278.13 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f871121e-06fd-46d3-93df-29d143936431")
+		(property "Reference" "#PWR09"
+			(at 278.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 278.13 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 278.13 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26a432d9-6e29-4f51-b800-6e0bd6c98c05")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 238.76 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb3416e7-01b5-4372-baa9-adcc16a9e229")
+		(property "Reference" "LED35"
+			(at 238.76 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 238.76 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 238.76 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 241.046 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 238.76 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 238.76 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f40dbd94-88ee-42e9-b76c-36ca7751594f")
+		)
+		(pin "4"
+			(uuid "d67ae5e1-5b1f-4e84-a936-355f0e1441db")
+		)
+		(pin "3"
+			(uuid "3b7620ba-d775-417a-a107-b97376ea243d")
+		)
+		(pin "2"
+			(uuid "71966ba2-e94e-4e88-965c-b4e8495be171")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 96.52 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc309997-7662-41ea-a23c-ad1682f008f5")
+		(property "Reference" "LED4"
+			(at 96.52 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 96.52 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 96.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 98.806 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 96.52 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 96.52 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1339,6 +10227,116 @@
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
 					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812 Reverse mount:4960")
+		(at 238.76 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feafceac-de4d-4131-824e-707dbcb1731f")
+		(property "Reference" "LED23"
+			(at 238.76 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4960"
+			(at 238.76 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 238.76 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "4960"
+			(at 241.046 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 238.76 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 238.76 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db655bbd-319f-4ae6-ae72-e3a2faa18863")
+		)
+		(pin "4"
+			(uuid "b19d4a4b-5614-492b-a488-7d4aed91bedd")
+		)
+		(pin "3"
+			(uuid "5496d280-dec9-4c8d-9474-17c35ae47bd3")
+		)
+		(pin "2"
+			(uuid "271b7f22-5c98-467b-ad05-e1ac9d8c6b1c")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/a1594013-5f39-4e11-a3d4-58e2ccc1ee5f"
+					(reference "LED23")
 					(unit 1)
 				)
 			)

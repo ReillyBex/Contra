@@ -163,7 +163,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -183,8 +183,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -215,7 +215,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -248,10 +248,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -285,17 +285,6 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -358,17 +347,122 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1663,10 +1757,22 @@
 		(uuid "f839f437-9f36-4693-9a37-d637fa4ad4d2")
 	)
 	(junction
+		(at 196.85 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45524680-3f3a-472c-beec-a236e3b6ada7")
+	)
+	(junction
 		(at 73.66 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57da5ef3-b3bd-4d79-8d80-7e4b47264112")
+	)
+	(junction
+		(at 223.52 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63453e8e-b261-4c77-9f7d-0929a8377470")
 	)
 	(junction
 		(at 119.38 151.13)
@@ -1679,6 +1785,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80d4a564-65aa-4d07-97b5-2ee9e05243cd")
+	)
+	(junction
+		(at 168.91 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88d820da-60b7-4891-abe1-ef44d5424741")
 	)
 	(junction
 		(at 132.08 158.75)
@@ -1717,6 +1829,16 @@
 			(type default)
 		)
 		(uuid "0c38efe1-e073-443f-9263-cea095632667")
+	)
+	(wire
+		(pts
+			(xy 140.97 36.83) (xy 168.91 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd2b620-8aea-4aed-844c-9085df4dbd31")
 	)
 	(wire
 		(pts
@@ -1787,6 +1909,16 @@
 			(type default)
 		)
 		(uuid "489db2d8-195d-48fd-8b26-e8f191d745cb")
+	)
+	(wire
+		(pts
+			(xy 168.91 36.83) (xy 196.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4962c370-2ad5-42e1-af37-b0c5a4a0c092")
 	)
 	(wire
 		(pts
@@ -1870,6 +2002,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 36.83) (xy 248.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fec3dd-d4c8-4477-bbb7-66c3e1dde292")
+	)
+	(wire
+		(pts
 			(xy 119.38 158.75) (xy 120.65 158.75)
 		)
 		(stroke
@@ -1910,6 +2052,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 36.83) (xy 223.52 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33b4ff3-c702-4ffb-983a-b064d131137d")
+	)
+	(wire
+		(pts
 			(xy 81.28 151.13) (xy 73.66 151.13)
 		)
 		(stroke
@@ -1917,50 +2069,6 @@
 			(type default)
 		)
 		(uuid "f49ed489-2c86-49be-af4e-e632e0dade9d")
-	)
-	(global_label "Accessory0"
-		(shape input)
-		(at 40.64 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25075475-13e9-462e-b102-9169ae2bdf50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Accessory0"
-		(shape input)
-		(at 81.28 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2faf3c73-2417-4d2f-a805-e6b1361d7400")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 	)
 	(global_label "COL1"
 		(shape input)
@@ -2047,6 +2155,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "NeopixelDin"
+		(shape input)
+		(at 81.28 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "721cfe7c-8dad-43c8-a7a4-ccbca6c41e68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.8214 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -2228,7 +2360,7 @@
 	)
 	(global_label "Accessory1"
 		(shape input)
-		(at 40.64 154.94 180)
+		(at 40.64 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2237,7 +2369,7 @@
 		)
 		(uuid "c9d083b6-321d-4747-9b51-68f60d956941")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 154.94 0)
+			(at 40.64 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2389,7 +2521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:nice_nano_AH_USBup"
+		(property "Footprint" "Reilly_Components:SuperMini NRF52840"
 			(at 100.33 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -2412,6 +2544,28 @@
 			)
 		)
 		(property "Description" "Symbol for an nicekeyboards nice!nano"
+			(at 100.33 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 100.33 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
 			(at 100.33 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -2659,6 +2813,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 125.73 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 125.73 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2303f57e-0c5f-4e86-a15d-5c81af3928ff")
 		)
@@ -2828,7 +3004,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 40.64 157.48 90)
+		(at 40.64 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2838,7 +3014,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a323a72")
 		(property "Reference" "#PWR06"
-			(at 44.45 157.48 0)
+			(at 44.45 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2849,7 +3025,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 36.576 159.258 90)
+			(at 36.576 156.718 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2859,7 +3035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 157.48 0)
+			(at 40.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2870,7 +3046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 157.48 0)
+			(at 40.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2881,7 +3057,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 157.48 0)
+			(at 40.64 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2979,7 +3155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 45.72 152.4 0)
 		(unit 1)
 		(body_style 1)
@@ -2990,28 +3166,26 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bfde52b")
 		(property "Reference" "J1"
-			(at 47.752 152.6032 0)
+			(at 45.72 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 47.752 154.9146 0)
+		(property "Value" "Conn_01x03"
+			(at 45.72 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3033,8 +3207,31 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 45.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 45.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 45.72 152.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3052,13 +3249,88 @@
 		(pin "3"
 			(uuid "6f3907d9-c08a-44ca-9675-fd26c6aabc66")
 		)
-		(pin "4"
-			(uuid "283aed40-4fe6-4f26-ba31-4e59b43ee51a")
-		)
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f1a023f-3c53-49b6-a5ab-a3ed26a9a11f")
+		(property "Reference" "#PWR016"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35c5055b-55a3-434b-8904-770f3a741505")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3129,6 +3401,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 149.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "86af212b-5766-4705-b0e2-1eab5c5b6d8e")
 		)
@@ -3142,6 +3436,164 @@
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 196.85 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a8742db-5f6b-49ac-8119-07961889ba24")
+		(property "Reference" "H3"
+			(at 199.39 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 199.39 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3defebd2-906e-4cde-81d4-ec123a3e17ec")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 248.92 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50f0ae81-da78-49b8-94d9-aca7b23a450e")
+		(property "Reference" "H5"
+			(at 251.46 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 251.46 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 248.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 248.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94783efb-6fba-4fea-84d7-f235c47c9349")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -3304,6 +3756,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 223.52 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bed47707-0bdf-4213-8e5b-7981d09e5df4")
+		(property "Reference" "H4"
+			(at 226.06 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 226.06 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 223.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 223.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "beb9e3c8-5d4d-4951-8a44-9a50dc1f996e")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 168.91 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7e896cc-4e7e-4420-8851-80232a439308")
+		(property "Reference" "H2"
+			(at 171.45 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 171.45 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 168.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 168.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43a6bef1-eb68-4e7c-8654-c07dd252a0ea")
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 163.83 157.48 0)
 		(unit 1)
@@ -3370,6 +3980,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" ""
+			(at 163.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5f1e242a-b7cd-402f-973b-2a5bf8afeac6")
 		)
@@ -3385,48 +4017,81 @@
 			)
 		)
 	)
-	(sheet
-		(at 214.63 60.96)
-		(size 53.34 27.94)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 140.97 34.29 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7bf19d48-7292-4cf6-a5d6-5894c87cb0c0")
-		(property "Sheetname" "CorneReference"
-			(at 214.63 60.2484 0)
+		(uuid "f4a0d577-97c6-44d6-b6a9-398900f0de08")
+		(property "Reference" "H1"
+			(at 143.51 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Sheetfile" "CorneReference.kicad_sch"
-			(at 214.63 89.4846 0)
+		(property "Value" "MountingHole_Pad"
+			(at 143.51 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 140.97 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 140.97 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e727cb30-2d31-49db-bae7-2cf77fc5b8c7")
 		)
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
-					(page "4")
+					(reference "H1")
+					(unit 1)
 				)
 			)
 		)
