@@ -13290,6 +13290,206 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "kbd:OLED"
+		(layer "F.Cu")
+		(uuid "cf1dc66e-4a82-4275-af5c-2358ab814774")
+		(at 33.3375 88.275)
+		(descr "Connecteur 6 pins")
+		(tags "CONN DEV")
+		(property "Reference" "OL1"
+			(at 2.45 2.25 180)
+			(layer "F.Fab")
+			(uuid "c8e08f21-5a3f-417d-aea8-d0c835b27e1a")
+			(effects
+				(font
+					(size 0.8128 0.8128)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OLED"
+			(at 0 2.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f896fe7-9af2-42be-98bc-a8a6f1541f2f")
+			(effects
+				(font
+					(size 0.8128 0.8128)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a89db99-84cb-4823-a16d-ac65221e6534")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd1d58f7-b6eb-44b3-832d-877719cc4b1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/55c98570-2a05-41ae-b49d-5f7a8bc8610c")
+		(sheetname "/")
+		(sheetfile "Contra.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -6 -36.73)
+			(end 6 -36.73)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "f3cfe8fe-274b-4884-b159-9907a937958f")
+		)
+		(fp_line
+			(start -6 1.27)
+			(end -6 -36.73)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "451bd319-7349-4d52-86d5-8a9f157e0a6b")
+		)
+		(fp_line
+			(start -6 1.27)
+			(end 6 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "c84b3297-ab10-426a-b3eb-769a4954aab9")
+		)
+		(fp_line
+			(start 6 -36.73)
+			(end 6 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1c307345-b7ca-4f16-8bdd-12b79d6d3426")
+		)
+		(fp_line
+			(start -5.5 -36.23)
+			(end 5.5 -36.23)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "B.Fab")
+			(uuid "bc768443-54a2-4134-9ea6-91cf890bd830")
+		)
+		(fp_line
+			(start -5.5 -1.27)
+			(end -5.5 -36.23)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "B.Fab")
+			(uuid "b78870d5-e447-415f-b3d7-bb797d59e9b5")
+		)
+		(fp_line
+			(start 5.5 -1.27)
+			(end -5.5 -1.27)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "B.Fab")
+			(uuid "3682ce3d-6bc8-4880-8690-794a2d467057")
+		)
+		(fp_line
+			(start 5.5 -1.27)
+			(end 5.5 -36.23)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "B.Fab")
+			(uuid "6a3de027-500a-4c47-841e-2c853353207f")
+		)
+		(fp_text user "REF**"
+			(at -0.01 -1.28 0)
+			(layer "F.SilkS")
+			(uuid "94386fda-d653-492a-b2b0-64fd6f1212de")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.125)
+					(bold yes)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -3.81 0)
+			(size 1.4 1.4)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(OL1-SDA)")
+			(pinfunction "SDA_1")
+			(pintype "bidirectional")
+			(uuid "db21f672-e298-4135-9c5e-6678b6d0521a")
+		)
+		(pad "2" thru_hole circle
+			(at -1.27 0)
+			(size 1.4 1.4)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(OL1-SCL)")
+			(pinfunction "SCL_2")
+			(pintype "bidirectional")
+			(uuid "a383c8a2-f5db-4152-8fcb-d8d211ea83b3")
+		)
+		(pad "3" thru_hole circle
+			(at 1.27 0)
+			(size 1.4 1.4)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "VBAT")
+			(pinfunction "VCC_3")
+			(pintype "power_in")
+			(uuid "8012a0ec-269b-4791-98b4-394ea5fae862")
+		)
+		(pad "4" thru_hole circle
+			(at 3.81 0)
+			(size 1.4 1.4)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "GND_4")
+			(pintype "power_in")
+			(uuid "8d1a0489-85d5-48fb-afa7-ea47be56e4b2")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d956a29e-380b-44a3-9bb9-1c0953afbb22")
@@ -15735,9 +15935,9 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-P1.01-LF-Pad25)")
+			(net "Net-(OL1-SCL)")
 			(pinfunction "P1.01-LF_25")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "69beb61b-8f95-41f9-9611-85a0e4b76b83")
 		)
 		(pad "26" thru_hole circle
@@ -15746,9 +15946,9 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-P1.02-LF-Pad26)")
+			(net "Net-(OL1-SDA)")
 			(pinfunction "P1.02-LF_26")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "b2548728-9667-433f-aea9-28ea6339d3fc")
 		)
 		(pad "27" thru_hole circle
@@ -16176,7 +16376,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005bfdf8f7")
-		(at 26.9875 97.5325 -90)
+		(at 36.5125 91.8175 -90)
 		(descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J1"
@@ -19220,7 +19420,7 @@
 	(footprint "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "17a81fbf-5886-4f8b-b62b-babf648dafba")
-		(at 40.9575 89.535 180)
+		(at 30.7775 98.4725 180)
 		(descr "JST XH series connector, S2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH horizontal")
 		(property "Reference" "J2"
@@ -53072,7 +53272,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 26.67 109.5375 270)
+		(at 36.195 104.775 270)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00005bfe16d2")
 		(effects
@@ -53083,7 +53283,7 @@
 		)
 	)
 	(gr_text "P0.08"
-		(at 29.5275 110.49 270)
+		(at 39.0525 104.775 270)
 		(layer "B.SilkS")
 		(uuid "4a903f41-9318-4bd6-adce-ef7bff762867")
 		(effects
@@ -53094,7 +53294,7 @@
 		)
 	)
 	(gr_text "+5V"
-		(at 32.385 109.5375 270)
+		(at 41.91 103.8225 270)
 		(layer "B.SilkS")
 		(uuid "808018af-d0d0-4afb-8cb3-2d4e25d37072")
 		(effects
