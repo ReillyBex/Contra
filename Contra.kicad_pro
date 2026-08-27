@@ -528,7 +528,8 @@
       "Seeed_Studio_XIAO_Series",
       "SK6812 Reverse mount",
       "SSD1306",
-      "XIAO_PCB"
+      "XIAO_PCB",
+      "kbd"
     ],
     "pinned_symbol_libs": []
   },
@@ -655,6 +656,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR.Part #",
+          "name": "MFR.Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -705,7 +718,7 @@
         "uuid": "490ed6d6-ce6d-4821-aa52-98b9130151cb"
       }
     ],
-    "used_designators": "LED1-12,MX1-47,D1-47,#PWR1,#PWR3,SW2,J2",
+    "used_designators": "J2-10,SW2-44,Y1-2,#PWR1,#PWR3,U2-9,D1-49,C1-32,MX1-47,LED1-54,JP1-2,R1-18,ZD1-2,BT1-8,EXLED1-4,EXSW1-4,SMDSW1-4",
     "variants": []
   },
   "sheets": [
@@ -720,6 +733,10 @@
     [
       "a1594013-5f39-4e11-a3d4-58e2ccc1ee5f",
       "Neopixels"
+    ],
+    [
+      "7bf19d48-7292-4cf6-a5d6-5894c87cb0c0",
+      "CorneReference"
     ]
   ],
   "text_variables": {},

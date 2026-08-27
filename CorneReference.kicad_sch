@@ -9503,6 +9503,12 @@
 			(uuid "a7eda341-dce6-4c99-8d12-519628f84e5e")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR05")
@@ -9580,6 +9586,12 @@
 			(uuid "5d2f7431-92ee-40eb-bcfc-0c18f17b35db")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR044")
@@ -9657,6 +9669,12 @@
 			(uuid "2fdf1434-fbc6-4d6a-95da-4a3f40eec377")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR030")
@@ -9733,6 +9751,12 @@
 			(uuid "31e76ec1-2a96-4915-aa79-2f7f5e2c0870")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR055")
@@ -9811,6 +9835,12 @@
 			(uuid "3e76208d-143e-4e12-9467-bcece55d01e1")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR06")
@@ -9830,7 +9860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "085a7a9f-9863-4753-a556-103c418c03f9")
-		(property "Reference" "LED17"
+		(property "Reference" "LED38"
 			(at 202.565 225.425 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9852,7 +9882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 214.63 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -9897,6 +9927,12 @@
 			(uuid "d8ebccd9-74d4-42be-9053-dbeb4f4668d5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED38")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED17")
@@ -9916,7 +9952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08887039-c6b7-42d8-a33e-27930c890a6f")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 58.42 133.985 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9975,6 +10011,12 @@
 			(uuid "0b7c89ce-c64e-4c20-9161-2d33cbab6640")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R4")
@@ -9994,7 +10036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08f128da-5d97-4f55-93dd-6717b82a7f39")
-		(property "Reference" "SW5"
+		(property "Reference" "SW37"
 			(at 241.3 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10053,6 +10095,12 @@
 			(uuid "176309a3-00fb-4666-b2bd-e0a844d10cac")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW5")
@@ -10130,6 +10178,12 @@
 			(uuid "e8ead598-83d2-464d-8447-180f127c3405")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR039")
@@ -10149,7 +10203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09d6b10f-b7e0-498f-8aa2-72c2f862d4ce")
-		(property "Reference" "LED6"
+		(property "Reference" "LED48"
 			(at 248.285 221.615 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10171,7 +10225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 247.65 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -10216,6 +10270,12 @@
 			(uuid "896694a4-23da-49e6-8fb3-bb8197800825")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED48")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED6")
@@ -10293,6 +10353,12 @@
 			(uuid "73dc9804-3b02-403e-8632-ffa786e6784c")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR032")
@@ -10312,7 +10378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b063131-6d62-4df0-b21b-f5b284e2137b")
-		(property "Reference" "LED4"
+		(property "Reference" "LED51"
 			(at 263.525 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,7 +10400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 275.59 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10379,6 +10445,12 @@
 			(uuid "cc8a0df0-cf64-49d3-8b38-6f6fbe64fcc8")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED51")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED4")
@@ -10456,6 +10528,12 @@
 			(uuid "c9549f5c-d49b-492a-b9c5-a91c31d47f77")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR038")
@@ -10476,7 +10554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e74e9f9-5663-4b3b-af6e-fb3e164de70a")
-		(property "Reference" "SW4"
+		(property "Reference" "SW41"
 			(at 254 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10535,6 +10613,12 @@
 			(uuid "0a1da4e4-cd86-4d90-8320-a6262d48df94")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW4")
@@ -10612,6 +10696,12 @@
 			(uuid "01c3bac7-537b-4164-9df8-80e1d430cabc")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR023")
@@ -10631,7 +10721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12f1c1b5-2d12-4f63-b6f2-1ee4474a35fe")
-		(property "Reference" "R9"
+		(property "Reference" "R16"
 			(at 66.04 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10690,6 +10780,12 @@
 			(uuid "5599884e-78de-4c15-9408-5e73be25a283")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R9")
@@ -10767,6 +10863,12 @@
 			(uuid "776ad6f2-a8c4-4731-8929-2f983cb9013e")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR042")
@@ -10786,7 +10888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "185c227d-fdc2-4199-99b0-1f02e241cdb3")
-		(property "Reference" "SW12"
+		(property "Reference" "SW33"
 			(at 228.6 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10845,6 +10947,12 @@
 			(uuid "46d17380-656a-443c-8eb0-bd6b5b266546")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW12")
@@ -10864,7 +10972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1901e972-4f47-4dcb-baf1-a24edaa35a0a")
-		(property "Reference" "SW7"
+		(property "Reference" "SW39"
 			(at 241.3 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10923,6 +11031,12 @@
 			(uuid "b4d5586f-576d-47a5-915e-837717999db0")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW7")
@@ -11000,6 +11114,12 @@
 			(uuid "bdfe484a-a7aa-4fe5-b078-784b594e8df5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR011")
@@ -11020,7 +11140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23434944-a491-4560-9179-901caf2993ec")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 88.3159 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11257,6 +11377,12 @@
 			(uuid "ecbd6b34-3386-4246-9db5-8167c9135aee")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "U1")
@@ -11334,6 +11460,12 @@
 			(uuid "8880d62c-920b-487d-8b40-cb4f56a0b7af")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR03")
@@ -11353,7 +11485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26318ad0-3060-4adb-8041-ce709327f2df")
-		(property "Reference" "SW21"
+		(property "Reference" "SW26"
 			(at 190.5 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11412,6 +11544,12 @@
 			(uuid "ac7522a8-f4ff-4191-aec5-6232a462f763")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW21")
@@ -11489,6 +11627,12 @@
 			(uuid "2991c467-51fb-46d6-a6e5-e8038df8f686")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR052")
@@ -11508,7 +11652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e6fa43b-e14e-41ba-adac-7b64c6aab629")
-		(property "Reference" "LED18"
+		(property "Reference" "LED37"
 			(at 202.565 206.375 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11530,7 +11674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 214.63 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -11575,6 +11719,12 @@
 			(uuid "ef8d0ecd-aee4-4388-b77d-48b6f4685987")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED37")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED18")
@@ -11651,6 +11801,12 @@
 			(uuid "aaafe99d-8217-4dc4-88ea-77e5fa2be6be")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR035")
@@ -11670,7 +11826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fe16295-839b-4c35-aabd-d5ed5ce3b2db")
-		(property "Reference" "SW19"
+		(property "Reference" "SW24"
 			(at 190.5 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11729,6 +11885,12 @@
 			(uuid "fa814cfc-d2b7-450c-8500-4c3e63cdef2b")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW19")
@@ -11806,6 +11968,12 @@
 			(uuid "9161b516-e969-4ae3-8c99-e2372a9ac4e2")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR020")
@@ -11825,7 +11993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3742c8db-522d-4c25-accf-50eabf521e5c")
-		(property "Reference" "LED11"
+		(property "Reference" "LED44"
 			(at 233.045 225.425 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11847,7 +12015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 245.11 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -11892,6 +12060,12 @@
 			(uuid "c0828df9-cd69-4080-a40d-0b851ac3e529")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED44")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED11")
@@ -11911,7 +12085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "389759b8-5848-47f7-8226-c4bf985f6323")
-		(property "Reference" "LED2"
+		(property "Reference" "LED53"
 			(at 263.525 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11933,7 +12107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 275.59 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -11978,6 +12152,12 @@
 			(uuid "5c85461e-615d-4d87-92cc-0e6365daf9e5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED53")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED2")
@@ -11998,7 +12178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39267409-d303-4d9b-a6dd-0934e0182b41")
-		(property "Reference" "D1"
+		(property "Reference" "D49"
 			(at 218.44 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12070,6 +12250,12 @@
 			(uuid "9ccff7f0-0a9c-4f20-8b49-b5877a64e03e")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "D49")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "D1")
@@ -12147,6 +12333,12 @@
 			(uuid "f70473f6-698d-4052-bd65-4755d395e910")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR028")
@@ -12166,7 +12358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a7446c4-1bb3-4f2a-91aa-8b39b241611e")
-		(property "Reference" "EXLED2"
+		(property "Reference" "EXLED4"
 			(at 278.765 221.615 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12188,7 +12380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 278.13 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -12233,6 +12425,12 @@
 			(uuid "8452ae4e-0864-4f98-b432-441b290a28cc")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "EXLED4")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "EXLED2")
@@ -12252,7 +12450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bcdd04e-9d9a-4e5c-a99c-5053f7ad6713")
-		(property "Reference" "SW6"
+		(property "Reference" "SW38"
 			(at 241.3 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12311,6 +12509,12 @@
 			(uuid "3528f05c-cd6a-474b-b330-c6049e8046e9")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW6")
@@ -12389,6 +12593,12 @@
 			(uuid "edc9d3bc-8286-4f02-a84a-1f446d769c18")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR061")
@@ -12408,7 +12618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ea7135a-499a-4ff9-a286-b0062f0e5b1e")
-		(property "Reference" "C2"
+		(property "Reference" "C18"
 			(at 39.37 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12469,6 +12679,12 @@
 			(uuid "f859cb76-c242-484b-85d5-d8a5155c3402")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C2")
@@ -12546,6 +12762,12 @@
 			(uuid "cc7c0b9c-2670-4553-9882-93f1606e14a4")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR037")
@@ -12565,7 +12787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43a5cf8f-cc9e-4bd6-b1a4-26035db69032")
-		(property "Reference" "LED5"
+		(property "Reference" "LED47"
 			(at 248.285 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12587,7 +12809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 247.65 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -12632,6 +12854,12 @@
 			(uuid "3c66e951-637e-4ee9-93ec-981ff5eb83bf")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED47")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED5")
@@ -12651,7 +12879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "445e4b5b-062e-43d1-b2a7-b5c2e275449b")
-		(property "Reference" "SW1"
+		(property "Reference" "SW44"
 			(at 254 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12710,6 +12938,12 @@
 			(uuid "02b63dc9-c04b-4989-8e1f-bdbb3fdb2c1d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW1")
@@ -12729,7 +12963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44f55e27-ec00-47ef-96f8-d2f13a4fcc01")
-		(property "Reference" "SW14"
+		(property "Reference" "SW31"
 			(at 215.9 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12788,6 +13022,12 @@
 			(uuid "2cd8eb57-953c-4189-a32d-acd4246577c1")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW14")
@@ -12808,7 +13048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e62cfb-e9ab-4310-af27-b2da0435b34f")
-		(property "Reference" "BT2"
+		(property "Reference" "BT6"
 			(at 20.32 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12830,7 +13070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "kbd:Breakaway_Tabs"
 			(at 17.78 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -12863,6 +13103,12 @@
 			)
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "BT6")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "BT2")
@@ -12882,7 +13128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "463e9906-104f-4e1f-8efd-acf141caff15")
-		(property "Reference" "SW17"
+		(property "Reference" "SW28"
 			(at 203.2 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12941,6 +13187,12 @@
 			(uuid "d0c145c7-8387-42cc-aa17-6ccab2a032e5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW17")
@@ -12960,7 +13212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46568157-e50b-4a43-9c17-bce0a464cdf1")
-		(property "Reference" "LED13"
+		(property "Reference" "LED40"
 			(at 217.805 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12982,7 +13234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 217.17 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -13027,6 +13279,12 @@
 			(uuid "ba921469-555c-437e-a011-900279771a02")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED40")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED13")
@@ -13046,7 +13304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ccb7b1a-e637-4622-bacd-3911a838e662")
-		(property "Reference" "LED21"
+		(property "Reference" "LED36"
 			(at 187.325 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13068,7 +13326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 186.69 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -13113,6 +13371,12 @@
 			(uuid "ede53844-72b8-49d9-90b2-47fd5f66cf48")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED36")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED21")
@@ -13190,6 +13454,12 @@
 			(uuid "1a5fbf69-d31e-436e-8c96-a463f1b2c23d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR036")
@@ -13266,6 +13536,12 @@
 			(uuid "a9453528-efa6-4018-a7aa-3a37a1229ce7")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR040")
@@ -13285,7 +13561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "502f024e-975e-4837-a306-c49d1b4fd999")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 66.04 38.735 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13344,6 +13620,12 @@
 			(uuid "ebba1c6b-77fa-4f0e-ab72-53ff53b9e60b")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R8")
@@ -13421,6 +13703,12 @@
 			(uuid "47fb66f7-7058-40ea-aa1b-56caad6a0c57")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR062")
@@ -13498,6 +13786,12 @@
 			(uuid "1c88263b-7c2d-4d56-9b7a-8050ba305c56")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR02")
@@ -13574,6 +13868,12 @@
 			(uuid "9c2f08a1-993a-451f-898b-2d863fb8ee77")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR04")
@@ -13593,7 +13893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "540d70a4-896d-4405-93bc-a45a98544102")
-		(property "Reference" "LED14"
+		(property "Reference" "LED41"
 			(at 217.805 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13615,7 +13915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 217.17 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -13660,6 +13960,12 @@
 			(uuid "c0ebc2aa-b005-4cc5-8af8-5d79d2098628")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED41")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED14")
@@ -13737,6 +14043,12 @@
 			(uuid "e1cfa739-8e6f-488f-9bb3-9c4a3069f6e4")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR018")
@@ -13757,7 +14069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "557fbb5e-c288-459e-8753-26099644c101")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 156.21 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13851,6 +14163,12 @@
 			(uuid "01489e12-5158-412f-8bda-75bec743ed55")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "U3")
@@ -13927,6 +14245,12 @@
 			(uuid "5d451e6a-a43e-4a3c-8fbd-a9889dbad263")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#FLG03")
@@ -13946,7 +14270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58af1e0a-e4b9-4da9-acfc-893a78fe5408")
-		(property "Reference" "LED19"
+		(property "Reference" "LED34"
 			(at 187.325 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13968,7 +14292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 186.69 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -14013,6 +14337,12 @@
 			(uuid "69f27427-c84e-4db2-a166-570efcd339e0")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED34")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED19")
@@ -14032,7 +14362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c8180e9-a884-430d-aa45-815478c2a450")
-		(property "Reference" "SW16"
+		(property "Reference" "SW29"
 			(at 203.2 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14091,6 +14421,12 @@
 			(uuid "362f7a29-917c-4de2-a60e-fc08e1b7af22")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW16")
@@ -14168,6 +14504,12 @@
 			(uuid "8a600a91-e65c-4c02-9bfa-db184efb87fb")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR010")
@@ -14187,7 +14529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e803f82-dcb9-4850-b958-f7ad300cf468")
-		(property "Reference" "SW15"
+		(property "Reference" "SW32"
 			(at 215.9 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14246,6 +14588,12 @@
 			(uuid "d154f600-2aa8-416d-b84a-9d9e799eb482")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW15")
@@ -14265,7 +14613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60d12e80-f4a8-45a2-ae28-1e98c417bdc2")
-		(property "Reference" "EXSW2"
+		(property "Reference" "EXSW4"
 			(at 273.05 128.905 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14285,7 +14633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
 			(at 277.114 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14333,6 +14681,12 @@
 			(uuid "aa3aa7a5-0f76-4937-be03-39826c2d0be8")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "EXSW4")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "EXSW2")
@@ -14352,7 +14706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62b5ae5c-d2ed-446a-9d68-459a90712857")
-		(property "Reference" "SW18"
+		(property "Reference" "SW27"
 			(at 203.2 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14411,6 +14765,12 @@
 			(uuid "27b80996-b8bf-4a18-8a1b-cfe7ae0ac270")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW18")
@@ -14488,6 +14848,12 @@
 			(uuid "5ca43f5f-7d4d-4b0f-97e7-aad8ebdebbd9")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR041")
@@ -14565,6 +14931,12 @@
 			(uuid "c005f24a-c92d-454e-8fc3-a2a43bc0bac7")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR053")
@@ -14585,7 +14957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6acd1f2d-4d35-49d1-ab62-153b43867a5f")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 210.82 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14646,6 +15018,12 @@
 			(uuid "dda54c7c-f382-46a6-ab7c-72384ecaa2ad")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "JP1")
@@ -14665,7 +15043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cff744c-ecf2-4a6e-9a76-45e2b8bc6fd3")
-		(property "Reference" "C10"
+		(property "Reference" "C26"
 			(at 127 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14726,6 +15104,12 @@
 			(uuid "9d0e2efe-b10b-4f28-9886-d1c2ea27866c")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C10")
@@ -14802,6 +15186,12 @@
 			(uuid "8c344428-cbca-44c3-bd23-dccf5183f950")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR022")
@@ -14879,6 +15269,12 @@
 			(uuid "5f5a415e-20ad-4020-afe1-c63d090d30d5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR012")
@@ -14898,7 +15294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "766e2d4e-7d94-4dc3-8a2b-4a7665d74798")
-		(property "Reference" "LED8"
+		(property "Reference" "LED50"
 			(at 248.285 257.175 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14920,7 +15316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 247.65 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -14965,6 +15361,12 @@
 			(uuid "738f2ffb-a53b-4402-8ef6-47fe8ece7cab")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED50")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED8")
@@ -15041,6 +15443,12 @@
 			(uuid "c53bea17-576a-4240-ba39-310fc76eac05")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR060")
@@ -15060,7 +15468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77b830dc-b57e-4d87-b5f6-ae460d0b2535")
-		(property "Reference" "C3"
+		(property "Reference" "C19"
 			(at 64.77 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15121,6 +15529,12 @@
 			(uuid "a4719865-e092-47ee-8e24-7e2f8eb844cc")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C3")
@@ -15198,6 +15612,12 @@
 			(uuid "512c1db9-5f2b-4fca-ac0c-1f5da5ab4777")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR015")
@@ -15275,6 +15695,12 @@
 			(uuid "bf086921-472d-48d5-a5ce-51f9ecf0b0ff")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR049")
@@ -15294,7 +15720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aad426d-f63c-4da8-a462-0d9b983259b0")
-		(property "Reference" "LED12"
+		(property "Reference" "LED43"
 			(at 233.045 206.375 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15316,7 +15742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 245.11 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15361,6 +15787,12 @@
 			(uuid "beef472d-5ee7-4b58-8c77-5e75cf5640f7")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED43")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED12")
@@ -15380,7 +15812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bd79bd9-10c7-49ef-9663-eb6f5e40d2f6")
-		(property "Reference" "C4"
+		(property "Reference" "C20"
 			(at 76.2 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15441,6 +15873,12 @@
 			(uuid "0f3aa200-a525-4e20-bf38-c02274fcd8eb")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C4")
@@ -15460,7 +15898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c45f75d-dc61-4f01-b912-b5f17aaad99a")
-		(property "Reference" "ZD1"
+		(property "Reference" "ZD2"
 			(at 80.645 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15532,6 +15970,12 @@
 			(uuid "d73141b3-74bc-47e2-84c4-ba6582eaeb8e")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "ZD2")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "ZD1")
@@ -15551,7 +15995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7df47938-0c4e-4486-8ca2-8cbaccbf8b39")
-		(property "Reference" "C5"
+		(property "Reference" "C21"
 			(at 76.2 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15612,6 +16056,12 @@
 			(uuid "36217624-096a-4519-9958-fb94d8564059")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C5")
@@ -15689,6 +16139,12 @@
 			(uuid "14623d3b-2ef8-430e-ba53-04b1290d51eb")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR08")
@@ -15708,7 +16164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "801078fb-d53a-434d-93cd-a0d71f5146a7")
-		(property "Reference" "C9"
+		(property "Reference" "C25"
 			(at 116.84 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15769,6 +16225,12 @@
 			(uuid "b2bb7725-d9ec-4b09-bd41-bef37ce5c59a")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C9")
@@ -15788,7 +16250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "805acd07-15a1-4ec7-8838-25ec8feb5552")
-		(property "Reference" "Y1"
+		(property "Reference" "Y2"
 			(at 53.34 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15876,6 +16338,12 @@
 			(uuid "08c7e60c-7433-4d46-9066-ceac928e477c")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "Y1")
@@ -15895,7 +16363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81061d3b-d378-4d64-8a7b-403d6cc870c5")
-		(property "Reference" "LED9"
+		(property "Reference" "LED46"
 			(at 233.045 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15917,7 +16385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 245.11 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -15962,6 +16430,12 @@
 			(uuid "15a16fa6-eef1-4141-a210-ba0dd2849aea")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED46")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED9")
@@ -15981,7 +16455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81da7f2f-ed6f-4367-903c-9f79e404aac7")
-		(property "Reference" "U4"
+		(property "Reference" "U9"
 			(at 227.33 40.005 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16071,6 +16545,12 @@
 			(uuid "800792b8-db74-4803-962b-70fb5ea40f83")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "U9")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "U4")
@@ -16148,6 +16628,12 @@
 			(uuid "dac6f2b2-2c33-4da2-8c68-26213b6d4edc")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR033")
@@ -16167,7 +16653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8414e7a1-fe41-4110-b66a-8ed7da41b403")
-		(property "Reference" "C12"
+		(property "Reference" "C28"
 			(at 135.89 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16228,6 +16714,12 @@
 			(uuid "0147af24-7d79-4831-86a0-2a14fe0688a7")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C28")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C12")
@@ -16247,7 +16739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84167f5b-de81-4d68-baab-b817a4d6b17e")
-		(property "Reference" "C11"
+		(property "Reference" "C27"
 			(at 128.27 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16308,6 +16800,12 @@
 			(uuid "23e2897b-6ba5-447f-83eb-a8642631f2e5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C27")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C11")
@@ -16385,6 +16883,12 @@
 			(uuid "c07143f7-447d-4ac6-b6cc-ab192b6a50ba")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR045")
@@ -16462,6 +16966,12 @@
 			(uuid "b69cb131-7023-446c-bc0d-99975f1370e5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR016")
@@ -16539,6 +17049,12 @@
 			(uuid "cd792cd9-2a3b-4800-9950-f05d70af4bb1")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR025")
@@ -16558,7 +17074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b5fd432-f058-442f-9f2e-854ed4fd3899")
-		(property "Reference" "SW2"
+		(property "Reference" "SW43"
 			(at 254 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16617,6 +17133,12 @@
 			(uuid "394499af-8c50-48fb-b4a3-310c5df80ee6")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW2")
@@ -16637,7 +17159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "902ac08f-611e-46b3-9e57-bb1bf9d8381c")
-		(property "Reference" "BT3"
+		(property "Reference" "BT7"
 			(at 20.32 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16659,7 +17181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "kbd:Breakaway_Tabs"
 			(at 17.78 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -16692,6 +17214,12 @@
 			)
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "BT7")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "BT3")
@@ -16711,7 +17239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "911dc30e-1c9d-4fb5-ad67-89e15753f890")
-		(property "Reference" "C13"
+		(property "Reference" "C29"
 			(at 146.05 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16772,6 +17300,12 @@
 			(uuid "c72850e1-895e-4430-9053-63e118df6140")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C13")
@@ -16849,6 +17383,12 @@
 			(uuid "1ec266dc-b077-407d-a89e-da74e6515987")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR013")
@@ -16868,7 +17408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "957d30f4-c88f-4d0e-8485-7a739183063d")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 308.61 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16888,7 +17428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:OLED"
+		(property "Footprint" "kbd:OLED"
 			(at 308.61 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -16933,6 +17473,12 @@
 			(uuid "78320533-69b9-48fa-a5b3-1a1a54b19b43")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "J3")
@@ -17010,6 +17556,12 @@
 			(uuid "dd1305d4-2d0f-4211-945c-1b1e0b4e37f3")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR083")
@@ -17029,7 +17581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "983c48f7-3a1a-461f-b3ac-7174eb2079f9")
-		(property "Reference" "C7"
+		(property "Reference" "C23"
 			(at 106.68 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17090,6 +17642,12 @@
 			(uuid "27d6ac48-fd3e-4a4d-9b0a-d6417651932d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C7")
@@ -17110,7 +17668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "996037e1-4986-4e8d-8c11-fa9e9422720c")
-		(property "Reference" "BT4"
+		(property "Reference" "BT8"
 			(at 20.32 275.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17132,7 +17690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "kbd:Breakaway_Tabs"
 			(at 17.78 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -17165,6 +17723,12 @@
 			)
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "BT8")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "BT4")
@@ -17242,6 +17806,12 @@
 			(uuid "a0242554-f0f1-4e76-b25b-452e534820fb")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR046")
@@ -17318,6 +17888,12 @@
 			(uuid "68c9517c-cc80-432e-a5df-1cc0fd0379e8")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR017")
@@ -17395,6 +17971,12 @@
 			(uuid "a55f71a6-76f3-4db9-9930-b0165db1b015")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR034")
@@ -17414,7 +17996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1c3b0cf-fc0d-462c-9c72-e19cc2b4fa02")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 35.56 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17434,7 +18016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:TYPE-C-31-M-13C"
+		(property "Footprint" "kbd:TYPE-C-31-M-13C"
 			(at 39.37 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17529,6 +18111,12 @@
 			(uuid "1b759a15-3afc-4f11-8ab2-2c59be09f1b5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "J1")
@@ -17606,6 +18194,12 @@
 			(uuid "8ab632ea-b815-4216-973e-b4906a657a73")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR026")
@@ -17683,6 +18277,12 @@
 			(uuid "7ffcc59d-e686-4d62-b661-053e816d3dc7")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR031")
@@ -17760,6 +18360,12 @@
 			(uuid "95a56d13-271f-4d8e-a69e-1e9f90ecf30c")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR056")
@@ -17779,7 +18385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ace8c15e-ebb7-4e8d-afc7-b8ca3bb91c36")
-		(property "Reference" "R5"
+		(property "Reference" "R14"
 			(at 58.42 140.335 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17838,6 +18444,12 @@
 			(uuid "e802add3-b493-4385-a2e8-633aa576dc0b")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R5")
@@ -17857,7 +18469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad0e78d8-5559-4d23-913d-f50f1d0c1c2b")
-		(property "Reference" "C1"
+		(property "Reference" "C17"
 			(at 39.37 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17918,6 +18530,12 @@
 			(uuid "314503e1-d67d-4b06-9368-dcdc5505fc65")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C1")
@@ -17995,6 +18613,12 @@
 			(uuid "955955c5-a6dd-48e4-ae9b-5823127b976c")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR021")
@@ -18014,7 +18638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afbeccb9-0929-402f-b068-684d893acfb3")
-		(property "Reference" "SW11"
+		(property "Reference" "SW34"
 			(at 228.6 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18073,6 +18697,12 @@
 			(uuid "391e8253-c8ab-433c-9269-8ba29307f611")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW11")
@@ -18093,7 +18723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0546930-7e44-4b86-96c0-01ff7908ffd4")
-		(property "Reference" "J4"
+		(property "Reference" "J10"
 			(at 328.93 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18155,6 +18785,12 @@
 			(uuid "4f9f29a6-d70c-45fe-92d6-a9d57adb2857")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "J10")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "J4")
@@ -18232,6 +18868,12 @@
 			(uuid "9e6b5c3f-e176-498a-9b59-4dcdd6028d84")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR01")
@@ -18310,6 +18952,12 @@
 			(uuid "004e0db6-f687-489d-a9db-74b30619cca4")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR079")
@@ -18387,6 +19035,12 @@
 			(uuid "41678423-37af-49b0-bc68-4ff0ccde8a81")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR048")
@@ -18406,7 +19060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4e34a05-9f0b-47a6-b849-c05bc6a1b990")
-		(property "Reference" "SW20"
+		(property "Reference" "SW25"
 			(at 190.5 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18465,6 +19119,12 @@
 			(uuid "07de1697-b9cd-4fdc-bc18-6f15cca56c89")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW20")
@@ -18542,6 +19202,12 @@
 			(uuid "e0e2abe6-31e6-4945-9473-58ac416bf2da")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR050")
@@ -18561,7 +19227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8c9fe11-0dcb-4c1f-97df-eed66150cef2")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 53.34 42.545 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18620,6 +19286,12 @@
 			(uuid "21d4a280-5779-4b55-9d00-16584f5c4d0d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R2")
@@ -18639,7 +19311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "baf713bd-6ad3-4b2c-9e49-9e103edb33d1")
-		(property "Reference" "C15"
+		(property "Reference" "C31"
 			(at 165.1 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18700,6 +19372,12 @@
 			(uuid "909acf64-eed3-463c-b636-324f8d72ea95")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C15")
@@ -18719,7 +19397,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdf0ec4c-26c1-4c7c-858e-c1bcbf878196")
-		(property "Reference" "C14"
+		(property "Reference" "C30"
 			(at 154.94 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18780,6 +19458,12 @@
 			(uuid "88f68eb1-24b8-48bd-abd2-4240647a311b")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C14")
@@ -18857,6 +19541,12 @@
 			(uuid "50c9d194-d91d-4d5d-9f20-43d6615f23dc")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR059")
@@ -18876,7 +19566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4a6db05-9b3d-4ca9-bf63-abe3739f22ef")
-		(property "Reference" "EXLED1"
+		(property "Reference" "EXLED3"
 			(at 278.765 202.565 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18898,7 +19588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 278.13 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18943,6 +19633,12 @@
 			(uuid "0f3b4e9e-3c86-487e-9345-973dd6cf31a2")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "EXLED3")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "EXLED1")
@@ -18962,7 +19658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4be08b9-032b-47f1-b0b7-97cfbea4aff9")
-		(property "Reference" "LED15"
+		(property "Reference" "LED42"
 			(at 217.805 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18984,7 +19680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 217.17 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -19029,6 +19725,12 @@
 			(uuid "27d15bb9-7ede-4e17-b17c-9a8a2f1d3e24")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED42")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED15")
@@ -19048,7 +19750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5028db0-03c8-4680-9a21-475bc9c7aa4d")
-		(property "Reference" "SW13"
+		(property "Reference" "SW30"
 			(at 215.9 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19107,6 +19809,12 @@
 			(uuid "72e3bfce-57de-4dbe-93a2-6f7fb68ccf62")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW13")
@@ -19126,7 +19834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c57df176-9783-43cb-bd4c-82cb2eb278e7")
-		(property "Reference" "LED16"
+		(property "Reference" "LED39"
 			(at 202.565 243.205 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19148,7 +19856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 214.63 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -19193,6 +19901,12 @@
 			(uuid "840e21c4-f8c0-498e-ae47-5d6966336e18")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED39")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED16")
@@ -19213,7 +19927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6673d7b-dd0e-4b3f-aa47-49b99f25961b")
-		(property "Reference" "SMDSW1"
+		(property "Reference" "SMDSW4"
 			(at 195.58 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19283,6 +19997,12 @@
 			(uuid "6cf2a450-4c39-46df-b2d2-c2f0a1498d2d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SMDSW4")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SMDSW1")
@@ -19302,7 +20022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbef6d52-0ffd-44eb-a58b-7404d8fc6c0c")
-		(property "Reference" "R7"
+		(property "Reference" "R18"
 			(at 214.63 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19363,6 +20083,12 @@
 			(uuid "35b4ca73-1fa7-4d03-b531-4dcbca6dc5ff")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R7")
@@ -19382,7 +20108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cca8555c-1399-43fe-9b91-22e865d5dce5")
-		(property "Reference" "SW8"
+		(property "Reference" "SW40"
 			(at 241.3 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19441,6 +20167,12 @@
 			(uuid "12032f33-f6bf-4edb-94e8-90685d9303a9")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW8")
@@ -19517,6 +20249,12 @@
 			(uuid "bc0050c6-16d2-4f30-896c-edc18738ab9d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR054")
@@ -19536,7 +20274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1a572f2-a3a4-4643-9732-bfe42fcb9df5")
-		(property "Reference" "C16"
+		(property "Reference" "C32"
 			(at 240.03 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19597,6 +20335,12 @@
 			(uuid "8bdc4d0b-6f9f-4b35-b135-a981a08bc2ce")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C32")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C16")
@@ -19674,6 +20418,12 @@
 			(uuid "fa565f38-93b4-487b-90cd-586cca2baa05")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR051")
@@ -19751,6 +20501,12 @@
 			(uuid "e9c4abbf-4061-46ff-8b8a-e8be5efb2ace")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR029")
@@ -19770,7 +20526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2c44a79-bd5b-432e-9fae-6ce02534ef51")
-		(property "Reference" "C6"
+		(property "Reference" "C22"
 			(at 100.33 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19831,6 +20587,12 @@
 			(uuid "bc499882-8ef4-48a8-8e57-580e9a77091a")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C6")
@@ -19851,7 +20613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3cd01db-8912-4d8b-b07c-804247da3cf0")
-		(property "Reference" "SMDSW2"
+		(property "Reference" "SMDSW3"
 			(at 55.88 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19921,6 +20683,12 @@
 			(uuid "17840860-cd31-4fb2-ad82-b88da48a981a")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SMDSW3")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SMDSW2")
@@ -19940,7 +20708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d50bf836-858e-4c21-9b29-a49270322db5")
-		(property "Reference" "LED7"
+		(property "Reference" "LED49"
 			(at 248.285 239.395 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19962,7 +20730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 247.65 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -20007,6 +20775,12 @@
 			(uuid "5f516cbd-6121-42c3-b557-2d7d48e1013d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED49")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED7")
@@ -20026,7 +20800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7caa342-bb87-4e4a-9a06-f60d6167736f")
-		(property "Reference" "LED1"
+		(property "Reference" "LED54"
 			(at 263.525 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20048,7 +20822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 275.59 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -20093,6 +20867,12 @@
 			(uuid "d5feafa4-5ee3-4114-922b-1fbd0d25d09e")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED54")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED1")
@@ -20169,6 +20949,12 @@
 			(uuid "99e9c897-161b-4df2-b35f-ec4dae00dbd4")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#FLG02")
@@ -20245,6 +21031,12 @@
 			(uuid "c49db73d-5a28-4f1c-9907-cc24e27bc7cd")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR014")
@@ -20264,7 +21056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd447255-942f-45db-9db0-2de610c5109c")
-		(property "Reference" "SW9"
+		(property "Reference" "SW36"
 			(at 228.6 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20323,6 +21115,12 @@
 			(uuid "d26ab208-9d92-4fae-b582-b2d9972ffa6d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW9")
@@ -20400,6 +21198,12 @@
 			(uuid "4cf741ef-c044-4824-b71a-a1a84a0cda96")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR024")
@@ -20476,6 +21280,12 @@
 			(uuid "c90fa373-7863-41dd-9eee-23feccffe0ba")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#FLG01")
@@ -20495,7 +21305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0bcd15e-1e7b-4a5d-a321-454141bd79fb")
-		(property "Reference" "LED10"
+		(property "Reference" "LED45"
 			(at 233.045 243.205 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20517,7 +21327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 245.11 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -20562,6 +21372,12 @@
 			(uuid "12617369-19f5-4c85-9b53-11389712a840")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED45")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED10")
@@ -20581,7 +21397,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e264ef85-3f1a-48a1-8e3e-88f63112c733")
-		(property "Reference" "R3"
+		(property "Reference" "R12"
 			(at 57.15 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20642,6 +21458,12 @@
 			(uuid "4814065a-3830-4e1c-a51c-84b2b8c0b8f2")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R3")
@@ -20661,7 +21483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e31e2740-9d76-4c03-b0db-d370699622fc")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 111.76 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20734,6 +21556,12 @@
 			(uuid "30961d63-d7b4-4b87-bb42-162eca9b7c73")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "U2")
@@ -20811,6 +21639,12 @@
 			(uuid "ab432fb9-be9c-4969-a350-cdfc38f2eff8")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR09")
@@ -20830,7 +21664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e68b7438-7a85-4bb3-a2d8-abcadd18a4ba")
-		(property "Reference" "LED3"
+		(property "Reference" "LED52"
 			(at 263.525 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20852,7 +21686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 275.59 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -20897,6 +21731,12 @@
 			(uuid "b5ed2196-79db-4e83-8a35-37493cf2f3e2")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED52")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED3")
@@ -20973,6 +21813,12 @@
 			(uuid "45537fef-64b1-4a01-8565-0f707bba022e")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR027")
@@ -21050,6 +21896,12 @@
 			(uuid "dc611e00-965b-4ee9-98d5-6333113ab7ea")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR078")
@@ -21069,7 +21921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebfee43d-6ba0-48a0-85f8-ff6ef3d760ec")
-		(property "Reference" "SW3"
+		(property "Reference" "SW42"
 			(at 254 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21128,6 +21980,12 @@
 			(uuid "9917b3b9-58a9-4f20-8469-37723941a387")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW3")
@@ -21147,7 +22005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eea2ff4e-103c-412d-8d34-367bbf4e663b")
-		(property "Reference" "LED20"
+		(property "Reference" "LED35"
 			(at 187.325 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21169,7 +22027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:YS-SK6812MINI-E"
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
 			(at 186.69 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -21214,6 +22072,12 @@
 			(uuid "a4b917b7-cccc-45aa-8a6d-4efebb695ace")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "LED35")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "LED20")
@@ -21291,6 +22155,12 @@
 			(uuid "4be1c7c7-6f33-4849-8d87-b550e77ee53e")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR047")
@@ -21311,7 +22181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f247c722-bdff-4ff5-be5b-adf7eff471bc")
-		(property "Reference" "J2"
+		(property "Reference" "J8"
 			(at 270.51 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21331,7 +22201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:PJ-398A-5A_PJ-399B-6A"
+		(property "Footprint" "kbd:PJ-398A-5A_PJ-399B-6A"
 			(at 272.415 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -21384,6 +22254,12 @@
 			(uuid "5150c5ee-253c-4dd6-8c7f-1947dd356bc8")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "J2")
@@ -21403,7 +22279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3d7103b-935f-4330-a3aa-bd9812100898")
-		(property "Reference" "SW10"
+		(property "Reference" "SW35"
 			(at 228.6 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21462,6 +22338,12 @@
 			(uuid "1d76b816-ff94-4f80-bbb4-c129cd766c8d")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "SW10")
@@ -21481,7 +22363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6e87b82-abc7-4f65-bdff-16c887fe0dbf")
-		(property "Reference" "C8"
+		(property "Reference" "C24"
 			(at 107.95 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21542,6 +22424,12 @@
 			(uuid "82d5ce66-34b2-49c6-9238-615dc68f651c")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "C8")
@@ -21561,7 +22449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7eb0b8b-0069-4b49-a13b-8cea04156ed8")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 53.34 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21620,6 +22508,12 @@
 			(uuid "6a0108d5-2f54-42d2-b4c5-7d465ac509f6")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R1")
@@ -21640,7 +22534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8151698-c0ae-425f-87ae-fcba6caf7ee0")
-		(property "Reference" "BT1"
+		(property "Reference" "BT5"
 			(at 20.32 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21662,7 +22556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd_local:Breakaway_Tabs"
+		(property "Footprint" "kbd:Breakaway_Tabs"
 			(at 17.78 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -21695,6 +22589,12 @@
 			)
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "BT5")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "BT1")
@@ -21714,7 +22614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcf48556-0af2-40bb-9dc8-6cff63568828")
-		(property "Reference" "R6"
+		(property "Reference" "R17"
 			(at 203.2 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21775,6 +22675,12 @@
 			(uuid "21ce32ee-5de6-4bd0-9d8f-16b600f12746")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "R6")
@@ -21852,6 +22758,12 @@
 			(uuid "f687b6ca-ff8a-4ed8-a498-3919832518f8")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR043")
@@ -21929,6 +22841,12 @@
 			(uuid "06221fcc-a9aa-4cb0-b2b1-9385042f8c38")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "#PWR019")
@@ -21948,7 +22866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffe6fb1d-692e-48d7-aa11-8e89e3c2a886")
-		(property "Reference" "EXSW1"
+		(property "Reference" "EXSW3"
 			(at 272.415 94.615 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21968,7 +22886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd_local:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u_rotary_encoder_ec12"
 			(at 276.479 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22016,6 +22934,12 @@
 			(uuid "579aa078-979c-43ca-9566-8e2664d89ed5")
 		)
 		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/7bf19d48-7292-4cf6-a5d6-5894c87cb0c0"
+					(reference "EXSW3")
+					(unit 1)
+				)
+			)
 			(project "corne-cherry"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a/089db7cd-2934-428b-a62a-55e0735649ba"
 					(reference "EXSW1")

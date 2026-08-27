@@ -3386,6 +3386,52 @@
 		)
 	)
 	(sheet
+		(at 214.63 60.96)
+		(size 53.34 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7bf19d48-7292-4cf6-a5d6-5894c87cb0c0")
+		(property "Sheetname" "CorneReference"
+			(at 214.63 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CorneReference.kicad_sch"
+			(at 214.63 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Contra"
+				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 100.33 73.66)
 		(size 20.32 16.51)
 		(exclude_from_sim no)
