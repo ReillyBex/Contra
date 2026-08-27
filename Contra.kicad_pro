@@ -513,7 +513,22 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Reilly_Components"
+      "Reilly_Components",
+      "Alps_MX_Stabilizers",
+      "Alps_Solderable",
+      "Gateron_KS33_Hotswap",
+      "Gateron_KS33_Solderable",
+      "Kailh_PG1353_Hotswap",
+      "Kailh_PG1353_Solderable",
+      "MX_Hotswap",
+      "keyboard_parts",
+      "keebs",
+      "MX_Alps_Hybrid",
+      "MX_Solderable",
+      "Seeed_Studio_XIAO_Series",
+      "SK6812 Reverse mount",
+      "SSD1306",
+      "XIAO_PCB"
     ],
     "pinned_symbol_libs": []
   },
