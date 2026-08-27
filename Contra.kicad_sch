@@ -3870,7 +3870,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65307085-0f01-4bed-89b0-67c13991aa80")
 		(property "Reference" "#PWR03"
 			(at 142.24 158.75 0)
@@ -3884,13 +3883,14 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 142.24 149.86 0)
+			(at 139.7 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
