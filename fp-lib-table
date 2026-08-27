@@ -1,6 +1,4 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "locallib") (type "KiCad") (uri "$(KIPRJMOD)/locallib.pretty") (options "") (descr ""))
-	(lib (name "MX_Hotswap") (type "KiCad") (uri "/home/reillyb/KiCad/Components/MX_V2/MX_Hotswap.pretty") (options "") (descr ""))
-	(lib (name "kbd") (type "KiCad") (uri "${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty") (options "") (descr ""))
 )
