@@ -1886,6 +1886,16 @@
 		)
 		(uuid "718e87a0-bca0-443c-b8f9-68f803ddf7f3")
 	)
+	(text "Thanks to PIO magic, these pins work for SCL and SDA. \n(I compiled the twim.rs example of embassy with these pins and it was successful)"
+		(exclude_from_sim no)
+		(at 102.87 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bcad4d89-fa58-47fc-beef-da1382a1d56d")
+	)
 	(text "Contra low-cost ortholinear mechanical keyboard\n"
 		(exclude_from_sim no)
 		(at 187.325 190.5 0)
