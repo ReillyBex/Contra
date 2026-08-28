@@ -50,3 +50,5 @@ Temporary Items
 .history
 *.lck
 Gerbers/
+*.step
+*.stp
