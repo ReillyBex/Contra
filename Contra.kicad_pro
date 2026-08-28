@@ -76,16 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|34095000|125277500|5efa76f0-d04f-475f-8569-c5511148eebd|2c3429e3-de0e-4ba6-ad19-f2197314fdd8",
-          ""
-        ],
-        [
-          "solder_mask_bridge|40945000|125427500|8a9104b0-81f1-44fc-a298-e80c485141eb|1a4cf20b-9548-4378-b894-cb6de281d1fc",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -718,7 +709,7 @@
         "uuid": "490ed6d6-ce6d-4821-aa52-98b9130151cb"
       }
     ],
-    "used_designators": "H1-5,LED1-54,R1-18,JP1-2,EXLED1-4,OL1,BT1-8,ZD1-2,MX1-47,SW2-44,J2-10,EXSW1-4,SMDSW1-4,C1-32,D1-49,U2-9,Y1-2,#PWR1,#PWR3,#PWR8-18",
+    "used_designators": "R1-18,LED1-54,H1-5,C1-32,EXLED1-4,ZD1-2,OL1,BT1-8,JP1-2,SMDSW1-4,EXSW1-4,J2-10,SW2-44,MX1-47,#PWR1,#PWR3,#PWR8-18,Y1-2,D1-49,U2-9",
     "variants": []
   },
   "sheets": [
