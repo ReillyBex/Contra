@@ -16004,13 +16004,13 @@
 		(embedded_fonts no)
 		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/ProMicro.step"
 			(offset
-				(xyz 7.6 -15.25 2.5)
+				(xyz 7.6 -15.25 -4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -180 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
