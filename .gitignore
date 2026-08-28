@@ -49,3 +49,4 @@ Temporary Items
 # KiCad items to ignore
 .history
 *.lck
+Gerbers/
