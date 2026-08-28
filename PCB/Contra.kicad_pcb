@@ -13484,6 +13484,17 @@
 			(uuid "8d1a0489-85d5-48fb-afa7-ea47be56e4b2")
 		)
 		(embedded_fonts no)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -15991,6 +16002,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/ProMicro.step"
+			(offset
+				(xyz 7.6 -15.25 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 		(layer "B.Cu")
@@ -16899,7 +16921,7 @@
 			(uuid "bd3df264-d359-443a-a091-da12fc52b167")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.77 -2.54 180)
+			(at 2.77 -2.54 0)
 			(layer "B.Fab")
 			(uuid "9aa24f5b-ed32-43f1-8f66-3a7cfe55e81f")
 			(effects
