@@ -50,3 +50,6 @@ Temporary Items
 .history
 *.lck
 Gerbers/
+SolidAssembly/~$contra-plate.SLDASM
+SolidAssembly/~$contra-pcb.SLDASM
+SolidAssembly/~$Contra+ Full Assm.SLDASM
