@@ -17190,6 +17190,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -17423,6 +17434,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -17660,6 +17682,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -17895,6 +17928,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -18128,6 +18172,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -18886,6 +18941,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -20607,6 +20673,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -21365,6 +21442,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -21600,6 +21688,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -21833,6 +21932,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -23116,6 +23226,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -23872,6 +23993,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -25155,6 +25287,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -25388,6 +25531,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -26671,6 +26825,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -27429,6 +27594,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -28185,6 +28361,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -29991,6 +30178,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -31795,6 +31993,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -32553,6 +32762,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -32788,6 +33008,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -33021,6 +33252,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -33779,6 +34021,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -35062,6 +35315,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -35295,6 +35559,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -37101,6 +37376,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -37334,6 +37620,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -38094,6 +38391,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -38327,6 +38635,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -41179,6 +41498,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -41412,6 +41742,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -43741,6 +44082,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -44497,6 +44849,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -45257,6 +45620,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -45492,6 +45866,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -45725,6 +46110,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -46943,6 +47339,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -47176,6 +47583,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -47936,6 +48354,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -48694,6 +49123,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MX_Hotswap:MX-Hotswap-1U"
 		(layer "B.Cu")
@@ -49450,6 +49890,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -50733,6 +51184,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -50968,6 +51430,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -51192,7 +51665,7 @@
 			(uuid "04e6452a-1330-461e-a5e0-2447c24912f6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/ys-sk6812mini-e.step"
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
 			(offset
 				(xyz 0 0 0.15)
 			)
@@ -51201,6 +51674,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -51961,6 +52445,17 @@
 				(xyz 180 0 180)
 			)
 		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "kbd:YS-SK6812MINI-E"
 		(layer "B.Cu")
@@ -52193,7 +52688,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 180)
+				(xyz -180 -0 -180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -52740,6 +53246,17 @@
 			)
 			(rotate
 				(xyz 180 0 180)
+			)
+		)
+		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
