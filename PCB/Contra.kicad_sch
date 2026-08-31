@@ -2787,7 +2787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:SuperMini_nRF52840_AH_USBup"
+		(property "Footprint" "Local-lib:SuperMini NRF52840"
 			(at 92.71 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -3899,7 +3899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kbd:OLED"
+		(property "Footprint" "Local-lib:OLED"
 			(at 110.49 172.72 0)
 			(hide yes)
 			(show_name no)

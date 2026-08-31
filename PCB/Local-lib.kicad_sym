@@ -320,7 +320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

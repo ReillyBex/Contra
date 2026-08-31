@@ -28,13 +28,14 @@
 				(at 0 4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "4960_ADA"
+			(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4388,7 +4389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 76.2 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4576,7 +4577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 55.88 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4764,7 +4765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 177.8 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4874,7 +4875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 116.84 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4984,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 177.8 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5094,7 +5095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 157.48 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5204,7 +5205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 177.8 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5314,7 +5315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 137.16 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5424,7 +5425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5534,7 +5535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 137.16 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 259.08 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5832,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5942,7 +5943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 137.16 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6052,7 +6053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 198.12 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6162,7 +6163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 218.44 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6272,7 +6273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6382,7 +6383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 157.48 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6492,7 +6493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 177.8 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6602,7 +6603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6712,7 +6713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 35.56 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6822,7 +6823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6932,7 +6933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 116.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7042,7 +7043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 198.12 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7152,7 +7153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 198.12 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7263,7 +7264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 35.56 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7373,7 +7374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 96.52 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7561,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7671,7 +7672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 76.2 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7859,7 +7860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 55.88 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7969,7 +7970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 35.56 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8079,7 +8080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 218.44 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8189,7 +8190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 259.08 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8299,7 +8300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 137.16 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8409,7 +8410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 218.44 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8519,7 +8520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 218.44 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8629,7 +8630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 238.76 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8739,7 +8740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8849,7 +8850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 259.08 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9037,7 +9038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 116.84 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9147,7 +9148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 238.76 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9257,7 +9258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 76.2 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9445,7 +9446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 157.48 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9555,7 +9556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 198.12 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9665,7 +9666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 157.48 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +9854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 238.76 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9963,7 +9964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 96.52 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10073,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4960_ADA"
+		(property "Footprint" "Local-lib:YS-SK6812MINI-E"
 			(at 238.76 55.88 0)
 			(hide yes)
 			(show_name no)

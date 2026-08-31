@@ -13654,7 +13654,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "kbd:OLED"
+	(footprint "Local-lib:OLED"
 		(layer "F.Cu")
 		(uuid "cf1dc66e-4a82-4275-af5c-2358ab814774")
 		(at 33.3375 88.275)
@@ -13853,17 +13853,6 @@
 			(uuid "8d1a0489-85d5-48fb-afa7-ea47be56e4b2")
 		)
 		(embedded_fonts no)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -15496,7 +15485,7 @@
 			)
 		)
 	)
-	(footprint "Reilly_Components:SuperMini NRF52840"
+	(footprint "Local-lib:SuperMini NRF52840"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005a2879b9")
 		(at 40.95751 53.675531 180)
@@ -15514,7 +15503,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "ProMicro"
+		(property "Value" "SuperMini nRF52840"
 			(at 7.62 -13.97 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15527,7 +15516,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://nicekeyboards.com/docs/nice-nano/pinout-schematic"
+		(property "Datasheet" "https://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15570,7 +15559,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6317e7a8-7183-43ad-9ad5-f44dc854b00e")
+			(uuid "93a8b446-00a1-436f-8591-7aaab690cad9")
 			(effects
 				(font
 					(size 1 1)
@@ -15584,7 +15573,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "768050e3-9e98-4e30-8ecc-ffeb17e93340")
+			(uuid "86ada109-104b-4eed-bed3-3d856969406d")
 			(effects
 				(font
 					(size 1 1)
@@ -16361,27 +16350,16 @@
 		)
 		(group ""
 			(uuid "abb0eef9-8796-4269-b14e-310678034ccd")
-			(members "10fdb68d-ab82-4ac6-a2bb-f9e7b151a275" "1eb4063e-dcf6-424e-9d73-9215ce7339ff"
+			(members "1eb4063e-dcf6-424e-9d73-9215ce7339ff" "214962a1-4075-4592-993d-e9d4c6afb3c2"
 				"2cd96b49-5a72-4bc4-818a-65b8168318fc" "2f7a96ad-923e-4d76-a15e-dbb4724037cf"
-				"35718046-3d67-4dec-ab16-b05b019a07b2" "3f2804bb-aa04-4b31-846e-6e2fd71e16a5"
+				"3fdbae6a-6133-463a-9158-82a72d262e5c" "449000ec-99e7-46cd-ad49-d7e645aab43e"
 				"466555eb-24dd-489a-8eaf-12b175e4a839" "50c965cb-cf15-4a8f-849e-e4fc5918d568"
-				"60d150fd-fff3-4634-9693-ab99fb924cdf" "84b6c5f4-6b1d-46b0-8859-6574df1763b7"
-				"ad897183-db99-4617-a0c5-d0ad93492904" "d1619af4-a1d5-4bc1-ba2e-3e614230b7e6"
-				"d1a285fa-9073-44cd-a98b-fd329b52b6ff" "f758c9d9-d1a1-498a-8065-216742722987"
+				"53ca52c1-8d7a-46fd-9b4a-1245a0f8da76" "5da3d16e-61fb-47c4-886e-358c722cfe74"
+				"b6c06f15-c8bb-4513-83ec-89b65b587200" "d1619af4-a1d5-4bc1-ba2e-3e614230b7e6"
+				"f758c9d9-d1a1-498a-8065-216742722987" "f947c640-0862-48d9-ac34-cff405fdf65d"
 			)
 		)
 		(embedded_fonts no)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/ProMicro.step"
-			(offset
-				(xyz 7.6 -15.25 -4)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 		(layer "B.Cu")
@@ -16971,12 +16949,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "01f541e7-955c-469e-931b-f69f2a8601bc")
 		(at 225.7425 123.825)
 		(property "Reference" "LED45"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "149a446d-3b70-49ff-9b05-cc6016248140")
 			(effects
@@ -16987,8 +16965,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "11576736-173e-416b-a7b0-8b909a97435e")
@@ -17002,7 +16980,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2ba7de5f-23d8-4d5e-86c1-15e238350955")
@@ -17014,7 +16992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "605f75c7-0480-4037-b949-d34be3b745ea")
@@ -17026,11 +17004,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "39211fc6-2c37-475f-bd47-62ad4984dbc8")
+			(uuid "ff773c62-0fd4-426f-b6c2-4ca4f8c0f0c6")
 			(effects
 				(font
 					(size 1 1)
@@ -17040,11 +17018,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "af583293-79bf-4bef-bbc0-6974e14a4786")
+			(uuid "8163c829-2596-43f8-ab9f-ce031b8fc170")
 			(effects
 				(font
 					(size 1 1)
@@ -17205,24 +17183,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "0648889d-8bd4-4a5e-94fe-337a608bc9c2")
 		(at 187.6425 104.775)
 		(property "Reference" "LED32"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "7aebd22f-86ab-4100-b23d-7be31c0f1403")
 			(effects
@@ -17233,8 +17200,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "35af97fb-915b-464f-8658-32eb7057f9bb")
@@ -17248,7 +17215,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ce7e476c-f7d9-40e6-8296-0503166b83c1")
@@ -17260,7 +17227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f2d91200-927b-49b6-8deb-afc973fc3396")
@@ -17272,11 +17239,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e79eb857-8950-4ac0-9f27-9eedf01f9851")
+			(uuid "8b114bdd-f281-4dcc-bb0d-d2abab583f9d")
 			(effects
 				(font
 					(size 1 1)
@@ -17286,11 +17253,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1c5e0be8-95b1-4eeb-a276-3f84295b5f64")
+			(uuid "4a136a53-a234-4f5d-8693-448f6645aaa7")
 			(effects
 				(font
 					(size 1 1)
@@ -17451,24 +17418,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "09a03433-742c-4993-9528-d860c291f395")
 		(at 206.75 66.675)
 		(property "Reference" "LED9"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "9e58ab21-994b-47ed-b8cc-595a284c857e")
 			(effects
@@ -17479,8 +17435,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9d964061-3fef-462c-bc18-86f366d0d662")
@@ -17494,7 +17450,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bed4f351-5958-402a-af21-6bf14c560ccb")
@@ -17506,7 +17462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8d7e8dfd-f93e-4295-ba45-543dc88f6680")
@@ -17518,11 +17474,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "524ec9a2-9748-4136-af51-1a49c35cfd92")
+			(uuid "d8af6eea-53b1-40ab-9784-f569c741659a")
 			(effects
 				(font
 					(size 1 1)
@@ -17532,11 +17488,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "879c4690-d5e6-4fa5-b94d-0444fc3446f6")
+			(uuid "aab3afa0-a002-4519-8383-1ee18b8507a7")
 			(effects
 				(font
 					(size 1 1)
@@ -17697,24 +17653,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "0a823790-8d8f-4c01-ad46-4d8699f21bd9")
 		(at 54.2925 66.675)
 		(property "Reference" "LED1"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "829bd888-3531-4ba4-a54f-96b6e02e06f5")
 			(effects
@@ -17725,8 +17670,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "186b37c2-11d8-409c-9113-47077cf610aa")
@@ -17740,7 +17685,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "caa07911-4203-4054-8f83-d3d273200490")
@@ -17752,7 +17697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a1df3c13-468b-4ab3-8046-8362d3eb6fc8")
@@ -17764,11 +17709,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "78b237ed-e512-4a4d-9727-53c400595018")
+			(uuid "62e84b71-d683-482d-b9fe-50b6eb7ffaf7")
 			(effects
 				(font
 					(size 1 1)
@@ -17778,11 +17723,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fa46f011-ce1a-4070-8394-91badf1917e3")
+			(uuid "e660e6a7-b511-466f-8a3e-e6244680d85a")
 			(effects
 				(font
 					(size 1 1)
@@ -17943,24 +17888,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "0e60e775-c01a-4089-85b6-f2d1061a38a8")
 		(at 187.6425 85.725)
 		(property "Reference" "LED20"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "b8cd7192-2807-4aed-929a-3f18e0bbd479")
 			(effects
@@ -17971,8 +17905,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3e3972dd-8a4b-4121-b4d6-22871c57e5da")
@@ -17986,7 +17920,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "703f68be-ca8e-4069-abc0-48fb354fb5f1")
@@ -17998,7 +17932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e1cbba19-bbce-4cdc-96cc-dbf021e95e78")
@@ -18010,11 +17944,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ca80b4ae-7c2c-40a3-bba5-829893faf366")
+			(uuid "09538ca9-76aa-435f-b819-30e06c31ffb5")
 			(effects
 				(font
 					(size 1 1)
@@ -18024,11 +17958,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "502947e4-35cc-4a78-a33e-417d4bad14ba")
+			(uuid "b8064fb5-861b-4505-bec7-7b7b451b3cf5")
 			(effects
 				(font
 					(size 1 1)
@@ -18189,23 +18123,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "0f50afe2-1dae-4742-a9b3-d2f4f54608e8")
 		(at 92.3925 118.11 180)
-		(property "Reference" "MX39"
+		(property "Reference" "K39"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "f1ba5266-f885-41d4-995a-b1b7600f49f3")
@@ -18217,7 +18140,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "8d6c1e50-fcb3-4490-b548-72f125f88238")
@@ -18255,11 +18178,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e4f16dad-9ed1-4a5d-9373-7da3ded346e3")
+			(uuid "74db554a-2b9d-4423-b065-6a48355f2ef8")
 			(effects
 				(font
 					(size 1 1)
@@ -18269,11 +18192,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "30644686-3034-46d1-929d-d226d4a44f76")
+			(uuid "af1fd348-4619-4f20-8a12-22f7421bacf8")
 			(effects
 				(font
 					(size 1 1)
@@ -18724,12 +18647,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "13286a12-352a-494e-8f89-b9b0aa44bbdf")
 		(at 73.3425 123.825)
 		(property "Reference" "LED38"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "76d7f33d-ff62-4aa6-8601-bba82513440b")
 			(effects
@@ -18740,8 +18663,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a37e0e7d-e170-4b98-916e-fce154c11ba5")
@@ -18755,7 +18678,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4e46e10e-1788-42d6-aefc-03f020556140")
@@ -18767,7 +18690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f300550a-a969-4763-9ffd-e8a0d7d202a9")
@@ -18779,11 +18702,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "25dd7955-e35a-4d1d-850c-dfc51e51a7cc")
+			(uuid "1623bb4f-a15f-4d79-846b-23ae7c72e0ed")
 			(effects
 				(font
 					(size 1 1)
@@ -18793,11 +18716,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f2149392-add8-449b-8a6c-20526341ac92")
+			(uuid "edfeef10-d770-49bc-81f2-841d61b54ab6")
 			(effects
 				(font
 					(size 1 1)
@@ -18958,23 +18881,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "15243342-dc85-4dae-b9d9-785b29170183")
 		(at 54.2925 60.96 180)
-		(property "Reference" "MX1"
+		(property "Reference" "K1"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "8443bbc6-583b-4823-8c4f-10aeff356723")
@@ -18986,7 +18898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "af4dae00-a644-4dcb-98ea-10ecc294a136")
@@ -19024,11 +18936,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "92d5512e-75ad-4750-9d49-a840ba60baf8")
+			(uuid "5bb42992-b830-4cdf-abad-453abf8b4d2e")
 			(effects
 				(font
 					(size 1 1)
@@ -19038,11 +18950,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8e6aff82-8e9e-4152-88bc-a58e266889ad")
+			(uuid "ee8aaa1b-07dc-453f-ae22-9bddb66ad94b")
 			(effects
 				(font
 					(size 1 1)
@@ -19931,11 +19843,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "18d9078b-f60e-4790-953b-a6792afe366d")
 		(at 54.2925 99.06 180)
-		(property "Reference" "MX25"
+		(property "Reference" "K25"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "bb46b846-bd38-4bfe-9ab3-931b3fff8153")
@@ -19947,7 +19859,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "ca836dc1-67c0-4886-8fab-c98bf3b3a3d7")
@@ -19985,11 +19897,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "070ccbcd-4a15-43ff-91f6-b72a9e15146a")
+			(uuid "e1fa49e5-3e69-4c16-920f-02065fa7a0e0")
 			(effects
 				(font
 					(size 1 1)
@@ -19999,11 +19911,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0dcfd887-dabc-4c0b-8ccc-ece8c984bc95")
+			(uuid "488fef80-12e7-4f0e-b437-fae14386c1c5")
 			(effects
 				(font
 					(size 1 1)
@@ -20454,12 +20366,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "1f416a6d-eb7d-4930-aa8b-3b9d3c83805d")
 		(at 263.8425 66.675)
 		(property "Reference" "LED12"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "94d56a8d-3dfa-4733-8514-4af467f4d2aa")
 			(effects
@@ -20470,8 +20382,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9a4fa05c-3e88-468f-a0bf-bf067127656e")
@@ -20485,7 +20397,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fe4be401-6f51-4e55-8871-39b9f383de90")
@@ -20497,7 +20409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "70d2167e-c199-4c29-bc67-663bac216ffd")
@@ -20509,11 +20421,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "427090f2-0d7a-4937-901a-77a3d7f45c26")
+			(uuid "2b9f845e-f27a-43ed-a520-7fc4fd5ce8c8")
 			(effects
 				(font
 					(size 1 1)
@@ -20523,11 +20435,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ab9f85b9-fc5b-4384-8ac0-c1200f18f286")
+			(uuid "487b06b9-8376-48a9-bff8-6d7577b90256")
 			(effects
 				(font
 					(size 1 1)
@@ -20688,23 +20600,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "1f756299-4a73-4f0b-ba0c-3e1fe6f7c63f")
 		(at 187.6425 99.06 180)
-		(property "Reference" "MX32"
+		(property "Reference" "K32"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "1bd27550-8b57-4736-821d-0647db8c7018")
@@ -20716,7 +20617,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "2982bef9-6ba5-460f-8854-7f2a9e47ff35")
@@ -20754,11 +20655,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c85932a3-23da-45dd-8070-2a4586c9a26c")
+			(uuid "e264b02d-2c68-4d07-b8a5-bfd55ac46198")
 			(effects
 				(font
 					(size 1 1)
@@ -20768,11 +20669,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ff03361b-5320-4b82-a5d9-a6a25fa5711d")
+			(uuid "b2248963-f637-4be1-abb0-5c4e3f9e45f5")
 			(effects
 				(font
 					(size 1 1)
@@ -21223,12 +21124,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "2daa5a75-1d61-49b7-a609-1f58527f67ae")
 		(at 111.4425 85.725)
 		(property "Reference" "LED16"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "89f51638-08d5-4224-bf9e-df0d8ec2e86e")
 			(effects
@@ -21239,8 +21140,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "52fd6a29-ff46-4acd-8cf4-ddaad928b2d9")
@@ -21254,7 +21155,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "60f65861-c89d-4bd3-987d-9b3625daea82")
@@ -21266,7 +21167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "37b8054d-1680-4627-9de8-479f6b77a0f2")
@@ -21278,11 +21179,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9900a7a7-e620-4d50-bf15-b3953b1ab471")
+			(uuid "75a84123-7aba-41cc-b67c-f735144258b3")
 			(effects
 				(font
 					(size 1 1)
@@ -21292,11 +21193,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6f07923b-f1e0-4790-9063-f905a812a0ef")
+			(uuid "a8e1f8a7-87c4-4609-b096-6e0dff1aa8ef")
 			(effects
 				(font
 					(size 1 1)
@@ -21457,24 +21358,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "31d3e058-addf-47a8-8606-7ea0737d7db4")
 		(at 244.7925 104.775)
 		(property "Reference" "LED35"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "4074d1fc-114b-4e8a-a0e4-637014e78a70")
 			(effects
@@ -21485,8 +21375,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cd74d924-35d9-4f71-b18b-03571fdad4ea")
@@ -21500,7 +21390,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "461196a0-7d86-4686-a1fd-94e88fdf7043")
@@ -21512,7 +21402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6e9fe2cf-6b48-4e12-a5f1-00ec73c59c8a")
@@ -21524,11 +21414,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e61cabb9-2934-4f4c-9255-f7b3c9ea8d4a")
+			(uuid "e9a419fe-d74e-4c94-8e73-264cb5aa8bca")
 			(effects
 				(font
 					(size 1 1)
@@ -21538,11 +21428,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "00d216a7-7007-421c-b84a-6173ca92298e")
+			(uuid "ea3afbb1-6845-45f3-bed9-658c31809668")
 			(effects
 				(font
 					(size 1 1)
@@ -21703,24 +21593,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "32e1465b-92a0-462d-adf2-556bb475d1a3")
 		(at 187.6425 66.675)
 		(property "Reference" "LED8"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "21ae227b-925c-4c11-b3e8-40edd09f1d80")
 			(effects
@@ -21731,8 +21610,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fc75db7a-705e-44a3-8237-3d5933e58d06")
@@ -21746,7 +21625,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5b73a465-b841-4e76-8125-4f9869e5b79d")
@@ -21758,7 +21637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c3437aec-c2db-47c8-991e-165664c8b791")
@@ -21770,11 +21649,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "94c8f796-674b-4cea-b456-fbeee7663a78")
+			(uuid "d26ddee6-8be4-4205-b53e-ab5b30820702")
 			(effects
 				(font
 					(size 1 1)
@@ -21784,11 +21663,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "29216c85-9f18-4532-89af-32592b6c3817")
+			(uuid "34838662-ac23-464d-be62-1e6180d67a6c")
 			(effects
 				(font
 					(size 1 1)
@@ -21949,23 +21828,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "3908197e-02ae-48ce-a7f9-9e2854ca8a4b")
 		(at 206.6925 60.96 180)
-		(property "Reference" "MX9"
+		(property "Reference" "K9"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "522f6e7b-c736-48df-b91d-c50f5391a1d1")
@@ -21977,7 +21845,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "7e6068c6-92a8-4666-9c20-5d457a607010")
@@ -22015,11 +21883,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "53994de6-454c-482e-9c12-cfaf00da4395")
+			(uuid "5b49f556-0279-425d-b1c4-360856ade6b6")
 			(effects
 				(font
 					(size 1 1)
@@ -22029,11 +21897,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d1edb9ba-3cf6-4bda-8470-824829027548")
+			(uuid "d4fbca95-83f7-4820-89d7-6ff81a212a4e")
 			(effects
 				(font
 					(size 1 1)
@@ -22484,11 +22352,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "3bf2c65c-c598-4d1a-b242-66e5146544ca")
 		(at 187.6425 80.01 180)
-		(property "Reference" "MX20"
+		(property "Reference" "K20"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "7ed3b949-eed4-48e6-b896-d25505053f5f")
@@ -22500,7 +22368,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "7de8fa7a-df25-4925-82eb-4dd920b0be2a")
@@ -22538,11 +22406,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c5b4c44f-5923-42b4-8d8a-92b0469ba8ce")
+			(uuid "916867de-6070-4a4b-b016-6d0da120e03e")
 			(effects
 				(font
 					(size 1 1)
@@ -22552,11 +22420,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d6ac6524-c88e-4e0b-835f-37285e0b11f3")
+			(uuid "6dc74c22-3be6-4fa0-b09d-83339c4e865e")
 			(effects
 				(font
 					(size 1 1)
@@ -23007,12 +22875,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "3fa88a3a-d804-4926-a7d2-aa69ff6b0d3f")
 		(at 54.2925 85.725)
 		(property "Reference" "LED13"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "6a8eac19-55d8-42e9-b629-7c098a725d55")
 			(effects
@@ -23023,8 +22891,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "745a84cf-6629-4abd-a556-c6683c3025d5")
@@ -23038,7 +22906,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "02e53047-bfb4-4aef-bb56-a938a9e1528c")
@@ -23050,7 +22918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aeac80fe-9644-4d72-a0aa-71281f7ee088")
@@ -23062,11 +22930,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c4ec47c6-339a-4c68-ada3-f5291d818649")
+			(uuid "482ef51b-4e98-4ec7-a514-b59f46a6a897")
 			(effects
 				(font
 					(size 1 1)
@@ -23076,11 +22944,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1eab21a0-f039-4613-bca5-baeacac7bce3")
+			(uuid "24acfe51-a3de-4dc8-ac52-2270f9789ca7")
 			(effects
 				(font
 					(size 1 1)
@@ -23241,23 +23109,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "40ba3912-5755-4132-a042-4b6bc4435b6f")
 		(at 111.4425 80.01 180)
-		(property "Reference" "MX16"
+		(property "Reference" "K16"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "4c98945e-6b15-4bcf-b611-99dd7397895f")
@@ -23269,7 +23126,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "50ec0156-c958-45a9-adc2-d0247312414a")
@@ -23307,11 +23164,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "becac9d6-a75e-4ad1-bc37-450997292d25")
+			(uuid "b971f2bb-96b2-4c89-918e-4b761efe3f49")
 			(effects
 				(font
 					(size 1 1)
@@ -23321,11 +23178,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "33c62747-ae71-42f0-990c-5791df3bc94a")
+			(uuid "097342cc-17c2-4262-8c65-c1f8ba358cc0")
 			(effects
 				(font
 					(size 1 1)
@@ -23776,12 +23633,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "44b7ce65-531e-406a-8437-e1bedbbcdf18")
 		(at 92.3925 104.775)
 		(property "Reference" "LED27"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "8f32fa0d-c7cf-425c-9ed1-a54fa54749bb")
 			(effects
@@ -23792,8 +23649,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b0b2d357-3b85-4835-b94f-5b6376961e39")
@@ -23807,7 +23664,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8c2849a7-9e45-405f-8362-07511942a690")
@@ -23819,7 +23676,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3cce6313-6313-4a1c-be64-d9d9d5851a3a")
@@ -23831,11 +23688,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ef7161f9-fd82-4f38-a693-251e02f8e77d")
+			(uuid "090b3b5c-c097-4252-b4ef-bb40a922142a")
 			(effects
 				(font
 					(size 1 1)
@@ -23845,11 +23702,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3150a415-a765-4931-9b1e-f31064ffbd04")
+			(uuid "71d7a23a-eebc-46dc-af60-85c542bc949b")
 			(effects
 				(font
 					(size 1 1)
@@ -24010,23 +23867,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "47c803f7-ab1b-496d-870c-c30dabfefe2c")
 		(at 187.6425 118.11 180)
-		(property "Reference" "MX43"
+		(property "Reference" "K43"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "45b99332-9d31-4e45-ace8-796032ce0708")
@@ -24038,7 +23884,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "1e5d7ad3-5342-496f-ae84-84cf8aed1efd")
@@ -24076,11 +23922,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f1215a28-2ecc-464a-bbed-13918f3cc26d")
+			(uuid "3c7f2750-e4a4-4326-b920-30331f3a67bd")
 			(effects
 				(font
 					(size 1 1)
@@ -24090,11 +23936,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bd8a3c76-8c7e-4f1b-b6e9-a2b6a795d1b9")
+			(uuid "3c8cb45b-1a67-47c4-9f97-fa7f8a4cf510")
 			(effects
 				(font
 					(size 1 1)
@@ -24545,11 +24391,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "4a8d0507-6436-4993-aa87-bf361999a86f")
 		(at 149.5425 80.01 180)
-		(property "Reference" "MX18"
+		(property "Reference" "K18"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "5fd47c9f-f0d8-46b4-96d7-33df8bfa7b68")
@@ -24561,7 +24407,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "6a19e6a3-2ede-492f-ba94-bf96ac49e2dc")
@@ -24599,11 +24445,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aec0bca0-038b-40d3-ab80-289a6ed451c8")
+			(uuid "a46daeab-f1d2-4f4e-8102-bfc6d9d46399")
 			(effects
 				(font
 					(size 1 1)
@@ -24613,11 +24459,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "319baa5b-5b1a-4215-af1f-f1002cede2dc")
+			(uuid "f67f4366-9f85-4c4e-86fd-4d648cd05682")
 			(effects
 				(font
 					(size 1 1)
@@ -25068,12 +24914,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "4b6649e5-b7fa-4759-a101-7348c5620657")
 		(at 244.7925 123.825)
 		(property "Reference" "LED46"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "63f4cace-cdeb-4dc3-a1e0-68c25e88dfb5")
 			(effects
@@ -25084,8 +24930,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "51fad35e-e6df-43dc-8749-6f62d43ed61f")
@@ -25099,7 +24945,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e218c2a8-5af3-47bc-8608-4568348825f9")
@@ -25111,7 +24957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f75df860-da2c-4c41-99bb-1f3965a65ab9")
@@ -25123,11 +24969,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bae47fdd-1182-4ead-b101-020527268c3c")
+			(uuid "435bc4c5-47a2-46e2-807a-3f6f071e1bd1")
 			(effects
 				(font
 					(size 1 1)
@@ -25137,11 +24983,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "75eaa9cf-c3d9-4f55-8145-9a5f98c345a9")
+			(uuid "a5c49db0-06ba-4498-b001-3c99ef4bbac0")
 			(effects
 				(font
 					(size 1 1)
@@ -25302,24 +25148,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "4c0c8c67-0a2a-49f2-87db-c89442bf3383")
 		(at 244.7925 66.675)
 		(property "Reference" "LED11"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "bd7c4ea2-82d0-432d-ac23-b18a4034a6ed")
 			(effects
@@ -25330,8 +25165,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e1fbce44-f582-4100-a89a-a01a878add31")
@@ -25345,7 +25180,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "87423859-798f-41b0-b291-b82384a17598")
@@ -25357,7 +25192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d1a5ceba-b74a-40e1-b92f-d24af2a81543")
@@ -25369,11 +25204,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "11b84965-af36-482a-b576-b235018c2306")
+			(uuid "20514488-ff86-4943-9d20-2c222af6dc01")
 			(effects
 				(font
 					(size 1 1)
@@ -25383,11 +25218,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f1d2ae21-26d3-483c-bead-4d4ffaf014f9")
+			(uuid "7766bffe-2212-41d3-a6b6-ced4147b9e75")
 			(effects
 				(font
 					(size 1 1)
@@ -25548,23 +25383,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "4d8bd6b8-a094-462d-bc28-ed1cc1ead063")
 		(at 111.4425 118.11 180)
-		(property "Reference" "MX40"
+		(property "Reference" "K40"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "7b2a632f-0177-481e-86b4-6547d8af9466")
@@ -25576,7 +25400,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "faf73d5a-c235-4607-b4df-7a679afb8ddd")
@@ -25614,11 +25438,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d763d1c0-719b-4b65-ab36-c612f1dd5f29")
+			(uuid "9bf8f54a-77c7-4e6c-9eb9-e1f8e09780fb")
 			(effects
 				(font
 					(size 1 1)
@@ -25628,11 +25452,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e58d96df-15d7-489e-8d10-6da1801d7e39")
+			(uuid "0db33ada-0241-4bff-b410-69145dec9e1a")
 			(effects
 				(font
 					(size 1 1)
@@ -26083,11 +25907,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "4de6e9ae-b1be-4d0c-aa87-0de80388b960")
 		(at 149.5425 99.06 180)
-		(property "Reference" "MX30"
+		(property "Reference" "K30"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "a0fb96ce-0b6e-4224-9ba9-f4f00eb881bb")
@@ -26099,7 +25923,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "74b59096-c401-4b55-ba67-2a7b811a767c")
@@ -26137,11 +25961,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "23491635-dac5-4bba-883e-4dda8c698f69")
+			(uuid "9ef4e39d-7f36-4631-a332-4b5d19d53729")
 			(effects
 				(font
 					(size 1 1)
@@ -26151,11 +25975,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "15434702-c72d-4e31-ab1e-56c8190603e6")
+			(uuid "c39601be-0346-4a64-9c09-975bff903c5b")
 			(effects
 				(font
 					(size 1 1)
@@ -26606,12 +26430,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "4f26244c-34e2-4d8d-b295-048b6179afe5")
 		(at 92.3925 66.675)
 		(property "Reference" "LED3"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "466cccbe-b22a-462e-b71f-910940bc63ba")
 			(effects
@@ -26622,8 +26446,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "99065f65-be7f-4f41-8a33-b085036e0a82")
@@ -26637,7 +26461,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3bb52d6b-aee8-47f6-9777-68580f96441d")
@@ -26649,7 +26473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "46650867-ad60-4dd1-ab47-22969cb0fbc5")
@@ -26661,11 +26485,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9c21f27f-a2f9-4a65-ab67-5e167c596867")
+			(uuid "8fbff281-673b-49a5-9d7f-13313f544839")
 			(effects
 				(font
 					(size 1 1)
@@ -26675,11 +26499,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "44061240-1c8f-4096-b8ed-4cbf1430bfdb")
+			(uuid "32ce619b-be45-4d65-b9f1-eb3585abbd38")
 			(effects
 				(font
 					(size 1 1)
@@ -26840,23 +26664,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "505877ae-e292-4ad3-8982-cb5d6af3970c")
 		(at 73.3425 99.06 180)
-		(property "Reference" "MX26"
+		(property "Reference" "K26"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "0e8149aa-80af-41d0-89d7-0baf1a1e5899")
@@ -26868,7 +26681,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "b18955ad-e84a-48bf-9744-b940ccea972e")
@@ -26906,11 +26719,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f97a788c-6d72-4243-a184-5be75cd40414")
+			(uuid "f161f8e2-7421-4955-a6ae-b27b4287a05f")
 			(effects
 				(font
 					(size 1 1)
@@ -26920,11 +26733,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6b5789fb-7cf6-4e0f-aa59-b60213d8ebdd")
+			(uuid "1b908435-71b0-41a2-bcf1-8b7cb5bbf79d")
 			(effects
 				(font
 					(size 1 1)
@@ -27375,12 +27188,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "526a8c67-9209-42e6-bff5-2fd516678375")
 		(at 225.8 85.725)
 		(property "Reference" "LED22"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "6cc6b856-0522-4a4a-80e4-b57478a4a648")
 			(effects
@@ -27391,8 +27204,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fe88b74a-5b31-4f62-8232-bfb185de27a8")
@@ -27406,7 +27219,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cf82399f-82f0-400d-8e0f-981f22ef1834")
@@ -27418,7 +27231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ca683714-628e-462e-8bcb-c7c2963eaa1b")
@@ -27430,11 +27243,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "54769f56-6083-4e34-a6b1-eff354a912a0")
+			(uuid "78d6cfa3-c63b-4abe-af31-1f186ce6007c")
 			(effects
 				(font
 					(size 1 1)
@@ -27444,11 +27257,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "09064ec3-de2e-41af-a8b0-5d5c300c251b")
+			(uuid "398a02e8-ffe9-4010-a092-4169c751738b")
 			(effects
 				(font
 					(size 1 1)
@@ -27609,23 +27422,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "54cd1e02-86ea-4122-a1a3-1590238e7ff1")
 		(at 206.6925 99.06 180)
-		(property "Reference" "MX33"
+		(property "Reference" "K33"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "64068ecb-ddde-4942-b3d5-7a9990832eb3")
@@ -27637,7 +27439,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "60dd5fdc-3ca6-4963-a38b-42f7b775d767")
@@ -27675,11 +27477,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "303a4e9a-d56f-406c-aca0-ef04dba40c9d")
+			(uuid "9b09fca3-8b0d-4fb6-91be-71f60ee2cfc4")
 			(effects
 				(font
 					(size 1 1)
@@ -27689,11 +27491,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9619b313-b99c-4ea3-969b-f2631e848070")
+			(uuid "45cb3194-5db0-4796-8729-c8108f3d2c48")
 			(effects
 				(font
 					(size 1 1)
@@ -28144,12 +27946,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "59e430e0-c86d-45ab-97a9-60c477b6ea52")
 		(at 263.8425 85.725)
 		(property "Reference" "LED24"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "9b72ff8b-ca17-426f-9b0c-b66c7b653080")
 			(effects
@@ -28160,8 +27962,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fa20274e-f444-488b-b83a-48ee0ab8b82d")
@@ -28175,7 +27977,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a76d4db5-714b-4a18-81ed-bffef92619b3")
@@ -28187,7 +27989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "075162ce-563b-4831-9eaa-1c28ed41043d")
@@ -28199,11 +28001,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0b6d631b-bab4-410f-af4d-4d4a4bab6aa7")
+			(uuid "992fe992-1bef-4911-a2c3-745ef98bccc4")
 			(effects
 				(font
 					(size 1 1)
@@ -28213,11 +28015,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7f2619d1-0d97-4a03-ad35-f74a6d856c23")
+			(uuid "44de9c94-ec2b-4b66-b7e6-e906dc2b8c6b")
 			(effects
 				(font
 					(size 1 1)
@@ -28378,23 +28180,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "5a59b6ba-a6e6-44ff-af64-2a68bb82f116")
 		(at 130.4925 118.11 180)
-		(property "Reference" "MX41"
+		(property "Reference" "K41"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "ca4a87fe-4f24-467d-ba32-0ce679615750")
@@ -28406,7 +28197,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "f0cd07f3-24fa-4242-98c4-7da27bce98a8")
@@ -28444,11 +28235,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "23745d07-d3b6-46ad-9988-be56ab4c8e26")
+			(uuid "2973ef08-9183-4a20-af1e-e76859843c8f")
 			(effects
 				(font
 					(size 1 1)
@@ -28458,11 +28249,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "de03f21e-1fed-419f-8ee7-0faa9bd726d1")
+			(uuid "fd04328e-0e68-45ec-88f1-9eb2415938ad")
 			(effects
 				(font
 					(size 1 1)
@@ -28913,11 +28704,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "5b2aac13-01d8-4922-b8f2-9b7ab2d011e5")
 		(at 111.4425 60.96 180)
-		(property "Reference" "MX4"
+		(property "Reference" "K4"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "9899d82d-58c4-4864-964a-b719b3901f21")
@@ -28929,7 +28720,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "0d69601d-f5bc-4347-b3e9-2d2215a1af41")
@@ -28967,11 +28758,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b9dd2370-8516-4523-8d2a-fdc932f29c54")
+			(uuid "646e4c8b-210c-4077-b35f-7f3ccf400276")
 			(effects
 				(font
 					(size 1 1)
@@ -28981,11 +28772,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f20e8d8b-38a9-4aeb-b0e1-a78f81ee81c8")
+			(uuid "beb6b268-eaea-4daf-8d0b-87a124371ea9")
 			(effects
 				(font
 					(size 1 1)
@@ -29436,11 +29227,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "5c28b667-8df9-4849-acb4-d1c9b94548b1")
 		(at 149.5425 60.96 180)
-		(property "Reference" "MX6"
+		(property "Reference" "K6"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "35e4d33f-6b50-496a-b4b7-345ff9d37318")
@@ -29452,7 +29243,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "92b97a07-dc1e-4e21-b496-a7af6082d294")
@@ -29490,11 +29281,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c6f6d759-55db-4056-9e3d-1930fef2c18b")
+			(uuid "2a415a95-288d-42c5-aa22-034bf07e0378")
 			(effects
 				(font
 					(size 1 1)
@@ -29504,11 +29295,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2e12aacc-81d5-41cb-b3a8-117219f13a65")
+			(uuid "49351358-af82-4e42-b67f-8e73ee97058b")
 			(effects
 				(font
 					(size 1 1)
@@ -29959,12 +29750,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "5d001fe2-4fbc-4249-9074-6535ceb0ce34")
 		(at 187.6425 123.825)
 		(property "Reference" "LED43"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "e94922c7-d28f-4e16-88d9-1c78f23b4b02")
 			(effects
@@ -29975,8 +29766,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f00dee1f-bb10-4226-af5c-d4614e75eb60")
@@ -29990,7 +29781,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a28ffc68-623a-4704-9742-fa702e768b23")
@@ -30002,7 +29793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e8fedfa0-b8a4-41a2-bcd1-2a6b31087190")
@@ -30014,11 +29805,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bc11d997-5de5-4c77-93b1-cff56b419f02")
+			(uuid "4f07c18a-b7d3-45c5-a7e9-ed5ed252a706")
 			(effects
 				(font
 					(size 1 1)
@@ -30028,11 +29819,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0ccbdf9c-30b0-4641-98e7-d3faf0cb1879")
+			(uuid "1ac674f9-c283-4dac-804c-6ecb1e6b6930")
 			(effects
 				(font
 					(size 1 1)
@@ -30193,23 +29984,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "5ed7a69c-9db3-480c-831e-f8afacaf2466")
 		(at 225.7425 118.11 180)
-		(property "Reference" "MX45"
+		(property "Reference" "K45"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "b3628c31-b96e-4b6e-8e7b-28f7c99a9f92")
@@ -30221,7 +30001,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "5a2b7bcb-9c2a-4ec2-8535-ffff92d90f8e")
@@ -30259,11 +30039,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "998bd9a0-de70-4e9c-ad5d-e727bf86dee6")
+			(uuid "d605dc88-68b9-494e-9055-6a8f5c9d1413")
 			(effects
 				(font
 					(size 1 1)
@@ -30273,11 +30053,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b00d0ef3-1c2c-4c37-b47d-86ba68383d5b")
+			(uuid "6bf7d37e-559e-483f-9ff3-d6349e45b3ef")
 			(effects
 				(font
 					(size 1 1)
@@ -30728,11 +30508,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "5eed80a6-900e-40f1-9b94-4592cc073501")
 		(at 92.3925 99.06 180)
-		(property "Reference" "MX27"
+		(property "Reference" "K27"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "9808630b-acc8-47b1-89ec-e8c151ce0f3a")
@@ -30744,7 +30524,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "86c4c0f4-fa79-4983-9f3d-baac6db22a2d")
@@ -30782,11 +30562,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0b9ce12-bab9-4f65-bb06-357099727d63")
+			(uuid "bf923fdc-8d1d-468f-b5b9-c82ffafe7f62")
 			(effects
 				(font
 					(size 1 1)
@@ -30796,11 +30576,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "51406052-2ea6-4410-bb8d-40834b466334")
+			(uuid "a6cd642e-1aa4-4f74-ac0f-6a296d9fc9dc")
 			(effects
 				(font
 					(size 1 1)
@@ -31251,11 +31031,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "5f784b11-c742-4d2e-9c54-dafabe9a28d9")
 		(at 263.8425 80.01 180)
-		(property "Reference" "MX24"
+		(property "Reference" "K24"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "729501e6-725d-4034-96c7-69bf31076118")
@@ -31267,7 +31047,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "5fbcbb2b-cf24-4a90-8ec9-a94a31934950")
@@ -31305,11 +31085,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "21856ef8-ad21-4590-9e31-ccff8a3e8d72")
+			(uuid "216aa757-1dfd-4fa9-b35c-716ce953ba63")
 			(effects
 				(font
 					(size 1 1)
@@ -31319,11 +31099,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1deb9f72-969b-48cc-a23b-69195ca909b7")
+			(uuid "127593fb-51d1-4df1-a329-cb3048ee03bf")
 			(effects
 				(font
 					(size 1 1)
@@ -31774,12 +31554,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "6052d4cf-195b-4179-bace-3364b47570b8")
 		(at 111.4425 123.825)
 		(property "Reference" "LED40"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "04e7ca6b-f542-42c0-ab43-79ae27de8922")
 			(effects
@@ -31790,8 +31570,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4bfd1afa-3ede-4ae7-bb85-8caf53892b7c")
@@ -31805,7 +31585,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9d574e0e-104e-433e-a71b-f3e515f3aeed")
@@ -31817,7 +31597,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0f4212bb-e12f-48d9-b5a7-9e37895a5ff8")
@@ -31829,11 +31609,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "80e3a335-5b18-4e62-81df-c053e565b474")
+			(uuid "f3be40e5-4eaf-4ffa-9c68-11ca7fe3b8a5")
 			(effects
 				(font
 					(size 1 1)
@@ -31843,11 +31623,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "efde5e84-5aac-4cda-968e-8c3051100b0e")
+			(uuid "6f9ddfb3-2d27-48dd-a2af-1d93bb33694a")
 			(effects
 				(font
 					(size 1 1)
@@ -32008,23 +31788,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "6182c073-aac9-433e-81a8-bccbf191ad03")
 		(at 244.7925 118.11 180)
-		(property "Reference" "MX46"
+		(property "Reference" "K46"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "71446e35-cec3-4c9f-8e7e-a25529b8595d")
@@ -32036,7 +31805,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "f40a4050-cb44-460f-8147-225b180a444b")
@@ -32074,11 +31843,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b48b661e-5f9c-4290-a265-d0738980e9f8")
+			(uuid "19b13d22-7319-475b-855e-63d72d97f05d")
 			(effects
 				(font
 					(size 1 1)
@@ -32088,11 +31857,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "381d9b67-f8b1-4336-95bb-801047bb2cc2")
+			(uuid "395a541b-7e5c-40b1-88fd-7ec9f3a06b6a")
 			(effects
 				(font
 					(size 1 1)
@@ -32543,12 +32312,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "61d3b665-ba79-4db6-9d6c-9c7653812b57")
 		(at 168.65 66.675)
 		(property "Reference" "LED7"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "ff218d24-a3fc-4f77-be6a-3279e045f6c5")
 			(effects
@@ -32559,8 +32328,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b86cf1be-0ac6-418d-b2a7-db76f9a503a5")
@@ -32574,7 +32343,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "835f9169-43c1-4bfb-b93e-c0136e49d0fa")
@@ -32586,7 +32355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c3719172-a37f-492b-8712-831666797fb9")
@@ -32598,11 +32367,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f8f8ed46-7349-4591-a897-ce655464d237")
+			(uuid "f33c1673-440f-424e-bd47-c266c8157bdf")
 			(effects
 				(font
 					(size 1 1)
@@ -32612,11 +32381,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "11bca87d-32aa-4f86-b712-51017a4da555")
+			(uuid "233263ab-ab23-49aa-986a-22d6b745def3")
 			(effects
 				(font
 					(size 1 1)
@@ -32777,24 +32546,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "621a59bf-69c1-4837-a41a-04cd730417c0")
 		(at 73.3425 85.725)
 		(property "Reference" "LED14"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "fdaf8eef-9f45-4dca-a884-29c8e2e6fb16")
 			(effects
@@ -32805,8 +32563,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e70ce6d6-7de3-4ba1-b210-f2af2761bce9")
@@ -32820,7 +32578,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d012e781-0722-42af-9bb6-4028205e9e27")
@@ -32832,7 +32590,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2c774a14-3f5d-4b21-85d6-9be843f55a6c")
@@ -32844,11 +32602,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "97f4f707-b2d1-4346-b200-b05b4303a538")
+			(uuid "bc629541-0749-4b4d-b99f-dd07b7515224")
 			(effects
 				(font
 					(size 1 1)
@@ -32858,11 +32616,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fedbc891-3a4e-4055-a7ee-af9b90264557")
+			(uuid "a16c8e87-3f7f-405a-a6a9-8a6d8461feae")
 			(effects
 				(font
 					(size 1 1)
@@ -33023,24 +32781,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "63c17caf-5f00-4eef-8cb7-1ece6a3e4339")
 		(at 168.5925 85.725)
 		(property "Reference" "LED19"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "76ed6db4-e750-4bf8-a961-97d636827258")
 			(effects
@@ -33051,8 +32798,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b39cd033-635e-4643-ab01-159064d81cc6")
@@ -33066,7 +32813,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bf8ca619-03dd-4240-ad1d-58afd441f6e4")
@@ -33078,7 +32825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "49944517-3fdd-420e-8f51-37e510dfeddd")
@@ -33090,11 +32837,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e72d9eca-b3e0-4b17-8a0c-76a19fcd81fa")
+			(uuid "dc20199a-a6fe-47ea-a0e1-f23ec03d0f6f")
 			(effects
 				(font
 					(size 1 1)
@@ -33104,11 +32851,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "38346d19-9283-463f-9cba-8fcd6b38237d")
+			(uuid "0ac4ad90-dd79-4428-acb1-1a173bcc86cb")
 			(effects
 				(font
 					(size 1 1)
@@ -33269,23 +33016,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "665744f2-8b41-4ec5-8fbb-b97bcf95e3ea")
 		(at 54.2925 118.11 180)
-		(property "Reference" "MX37"
+		(property "Reference" "K37"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "474062d8-e811-4ae0-886d-e71ab8405608")
@@ -33297,7 +33033,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "934f9609-eae5-4b6a-8715-cb3ce3b036d7")
@@ -33335,11 +33071,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "107cf801-2c55-4f09-8ec4-2d576583ddca")
+			(uuid "34476348-1b62-48ab-b501-c4b520297036")
 			(effects
 				(font
 					(size 1 1)
@@ -33349,11 +33085,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7edd7c14-b15c-4112-b7b6-17f3f453f4ee")
+			(uuid "f91796b2-755f-4725-b265-c62b8e50215a")
 			(effects
 				(font
 					(size 1 1)
@@ -33804,12 +33540,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "6870798f-8499-4b07-9968-be68641ca17d")
 		(at 111.4425 104.775)
 		(property "Reference" "LED28"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "f0a062ce-cfcf-413d-886b-bc0e657258de")
 			(effects
@@ -33820,8 +33556,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "32a66503-ed0c-4032-aa5a-ae89c7c7fb45")
@@ -33835,7 +33571,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c2bc4bad-35ec-49c4-bd95-605a81c9fd51")
@@ -33847,7 +33583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c9ca655f-15d8-4c51-a4a7-78e8deac1de2")
@@ -33859,11 +33595,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "40b66486-26bf-4701-918a-978d1db5e796")
+			(uuid "65a86417-ed1e-46bf-86b0-e5ad52ef82a4")
 			(effects
 				(font
 					(size 1 1)
@@ -33873,11 +33609,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5e148819-f2d1-44de-af47-14c61b9ef81d")
+			(uuid "3febc166-4c77-4b5a-a700-98c0285f4ce9")
 			(effects
 				(font
 					(size 1 1)
@@ -34038,23 +33774,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "75c040fe-14f8-46cf-a664-30a536f4961d")
 		(at 168.5925 80.01 180)
-		(property "Reference" "MX19"
+		(property "Reference" "K19"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "9a207502-d28f-4486-ae68-1569b58905b9")
@@ -34066,7 +33791,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "fe9be881-826d-4702-96d7-ac7cb5915bd4")
@@ -34104,11 +33829,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "caffe783-ae21-4514-a700-982b207b2f45")
+			(uuid "2214c93a-8cff-41d7-b349-21946535e59f")
 			(effects
 				(font
 					(size 1 1)
@@ -34118,11 +33843,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0c09b072-b385-4689-be75-6b2e4ff459c4")
+			(uuid "8c87f921-9daa-4d4d-8f2c-5136b7102f2b")
 			(effects
 				(font
 					(size 1 1)
@@ -34573,11 +34298,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "7ed9e903-e23b-45b3-a4d9-5d1d783b009a")
 		(at 111.4425 99.06 180)
-		(property "Reference" "MX28"
+		(property "Reference" "K28"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "0c8d141e-9c80-4954-8c1e-2855da1b32d4")
@@ -34589,7 +34314,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "4ad5f8c5-1f05-4239-831f-1c48b88179a5")
@@ -34627,11 +34352,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "955998da-65df-4c77-869e-631183ade197")
+			(uuid "2b25e314-71d1-476d-a0cc-a501e4f0cafa")
 			(effects
 				(font
 					(size 1 1)
@@ -34641,11 +34366,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "145123b4-4285-4438-be1e-6d1238b32d49")
+			(uuid "9e8f2c01-3bca-49fd-8f58-d8cf0cca9f34")
 			(effects
 				(font
 					(size 1 1)
@@ -35096,12 +34821,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "84634887-13fe-4a76-844b-13b28dacb520")
 		(at 263.8425 104.775)
 		(property "Reference" "LED36"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "bdae1e52-ee61-4eca-91f9-1a335b20c338")
 			(effects
@@ -35112,8 +34837,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "20a77276-8b3e-4be6-8c7c-f1d0878fa251")
@@ -35127,7 +34852,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "81e96959-4f59-47f6-a94b-9eb48720d0e3")
@@ -35139,7 +34864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "588dc860-fad0-4bfe-bdad-e9a8f92fe4f7")
@@ -35151,11 +34876,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ea34465f-03a2-4442-b33f-7b111993a5ba")
+			(uuid "61f07f27-ea2c-4b84-9c7c-2db88bc2927e")
 			(effects
 				(font
 					(size 1 1)
@@ -35165,11 +34890,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f08e61d5-38f4-42c0-bd1a-abdf7eced7a6")
+			(uuid "176a72d4-a7b8-446d-bd20-4800da30bbab")
 			(effects
 				(font
 					(size 1 1)
@@ -35330,24 +35055,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "8598b73e-7c9c-4f1a-bea9-6e53d8a1ce49")
 		(at 130.4925 66.675)
 		(property "Reference" "LED5"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "169a979e-c8e7-4f96-905f-10329461da27")
 			(effects
@@ -35358,8 +35072,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "90e7e4a2-c2d7-4e7e-8908-6d46e6feb65f")
@@ -35373,7 +35087,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "575338dc-c6a0-4f9b-8554-91fb5b672b4f")
@@ -35385,7 +35099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "03900270-7449-4eb1-ba8b-ef3b9ae7ecee")
@@ -35397,11 +35111,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7356f89a-58e5-4794-ac53-d76f5aaa4131")
+			(uuid "5c1f9d96-fc03-45e7-a364-e6f6927e1c29")
 			(effects
 				(font
 					(size 1 1)
@@ -35411,11 +35125,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ded7546a-95b3-4595-b227-88a45d283043")
+			(uuid "39d1766a-af18-4c03-b4ee-7e9b76bc0b52")
 			(effects
 				(font
 					(size 1 1)
@@ -35565,23 +35279,23 @@
 			(uuid "f9eea0b1-63a3-473c-92e4-9bc6ef3049d2")
 		)
 		(embedded_fonts no)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+		(model "${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/ys-sk6812mini-e.step"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0.15)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -180 -0)
+				(xyz 180 0 180)
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "87622ad8-43a5-4e95-9ee6-518cdf9c3c2b")
 		(at 92.3925 60.96 180)
-		(property "Reference" "MX3"
+		(property "Reference" "K3"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "b7b0d851-6ce1-4414-96e1-383e77c1ff25")
@@ -35593,7 +35307,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "9843b098-e699-42c2-a37e-fa0ae4c8a95d")
@@ -35631,11 +35345,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1a9a6999-c914-4c11-abdb-2b237636ab9c")
+			(uuid "ada617c3-ca4a-41e3-b3ea-fd8baea68b91")
 			(effects
 				(font
 					(size 1 1)
@@ -35645,11 +35359,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "891087ce-9b1e-4026-96d8-04f06cb89452")
+			(uuid "29900e99-0f5a-46d5-9f00-0e293dad62e2")
 			(effects
 				(font
 					(size 1 1)
@@ -36100,11 +35814,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "8b510367-5fee-460c-9acb-1e90147c06fc")
 		(at 225.7425 99.06 180)
-		(property "Reference" "MX34"
+		(property "Reference" "K34"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "873fd286-43be-400b-85e7-c78da29fc4f7")
@@ -36116,7 +35830,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "8e33a30e-4ee2-4718-a5f8-7b6eb7c11576")
@@ -36154,11 +35868,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2cec9931-8962-46f3-a6cd-adcf3b3907e8")
+			(uuid "172eb5d7-cb8e-4c5b-b91f-adc1c31eabc8")
 			(effects
 				(font
 					(size 1 1)
@@ -36168,11 +35882,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e7dca327-ea3e-4d13-9f12-b782f8c0c295")
+			(uuid "45bcb267-2893-4612-b2a4-a88409670f6a")
 			(effects
 				(font
 					(size 1 1)
@@ -36623,11 +36337,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "9003ee54-37a9-4312-a97f-105e18f3951c")
 		(at 206.6925 118.11 180)
-		(property "Reference" "MX44"
+		(property "Reference" "K44"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "5877043c-262d-451b-a5d0-1cdce1f9816d")
@@ -36639,7 +36353,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "8f6394cf-85aa-4233-95a3-87c7e785f00a")
@@ -36677,11 +36391,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "091fbbb7-3a4d-4473-8433-8dcb6961e85a")
+			(uuid "aa159e40-a9e0-423c-9b92-64c072525205")
 			(effects
 				(font
 					(size 1 1)
@@ -36691,11 +36405,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "91a92966-0cec-4d3a-b081-cd503d6c6fbd")
+			(uuid "e6eea7d8-eeab-454e-a85f-43f45d9068f5")
 			(effects
 				(font
 					(size 1 1)
@@ -37146,12 +36860,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "95214fc8-efef-4701-b4bc-32614a27028a")
 		(at 263.8425 123.825)
 		(property "Reference" "LED47"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "36fb073c-d49a-4d9d-9389-b3c1bda62242")
 			(effects
@@ -37162,8 +36876,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fd7e9c84-3000-49d2-8a26-8c7b8826aaec")
@@ -37177,7 +36891,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1a5bb864-a644-4cf6-94dd-f689d568e66c")
@@ -37189,7 +36903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e337e969-5191-436b-9180-0b24d74d3cbb")
@@ -37201,11 +36915,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "26cf3c05-f538-47ec-89a8-91f8fa5d73b4")
+			(uuid "0bb5212b-3dc5-47ce-b877-2c44d17797b2")
 			(effects
 				(font
 					(size 1 1)
@@ -37215,11 +36929,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cfa91ff1-ef38-4fe2-ab15-8cf4d6a8e878")
+			(uuid "49411f51-e186-44e7-a092-3c1dfda01733")
 			(effects
 				(font
 					(size 1 1)
@@ -37380,24 +37094,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "98683210-69fe-490c-9e76-819ea92818ab")
 		(at 149.5425 85.725)
 		(property "Reference" "LED18"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "75632254-b746-4175-b368-b5b9e2eff488")
 			(effects
@@ -37408,8 +37111,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3b646061-51de-4b49-a31e-df351a03077a")
@@ -37423,7 +37126,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ce1c0d47-f250-446c-99f2-12fcb34a71e1")
@@ -37435,7 +37138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "600707ca-3fbf-4124-bff3-08d13e2ca2f2")
@@ -37447,11 +37150,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4fc41d4f-8061-4a3d-84ef-302b34f88bce")
+			(uuid "c25ec286-b8e6-416d-9df7-14a250f40a5f")
 			(effects
 				(font
 					(size 1 1)
@@ -37461,11 +37164,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "09bc8823-3dbf-4131-bcd4-38b2f656a9bc")
+			(uuid "69e257ef-6b56-4556-8c6e-0d223a3c7273")
 			(effects
 				(font
 					(size 1 1)
@@ -37626,23 +37329,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "9a694a94-1ec6-45c8-918d-6b7db7586b0d")
 		(at 225.7425 60.96 180)
-		(property "Reference" "MX10"
+		(property "Reference" "K10"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "0b4fe059-43f7-402c-b756-b5ebdc078504")
@@ -37654,7 +37346,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "5c87b7d9-41eb-46c6-8de5-3ae4670aa2fd")
@@ -37692,11 +37384,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0cee0649-7136-4779-8195-516b573b5dd7")
+			(uuid "73d7065a-3c6d-4808-9978-0e9852c007e6")
 			(effects
 				(font
 					(size 1 1)
@@ -37706,11 +37398,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7b9a902b-b5af-4847-8d06-9b769b7e3cd6")
+			(uuid "182eb886-8097-4ead-be58-4c00720f82fe")
 			(effects
 				(font
 					(size 1 1)
@@ -38161,12 +37853,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "9b12daad-1adf-41ab-bd21-600cdbe57fa9")
 		(at 73.3425 104.775)
 		(property "Reference" "LED26"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "535353ac-a4aa-413c-b294-919e95f40da8")
 			(effects
@@ -38177,8 +37869,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4cd866fc-4029-4b48-b047-1146ecc0dee2")
@@ -38192,7 +37884,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b4d55eae-3b74-48e8-ae28-23b571657382")
@@ -38204,7 +37896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d41d9246-56ab-4442-8e6e-8eb62ac54317")
@@ -38216,11 +37908,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "886d85c9-6d0d-414a-a32a-57d8a646d170")
+			(uuid "0b21eb2f-79ca-442c-8ff4-713d0c63ffde")
 			(effects
 				(font
 					(size 1 1)
@@ -38230,11 +37922,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e8c6e0aa-0ff9-407e-9658-5efd8138daec")
+			(uuid "35b68d83-0246-4f6a-b8e4-d37161271921")
 			(effects
 				(font
 					(size 1 1)
@@ -38395,24 +38087,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "a03eaebe-0a71-478e-afbb-d37e6fa33f9e")
 		(at 111.5 66.675)
 		(property "Reference" "LED4"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "0df736ea-40e9-4e68-b57b-ecfb271566b8")
 			(effects
@@ -38423,8 +38104,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5a141a95-c4ee-48fa-967b-1a6bb94c4626")
@@ -38438,7 +38119,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "47c0355c-edb5-47bb-8df9-5b35256fdd68")
@@ -38450,7 +38131,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7f0b5810-a6dc-4b3c-9269-48b82a06e19e")
@@ -38462,11 +38143,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b64b37f0-b95d-4358-86ca-f6af34cb0ed2")
+			(uuid "b236e2d6-0132-4447-96c5-65d254fd59a4")
 			(effects
 				(font
 					(size 1 1)
@@ -38476,11 +38157,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ab15f093-0327-4a44-90b4-cc4e96e28be4")
+			(uuid "cd806628-b69f-42ca-bd97-2c9e117cca7a")
 			(effects
 				(font
 					(size 1 1)
@@ -38641,23 +38322,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "a3606a4f-d95c-4f56-bedb-0da6e708bae3")
 		(at 73.3425 60.96 180)
-		(property "Reference" "MX2"
+		(property "Reference" "K2"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "cbf081e7-ec84-4865-ab0a-0fdb77dd236b")
@@ -38669,7 +38339,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "28c98aa0-cc3a-4d70-a191-94750d5e63f7")
@@ -38707,11 +38377,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0560b9f1-24b6-4dac-b39f-545063961d7c")
+			(uuid "11ed3f50-c209-4dd6-964a-4b2b3486f8ba")
 			(effects
 				(font
 					(size 1 1)
@@ -38721,11 +38391,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ad54d930-422f-489a-8c6b-2dc8a85f7363")
+			(uuid "9a7ef917-32ae-40e5-b21e-d339ed9ede03")
 			(effects
 				(font
 					(size 1 1)
@@ -39176,11 +38846,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "a5f07fd4-50f5-4b9c-b347-71e9268fa49a")
 		(at 225.7425 80.01 180)
-		(property "Reference" "MX22"
+		(property "Reference" "K22"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "02a2bb97-9c70-4916-831f-d6915b4935ef")
@@ -39192,7 +38862,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "354ce4bb-0235-42d0-b7d7-156adb358886")
@@ -39230,11 +38900,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "57f41c30-5f66-468c-b3fe-8e1a712b6a98")
+			(uuid "5c0ef789-253b-4104-851f-84144bfe4815")
 			(effects
 				(font
 					(size 1 1)
@@ -39244,11 +38914,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1d29ac38-f071-44eb-a5d2-e300024327e0")
+			(uuid "89306896-3c6c-4d2f-82d7-161306cf4ad9")
 			(effects
 				(font
 					(size 1 1)
@@ -39699,11 +39369,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "a6384758-005e-4fd7-b773-06f6cc85ee6a")
 		(at 263.8425 118.11 180)
-		(property "Reference" "MX47"
+		(property "Reference" "K47"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "8863c5e2-c655-4bc8-a9b5-e3a09312ff33")
@@ -39715,7 +39385,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "2d475cbb-d16f-465b-93d3-d8f58cddfaf5")
@@ -39753,11 +39423,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f55275ec-8948-4e7b-aaf4-ad76059d7879")
+			(uuid "9c358157-5c28-453f-ad22-626e4d30ea9e")
 			(effects
 				(font
 					(size 1 1)
@@ -39767,11 +39437,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ff566a36-5069-4865-b13c-247cd719883b")
+			(uuid "33d277ed-7a9a-4b31-91e0-3f665797af57")
 			(effects
 				(font
 					(size 1 1)
@@ -40222,11 +39892,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "a73a1c01-77ec-40b1-b021-bf7e9ba770cc")
 		(at 263.8425 99.06 180)
-		(property "Reference" "MX36"
+		(property "Reference" "K36"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "1ffacaa2-1577-49bc-9381-56d9722c1845")
@@ -40238,7 +39908,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "b5f7cc65-454b-45c4-a585-ffe526c520aa")
@@ -40276,11 +39946,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bb60822e-6da5-4008-8d4d-86676866c3b6")
+			(uuid "500d6321-4f42-4d0d-bcdf-67b78f5194c7")
 			(effects
 				(font
 					(size 1 1)
@@ -40290,11 +39960,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a0c4b3a1-50a3-4384-8cdb-770e373fdb36")
+			(uuid "fbab35e2-81bb-46ef-a918-1275df5af9ce")
 			(effects
 				(font
 					(size 1 1)
@@ -40745,11 +40415,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "a846eaea-44f5-4edd-894f-8238a690cbdd")
 		(at 130.4925 80.01 180)
-		(property "Reference" "MX17"
+		(property "Reference" "K17"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "e79e5f6c-c129-4c10-8e23-c4bb789aa31c")
@@ -40761,7 +40431,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "eaa1575c-3043-4be4-8310-ab1928be5586")
@@ -40799,11 +40469,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "53944b4f-0beb-4d49-940a-30697e6a7bb4")
+			(uuid "9e954bdb-5cc8-4d05-b87e-470de738d5f3")
 			(effects
 				(font
 					(size 1 1)
@@ -40813,11 +40483,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "833ecf59-20c3-4d96-a213-efff18efbb6e")
+			(uuid "740e226f-a186-4a08-9499-81b3a6295abe")
 			(effects
 				(font
 					(size 1 1)
@@ -41268,12 +40938,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "a86fc6a3-c11c-4c69-96a9-3cc11c009eb8")
 		(at 159.0675 123.825)
 		(property "Reference" "LED42"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "bc014976-81a3-445f-bb2d-150ea72c53f0")
 			(effects
@@ -41284,8 +40954,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1645c3aa-f639-45f7-80d0-8153a7ecba2a")
@@ -41299,7 +40969,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "906dd243-5e33-48fd-b78c-d8eb39bde0a6")
@@ -41311,7 +40981,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "231c0c6a-c57d-44ca-83b3-acff4e6f6f35")
@@ -41323,11 +40993,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a5350643-7752-414b-9e57-497cf7f66217")
+			(uuid "d5538938-b8dd-4e70-9e8b-231cd106cf79")
 			(effects
 				(font
 					(size 1 1)
@@ -41337,11 +41007,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b4e9d4fe-6bc3-452c-a2b8-daa96a83211e")
+			(uuid "7cdb1486-5cba-42f3-b641-55ecf7315696")
 			(effects
 				(font
 					(size 1 1)
@@ -41502,24 +41172,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "b241fe65-51eb-4ef0-b677-ffdeba5587de")
 		(at 206.6925 104.775)
 		(property "Reference" "LED33"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "ea3b31e2-8bc0-4730-8591-1d73c2439ff4")
 			(effects
@@ -41530,8 +41189,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a82f1e05-fab6-469e-8cc0-fe5efb953c3c")
@@ -41545,7 +41204,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "93122b59-4f98-473c-8ea0-31bd11148d4e")
@@ -41557,7 +41216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c7fc47e0-2893-4a97-8549-beebe8c674d2")
@@ -41569,11 +41228,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aa0ae914-8a1f-4fa2-8949-a3e840e01fed")
+			(uuid "9f0b96dd-1202-4061-861e-f7bc65e8c37f")
 			(effects
 				(font
 					(size 1 1)
@@ -41583,11 +41242,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "59beff72-c34a-4f2d-a9d8-0d3aea3e5be0")
+			(uuid "e70bc431-f106-498f-b0b7-85a13623ec20")
 			(effects
 				(font
 					(size 1 1)
@@ -41748,23 +41407,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "b3b52b0c-62eb-4748-8c74-8b9248af97b8")
 		(at 244.7925 60.96 180)
-		(property "Reference" "MX11"
+		(property "Reference" "K11"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "ba35b6bb-b52d-4dde-9326-fcd21bad4fbc")
@@ -41776,7 +41424,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "fbec7354-e3c2-4d76-be32-56eed18d72db")
@@ -41814,11 +41462,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aa172faa-6d06-434c-91fc-7f4292b40904")
+			(uuid "c6b72a4f-4ced-4fa6-9cda-39296c8b520a")
 			(effects
 				(font
 					(size 1 1)
@@ -41828,11 +41476,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "095e24a4-4ef6-4741-9cb7-e7b926abd6e2")
+			(uuid "6fedac52-7728-411e-b31e-27ff3246abc4")
 			(effects
 				(font
 					(size 1 1)
@@ -42283,11 +41931,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "b5370056-dd8c-4cce-9263-e5fa94ccd008")
 		(at 54.2925 80.01 180)
-		(property "Reference" "MX13"
+		(property "Reference" "K13"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "4c2bc1b0-bfd3-4c47-959f-7d273ea6e5c9")
@@ -42299,7 +41947,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "83c64b0a-d5fa-49f6-94db-cffa4e10d1fd")
@@ -42337,11 +41985,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "388b6862-31ca-4a70-9c7a-184da8e8498b")
+			(uuid "3dc3c0ff-a7d4-4be3-9bd7-a4710f567ab1")
 			(effects
 				(font
 					(size 1 1)
@@ -42351,11 +41999,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "22c41365-11e2-4167-8059-d65e8352271c")
+			(uuid "d56136e1-6932-4f92-bd3c-1da74c75c7ff")
 			(effects
 				(font
 					(size 1 1)
@@ -42806,11 +42454,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "b9535ab5-1921-456a-a8ab-3bc75625501f")
 		(at 168.5925 99.06 180)
-		(property "Reference" "MX31"
+		(property "Reference" "K31"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "ed4987e3-a394-4492-b78a-f3523f2e3813")
@@ -42822,7 +42470,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "495ce8a5-eda7-40d0-98e0-c00d0725713c")
@@ -42860,11 +42508,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "798b5738-b024-46c0-8aed-7dae65b98aef")
+			(uuid "67f528a0-29a8-43ca-85dd-d1f2ac070b21")
 			(effects
 				(font
 					(size 1 1)
@@ -42874,11 +42522,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bdc05dcc-d345-450a-bb90-576f94823876")
+			(uuid "898a21f3-2188-4d8b-a26d-186396e76135")
 			(effects
 				(font
 					(size 1 1)
@@ -43329,11 +42977,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "c10c6270-0e3a-4af4-9608-c300a077cb17")
 		(at 168.5925 60.96 180)
-		(property "Reference" "MX7"
+		(property "Reference" "K7"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "abc0df65-ef47-41cd-9344-007f75663946")
@@ -43345,7 +42993,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "ba2fa17e-2a52-4a98-9d8d-47f1ebe277e0")
@@ -43383,11 +43031,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c1ac0c11-bebd-453d-908f-2f413cbe3f67")
+			(uuid "f83911f9-ec9d-4b43-9d53-214de0772e38")
 			(effects
 				(font
 					(size 1 1)
@@ -43397,11 +43045,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3b3169f3-eb9a-42ef-838d-ebaee90fea81")
+			(uuid "dda23e7e-0d7a-4e72-90d9-a14f1285489b")
 			(effects
 				(font
 					(size 1 1)
@@ -43852,12 +43500,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c1b50cfc-49d3-4e62-bb14-d9e03ffcd663")
 		(at 130.4925 85.725)
 		(property "Reference" "LED17"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "0edca01d-b28a-4e21-8324-f16bbc13dd73")
 			(effects
@@ -43868,8 +43516,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "db2f9a55-f6e9-481e-b519-edcf4afde785")
@@ -43883,7 +43531,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "48e3b0d9-5ee9-4747-8948-7e8168351525")
@@ -43895,7 +43543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "dd3c7a66-1afc-42e6-acc0-cf00b4dba597")
@@ -43907,11 +43555,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "84ae76a4-164f-4929-9726-2673345758ee")
+			(uuid "7f8537ca-599c-4e03-865e-1b7e94347545")
 			(effects
 				(font
 					(size 1 1)
@@ -43921,11 +43569,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3b521e80-50c8-4a21-8e16-d8577a6c0a77")
+			(uuid "f2ab94a8-5959-47b3-81b6-256e55532d47")
 			(effects
 				(font
 					(size 1 1)
@@ -44086,23 +43734,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "c21c0ad1-3f2d-42ce-9df2-699524bfffba")
 		(at 244.7925 99.06 180)
-		(property "Reference" "MX35"
+		(property "Reference" "K35"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "bcef7fcb-e565-4210-bb12-ddd72be5b270")
@@ -44114,7 +43751,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "ce24c9ea-192d-482d-ad97-c8be34d92ba8")
@@ -44152,11 +43789,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "52866008-c8b6-45c2-b0bf-18e085779b01")
+			(uuid "a8b39e04-884b-49bf-865e-1952a78d6a41")
 			(effects
 				(font
 					(size 1 1)
@@ -44166,11 +43803,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0fea4520-317d-4331-bd96-26f5d4f08c49")
+			(uuid "165100c5-5ff2-4172-9b2a-d03811c704d8")
 			(effects
 				(font
 					(size 1 1)
@@ -44621,12 +44258,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c4d66b7e-d76b-490f-ba8b-55492202fd1c")
 		(at 54.2925 104.775)
 		(property "Reference" "LED25"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "439ed235-58fa-425b-81bc-7480e28096c6")
 			(effects
@@ -44637,8 +44274,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bb72739f-fdd6-4a3f-af38-1f02a7d9b3c6")
@@ -44652,7 +44289,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ff1e768e-6fd7-42ed-840f-b9621efd54ba")
@@ -44664,7 +44301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5f476e41-6521-491b-a186-76b47a503fe1")
@@ -44676,11 +44313,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d2b945b6-d84d-4769-abe3-28e6164eba12")
+			(uuid "96132fd9-feab-4135-b95d-3ecadb4e37df")
 			(effects
 				(font
 					(size 1 1)
@@ -44690,11 +44327,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7d82d9c0-16e2-4834-b535-0617c666100b")
+			(uuid "48a76240-84a8-419e-9818-10b435fadfd4")
 			(effects
 				(font
 					(size 1 1)
@@ -44855,23 +44492,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "c6ff1db9-4997-4957-8f4f-f4c8d62687a2")
 		(at 130.4925 60.96 180)
-		(property "Reference" "MX5"
+		(property "Reference" "K5"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "68deb4cb-9ec0-420d-9276-05c308b16ccd")
@@ -44883,7 +44509,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "7ef06f77-f49a-4f68-854e-8da67f305f34")
@@ -44921,11 +44547,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6c201e4f-9e54-430e-a27f-bf7e0f356f47")
+			(uuid "58f2f70b-4617-4a08-8c9f-0caefd88be34")
 			(effects
 				(font
 					(size 1 1)
@@ -44935,11 +44561,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d0b07e06-aae2-420d-8890-d6ed61be3615")
+			(uuid "cf7b5935-3687-483e-9dee-49f75bb95a07")
 			(effects
 				(font
 					(size 1 1)
@@ -45390,12 +45016,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c7403092-99eb-4d79-8a7e-5f91752820eb")
 		(at 225.7425 66.675)
 		(property "Reference" "LED10"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "df28a1c0-8884-4a8b-95a1-1742bf51ee2c")
 			(effects
@@ -45406,8 +45032,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b38a62c8-7968-425b-b63d-c9ee208bded8")
@@ -45421,7 +45047,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "82249d2e-3e14-4703-a59c-ae16053f2d9d")
@@ -45433,7 +45059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "38fc98f2-e4a9-486a-9c43-282b82000a39")
@@ -45445,11 +45071,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "58446992-9566-4455-a37d-6639b46d0d14")
+			(uuid "eec3b201-559a-4ffe-8e4f-1cbe29c480db")
 			(effects
 				(font
 					(size 1 1)
@@ -45459,11 +45085,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "254bcf3f-495c-4528-82a9-5a5f394ff4f9")
+			(uuid "252eb819-e40b-40ab-9747-9a5f8ce515c2")
 			(effects
 				(font
 					(size 1 1)
@@ -45624,24 +45250,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c80bbd2f-afbb-4b9c-9ae5-7dd9b80e7845")
 		(at 244.85 85.725)
 		(property "Reference" "LED23"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "c0d543fd-89f4-481b-9e03-86a20779d757")
 			(effects
@@ -45652,8 +45267,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ae5de4ba-4add-43a8-8a6b-2fb77177e5b8")
@@ -45667,7 +45282,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "68b890ab-4551-419c-8de4-3955b67b18cd")
@@ -45679,7 +45294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5714a3fa-13c3-444b-9921-24f188921f84")
@@ -45691,11 +45306,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e48262ba-1e84-4a25-8cfb-dc0f00d127fb")
+			(uuid "927909c1-d611-4177-8b02-af1d2294f09e")
 			(effects
 				(font
 					(size 1 1)
@@ -45705,11 +45320,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fef85c0d-d915-4053-aa8c-dcdad7e7ca81")
+			(uuid "89dd76b6-d61b-4a26-84fb-84f738697246")
 			(effects
 				(font
 					(size 1 1)
@@ -45870,24 +45485,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "c8593539-9222-4a95-b8d9-ac857c496b23")
 		(at 149.5425 104.775)
 		(property "Reference" "LED30"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "053decd7-4563-4b52-a09e-f084ebaff9a3")
 			(effects
@@ -45898,8 +45502,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a93befb6-c271-40f9-b27e-116142906cee")
@@ -45913,7 +45517,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6e2ae18d-8151-4a2e-ae46-0c9cb7dd81d6")
@@ -45925,7 +45529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "52467806-a889-4cc5-b67f-aabcf741c5f4")
@@ -45937,11 +45541,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "213c6f0e-eee4-422d-8653-2e36e16c3a9c")
+			(uuid "ccafde70-140d-4da8-9849-2e386ed46cdf")
 			(effects
 				(font
 					(size 1 1)
@@ -45951,11 +45555,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "42c2fb3a-d22f-4d0c-98d7-695362ed3afa")
+			(uuid "5d9722f0-0857-4642-8c86-202c17d15348")
 			(effects
 				(font
 					(size 1 1)
@@ -46116,23 +45720,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-2U-ReversedStabilizers"
+	(footprint "Local-lib:MX-Hotswap-2U-ReversedStabilizers"
 		(layer "B.Cu")
 		(uuid "c9a41857-981c-4839-ad09-58fe1064ce15")
 		(at 159.0675 118.11 180)
-		(property "Reference" "MX42"
+		(property "Reference" "K42"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "a10cfda3-0ac2-4b67-8d40-aa6d83e57ee9")
@@ -46144,7 +45737,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-2U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "69c283f1-94c0-4dea-bd31-cc9a7edf4fee")
@@ -46180,11 +45773,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "62254ef7-705e-48b2-8a0a-c12359b123d2")
+			(uuid "f7e38db7-0b79-4c16-a544-32c4bf60b969")
 			(effects
 				(font
 					(size 1 1)
@@ -46194,11 +45787,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7e2c28e8-4bac-4c2c-8c00-0c0ed51b0f8f")
+			(uuid "cb4c294a-5fb0-4bf6-82aa-dea0bf0af96c")
 			(effects
 				(font
 					(size 1 1)
@@ -46586,11 +46179,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "cc093ce9-c9c7-4f39-b403-67d59afabd56")
 		(at 206.6925 80.01 180)
-		(property "Reference" "MX21"
+		(property "Reference" "K21"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "ad2610ac-d483-4908-80d2-58b7aaf02ac4")
@@ -46602,7 +46195,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "3bdd7162-ccaa-4b10-921c-138d91a34fa6")
@@ -46640,11 +46233,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4b47980d-ce49-41e6-9923-f2541035faf3")
+			(uuid "711a96bc-0d9d-4c51-9d47-61034e8b9f0e")
 			(effects
 				(font
 					(size 1 1)
@@ -46654,11 +46247,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6e3c0992-5405-4345-a693-db482d5defea")
+			(uuid "1cb4649f-d0a6-4993-b25d-c25cf8bec67f")
 			(effects
 				(font
 					(size 1 1)
@@ -47109,12 +46702,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "cdc59170-08a8-4989-9ed9-c92694cc6b26")
 		(at 206.6925 123.825)
 		(property "Reference" "LED44"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "96247d32-0815-4039-b199-01730fee0f94")
 			(effects
@@ -47125,8 +46718,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e6e2c02d-0559-49a2-a25b-17038b11913e")
@@ -47140,7 +46733,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e594f454-801b-4b5f-8f8f-f402decd6900")
@@ -47152,7 +46745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0ffc0a85-6a57-4cb8-802f-2fc631cdff7a")
@@ -47164,11 +46757,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "73885ae1-662b-4c07-b444-0359d9361cfe")
+			(uuid "50056607-944f-4d45-bc19-1b864f26bb2f")
 			(effects
 				(font
 					(size 1 1)
@@ -47178,11 +46771,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bd38c875-2604-466e-af52-1f6b96235039")
+			(uuid "d6ae11cf-7be4-4e63-9c02-856dd5cdfa40")
 			(effects
 				(font
 					(size 1 1)
@@ -47343,24 +46936,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "d1204658-7301-439e-8218-20c8550869e0")
 		(at 130.4925 123.825)
 		(property "Reference" "LED41"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "95f104f1-7b38-4263-8d4a-aa31af79510e")
 			(effects
@@ -47371,8 +46953,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "926c6131-91c9-4def-b23a-f31b7b013616")
@@ -47386,7 +46968,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "547871ec-a7ca-4beb-be33-2da895fb160f")
@@ -47398,7 +46980,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c8a6a581-d665-4f0c-a66a-57fa10843bbe")
@@ -47410,11 +46992,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b75b70f4-dda6-4def-98ac-acf926913f95")
+			(uuid "6809f1c5-32d3-437d-b524-2626702ab51e")
 			(effects
 				(font
 					(size 1 1)
@@ -47424,11 +47006,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cd6e22dd-1ef0-425a-a7d1-518514612e4d")
+			(uuid "7f6cb560-9f2e-4602-9124-b4badc5a2b3b")
 			(effects
 				(font
 					(size 1 1)
@@ -47589,23 +47171,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "d1d0a101-7686-406e-a100-d987b53baab1")
 		(at 244.7925 80.01 180)
-		(property "Reference" "MX23"
+		(property "Reference" "K23"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "9efca121-f2a9-4457-8fe4-c39a42e5001b")
@@ -47617,7 +47188,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "51786c66-f989-43f5-a21e-f1dd06e04c2a")
@@ -47655,11 +47226,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aa05848a-6848-4ea3-86cf-7b3cc04fdc06")
+			(uuid "6be616b1-2b93-4f44-910c-13d186d1492c")
 			(effects
 				(font
 					(size 1 1)
@@ -47669,11 +47240,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1ac83cf7-2e15-4196-b466-e73a90ecc118")
+			(uuid "a9ab7fea-fcf2-4c45-bda9-48a4dcc2c147")
 			(effects
 				(font
 					(size 1 1)
@@ -48124,12 +47695,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "d25d3405-86d5-41d8-ae9f-7b88e3b3f68a")
 		(at 225.7425 104.775)
 		(property "Reference" "LED34"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "5bec0d9d-7ae4-46dc-9e87-220db37c2193")
 			(effects
@@ -48140,8 +47711,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "16a6f2f6-40e0-4a1c-a0b8-f0391c3a1309")
@@ -48155,7 +47726,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fde7db76-df78-44c8-a0d0-b668d601eb58")
@@ -48167,7 +47738,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "425fc7c2-453f-4550-bcbd-8b7d7263a648")
@@ -48179,11 +47750,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0461e368-6082-4dd2-a390-e5b898e4ccc8")
+			(uuid "c99d5059-f140-4d4d-9947-ebf126ba3aa0")
 			(effects
 				(font
 					(size 1 1)
@@ -48193,11 +47764,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "791f74fa-9d2f-4149-afef-9f168694ce76")
+			(uuid "dceaa27e-e451-4c5f-b3aa-e74fe8bc71ba")
 			(effects
 				(font
 					(size 1 1)
@@ -48358,23 +47929,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "d73de3ef-31d9-412a-bcb1-3b6abe07dab1")
 		(at 73.3425 80.01 180)
-		(property "Reference" "MX14"
+		(property "Reference" "K14"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "23b46852-190c-4388-834a-188812766455")
@@ -48386,7 +47946,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "2de7d502-4025-41e3-93cf-ae941a853f61")
@@ -48424,11 +47984,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5137153f-b064-4a00-84c9-cc3cc2dc63df")
+			(uuid "4b7dcdfd-bd75-4a89-9975-e385f377ee40")
 			(effects
 				(font
 					(size 1 1)
@@ -48438,11 +47998,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5a8d3e8e-3896-4660-b66d-07e13e6206f2")
+			(uuid "cb6d43b5-e13f-4d5e-b9e5-1ddf7d100096")
 			(effects
 				(font
 					(size 1 1)
@@ -48893,12 +48453,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "d9643e5f-71c2-4821-a544-70cee3a247fd")
 		(at 168.5925 104.775)
 		(property "Reference" "LED31"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "9c62d04b-cd15-4c39-b83b-a4b18cef9159")
 			(effects
@@ -48909,8 +48469,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b3148e6c-1cc3-443e-8c35-ca2210e997f1")
@@ -48924,7 +48484,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "eb8307d7-38c0-4018-b9ee-5605fe84ba80")
@@ -48936,7 +48496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "750b319c-0510-4b70-927c-b8b28743da96")
@@ -48948,11 +48508,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7eaee744-9b61-431b-a0da-2e422cec5026")
+			(uuid "6b00f8cb-5053-429c-832b-a7987d688338")
 			(effects
 				(font
 					(size 1 1)
@@ -48962,11 +48522,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6dc6406f-0bdc-4487-808d-b8318cdfb631")
+			(uuid "f7d75bc4-3222-4c89-a612-94f094def977")
 			(effects
 				(font
 					(size 1 1)
@@ -49127,23 +48687,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "da976f5c-97ba-4dec-8b11-66476502cb15")
 		(at 73.3425 118.11 180)
-		(property "Reference" "MX38"
+		(property "Reference" "K38"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "f1ec8e05-5b64-4f2e-99d1-2445bf881b3b")
@@ -49155,7 +48704,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "add19d62-832f-4efe-a29d-3a3f110b8eab")
@@ -49193,11 +48742,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cdff7440-70e1-4f32-b9d0-f3d997fa9be1")
+			(uuid "d8f1542e-ce22-4ee0-8160-4f9a658a8d9f")
 			(effects
 				(font
 					(size 1 1)
@@ -49207,11 +48756,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6acb2024-bf10-471f-b5b3-6069a430ad2a")
+			(uuid "f478c2d9-d933-4e52-9c2d-4d1be62282b2")
 			(effects
 				(font
 					(size 1 1)
@@ -49662,12 +49211,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "da9e4cab-9936-4fab-bf1f-828f941f594b")
 		(at 54.235 123.5725)
 		(property "Reference" "LED37"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "a96a1598-d9ac-4697-8d64-073b54320d1f")
 			(effects
@@ -49678,8 +49227,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "733384b2-9b66-4778-950e-26600d8a3cdb")
@@ -49693,7 +49242,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a5318a0b-cea5-42f0-9d22-9723b6005c0a")
@@ -49705,7 +49254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e8bf754d-c795-4574-8787-4cd911fd7dec")
@@ -49717,11 +49266,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "15d4a7c6-12aa-44f6-a358-5741c39c4d72")
+			(uuid "c7681c7f-4f25-4509-a6c1-c052a8aaa14e")
 			(effects
 				(font
 					(size 1 1)
@@ -49731,11 +49280,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "70702cf0-c534-415c-aec5-aa6b0a0e2fc5")
+			(uuid "5fdee39a-0e87-421c-a511-9099e16201fb")
 			(effects
 				(font
 					(size 1 1)
@@ -49896,23 +49445,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "db8bc94c-25db-495f-b57e-329ad7ae0ea5")
 		(at 92.3925 80.01 180)
-		(property "Reference" "MX15"
+		(property "Reference" "K15"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "4f48d3d9-9990-47cf-9263-6c2aa12f0663")
@@ -49924,7 +49462,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "4bab452b-a800-4a60-a4ef-476daf70c45f")
@@ -49962,11 +49500,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0500a6a0-9a28-4011-9944-a2d54b98d8fe")
+			(uuid "d2b3416d-4e8f-492e-bb48-86b89da151d0")
 			(effects
 				(font
 					(size 1 1)
@@ -49976,11 +49514,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6519c3b6-ea11-4e7f-a7ed-fbc5b2d4a93c")
+			(uuid "08c1d081-02a3-4111-8046-7e69f44d5005")
 			(effects
 				(font
 					(size 1 1)
@@ -50431,11 +49969,11 @@
 			)
 		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "dc33cffd-15b5-4a21-b7c5-5200657318e1")
 		(at 130.4925 99.06 180)
-		(property "Reference" "MX29"
+		(property "Reference" "K29"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "5f1bdaef-9d4d-43f8-a795-529d9621226f")
@@ -50447,7 +49985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "0d74343d-f74c-4630-b0b5-53a5c98bfcad")
@@ -50485,11 +50023,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "461cca4b-6da7-4149-b83d-8ed3229cb854")
+			(uuid "581e729b-683b-46f8-bdfd-fc50ad48c18b")
 			(effects
 				(font
 					(size 1 1)
@@ -50499,11 +50037,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "54152fc0-ce1f-4952-841d-3c9070470b23")
+			(uuid "663b4849-a9fc-4c31-8327-57ecc5cdf33d")
 			(effects
 				(font
 					(size 1 1)
@@ -50954,12 +50492,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ddcb47fa-4df2-43a9-bad6-632e490b5b13")
 		(at 130.4925 104.775)
 		(property "Reference" "LED29"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "9b6a8c10-34e5-4343-9dee-dfad02000a70")
 			(effects
@@ -50970,8 +50508,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9a9360da-7bd1-44fa-8cad-fdffeff08c06")
@@ -50985,7 +50523,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f9447706-fee8-4cca-b210-b3571438a259")
@@ -50997,7 +50535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "25dcc2a4-bdc7-487a-bcbe-6cfb58a2d47b")
@@ -51009,11 +50547,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "211bbe5d-2f3d-45f0-9041-e8bd6b058aff")
+			(uuid "67434cc0-9229-4391-9af5-8dc2c064b9c5")
 			(effects
 				(font
 					(size 1 1)
@@ -51023,11 +50561,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "65f3064f-af2c-492e-8d80-0d757e0c2d85")
+			(uuid "18fd7005-55e1-419c-b53d-ee318f04a47d")
 			(effects
 				(font
 					(size 1 1)
@@ -51188,24 +50726,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ea16d2fc-0e17-4272-a39b-0b6dfe8cb04b")
 		(at 206.6925 85.725)
 		(property "Reference" "LED21"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "54f89e00-c21e-4831-82b0-9874bce96127")
 			(effects
@@ -51216,8 +50743,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "66c19d70-3e94-442a-b976-44eaa9f3bb59")
@@ -51231,7 +50758,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "dd0bfb2f-babb-4128-ba3d-7a49cbdab5fa")
@@ -51243,7 +50770,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8a36ed84-2665-4828-a5e5-fd6fca0fd793")
@@ -51255,11 +50782,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2b52d056-1d47-41ee-9525-541e734a8715")
+			(uuid "269bb7c7-bddc-491a-a465-360c29f81368")
 			(effects
 				(font
 					(size 1 1)
@@ -51269,11 +50796,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0c265e37-a4e6-4ca3-b1cd-0ffbca1b4f5f")
+			(uuid "08e749c4-2d00-4921-8959-2aa7c6e488ea")
 			(effects
 				(font
 					(size 1 1)
@@ -51434,24 +50961,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ea9a0a81-e050-43f9-a9b3-6ba53ef1fa8c")
 		(at 92.3925 123.825)
 		(property "Reference" "LED39"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "4977a182-6099-46b8-9ea3-36bb931560ae")
 			(effects
@@ -51462,8 +50978,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3064f667-9c66-4111-8ae6-f0fc29b4c1f7")
@@ -51477,7 +50993,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1c87b10a-fb65-441b-b7fe-54425dcac939")
@@ -51489,7 +51005,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "93bf9c38-bdd9-4746-8b32-58767b771037")
@@ -51501,11 +51017,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9ef55698-153c-411a-bf76-e3bab03f5d79")
+			(uuid "4b8fec20-0488-4669-bd27-81bab80b15c9")
 			(effects
 				(font
 					(size 1 1)
@@ -51515,11 +51031,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c38b6804-180f-4c8c-abb3-0d0f5fbb44be")
+			(uuid "62f426a6-44a0-49d9-8e05-1044945ef9aa")
 			(effects
 				(font
 					(size 1 1)
@@ -51669,7 +51185,7 @@
 			(uuid "04e6452a-1330-461e-a5e0-2447c24912f6")
 		)
 		(embedded_fonts no)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
+		(model "${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/ys-sk6812mini-e.step"
 			(offset
 				(xyz 0 0 0.15)
 			)
@@ -51680,23 +51196,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "eb149ea5-a867-4a8d-8989-de50f985155d")
 		(at 187.6425 60.96 180)
-		(property "Reference" "MX8"
+		(property "Reference" "K8"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "550dcdf7-27b3-4f16-834f-eb924973ebf6")
@@ -51708,7 +51213,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "ca7a8975-9a57-44df-bcce-7ff35108cce9")
@@ -51746,11 +51251,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cb4e4995-fd70-4c99-86fd-561fdecf77ae")
+			(uuid "49d2f3d5-996c-47cc-9c5e-fc691c528357")
 			(effects
 				(font
 					(size 1 1)
@@ -51760,11 +51265,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6bcc83b1-1b9b-4d2b-8909-8bb30f07b450")
+			(uuid "811bb1a9-db66-4700-9cf1-1bc2d6c2eca5")
 			(effects
 				(font
 					(size 1 1)
@@ -52215,12 +51720,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ec2dc3b9-2b19-46d7-bf15-5747ab182164")
 		(at 149.5425 66.675)
 		(property "Reference" "LED6"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "d8279939-d038-413f-b72b-e869fd57034a")
 			(effects
@@ -52231,8 +51736,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1298012b-0f4e-493f-93f8-0564eff76463")
@@ -52246,7 +51751,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "83905415-0668-48b1-aa76-89971bbec6fa")
@@ -52258,7 +51763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3ad1a0d1-d2c3-4f69-b87f-670e4b900a7d")
@@ -52270,11 +51775,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "336719dc-e5be-48c4-a754-60e350d8b857")
+			(uuid "8f2fd8b6-8011-4ff1-9d2b-d500e4ebd730")
 			(effects
 				(font
 					(size 1 1)
@@ -52284,11 +51789,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bb12d3c5-6703-49e8-b627-e370f45b331a")
+			(uuid "0fb240f7-099c-4c78-96c5-3f8f1a558667")
 			(effects
 				(font
 					(size 1 1)
@@ -52449,24 +51954,13 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "ee07c9a3-748b-485f-bcb9-930a7e2f8c61")
 		(at 73.3425 66.675)
 		(property "Reference" "LED2"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "a1b5846e-546e-4f07-a326-f04e0cd92a55")
 			(effects
@@ -52477,8 +51971,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7494d73f-4e06-4b0e-b2ed-d33445cc31f5")
@@ -52492,7 +51986,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "71325752-dbac-4924-b255-7dd42ec178ff")
@@ -52504,7 +51998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4220a54a-c2e5-4299-ad5e-f210444498a5")
@@ -52516,11 +52010,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "71d1afd9-4445-41bd-9323-4e140c5bf511")
+			(uuid "42583f09-856e-4155-b464-8981c6ae96bf")
 			(effects
 				(font
 					(size 1 1)
@@ -52530,11 +52024,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a73f15f6-ef64-46ed-bbdf-442a2ba46621")
+			(uuid "193679f8-1be5-4bc2-82a7-c4330eadb6de")
 			(effects
 				(font
 					(size 1 1)
@@ -52692,18 +52186,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -180 -0 -180)
-			)
-		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
+				(xyz 180 0 180)
 			)
 		)
 	)
@@ -53018,12 +52501,12 @@
 			)
 		)
 	)
-	(footprint "kbd:YS-SK6812MINI-E"
+	(footprint "Local-lib:YS-SK6812MINI-E"
 		(layer "B.Cu")
 		(uuid "f806ec7d-1542-46b8-8409-af143cf8c505")
 		(at 92.3925 85.725)
 		(property "Reference" "LED15"
-			(at 0 1.95 0)
+			(at 0 1.95 180)
 			(layer "B.SilkS")
 			(uuid "5f8e4642-6535-4696-88dd-b910654644e3")
 			(effects
@@ -53034,8 +52517,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4960"
-			(at 0 2.2 0)
+		(property "Value" "SK6812-ReverseMount"
+			(at 0 2.2 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ab6f3f14-12c9-4490-b36b-e7f1ecba8865")
@@ -53049,7 +52532,7 @@
 			)
 		)
 		(property "Datasheet" "4960"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a1d9f638-b807-4e31-b4e5-4024751c9830")
@@ -53061,7 +52544,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "feac82f3-857d-4591-87eb-82c5e190833b")
@@ -53073,11 +52556,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "23f52a2f-60ae-4f97-834a-56cacb4aa66a")
+			(uuid "74f68e6e-5926-42c8-bdf0-5c23c23765ac")
 			(effects
 				(font
 					(size 1 1)
@@ -53087,11 +52570,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8ffe42ce-80d2-47be-b397-c98860afd578")
+			(uuid "c9ab9993-dea4-4e35-8006-fd28c918d819")
 			(effects
 				(font
 					(size 1 1)
@@ -53252,23 +52735,12 @@
 				(xyz 180 0 180)
 			)
 		)
-		(model "/home/reillyb/KiCad/Components/kicad-packages3D/kbd.3dshapes/YS-SK6812MINI-E.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "MX_Hotswap:MX-Hotswap-1U"
+	(footprint "Local-lib:MX-Hotswap-1U"
 		(layer "B.Cu")
 		(uuid "ff8c61df-4897-48ae-8e15-cf69d6fea84a")
 		(at 263.8425 60.96 180)
-		(property "Reference" "MX12"
+		(property "Reference" "K12"
 			(at 0 -3.175 0)
 			(layer "B.Fab")
 			(uuid "357be31f-6f19-4b85-8b2c-808d18ef1b29")
@@ -53280,7 +52752,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MX-1U"
+		(property "Value" "KEYSW"
 			(at 0 7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "bcb946a0-5592-4253-a9fe-6be7d059187d")
@@ -53318,11 +52790,11 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f4e6d761-024b-4a95-9c37-5c3d83708c07")
+			(uuid "6229c0cd-7ba3-4d25-89a4-12d630f5c0c6")
 			(effects
 				(font
 					(size 1 1)
@@ -53332,11 +52804,11 @@
 			)
 		)
 		(property "MFR.Part #" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "937cae13-b553-4d3d-83fe-294efc16d061")
+			(uuid "2f5e59ce-a2fa-4afe-8134-da2840ea1e95")
 			(effects
 				(font
 					(size 1 1)
