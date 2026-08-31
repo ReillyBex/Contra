@@ -195,1663 +195,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KEYSW_1"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_1_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_1_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_10"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_10_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_10_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_11"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_11_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_11_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_12"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_12_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_12_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_2"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_2_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_2_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_3"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_3_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_3_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_4"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_4_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_4_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_5"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_5_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_5_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_6"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_6_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_6_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_7"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_7_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_7_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_8"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_8_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_8_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KEYSW_9"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K?"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "KEYSW"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "KEYSW_9_0_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KEYSW_9_1_1"
-				(pin passive line
-					(at 7.62 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "keyboard_parts:KEYSW"
+		(symbol "Local-lib:KEYSW"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4230,7 +2574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 204.47 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -4240,8 +2584,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01e4d235-94c8-4518-91fc-6d4cb568b8df")
-		(property "Reference" "MX44"
-			(at 204.47 121.285 0)
+		(property "Reference" "K44"
+			(at 203.2 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4250,20 +2594,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 204.47 123.19 0)
+		(property "Value" "KEYSW"
+			(at 204.47 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 204.47 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4274,7 +2617,6 @@
 		)
 		(property "Datasheet" ""
 			(at 204.47 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4325,7 +2667,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX44")
+					(reference "K44")
 					(unit 1)
 				)
 			)
@@ -4434,7 +2776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 90.17 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -4444,8 +2786,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fd2688a-d7fa-4d59-a9cf-0eb80c6e0fa0")
-		(property "Reference" "MX27"
-			(at 90.17 102.235 0)
+		(property "Reference" "K27"
+			(at 88.9 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4454,20 +2796,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 90.17 104.14 0)
+		(property "Value" "KEYSW"
+			(at 90.17 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 90.17 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4478,7 +2819,6 @@
 		)
 		(property "Datasheet" ""
 			(at 90.17 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4529,7 +2869,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX27")
+					(reference "K27")
 					(unit 1)
 				)
 			)
@@ -4740,7 +3080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 166.37 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -4750,8 +3090,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10426188-2b38-46b8-b4f4-d543a63e8f26")
-		(property "Reference" "MX31"
-			(at 166.37 102.235 0)
+		(property "Reference" "K31"
+			(at 165.1 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4760,20 +3100,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 166.37 104.14 0)
+		(property "Value" "KEYSW"
+			(at 166.37 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 166.37 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4784,7 +3123,6 @@
 		)
 		(property "Datasheet" ""
 			(at 166.37 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4835,14 +3173,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX31")
+					(reference "K31")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 90.17 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -4852,8 +3190,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "110690db-be6e-41c6-8cab-134b9c1347a1")
-		(property "Reference" "MX15"
-			(at 90.17 83.185 0)
+		(property "Reference" "K15"
+			(at 88.9 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4862,20 +3200,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 90.17 85.09 0)
+		(property "Value" "KEYSW"
+			(at 90.17 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 90.17 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4886,7 +3223,6 @@
 		)
 		(property "Datasheet" ""
 			(at 90.17 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4937,7 +3273,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX15")
+					(reference "K15")
 					(unit 1)
 				)
 			)
@@ -5148,7 +3484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 52.07 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -5158,8 +3494,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a7d97a5-bd7f-46b0-886c-cdbdbd13e117")
-		(property "Reference" "MX13"
-			(at 52.07 83.185 0)
+		(property "Reference" "K13"
+			(at 50.8 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5168,20 +3504,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 52.07 85.09 0)
+		(property "Value" "KEYSW"
+			(at 52.07 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 52.07 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5192,7 +3527,6 @@
 		)
 		(property "Datasheet" ""
 			(at 52.07 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5243,14 +3577,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX13")
+					(reference "K13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 261.62 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -5260,8 +3594,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "248cf438-83df-40d5-ab6c-54fd5de48c53")
-		(property "Reference" "MX36"
-			(at 261.874 105.664 0)
+		(property "Reference" "K36"
+			(at 260.35 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5270,20 +3604,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 261.62 104.14 0)
+		(property "Value" "KEYSW"
+			(at 261.62 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 261.62 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5294,7 +3627,6 @@
 		)
 		(property "Datasheet" ""
 			(at 261.62 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5345,7 +3677,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX36")
+					(reference "K36")
 					(unit 1)
 				)
 			)
@@ -5658,8 +3990,7 @@
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_1")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 71.12 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -5669,8 +4000,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3659f51a-cbdd-43df-9034-a959d5f0341b")
-		(property "Reference" "MX2"
-			(at 71.12 64.135 0)
+		(property "Reference" "K2"
+			(at 69.85 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5679,20 +4010,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 71.12 66.04 0)
+		(property "Value" "KEYSW"
+			(at 71.12 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 71.12 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5703,7 +4033,6 @@
 		)
 		(property "Datasheet" ""
 			(at 71.12 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5754,14 +4083,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX2")
+					(reference "K2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 147.32 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -5771,8 +4100,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36dea340-6a01-47a4-8f14-6ad9ea22d211")
-		(property "Reference" "MX18"
-			(at 147.32 83.185 0)
+		(property "Reference" "K18"
+			(at 146.05 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5781,20 +4110,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 147.32 85.09 0)
+		(property "Value" "KEYSW"
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 147.32 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5805,7 +4133,6 @@
 		)
 		(property "Datasheet" ""
 			(at 147.32 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5856,7 +4183,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX18")
+					(reference "K18")
 					(unit 1)
 				)
 			)
@@ -6067,7 +4394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 71.12 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -6077,8 +4404,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "413dbc79-7582-475f-a11c-625085512ed5")
-		(property "Reference" "MX38"
-			(at 71.12 121.285 0)
+		(property "Reference" "K38"
+			(at 69.85 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6087,20 +4414,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 71.12 123.19 0)
+		(property "Value" "KEYSW"
+			(at 71.12 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 71.12 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6111,7 +4437,6 @@
 		)
 		(property "Datasheet" ""
 			(at 71.12 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6162,14 +4487,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX38")
+					(reference "K38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 52.07 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -6179,8 +4504,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4330cafb-49d2-46fc-bc76-ec55a88b2ffe")
-		(property "Reference" "MX25"
-			(at 52.07 102.235 0)
+		(property "Reference" "K25"
+			(at 50.8 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6189,20 +4514,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 52.07 104.14 0)
+		(property "Value" "KEYSW"
+			(at 52.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 52.07 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6213,7 +4537,6 @@
 		)
 		(property "Datasheet" ""
 			(at 52.07 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6264,7 +4587,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX25")
+					(reference "K25")
 					(unit 1)
 				)
 			)
@@ -6577,7 +4900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 128.27 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -6587,8 +4910,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4de8e52f-0620-45ea-8bfe-c7f31f203865")
-		(property "Reference" "MX41"
-			(at 128.27 121.285 0)
+		(property "Reference" "K41"
+			(at 127 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6597,20 +4920,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 128.27 123.19 0)
+		(property "Value" "KEYSW"
+			(at 128.27 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 128.27 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6621,7 +4943,6 @@
 		)
 		(property "Datasheet" ""
 			(at 128.27 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6672,15 +4993,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX41")
+					(reference "K41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_3")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 90.17 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -6690,8 +5010,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f71c302-990a-49fc-9be2-3b7e14d9c694")
-		(property "Reference" "MX3"
-			(at 90.17 64.135 0)
+		(property "Reference" "K3"
+			(at 88.9 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6700,20 +5020,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 90.17 66.04 0)
+		(property "Value" "KEYSW"
+			(at 90.17 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 90.17 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6724,7 +5043,6 @@
 		)
 		(property "Datasheet" ""
 			(at 90.17 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6775,14 +5093,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX3")
+					(reference "K3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 147.32 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -6792,8 +5110,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "521bdd92-df6f-4bdf-b67e-708de0c5e027")
-		(property "Reference" "MX30"
-			(at 147.32 102.235 0)
+		(property "Reference" "K30"
+			(at 146.05 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6802,20 +5120,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 147.32 104.14 0)
+		(property "Value" "KEYSW"
+			(at 147.32 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 147.32 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6826,7 +5143,6 @@
 		)
 		(property "Datasheet" ""
 			(at 147.32 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6877,7 +5193,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX30")
+					(reference "K30")
 					(unit 1)
 				)
 			)
@@ -6986,7 +5302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 109.22 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -6996,8 +5312,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53e7adce-4799-4394-8a10-ebfb6d27c5d2")
-		(property "Reference" "MX16"
-			(at 109.22 83.185 0)
+		(property "Reference" "K16"
+			(at 107.95 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7006,20 +5322,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 109.22 85.09 0)
+		(property "Value" "KEYSW"
+			(at 109.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 109.22 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7030,7 +5345,6 @@
 		)
 		(property "Datasheet" ""
 			(at 109.22 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7081,14 +5395,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX16")
+					(reference "K16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 185.42 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -7098,8 +5412,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54e4b0d1-ed1f-4c2c-9910-7abf3bfa276d")
-		(property "Reference" "MX43"
-			(at 185.42 121.285 0)
+		(property "Reference" "K43"
+			(at 184.15 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7108,20 +5422,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 185.42 123.19 0)
+		(property "Value" "KEYSW"
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 185.42 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7132,7 +5445,6 @@
 		)
 		(property "Datasheet" ""
 			(at 185.42 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7183,14 +5495,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX43")
+					(reference "K43")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 185.42 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -7200,8 +5512,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55b14ec7-3d98-4e2c-aef1-b37a5fd58513")
-		(property "Reference" "MX20"
-			(at 185.42 83.185 0)
+		(property "Reference" "K20"
+			(at 184.15 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7210,20 +5522,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 185.42 85.09 0)
+		(property "Value" "KEYSW"
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 185.42 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7234,7 +5545,6 @@
 		)
 		(property "Datasheet" ""
 			(at 185.42 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7285,7 +5595,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX20")
+					(reference "K20")
 					(unit 1)
 				)
 			)
@@ -7394,7 +5704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 223.52 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -7404,8 +5714,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56abccb7-ba75-417c-bd73-624f83930c3c")
-		(property "Reference" "MX34"
-			(at 223.52 102.235 0)
+		(property "Reference" "K34"
+			(at 222.25 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7414,20 +5724,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 223.52 104.14 0)
+		(property "Value" "KEYSW"
+			(at 223.52 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 223.52 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7438,7 +5747,6 @@
 		)
 		(property "Datasheet" ""
 			(at 223.52 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7489,14 +5797,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX34")
+					(reference "K34")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 242.57 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -7506,8 +5814,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57467d6b-c5d5-496d-a732-dd55ae53a963")
-		(property "Reference" "MX23"
-			(at 242.57 83.185 0)
+		(property "Reference" "K23"
+			(at 241.3 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7516,20 +5824,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 242.57 85.09 0)
+		(property "Value" "KEYSW"
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 242.57 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7540,7 +5847,6 @@
 		)
 		(property "Datasheet" ""
 			(at 242.57 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7591,7 +5897,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX23")
+					(reference "K23")
 					(unit 1)
 				)
 			)
@@ -7802,8 +6108,7 @@
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_7")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 147.32 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -7813,8 +6118,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d151110-68cd-44a2-9a7b-3dd224114776")
-		(property "Reference" "MX6"
-			(at 147.32 64.135 0)
+		(property "Reference" "K6"
+			(at 146.05 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7823,20 +6128,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 147.32 66.04 0)
+		(property "Value" "KEYSW"
+			(at 147.32 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 147.32 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7847,7 +6151,6 @@
 		)
 		(property "Datasheet" ""
 			(at 147.32 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7898,14 +6201,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX6")
+					(reference "K6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 71.12 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -7915,8 +6218,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6230fb7d-30a3-4145-ad74-0c833d87540b")
-		(property "Reference" "MX26"
-			(at 71.12 102.235 0)
+		(property "Reference" "K26"
+			(at 69.85 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7925,20 +6228,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 71.12 104.14 0)
+		(property "Value" "KEYSW"
+			(at 71.12 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 71.12 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7949,7 +6251,6 @@
 		)
 		(property "Datasheet" ""
 			(at 71.12 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8000,14 +6301,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX26")
+					(reference "K26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 109.22 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -8017,8 +6318,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6285490b-c9bd-46f0-9d1f-c5fde6bca065")
-		(property "Reference" "MX40"
-			(at 109.22 121.285 0)
+		(property "Reference" "K40"
+			(at 107.95 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8027,20 +6328,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 109.22 123.19 0)
+		(property "Value" "KEYSW"
+			(at 109.22 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 109.22 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8051,7 +6351,6 @@
 		)
 		(property "Datasheet" ""
 			(at 109.22 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8102,7 +6401,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX40")
+					(reference "K40")
 					(unit 1)
 				)
 			)
@@ -8415,8 +6714,7 @@
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_6")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 128.27 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -8426,8 +6724,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "685b8c6c-157c-461f-90a0-c58c45949da0")
-		(property "Reference" "MX5"
-			(at 128.27 64.135 0)
+		(property "Reference" "K5"
+			(at 127 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8436,20 +6734,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 128.27 66.04 0)
+		(property "Value" "KEYSW"
+			(at 128.27 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 128.27 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8460,7 +6757,6 @@
 		)
 		(property "Datasheet" ""
 			(at 128.27 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8511,14 +6807,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX5")
+					(reference "K5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 261.62 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -8528,8 +6824,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7478a8a7-e73e-4c5b-abc9-c5c077de734e")
-		(property "Reference" "MX47"
-			(at 261.62 121.285 0)
+		(property "Reference" "K47"
+			(at 260.35 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8538,20 +6834,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 261.62 123.19 0)
+		(property "Value" "KEYSW"
+			(at 261.62 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 261.62 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8562,7 +6857,6 @@
 		)
 		(property "Datasheet" ""
 			(at 261.62 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8613,7 +6907,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX47")
+					(reference "K47")
 					(unit 1)
 				)
 			)
@@ -9028,8 +7322,7 @@
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_11")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 242.57 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -9039,8 +7332,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82173d1b-a40f-4103-9dcd-c8a19699cd03")
-		(property "Reference" "MX11"
-			(at 242.57 64.135 0)
+		(property "Reference" "K11"
+			(at 241.3 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9049,20 +7342,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 242.57 66.04 0)
+		(property "Value" "KEYSW"
+			(at 242.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 242.57 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9073,7 +7365,6 @@
 		)
 		(property "Datasheet" ""
 			(at 242.57 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9124,15 +7415,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX11")
+					(reference "K11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_5")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 185.42 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -9142,8 +7432,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83cf9a27-2c46-4b7c-bf14-35e904ff7e85")
-		(property "Reference" "MX8"
-			(at 185.42 64.135 0)
+		(property "Reference" "K8"
+			(at 184.15 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9152,20 +7442,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 185.42 66.04 0)
+		(property "Value" "KEYSW"
+			(at 185.42 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 185.42 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9176,7 +7465,6 @@
 		)
 		(property "Datasheet" ""
 			(at 185.42 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9227,7 +7515,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX8")
+					(reference "K8")
 					(unit 1)
 				)
 			)
@@ -9540,8 +7828,7 @@
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_4")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 109.22 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -9551,8 +7838,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b20145b-502c-4c41-84f9-ab25b9df0f01")
-		(property "Reference" "MX4"
-			(at 109.22 64.135 0)
+		(property "Reference" "K4"
+			(at 107.95 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9561,20 +7848,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 109.22 66.04 0)
+		(property "Value" "KEYSW"
+			(at 109.22 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 109.22 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9585,7 +7871,6 @@
 		)
 		(property "Datasheet" ""
 			(at 109.22 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9636,14 +7921,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX4")
+					(reference "K4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 128.27 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -9653,8 +7938,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cc89d8c-a747-4396-8289-3f45c3ce248c")
-		(property "Reference" "MX29"
-			(at 128.27 102.235 0)
+		(property "Reference" "K29"
+			(at 127 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9663,20 +7948,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 128.27 104.14 0)
+		(property "Value" "KEYSW"
+			(at 128.27 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 128.27 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9687,7 +7971,6 @@
 		)
 		(property "Datasheet" ""
 			(at 128.27 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9738,7 +8021,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX29")
+					(reference "K29")
 					(unit 1)
 				)
 			)
@@ -9847,7 +8130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 204.47 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -9857,8 +8140,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90f4d0ca-6b49-404d-96da-dbcd7ed7e444")
-		(property "Reference" "MX21"
-			(at 204.47 83.185 0)
+		(property "Reference" "K21"
+			(at 203.2 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9867,20 +8150,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 204.47 85.09 0)
+		(property "Value" "KEYSW"
+			(at 204.47 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 204.47 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9891,7 +8173,6 @@
 		)
 		(property "Datasheet" ""
 			(at 204.47 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9942,7 +8223,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX21")
+					(reference "K21")
 					(unit 1)
 				)
 			)
@@ -10051,7 +8332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 109.22 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -10061,8 +8342,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97e79be2-636f-4982-8737-f065c4ea5295")
-		(property "Reference" "MX28"
-			(at 109.22 102.235 0)
+		(property "Reference" "K28"
+			(at 107.95 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10071,20 +8352,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 109.22 104.14 0)
+		(property "Value" "KEYSW"
+			(at 109.22 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 109.22 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10095,7 +8375,6 @@
 		)
 		(property "Datasheet" ""
 			(at 109.22 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10146,14 +8425,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX28")
+					(reference "K28")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 261.62 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -10163,8 +8442,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d532940-5480-46cf-abd9-058623daf562")
-		(property "Reference" "MX24"
-			(at 261.874 86.487 0)
+		(property "Reference" "K24"
+			(at 260.35 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10173,20 +8452,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 261.62 85.09 0)
+		(property "Value" "KEYSW"
+			(at 261.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 261.62 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10197,7 +8475,6 @@
 		)
 		(property "Datasheet" ""
 			(at 261.62 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10248,7 +8525,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX24")
+					(reference "K24")
 					(unit 1)
 				)
 			)
@@ -10357,8 +8634,7 @@
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_2")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 52.07 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -10368,8 +8644,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f93d799-3b67-44aa-bb22-772e58fd9cb9")
-		(property "Reference" "MX1"
-			(at 52.07 64.135 0)
+		(property "Reference" "K1"
+			(at 50.8 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10378,19 +8654,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 52.07 66.04 0)
+		(property "Value" "KEYSW"
+			(at 52.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
-			(at 50.165 50.292 0)
+			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10402,7 +8678,6 @@
 		)
 		(property "Datasheet" ""
 			(at 52.07 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10453,14 +8728,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX1")
+					(reference "K1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 242.57 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -10470,8 +8745,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a28e1793-e314-45fc-90aa-ce956cedc12f")
-		(property "Reference" "MX35"
-			(at 242.57 102.235 0)
+		(property "Reference" "K35"
+			(at 241.3 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10480,20 +8755,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 242.57 104.14 0)
+		(property "Value" "KEYSW"
+			(at 242.57 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 242.57 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10504,7 +8778,6 @@
 		)
 		(property "Datasheet" ""
 			(at 242.57 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10555,7 +8828,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX35")
+					(reference "K35")
 					(unit 1)
 				)
 			)
@@ -10868,8 +9141,7 @@
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_8")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 166.37 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -10879,8 +9151,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a99273fe-4cea-48be-ad7c-d5831c7e605f")
-		(property "Reference" "MX7"
-			(at 166.37 64.135 0)
+		(property "Reference" "K7"
+			(at 165.1 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10889,20 +9161,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 166.37 66.04 0)
+		(property "Value" "KEYSW"
+			(at 166.37 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 166.37 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10913,7 +9184,6 @@
 		)
 		(property "Datasheet" ""
 			(at 166.37 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10964,7 +9234,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX7")
+					(reference "K7")
 					(unit 1)
 				)
 			)
@@ -11073,7 +9343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 242.57 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -11083,8 +9353,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae79b2de-a055-4d28-829f-385749e10740")
-		(property "Reference" "MX46"
-			(at 242.57 121.285 0)
+		(property "Reference" "K46"
+			(at 241.3 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11093,20 +9363,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 242.57 123.19 0)
+		(property "Value" "KEYSW"
+			(at 242.57 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 242.57 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11117,7 +9386,6 @@
 		)
 		(property "Datasheet" ""
 			(at 242.57 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11168,14 +9436,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX46")
+					(reference "K46")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 128.27 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -11185,8 +9453,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae9b634e-889d-4b23-998d-011e375ac90e")
-		(property "Reference" "MX17"
-			(at 128.27 83.185 0)
+		(property "Reference" "K17"
+			(at 127 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11195,20 +9463,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 128.27 85.09 0)
+		(property "Value" "KEYSW"
+			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 128.27 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11219,7 +9486,6 @@
 		)
 		(property "Datasheet" ""
 			(at 128.27 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11270,14 +9536,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX17")
+					(reference "K17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 223.52 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -11287,8 +9553,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0ff67b6-141e-4617-a0f9-d806dedfb598")
-		(property "Reference" "MX45"
-			(at 223.52 121.285 0)
+		(property "Reference" "K45"
+			(at 222.25 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11297,20 +9563,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 223.52 123.19 0)
+		(property "Value" "KEYSW"
+			(at 223.52 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 223.52 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11321,7 +9586,6 @@
 		)
 		(property "Datasheet" ""
 			(at 223.52 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11372,14 +9636,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX45")
+					(reference "K45")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 223.52 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -11389,8 +9653,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3cd2c6d-a81a-48ab-b4e5-9dbe12f089c6")
-		(property "Reference" "MX22"
-			(at 223.52 83.185 0)
+		(property "Reference" "K22"
+			(at 222.25 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11399,20 +9663,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 223.52 85.09 0)
+		(property "Value" "KEYSW"
+			(at 223.52 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 223.52 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11423,7 +9686,6 @@
 		)
 		(property "Datasheet" ""
 			(at 223.52 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11474,14 +9736,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX22")
+					(reference "K22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 204.47 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -11491,8 +9753,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b446470a-83e8-4798-b96d-2c530ca59d39")
-		(property "Reference" "MX33"
-			(at 204.47 102.235 0)
+		(property "Reference" "K33"
+			(at 203.2 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11501,20 +9763,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 204.47 104.14 0)
+		(property "Value" "KEYSW"
+			(at 204.47 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 204.47 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11525,7 +9786,6 @@
 		)
 		(property "Datasheet" ""
 			(at 204.47 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11576,7 +9836,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX33")
+					(reference "K33")
 					(unit 1)
 				)
 			)
@@ -11685,7 +9945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 147.32 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -11695,8 +9955,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b92adad1-8cf3-4389-9587-f8b02466e487")
-		(property "Reference" "MX42"
-			(at 147.32 122.555 0)
+		(property "Reference" "K42"
+			(at 146.05 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11705,19 +9965,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-2U"
-			(at 147.32 124.46 0)
+		(property "Value" "KEYSW"
+			(at 147.32 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-2U-ReversedStabilizers"
 			(at 147.32 125.73 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11728,7 +9988,6 @@
 		)
 		(property "Datasheet" ""
 			(at 147.32 125.73 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11779,14 +10038,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX42")
+					(reference "K42")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 166.37 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -11796,8 +10055,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfa9c57d-ac94-431e-becc-5e640bf4ff81")
-		(property "Reference" "MX19"
-			(at 166.37 83.185 0)
+		(property "Reference" "K19"
+			(at 165.1 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11806,20 +10065,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 166.37 85.09 0)
+		(property "Value" "KEYSW"
+			(at 166.37 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 166.37 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11830,7 +10088,6 @@
 		)
 		(property "Datasheet" ""
 			(at 166.37 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11881,14 +10138,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX19")
+					(reference "K19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 52.07 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -11898,8 +10155,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c27d4c50-7d6e-43e5-8c04-92032078fa4c")
-		(property "Reference" "MX37"
-			(at 52.07 121.285 0)
+		(property "Reference" "K37"
+			(at 50.8 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11908,20 +10165,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 52.07 123.19 0)
+		(property "Value" "KEYSW"
+			(at 52.07 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 52.07 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11932,7 +10188,6 @@
 		)
 		(property "Datasheet" ""
 			(at 52.07 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11983,14 +10238,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX37")
+					(reference "K37")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 185.42 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -12000,8 +10255,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9b955e3-2f69-4305-9759-507e84a1dc86")
-		(property "Reference" "MX32"
-			(at 185.42 102.235 0)
+		(property "Reference" "K32"
+			(at 184.15 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12010,20 +10265,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 185.42 104.14 0)
+		(property "Value" "KEYSW"
+			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 185.42 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12034,7 +10288,6 @@
 		)
 		(property "Datasheet" ""
 			(at 185.42 105.41 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12085,15 +10338,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX32")
+					(reference "K32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_10")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 223.52 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -12103,8 +10355,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca13d850-131a-4d54-abb5-51b7e0fa3f17")
-		(property "Reference" "MX10"
-			(at 223.52 64.135 0)
+		(property "Reference" "K10"
+			(at 222.25 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12113,20 +10365,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 223.52 66.04 0)
+		(property "Value" "KEYSW"
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 223.52 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12137,7 +10388,6 @@
 		)
 		(property "Datasheet" ""
 			(at 223.52 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12188,7 +10438,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX10")
+					(reference "K10")
 					(unit 1)
 				)
 			)
@@ -12807,7 +11057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 71.12 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -12817,8 +11067,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e176b0d1-7815-4336-869c-715acffefe11")
-		(property "Reference" "MX14"
-			(at 71.12 83.185 0)
+		(property "Reference" "K14"
+			(at 69.85 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12827,20 +11077,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 71.12 85.09 0)
+		(property "Value" "KEYSW"
+			(at 71.12 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 71.12 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12851,7 +11100,6 @@
 		)
 		(property "Datasheet" ""
 			(at 71.12 86.36 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12902,14 +11150,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX14")
+					(reference "K14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 90.17 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -12919,8 +11167,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e26dca24-31c8-4482-aec3-f0eb0555a6f0")
-		(property "Reference" "MX39"
-			(at 90.17 121.285 0)
+		(property "Reference" "K39"
+			(at 88.9 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12929,20 +11177,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 90.17 123.19 0)
+		(property "Value" "KEYSW"
+			(at 90.17 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 90.17 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12953,7 +11200,6 @@
 		)
 		(property "Datasheet" ""
 			(at 90.17 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13004,15 +11250,14 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX39")
+					(reference "K39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_9")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 204.47 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -13022,8 +11267,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e741168d-c21b-468c-b9a0-75ed05411c64")
-		(property "Reference" "MX9"
-			(at 204.47 64.135 0)
+		(property "Reference" "K9"
+			(at 203.2 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13032,20 +11277,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 204.47 66.04 0)
+		(property "Value" "KEYSW"
+			(at 204.47 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 204.47 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13056,7 +11300,6 @@
 		)
 		(property "Datasheet" ""
 			(at 204.47 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13107,7 +11350,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX9")
+					(reference "K9")
 					(unit 1)
 				)
 			)
@@ -13216,8 +11459,7 @@
 		)
 	)
 	(symbol
-		(lib_name "KEYSW_12")
-		(lib_id "keyboard_parts:KEYSW")
+		(lib_id "Local-lib:KEYSW")
 		(at 261.62 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -13227,8 +11469,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7eec471-bf77-483f-b546-5be2e0d4913d")
-		(property "Reference" "MX12"
-			(at 261.62 67.056 0)
+		(property "Reference" "K12"
+			(at 260.35 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13237,20 +11479,19 @@
 				)
 			)
 		)
-		(property "Value" "MX-1U"
-			(at 261.62 66.04 0)
+		(property "Value" "KEYSW"
+			(at 261.62 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
 			(at 261.62 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13261,7 +11502,6 @@
 		)
 		(property "Datasheet" ""
 			(at 261.62 67.31 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13312,7 +11552,7 @@
 		(instances
 			(project "Contra"
 				(path "/490ed6d6-ce6d-4821-aa52-98b9130151cb/f038a9c9-b573-4e20-8f1c-866ecc727dc6"
-					(reference "MX12")
+					(reference "K12")
 					(unit 1)
 				)
 			)
