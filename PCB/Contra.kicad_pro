@@ -712,7 +712,7 @@
         "uuid": "490ed6d6-ce6d-4821-aa52-98b9130151cb"
       }
     ],
-    "used_designators": "SMDSW1-4,EXSW1-4,J2-10,SW2-44,#PWR1,#PWR3,#PWR8-18,Y1-2,C1-32,D1-49,U2-9,JP1-2,R1-18,LED1-54,H1-5,MX1-47,EXLED1-4,ZD1-2,BT1-8,OL1",
+    "used_designators": "SMDSW1-4,EXLED1-4,J2-10,EXSW1-4,C1-32,SW2-44,#PWR1,#PWR3,#PWR8-18,D1-49,Y1-2,U2-9,JP1-2,R1-18,LED1-54,H1-5,MX1-47,ZD1-2,BT1-8,OL1",
     "variants": []
   },
   "sheets": [
